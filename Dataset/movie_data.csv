@@ -1,318 +1,470 @@
-Title,Year,Genre,Stars
-Hardcore Henry,2015,"Action, Adventure, Sci-Fi","['Sharlto Copley', 'Tim Roth', 'Haley Bennett', 'Danila Kozlovsky']"
-The Neon Demon,2016,"Horror, Thriller","['Elle Fanning', 'Christina Hendricks', 'Keanu Reeves', 'Karl Glusman']"
-13 Hours,2016,"Action, Drama, History","['John Krasinski', 'Pablo Schreiber', 'James Badge Dale', 'David Denman']"
-Hush,2016,"Horror, Thriller","['John Gallagher Jr.', 'Kate Siegel', 'Michael Trucco', 'Samantha Sloyan']"
-The Hollars,2016,"Comedy, Drama, Romance","['Sharlto Copley', 'Charlie Day', 'Richard Jenkins', 'Anna Kendrick']"
-Keanu,2016,"Action, Comedy, Crime","['Keegan-Michael Key', 'Jordan Peele', 'Tiffany Haddish', 'Method Man']"
-The Edge of Seventeen,2016,"Comedy, Drama","['Hailee Steinfeld', 'Haley Lu Richardson', 'Blake Jenner', 'Kyra Sedgwick']"
-Anthropoid,2016,"Action, Biography, Drama","['Jamie Dornan', 'Cillian Murphy', 'Brian Caspe', 'Karel Hermánek Jr.']"
-Popstar: Never Stop Never Stopping,2016,"Comedy, Music","['Jorma Taccone', 'Andy Samberg', 'Jorma Taccone', 'Akiva Schaffer', 'Sarah Silverman']"
-Imperium,2016,"Biography, Crime, Drama","['Daniel Radcliffe', 'Toni Collette', 'Tracy Letts', 'Sam Trammell']"
-A Monster Calls,2016,"Animation, Drama, Fantasy","['Lewis MacDougall', 'Sigourney Weaver', 'Felicity Jones', 'Toby Kebbell']"
-Man Down,2015,"Drama, Thriller","['Shia LaBeouf', 'Jai Courtney', 'Gary Oldman', 'Kate Mara']"
-The Fundamentals of Caring,2016,"Comedy, Drama","['Craig Roberts', 'Paul Rudd', 'Selena Gomez', 'Alex Huff']"
-The Girl with All the Gifts,2016,"Drama, Horror, Sci-Fi","['Sennia Nanua', 'Fisayo Akinade', 'Dominique Tipper', 'Paddy Considine']"
-Crawl,2019,"Drama, Horror, Thriller","['Kaya Scodelario', 'Barry Pepper', 'Morfydd Clark', 'Ross Anderson']"
-Long Shot,2019,"Comedy, Romance","['Charlize Theron', 'Seth Rogen', 'June Diane Raphael', ""O'Shea Jackson Jr.""]"
-The Peanut Butter Falcon,2019,"Adventure, Comedy, Drama","['Michael Schwartz', 'Zack Gottsagen', 'Ann Owens', 'Dakota Johnson', 'Bruce Dern']"
-Ready or Not,2019,"Comedy, Horror, Mystery","['Tyler Gillett', 'Samara Weaving', 'Adam Brody', ""Mark O'Brien"", 'Henry Czerny']"
-Plus One,2019,"Comedy, Drama, Romance","['Andrew Rhymer', 'Maya Erskine', 'Jack Quaid', 'Ed Begley Jr.', 'Alex Anfanger']"
-Booksmart,2019,Comedy,"['Kaitlyn Dever', 'Beanie Feldstein', 'Jessica Williams', 'Jason Sudeikis']"
-Triple Frontier,2019,"Action, Adventure, Crime","['Ben Affleck', 'Oscar Isaac', 'Charlie Hunnam', 'Garrett Hedlund']"
-Fighting with My Family,2019,"Biography, Comedy, Drama","['Dwayne Johnson', 'Lena Headey', 'Vince Vaughn', 'Florence Pugh']"
-Angel Has Fallen,2019,"Action, Thriller","['Gerard Butler', 'Frederick Schmidt', 'Danny Huston', 'Rocci Williams']"
-Togo,2019,"Adventure, Biography, Drama","['Willem Dafoe', 'Julianne Nicholson', 'Christopher Heyerdahl', 'Richard Dormer']"
-Dragged Across Concrete,2018,"Action, Crime, Drama","['Mel Gibson', 'Vince Vaughn', 'Tory Kittles', 'Michael Jai White']"
-Doctor Sleep,2019,"Drama, Fantasy, Horror","['Ewan McGregor', 'Rebecca Ferguson', 'Kyliegh Curran', 'Cliff Curtis']"
-November,2004,"Drama, Mystery, Thriller","['Courteney Cox', 'James Le Gros', 'Michael Ealy', 'Dori Mizrahi']"
-Powder Blue,2009,Drama,"['Jessica Biel', 'Eddie Redmayne', 'Forest Whitaker', 'Ray Liotta']"
-Bordertown,2007,"Crime, Drama, Mystery","['Jennifer Lopez', 'Antonio Banderas', 'Maya Zapata', 'Irineo Alvarez']"
-For One Night,2006,"Drama, Romance","['Raven-Symoné', 'Aisha Tyler', 'Sam Jones III', 'Gary Grubbs']"
-Mom at Sixteen,2005,Drama,"['Danielle Panabaker', 'Jane Krakowski', 'Clare Stone', 'Tyler Hynes']"
-Lucky Girl,2001,Drama,"['Elisha Cuthbert', 'Sherry Miller', 'Evan Sabba', 'Greg Ellwand']"
-Veronika Decides to Die,2009,"Drama, Romance","['Sarah Michelle Gellar', 'Jonathan Tucker', 'Erika Christensen', 'Florencia Lozano']"
-Fetching Cody,2005,"Drama, Fantasy, Romance","['Jay Baruchel', 'Sarah Lind', 'Jim Byrnes', 'Lucas Blaney']"
-The Sleeping Dictionary,2003,"Drama, Romance","['Jessica Alba', 'Brenda Blethyn', 'Hugh Dancy', 'Bob Hoskins']"
-Motorama,1991,"Adventure, Comedy, Crime","['Jordan Christopher Michael', 'Martha Quinn', 'Michael Naegel', 'Susan Tyrrell']"
-Tennessee,2008,"Adventure, Comedy, Drama","['Adam Rothenberg', 'Ethan Peck', 'Mariah Carey', 'Lance Reddick']"
-Angel Eyes,2001,"Drama, Romance","['Jennifer Lopez', 'Jim Caviezel', 'Jeremy Sisto', 'Terrence Howard']"
-Trucker,2008,Drama,"['Michelle Monaghan', 'Nathan Fillion', 'Benjamin Bratt', 'Joey Lauren Adams']"
-Speedway Junky,1999,"Crime, Drama, Romance","['Richard Balin', 'Jaime Bergman', 'Jesse Bradford', 'Jordan Brower']"
-Freeway,1996,"Comedy, Crime, Drama","['Reese Witherspoon', 'Kiefer Sutherland', 'Bokeem Woodbine', 'Paul Perri']"
-Greta,2009,"Drama, Romance","['Hilary Duff', 'Evan Ross', 'Michael Murphy', 'Ellen Burstyn']"
-Bang Bang You're Dead,2002,"Crime, Drama, Thriller","['Tom Cavanagh', 'Ben Foster', 'Randy Harrison', 'Janel Moloney']"
-Wild Tigers I Have Known,2006,Drama,"['Malcolm Stumpf', 'Patrick White', 'Max Paradise', 'Fairuza Balk']"
-Agnes of God,1985,"Drama, Mystery","['Jane Fonda', 'Anne Bancroft', 'Meg Tilly', 'Anne Pitoniak']"
-An American Crime,2007,"Biography, Crime, Drama","['Ellen Page', 'Hayley McFarland', 'Nick Searcy', 'Romy Rosemont']"
-Beloved,1998,"Drama, History, Horror","['Oprah Winfrey', 'Danny Glover', 'Yada Beener', 'Emil Pinnock']"
-Boys on the Side,1995,"Comedy, Drama","['Whoopi Goldberg', 'Mary-Louise Parker', 'Drew Barrymore', 'Matthew McConaughey']"
-Conviction,2010,"Biography, Crime, Drama","['Hilary Swank', 'Sam Rockwell', 'Melissa Leo', 'Thomas D. Mahard']"
-Crossing Over,2009,"Crime, Drama","['Harrison Ford', 'Ashley Judd', 'Ray Liotta', 'Jim Sturgess']"
-Disconnect,2012,"Drama, Thriller","['Jason Bateman', 'Jonah Bobo', 'Haley Ramm', 'Hope Davis']"
-Big Miracle,2012,"Biography, Drama, Family","['Drew Barrymore', 'John Krasinski', 'John Pingayak', 'Ahmaogak Sweeney']"
-One Hour Photo,2002,"Drama, Thriller","['Robin Williams', 'Connie Nielsen', 'Michael Vartan', 'Dylan Smith']"
-Vera Drake,2004,"Crime, Drama","['Imelda Staunton', 'Jim Broadbent', 'Heather Craney', 'Richard Graham']"
-The Dead Girl,2006,"Crime, Drama, Mystery","['Toni Collette', 'Brittany Murphy', 'Marcia Gay Harden', 'Piper Laurie']"
-Running Scared,2006,"Action, Crime, Drama","['Paul Walker', 'Cameron Bright', 'Chazz Palminteri', 'Vera Farmiga']"
-Naked Lunch,1991,Drama,"['Peter Weller', 'Judy Davis', 'Ian Holm', 'Julian Sands']"
-House of Sand and Fog,2003,"Crime, Drama","['Jennifer Connelly', 'Ben Kingsley', 'Ron Eldard', 'Frances Fisher']"
-Bug,2006,"Drama, Horror, Thriller","['Ashley Judd', 'Michael Shannon', 'Harry Connick Jr.', 'Lynn Collins']"
-The Burning Plain,2008,"Crime, Drama, Romance","['Charlize Theron', 'John Corbett', 'José María Yazpik', 'Robin Tunney']"
-Revolutionary Road,2008,"Drama, Romance","['Leonardo DiCaprio', 'Kate Winslet', 'Christopher Fitzgerald', 'Jonathan Roumie']"
-The Pledge,2001,"Crime, Drama, Mystery","['Jack Nicholson', 'Benicio Del Toro', 'Patricia Clarkson', 'Beau Daniels']"
-If These Walls Could Talk,1996,"Drama, Thriller","['Nancy Savoca', 'Demi Moore', 'Shirley Knight', 'Catherine Keener', 'Jason London']"
-Bound,1996,"Crime, Romance, Thriller","['Lilly Wachowski', 'Jennifer Tilly', 'Gina Gershon', 'Joe Pantoliano', 'John P. Ryan']"
-Hard Ball,2001,"Drama, Sport","['Keanu Reeves', 'Diane Lane', 'John Hawkes', 'Bryan Hearne']"
-Frozen,2010,"Adventure, Drama, Thriller","['Shawn Ashmore', 'Emma Bell', 'Kevin Zegers', 'Ed Ackerman']"
-Death and the Maiden,1994,"Drama, Mystery, Thriller","['Sigourney Weaver', 'Ben Kingsley', 'Stuart Wilson', 'Krystia Mova']"
-Funny Money,2006,Comedy,"['Chevy Chase', 'Penelope Ann Miller', 'Armand Assante', 'Christopher McDonald']"
-The Whistleblower,2010,"Biography, Crime, Drama","['Rachel Weisz', 'Monica Bellucci', 'Vanessa Redgrave', 'David Strathairn']"
-After Sex,2007,"Comedy, Drama, Romance","['Marc Blucas', 'Jose Pablo Cantillo', 'Emmanuelle Chriqui', 'James DeBello']"
-Jet Boy,2001,Drama,"['Branden Nadon', 'Joe Norman Shaw', 'Dylan Walsh', 'Matthew Currie Holmes']"
-L.I.E.,2001,"Crime, Drama","['Brian Cox', 'Paul Dano', 'Bruce Altman', 'Billy Kay']"
-Mean Creek,2004,"Crime, Drama","['Rory Culkin', 'Ryan Kelley', 'Scott Mechlowicz', 'Trevor Morgan']"
-Hide and Seek,2005,"Drama, Horror, Mystery","['Robert De Niro', 'Dakota Fanning', 'Famke Janssen', 'Elisabeth Shue']"
-The Cure,1995,Drama,"['Joseph Mazzello', 'Brad Renfro', 'Aeryk Egan', 'Delphine French']"
-The Family Stone,2005,"Comedy, Drama, Romance","['Dermot Mulroney', 'Sarah Jessica Parker', 'Claire Danes', 'Diane Keaton']"
-Smilla's Sense of Snow,1997,"Crime, Drama, Mystery","['Julia Ormond', 'Jens Jørgen Fleischer', 'Agga Olsen', 'Patrick Field']"
-New Suit,2002,Comedy,"['Jordan Bridges', 'Marisa Coughlan', 'Heather Donahue', 'Mark Setlock']"
-A Christmas Carol,1984,"Drama, Family, Fantasy","['George C. Scott', 'Frank Finlay', 'Angela Pleasence', 'Edward Woodward']"
-The Invasion,2007,"Sci-Fi, Thriller","['James McTeigue', 'Nicole Kidman', 'Daniel Craig', 'Jeremy Northam', 'Jackson Bond']"
-Rabbit Hole,2010,Drama,"['Nicole Kidman', 'Aaron Eckhart', 'Dianne Wiest', 'Miles Teller']"
-Dirty Girl,2010,"Comedy, Drama","['Juno Temple', 'Jeremy Dozier', 'Milla Jovovich', 'Zach Lasry']"
-Deceived,1991,"Crime, Drama, Mystery","['Goldie Hawn', 'John Heard', 'Damon Redfern', 'Charles Kassatly']"
-U Turn,1997,"Crime, Drama, Thriller","['Sean Penn', 'Jennifer Lopez', 'Nick Nolte', 'Billy Bob Thornton']"
-Dolores Claiborne,1995,"Crime, Drama, Mystery","['Kathy Bates', 'Jennifer Jason Leigh', 'Christopher Plummer', 'Judy Parfitt']"
-North Country,2005,Drama,"['Charlize Theron', 'Jeremy Renner', 'Frances McDormand', 'Thomas Curtis']"
-Riding in Cars with Boys,2001,"Biography, Comedy, Drama","['Drew Barrymore', 'Steve Zahn', 'Adam Garcia', 'Brittany Murphy']"
-Trust,2010,"Crime, Drama, Thriller","['Clive Owen', 'Catherine Keener', 'Liana Liberato', 'Jason Clarke']"
-Anna and the King,1999,"Drama, History, Romance","['Jodie Foster', 'Yun-Fat Chow', 'Bai Ling', 'Tom Felton']"
-Blindness,2008,"Drama, Mystery, Sci-Fi","['Julianne Moore', 'Mark Ruffalo', 'Gael García Bernal', 'Yûsuke Iseya']"
-The Good Girl,2002,"Drama, Romance","['Jennifer Aniston', 'Jake Gyllenhaal', 'Deborah Rush', 'Mike White']"
-Man About Town,2006,"Comedy, Drama","['Ben Affleck', 'Rebecca Romijn', 'John Cleese', 'Sam Ball']"
-The Mexican,2001,"Adventure, Comedy, Crime","['Brad Pitt', 'Julia Roberts', 'James Gandolfini', 'J.K. Simmons']"
-No Reservations,2007,"Comedy, Drama, Romance","['Catherine Zeta-Jones', 'Aaron Eckhart', 'Abigail Breslin', 'Patricia Clarkson']"
-Transamerica,2005,"Adventure, Comedy, Drama","['Felicity Huffman', 'Kevin Zegers', 'Fionnula Flanagan', 'Andrea James']"
-Straight Talk,1992,"Comedy, Drama, Romance","['Dolly Parton', 'James Woods', 'Griffin Dunne', 'Michael Madsen']"
-The Juror,1996,"Crime, Drama, Thriller","['Demi Moore', 'Alec Baldwin', 'Joseph Gordon-Levitt', 'James Gandolfini']"
-Heartbreakers,2001,"Comedy, Crime, Romance","['Sigourney Weaver', 'Jennifer Love Hewitt', 'Gene Hackman', 'Ray Liotta']"
-The Killer Inside Me,2010,"Crime, Drama, Thriller","['Casey Affleck', 'Kate Hudson', 'Jessica Alba', 'Ned Beatty']"
-Georgia Rule,2007,"Comedy, Drama","['Jane Fonda', 'Lindsay Lohan', 'Felicity Huffman', 'Dermot Mulroney']"
-Inhale,2010,"Drama, Thriller","['Dermot Mulroney', 'Diane Kruger', 'Sam Shepard', 'Rosanna Arquette']"
-Happy Endings,2005,"Comedy, Drama, Music","['Lisa Kudrow', 'Steve Coogan', 'Maggie Gyllenhaal', 'Jesse Bradford']"
-Mother and Child,2009,"Drama, Romance","['Naomi Watts', 'Annette Bening', 'Kerry Washington', 'Alexandria M. Salling']"
-Imaginary Heroes,2004,"Comedy, Drama","['Sigourney Weaver', 'Jeff Daniels', 'Emile Hirsch', 'Michelle Williams']"
-Thanks for Sharing,2012,"Comedy, Drama, Romance","['Mark Ruffalo', 'Tim Robbins', 'Gwyneth Paltrow', 'Josh Gad']"
-Louder Than Bombs,2015,Drama,"['Jesse Eisenberg', 'Gabriel Byrne', 'Isabelle Huppert', 'Devin Druid']"
-Fried Green Tomatoes,1991,Drama,"['Kathy Bates', 'Jessica Tandy', 'Mary Stuart Masterson', 'Mary-Louise Parker']"
-Secret in Their Eyes,2015,"Crime, Drama, Mystery","['Chiwetel Ejiofor', 'Nicole Kidman', 'Julia Roberts', 'Dean Norris']"
-Welcome to the Dollhouse,1995,"Comedy, Drama","['Heather Matarazzo', 'Christina Brucato', 'Victoria Davis', 'Christina Vidal']"
-Manderlay,2005,Drama,"['Bryce Dallas Howard', 'Isaach De Bankolé', 'Danny Glover', 'Willem Dafoe']"
-Maps to the Stars,2014,"Comedy, Drama","['Julianne Moore', 'Mia Wasikowska', 'Robert Pattinson', 'John Cusack']"
-Before I Go to Sleep,2014,"Drama, Horror, Mystery","['Nicole Kidman', 'Colin Firth', 'Mark Strong', 'Anne-Marie Duff']"
-Prime,2005,"Comedy, Drama, Romance","['Uma Thurman', 'Meryl Streep', 'Bryan Greenberg', 'Jon Abrahams']"
-Triangle,2009,"Fantasy, Mystery, Thriller","['Melissa George', 'Joshua McIvor', 'Jack Taylor', 'Michael Dorman']"
-Blue Jasmine,2013,Drama,"['Cate Blanchett', 'Alec Baldwin', 'Peter Sarsgaard', 'Sally Hawkins']"
-The Kings of Summer,2013,"Adventure, Comedy, Drama","['Nick Robinson', 'Gabriel Basso', 'Moises Arias', 'Nick Offerman']"
-The Painted Veil,2006,"Drama, Romance","['Naomi Watts', 'Edward Norton', 'Liev Schreiber', 'Catherine An']"
-Wild,2014,"Biography, Drama","['Reese Witherspoon', 'Laura Dern', 'Gaby Hoffmann', 'Michiel Huisman']"
-Warm Bodies,2013,"Comedy, Horror, Romance","['Nicholas Hoult', 'Teresa Palmer', 'John Malkovich', 'Analeigh Tipton']"
-Nine Lives,2005,Drama,"['Kathy Baker', 'Amy Brenneman', 'Glenn Close', 'LisaGay Hamilton']"
-The House of the Devil,2009,Horror,"['Jocelin Donahue', 'Tom Noonan', 'Mary Woronov', 'Greta Gerwig']"
-Good Time,2017,"Crime, Drama, Thriller","['Josh Safdie', 'Robert Pattinson', 'Benny Safdie', 'Jennifer Jason Leigh', 'Buddy Duress']"
-Time Lapse,2014,"Sci-Fi, Thriller","['Danielle Panabaker', ""Matt O'Leary"", 'George Finn', 'John Rhys-Davies']"
-Closet Monster,2015,"Drama, Fantasy, Mystery","['Aaron Abrams', 'Jack Fulton', 'Joanne Kelly', 'Isabella Rossellini']"
-Cidade de Deus,2002,"Crime, Drama","['Kátia Lund', 'Alexandre Rodrigues', 'Leandro Firmino', 'Matheus Nachtergaele', 'Phellipe Haagensen']"
-Mr. Nobody,2009,"Drama, Fantasy, Romance","['Jared Leto', 'Sarah Polley', 'Diane Kruger', 'Linh Dan Pham']"
-Hard Candy,2005,"Drama, Thriller","['Patrick Wilson', 'Ellen Page', 'Sandra Oh', 'Odessa Rae']"
-Última Parada 174,2008,"Crime, Drama, Thriller","['Michel Gomes', 'Cris Vianna', 'Marcello Melo Jr.', 'Gabriela Luiz']"
-Black Panther,2010,"Animation, Action, Adventure","['Jill Scott', 'Carl Lumbly', 'Stephen Stanton']"
-House of Usher,1960,"Drama, Horror","['Vincent Price', 'Mark Damon', 'Myrna Fahey', 'Harry Ellerbe']"
-Gomorra,2008,"Crime, Drama","['Gianfelice Imparato', 'Salvatore Abbruzzese', 'Toni Servillo', 'Simone Sacchettino']"
-The Stick Up Kids,2008,Drama,"['Tariq Alexander', 'Mel Jackson', 'Bryce Wilson', 'Holly Joy Gaines']"
-Asunder,1999,"Drama, Romance, Thriller","['Blair Underwood', 'Debbi Morgan', 'Michael Beach', 'Marva Hicks']"
-Angels with Dirty Faces,1938,"Crime, Drama, Film-Noir","['James Cagney', ""Pat O'Brien"", 'Humphrey Bogart', 'Ann Sheridan']"
-The Roaring Twenties,1939,"Crime, Drama, Film-Noir","['James Cagney', 'Humphrey Bogart', 'Priscilla Lane', 'Gladys George']"
-The Feast of All Saints,2001,"Drama, Romance","[""Robert Ri'chard"", 'Peter Gallagher', 'Gloria Reuben', 'Jennifer Beals']"
-Gangster No. 1,2000,"Crime, Drama, Thriller","['Malcolm McDowell', 'David Thewlis', 'Paul Bettany', 'Saffron Burrows']"
-Jerusalema,2008,"Action, Crime, Drama","['Rapulana Seiphemo', 'Jeffrey Zekele', 'Ronnie Nyakale', 'Shelley Meskin']"
-Johnny Mad Dog,2008,"Drama, War","['Christophe Minie', 'Daisy Victoria Vandy', 'Joseph Duo', 'Dagbeth Tweh']"
-The Last Gangster,1937,"Crime, Drama, Thriller","['Edward G. Robinson', 'James Stewart', 'Rose Stradner', 'Lionel Stander']"
-The Public Enemy,1931,"Crime, Drama","['James Cagney', 'Jean Harlow', 'Edward Woods', 'Joan Blondell']"
-Brother Orchid,1940,"Comedy, Crime, Drama","['Edward G. Robinson', 'Humphrey Bogart', 'Ann Sothern', 'Donald Crisp']"
-White Heat,1949,"Action, Crime, Drama","['James Cagney', 'Virginia Mayo', ""Edmond O'Brien"", 'Margaret Wycherly']"
-Grandma's Boy,2006,Comedy,"['Allen Covert', 'Linda Cardellini', 'Shirley Jones', 'Peter Dante']"
-Bloody Crisis,2002,"Action, Drama, Horror","['Gano Grills', 'Kalimi Baxter', 'Jamel Scott', 'Olatunde Olusei']"
-The Boondock Saints,1999,"Action, Crime, Thriller","['Willem Dafoe', 'Sean Patrick Flanery', 'Norman Reedus', 'David Della Rocco']"
-Powder Blue,2009,Drama,"['Jessica Biel', 'Eddie Redmayne', 'Forest Whitaker', 'Ray Liotta']"
-Death of a Dynasty,2003,"Musical, Comedy","['Ebon Moss-Bachrach', 'Robert Stapleton', 'Capone Lee', 'Loon']"
-Lackawanna Blues,2005,"Drama, Music","['S. Epatha Merkerson', 'Marcus Carl Franklin', 'Yasiin Bey', 'Carmen Ejogo']"
-Bowfinger,1999,Comedy,"['Steve Martin', 'Eddie Murphy', 'Heather Graham', 'Christine Baranski']"
-Amadeus,1984,"Biography, Drama, History","['F. Murray Abraham', 'Tom Hulce', 'Elizabeth Berridge', 'Roy Dotrice']"
-Marley,2012,"Documentary, Biography, Music","['Bob Marley', 'Ziggy Marley', 'Rita Marley', 'Jimmy Cliff']"
-T Bone N Weasel,1992,Comedy,"['Gregory Hines', 'Christopher Lloyd', 'Ned Beatty', 'Larry Hankin']"
-Cabin in the Sky,1943,"Fantasy, Musical","['Busby Berkeley', 'Ethel Waters', ""Eddie 'Rochester' Anderson"", 'Lena Horne', 'Louis Armstrong']"
-The Green Pastures,1936,Drama,"['William Keighley', 'Rex Ingram', 'Oscar Polk', ""Eddie 'Rochester' Anderson"", 'Frank H. Wilson']"
-Siu nin Wong Fei Hung chi: Tit ma lau,1993,"Action, Crime, Drama","['Rongguang Yu', 'Donnie Yen', 'Jean Wang', 'Sze-Man Tsang']"
-Ong-bak,2003,"Action, Crime, Thriller","['Tony Jaa', 'Petchtai Wongkamlao', 'Pumwaree Yodkamol', 'Suchao Pongwilai']"
-Yip Man,2008,"Action, Biography, Drama","['Donnie Yen', 'Simon Yam', 'Siu-Wong Fan', 'Ka Tung Lam']"
-Tom yum goong,2005,"Action, Crime, Drama","['Tony Jaa', 'Nathan Jones', 'Xing Jin', 'Petchtai Wongkamlao']"
-Chi bi,2008,"Action, Adventure, Drama","['Tony Chiu-Wai Leung', 'Takeshi Kaneshiro', 'Fengyi Zhang', 'Chen Chang']"
-Qi jian,2005,"Action, Adventure, Fantasy","['Leon Lai', 'Donnie Yen', 'Charlie Yeung', 'Honglei Sun']"
-Di renjie: Tong tian di guo,2010,"Action, Adventure, Drama","['Tony Ka Fai Leung', 'Chao Deng', 'Carina Lau', 'Bingbing Li']"
-Shi mian mai fu,2004,"Action, Adventure, Drama","['Ziyi Zhang', 'Takeshi Kaneshiro', 'Andy Lau', 'Dandan Song']"
-Man cheng jin dai huang jin jia,2006,"Action, Adventure, Drama","['Yun-Fat Chow', 'Li Gong', 'Jay Chou', 'Ye Liu']"
-Clockers,1995,"Crime, Drama, Mystery","['Harvey Keitel', 'John Turturro', 'Delroy Lindo', 'Mekhi Phifer']"
-Hoodlum,1997,"Crime, Drama","['Laurence Fishburne', 'Tim Roth', 'Vanessa Williams', 'Andy Garcia']"
-Nothing But Trouble,1991,Comedy,"['Chevy Chase', 'Dan Aykroyd', 'John Candy', 'Demi Moore']"
-Foolish,1999,"Comedy, Drama","['Eddie Griffin', 'Master P', 'Amie Petersen', 'Frank Sivero']"
-Who Made the Potatoe Salad?,2006,"Comedy, Romance","['Daphne Bloomer', 'Michael Colyar', 'Kaleem Daniels', 'DeRay Davis']"
-Shottas,2002,"Action, Crime, Drama","['Ky-Mani Marley', 'Spragga Benz', 'Louie Rankin', 'Paul Campbell']"
-Rude Boy: The Jamaican Don,2003,Action,"['LaNease Adams', 'Nahtasha Budhi', 'Jimmy Cliff', ""John 'Ras Kidus' Cornelius""]"
-Third World Cop,1999,"Action, Drama, Thriller","['Paul Campbell', 'Mark Danvers', 'Carl Bradshaw', ""Winston 'Bello' Bell""]"
-Candyman,1992,"Horror, Thriller","['Virginia Madsen', 'Xander Berkeley', 'Tony Todd', 'Kasi Lemmons']"
-L'amant,1992,"Biography, Drama, Romance","['Jane March', 'Tony Ka Fai Leung', 'Frédérique Meininger', 'Arnaud Giovaninetti']"
-Lat sau san taam,1992,"Action, Crime, Thriller","['Yun-Fat Chow', 'Tony Chiu-Wai Leung', 'Teresa Mo', 'Philip Chan']"
-Tropa de Elite,2007,"Action, Crime, Drama","['Wagner Moura', 'André Ramiro', 'Caio Junqueira', 'Milhem Cortaz']"
-American Me,1992,"Biography, Crime, Drama","['Edward James Olmos', 'William Forsythe', 'Sal Lopez', 'Vira Montes']"
-The Lawnmower Man,1992,"Horror, Sci-Fi","['Jeff Fahey', 'Pierce Brosnan', 'Jenny Wright', 'Mark Bringelson']"
-The Last American Virgin,1982,"Comedy, Drama, Romance","['Lawrence Monoson', 'Diane Franklin', 'Steve Antin', 'Joe Rubbo']"
-Haute tension,2003,Horror,"['Cécile de France', 'Maïwenn', 'Philippe Nahon', 'Franck Khalfoun']"
-Lucky Number Slevin,2006,"Crime, Drama, Mystery","['Josh Hartnett', 'Ben Kingsley', 'Morgan Freeman', 'Lucy Liu']"
-Equilibrium,2002,"Action, Drama, Sci-Fi","['Christian Bale', 'Sean Bean', 'Emily Watson', 'Taye Diggs']"
-Cube,1997,"Drama, Mystery, Sci-Fi","['Nicole de Boer', 'Maurice Dean Wint', 'David Hewlett', 'Andrew Miller']"
-Stir of Echoes,1999,"Horror, Mystery, Thriller","['Kevin Bacon', 'Zachary David Cope', 'Kathryn Erbe', 'Illeana Douglas']"
-Darkman,1990,"Action, Sci-Fi, Thriller","['Liam Neeson', 'Frances McDormand', 'Colin Friels', 'Larry Drake']"
-Hollow Man,2000,"Action, Horror, Sci-Fi","['Kevin Bacon', 'Elisabeth Shue', 'Josh Brolin', 'Kim Dickens']"
-Feast,2005,"Action, Comedy, Horror","['Navi Rawat', 'Krista Allen', 'Balthazar Getty', 'Judah Friedlander']"
-The Shawshank Redemption,1994,Drama,"['Tim Robbins', 'Morgan Freeman', 'Bob Gunton', 'William Sadler']"
-The Godfather,1972,"Crime, Drama","['Marlon Brando', 'Al Pacino', 'James Caan', 'Diane Keaton']"
-The Dark Knight,2008,"Action, Crime, Drama","['Christian Bale', 'Heath Ledger', 'Aaron Eckhart', 'Michael Caine']"
-The Godfather: Part II,1974,"Crime, Drama","['Al Pacino', 'Robert De Niro', 'Robert Duvall', 'Diane Keaton']"
-Pulp Fiction,1994,"Crime, Drama","['John Travolta', 'Uma Thurman', 'Samuel L. Jackson', 'Bruce Willis']"
-Schindler's List,1993,"Biography, Drama, History","['Liam Neeson', 'Ralph Fiennes', 'Ben Kingsley', 'Caroline Goodall']"
-The Lord of the Rings: The Return of the King,2003,"Adventure, Drama, Fantasy","['Elijah Wood', 'Viggo Mortensen', 'Ian McKellen', 'Orlando Bloom']"
-12 Angry Men,1957,Drama,"['Henry Fonda', 'Lee J. Cobb', 'Martin Balsam', 'John Fiedler']"
-"Il buono, il brutto, il cattivo",1966,Western,"['Clint Eastwood', 'Eli Wallach', 'Lee Van Cleef', 'Aldo Giuffrè']"
-Forrest Gump,1994,"Drama, Romance","['Tom Hanks', 'Robin Wright', 'Gary Sinise', 'Sally Field']"
-Inception,2010,"Action, Adventure, Sci-Fi","['Leonardo DiCaprio', 'Joseph Gordon-Levitt', 'Ellen Page', 'Ken Watanabe']"
-The Lord of the Rings: The Fellowship of the Ring,2001,"Action, Adventure, Drama","['Elijah Wood', 'Ian McKellen', 'Orlando Bloom', 'Sean Bean']"
-Fight Club,1999,Drama,"['Brad Pitt', 'Edward Norton', 'Meat Loaf', 'Zach Grenier']"
-Dangal,2016,"Action, Biography, Drama","['Aamir Khan', 'Sakshi Tanwar', 'Fatima Sana Shaikh', 'Sanya Malhotra']"
-Star Wars: Episode V - The Empire Strikes Back,1980,"Action, Adventure, Fantasy","['Mark Hamill', 'Harrison Ford', 'Carrie Fisher', 'Billy Dee Williams']"
-Star Wars,1977,"Action, Adventure, Fantasy","['Mark Hamill', 'Harrison Ford', 'Carrie Fisher', 'Alec Guinness']"
-The Matrix,1999,"Action, Sci-Fi","['Lilly Wachowski', 'Keanu Reeves', 'Laurence Fishburne', 'Carrie-Anne Moss', 'Hugo Weaving']"
-Goodfellas,1990,"Biography, Crime, Drama","['Robert De Niro', 'Ray Liotta', 'Joe Pesci', 'Lorraine Bracco']"
-One Flew Over the Cuckoo's Nest,1975,Drama,"['Jack Nicholson', 'Louise Fletcher', 'Will Sampson', 'Michael Berryman']"
-Cidade de Deus,2002,"Crime, Drama","['Kátia Lund', 'Alexandre Rodrigues', 'Leandro Firmino', 'Matheus Nachtergaele', 'Phellipe Haagensen']"
-The Lord of the Rings: The Two Towers,2002,"Adventure, Drama, Fantasy","['Elijah Wood', 'Ian McKellen', 'Viggo Mortensen', 'Orlando Bloom']"
-Shichinin no samurai,1954,"Action, Adventure, Drama","['Toshirô Mifune', 'Takashi Shimura', 'Keiko Tsushima', 'Yukiko Shimazaki']"
-Interstellar,2014,"Adventure, Drama, Sci-Fi","['Matthew McConaughey', 'Anne Hathaway', 'Jessica Chastain', 'Mackenzie Foy']"
-Kimi no na wa.,2016,"Animation, Drama, Fantasy","['Ryûnosuke Kamiki', 'Mone Kamishiraishi', 'Ryô Narita', 'Aoi Yûki']"
-The Silence of the Lambs,1991,"Crime, Drama, Thriller","['Jodie Foster', 'Anthony Hopkins', 'Lawrence A. Bonney', 'Kasi Lemmons']"
-Léon,1994,"Action, Crime, Drama","['Jean Reno', 'Gary Oldman', 'Natalie Portman', 'Danny Aiello']"
-Se7en,1995,"Crime, Drama, Mystery","['Morgan Freeman', 'Brad Pitt', 'Kevin Spacey', 'Andrew Kevin Walker']"
-Saving Private Ryan,1998,"Drama, War","['Tom Hanks', 'Matt Damon', 'Tom Sizemore', 'Edward Burns']"
-The Usual Suspects,1995,"Crime, Mystery, Thriller","['Kevin Spacey', 'Gabriel Byrne', 'Chazz Palminteri', 'Stephen Baldwin']"
-Sen to Chihiro no kamikakushi,2001,"Animation, Adventure, Family","['Daveigh Chase', 'Suzanne Pleshette', 'Miyu Irino', 'Rumi Hiiragi']"
-La vita è bella,1997,"Comedy, Drama, Romance","['Roberto Benigni', 'Nicoletta Braschi', 'Giorgio Cantarini', 'Giustino Durano']"
-The Intouchables,2011,"Biography, Comedy, Drama","['Éric Toledano', 'François Cluzet', 'Omar Sy', 'Anne Le Ny', 'Audrey Fleurot']"
-Once Upon a Time in the West,1968,Western,"['Henry Fonda', 'Charles Bronson', 'Claudia Cardinale', 'Jason Robards']"
-It's a Wonderful Life,1946,"Drama, Family, Fantasy","['James Stewart', 'Donna Reed', 'Lionel Barrymore', 'Thomas Mitchell']"
-City Lights,1931,"Comedy, Drama, Romance","['Charles Chaplin', 'Virginia Cherrill', 'Florence Lee', 'Harry Myers']"
-Babam ve Oglum,2005,"Drama, Family","['Çetin Tekindor', 'Fikret Kuskan', 'Hümeyra', 'Ege Tanman']"
-Alien,1979,"Horror, Sci-Fi","['Sigourney Weaver', 'Tom Skerritt', 'John Hurt', 'Veronica Cartwright']"
-The Prestige,2006,"Drama, Mystery, Sci-Fi","['Christian Bale', 'Hugh Jackman', 'Scarlett Johansson', 'Michael Caine']"
-Gladiator,2000,"Action, Adventure, Drama","['Russell Crowe', 'Joaquin Phoenix', 'Connie Nielsen', 'Oliver Reed']"
-The Dark Knight Rises,2012,"Action, Adventure","['Christian Bale', 'Tom Hardy', 'Anne Hathaway', 'Gary Oldman']"
-Whiplash,2014,"Drama, Music","['Miles Teller', 'J.K. Simmons', 'Melissa Benoist', 'Paul Reiser']"
-Memento,2000,"Mystery, Thriller","['Guy Pearce', 'Carrie-Anne Moss', 'Joe Pantoliano', 'Mark Boone Junior']"
-The Green Mile,1999,"Crime, Drama, Fantasy","['Tom Hanks', 'Michael Clarke Duncan', 'David Morse', 'Bonnie Hunt']"
-Apocalypse Now,1979,"Drama, Mystery, War","['Martin Sheen', 'Marlon Brando', 'Robert Duvall', 'Frederic Forrest']"
-Psycho,1960,"Horror, Mystery, Thriller","['Anthony Perkins', 'Janet Leigh', 'Vera Miles', 'John Gavin']"
-Raiders of the Lost Ark,1981,"Action, Adventure","['Harrison Ford', 'Karen Allen', 'Paul Freeman', 'John Rhys-Davies']"
-Terminator 2: Judgment Day,1991,"Action, Sci-Fi","['Arnold Schwarzenegger', 'Linda Hamilton', 'Edward Furlong', 'Robert Patrick']"
-The Pianist,2002,"Biography, Drama, Music","['Adrien Brody', 'Thomas Kretschmann', 'Frank Finlay', 'Emilia Fox']"
-The Lives of Others,2006,"Drama, Mystery, Thriller","['Ulrich Mühe', 'Martina Gedeck', 'Sebastian Koch', 'Ulrich Tukur']"
-Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1964,Comedy,"['Peter Sellers', 'George C. Scott', 'Sterling Hayden', 'Keenan Wynn']"
-American History X,1998,Drama,"['Edward Norton', 'Edward Furlong', ""Beverly D'Angelo"", 'Jennifer Lien']"
-Back to the Future,1985,"Adventure, Comedy, Sci-Fi","['Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson', 'Crispin Glover']"
-Casino,1995,"Crime, Drama","['Robert De Niro', 'Sharon Stone', 'Joe Pesci', 'James Woods']"
-Die Hard,1988,"Action, Thriller","['Bruce Willis', 'Alan Rickman', 'Bonnie Bedelia', 'Reginald VelJohnson']"
-The Elephant Man,1980,"Biography, Drama","['Anthony Hopkins', 'John Hurt', 'Anne Bancroft', 'John Gielgud']"
-Finding Nemo,2003,"Animation, Adventure, Comedy","['Lee Unkrich', 'Albert Brooks', 'Ellen DeGeneres', 'Alexander Gould', 'Willem Dafoe']"
-Gran Torino,2008,Drama,"['Clint Eastwood', 'Bee Vang', 'Christopher Carley', 'Ahney Her']"
-Harry Potter and the Sorcerer's Stone,2001,"Adventure, Family, Fantasy","['Daniel Radcliffe', 'Rupert Grint', 'Richard Harris', 'Maggie Smith']"
-Indiana Jones and the Temple of Doom,1984,"Action, Adventure","['Harrison Ford', 'Kate Capshaw', 'Ke Huy Quan', 'Amrish Puri']"
-Jurassic Park,1993,"Action, Adventure, Sci-Fi","['Sam Neill', 'Laura Dern', 'Jeff Goldblum', 'Richard Attenborough']"
-Kill Bill: Vol. 1,2003,"Action, Crime, Thriller","['Uma Thurman', 'David Carradine', 'Daryl Hannah', 'Michael Madsen']"
-Logan,2017,"Action, Drama, Sci-Fi","['Hugh Jackman', 'Patrick Stewart', 'Dafne Keen', 'Boyd Holbrook']"
-"Monsters, Inc.",2001,"Animation, Adventure, Comedy","['David Silverman', 'Lee Unkrich', 'Billy Crystal', 'John Goodman', 'Mary Gibbs', 'Steve Buscemi']"
-Night of the Living Dead,1968,Horror,"['Duane Jones', ""Judith O'Dea"", 'Karl Hardman', 'Marilyn Eastman']"
-Ocean's Eleven,2001,"Crime, Thriller","['George Clooney', 'Brad Pitt', 'Julia Roberts', 'Matt Damon']"
-Pirates of the Caribbean: The Curse of the Black Pearl,2003,"Action, Adventure, Fantasy","['Johnny Depp', 'Geoffrey Rush', 'Orlando Bloom', 'Keira Knightley']"
-Quantum of Solace,2008,"Action, Adventure, Thriller","['Daniel Craig', 'Olga Kurylenko', 'Mathieu Amalric', 'Judi Dench']"
-Rocky,1976,"Drama, Sport","['Sylvester Stallone', 'Talia Shire', 'Burt Young', 'Carl Weathers']"
-Shrek,2001,"Animation, Adventure, Comedy","['Vicky Jenson', 'Mike Myers', 'Eddie Murphy', 'Cameron Diaz', 'John Lithgow']"
-Taken,2008,"Action, Thriller","['Liam Neeson', 'Maggie Grace', 'Famke Janssen', 'Leland Orser']"
-Up,2009,"Animation, Adventure, Comedy","['Bob Peterson', 'Edward Asner', 'Jordan Nagai', 'John Ratzenberger', 'Christopher Plummer']"
-V for Vendetta,2005,"Action, Drama, Sci-Fi","['Hugo Weaving', 'Natalie Portman', 'Rupert Graves', 'Stephen Rea']"
-WALL·E,2008,"Animation, Adventure, Family","['Ben Burtt', 'Elissa Knight', 'Jeff Garlin', 'Fred Willard']"
-X-Men,2000,"Action, Adventure, Sci-Fi","['Patrick Stewart', 'Hugh Jackman', 'Ian McKellen', 'Famke Janssen']"
-Young Frankenstein,1974,Comedy,"['Gene Wilder', 'Madeline Kahn', 'Marty Feldman', 'Peter Boyle']"
-Zulu,1964,"Drama, History, War","['Stanley Baker', 'Jack Hawkins', 'Ulla Jacobsson', 'James Booth']"
-Casablanca,1942,"Drama, Romance, War","['Humphrey Bogart', 'Ingrid Bergman', 'Paul Henreid', 'Claude Rains']"
-Rear Window,1954,"Mystery, Thriller","['James Stewart', 'Grace Kelly', 'Wendell Corey', 'Thelma Ritter']"
-Sunset Blvd.,1950,"Drama, Film-Noir","['William Holden', 'Gloria Swanson', 'Erich von Stroheim', 'Nancy Olson']"
-Hotaru no haka,1988,"Animation, Drama, War","['Tsutomu Tatsumi', 'Ayano Shiraishi', 'Akemi Yamaguchi', 'Yoshiko Shinohara']"
-Nuovo Cinema Paradiso,1988,Drama,"['Philippe Noiret', 'Enzo Cannavale', 'Antonella Attili', 'Isa Danieli']"
-The Great Dictator,1940,"Comedy, Drama, War","['Charles Chaplin', 'Paulette Goddard', 'Jack Oakie', 'Reginald Gardiner']"
-Modern Times,1936,"Comedy, Drama, Family","['Charles Chaplin', 'Paulette Goddard', 'Henry Bergman', 'Tiny Sandford']"
-Paths of Glory,1957,"Drama, War","['Kirk Douglas', 'Ralph Meeker', 'Adolphe Menjou', 'George Macready']"
-Taare Zameen Par,2007,"Drama, Family","['Amole Gupte', 'Darsheel Safary', 'Aamir Khan', 'Tisca Chopra', 'Vipin Sharma']"
-Aliens,1986,"Action, Adventure, Sci-Fi","['Sigourney Weaver', 'Michael Biehn', 'Carrie Henn', 'Paul Reiser']"
-Django Unchained,2012,"Drama, Western","['Jamie Foxx', 'Christoph Waltz', 'Leonardo DiCaprio', 'Kerry Washington']"
-American Beauty,1999,Drama,"['Kevin Spacey', 'Annette Bening', 'Thora Birch', 'Wes Bentley']"
-The Shining,1980,"Drama, Horror","['Jack Nicholson', 'Shelley Duvall', 'Danny Lloyd', 'Scatman Crothers']"
-Requiem for a Dream,2000,Drama,"['Ellen Burstyn', 'Jared Leto', 'Jennifer Connelly', 'Marlon Wayans']"
-Braveheart,1995,"Biography, Drama, History","['Mel Gibson', 'Sophie Marceau', 'Patrick McGoohan', 'Angus Macfadyen']"
-Oldeuboi,2003,"Action, Drama, Mystery","['Min-sik Choi', 'Ji-Tae Yoo', 'Hye-jeong Kang', 'Dae-han Ji']"
-Star Wars: Episode VI - Return of the Jedi,1983,"Action, Adventure, Fantasy","['Mark Hamill', 'Harrison Ford', 'Carrie Fisher', 'Billy Dee Williams']"
-North by Northwest,1959,"Adventure, Mystery, Thriller","['Cary Grant', 'Eva Marie Saint', 'James Mason', 'Jessie Royce Landis']"
-Amélie,2001,"Comedy, Romance","['Audrey Tautou', 'Mathieu Kassovitz', 'Rufus', 'Lorella Cravotta']"
-Once Upon a Time in America,1984,"Crime, Drama","['Robert De Niro', 'James Woods', 'Elizabeth McGovern', 'Treat Williams']"
-3 Idiots,2009,"Comedy, Drama","['Aamir Khan', 'Madhavan', 'Mona Singh', 'Sharman Joshi']"
-Mononoke-hime,1997,"Animation, Adventure, Fantasy","['Yôji Matsuda', 'Yuriko Ishida', 'Yûko Tanaka', 'Billy Crudup']"
-Vertigo,1958,"Mystery, Romance, Thriller","['James Stewart', 'Kim Novak', 'Barbara Bel Geddes', 'Tom Helmore']"
-Citizen Kane,1941,"Drama, Mystery","['Orson Welles', 'Joseph Cotten', 'Dorothy Comingore', 'Agnes Moorehead']"
-The Counselor,2013,"Crime, Drama, Thriller","['Michael Fassbender', 'Penélope Cruz', 'Cameron Diaz', 'Javier Bardem']"
-Bad Words,2013,"Comedy, Drama","['Jason Bateman', 'Kathryn Hahn', 'Allison Janney', 'Rohan Chand']"
-The Neon Demon,2016,"Horror, Thriller","['Elle Fanning', 'Christina Hendricks', 'Keanu Reeves', 'Karl Glusman']"
-Cloud Atlas,2012,"Action, Drama, Mystery","['Lana Wachowski', 'Lilly Wachowski', 'Tom Hanks', 'Halle Berry', 'Hugh Grant', 'Hugo Weaving']"
-Popstar: Never Stop Never Stopping,2016,"Comedy, Music","['Jorma Taccone', 'Andy Samberg', 'Jorma Taccone', 'Akiva Schaffer', 'Sarah Silverman']"
-Source Code,2011,"Action, Drama, Mystery","['Jake Gyllenhaal', 'Michelle Monaghan', 'Vera Farmiga', 'Jeffrey Wright']"
-Super,2010,"Action, Comedy, Drama","['Rainn Wilson', 'Ellen Page', 'Liv Tyler', 'Kevin Bacon']"
-Everybody Wants Some!!,2016,Comedy,"['Blake Jenner', 'Tyler Hoechlin', 'Ryan Guzman', 'Zoey Deutch']"
-Enemy,2013,"Drama, Mystery, Thriller","['Jake Gyllenhaal', 'Mélanie Laurent', 'Sarah Gadon', 'Isabella Rossellini']"
-The Guest,2014,"Action, Comedy, Crime","['Dan Stevens', 'Sheila Kelley', 'Maika Monroe', 'Joel David Moore']"
-Mississippi Grind,2015,"Comedy, Drama","['Ryan Fleck', 'Ben Mendelsohn', 'Ryan Reynolds', 'Yvonne Landry', 'Anthony Howard']"
-The Beguiled,2017,"Drama, Thriller","['Nicole Kidman', 'Kirsten Dunst', 'Elle Fanning', 'Colin Farrell']"
-Noah,2014,"Action, Adventure, Drama","['Russell Crowe', 'Jennifer Connelly', 'Anthony Hopkins', 'Emma Watson']"
-The Grey,2011,"Action, Adventure, Drama","['Liam Neeson', 'Dermot Mulroney', 'Frank Grillo', 'Dallas Roberts']"
-The Place Beyond the Pines,2012,"Crime, Drama, Thriller","['Ryan Gosling', 'Bradley Cooper', 'Eva Mendes', 'Craig Van Hook']"
-Killer Joe,2011,"Crime, Drama, Thriller","['Matthew McConaughey', 'Emile Hirsch', 'Juno Temple', 'Thomas Haden Church']"
-Swiss Army Man,2016,"Comedy, Drama, Fantasy","['Daniel Scheinert', 'Paul Dano', 'Daniel Radcliffe', 'Mary Elizabeth Winstead', 'Antonia Ribero']"
-Macbeth,2015,"Drama, History, War","['Michael Fassbender', 'Marion Cotillard', 'Jack Madigan', 'Frank Madigan']"
-Super 8,2011,"Action, Mystery, Sci-Fi","['Elle Fanning', 'AJ Michalka', 'Kyle Chandler', 'Joel Courtney']"
-The Drop,2014,"Crime, Drama, Thriller","['Tom Hardy', 'Noomi Rapace', 'James Gandolfini', 'Matthias Schoenaerts']"
-Dope,2015,"Comedy, Crime, Drama","['Shameik Moore', 'Tony Revolori', 'Kiersey Clemons', 'Kimberly Elise']"
-Killing Them Softly,2012,"Crime, Drama, Thriller","['Brad Pitt', 'Ray Liotta', 'Richard Jenkins', 'Scoot McNairy']"
-Under the Silver Lake,2018,"Crime, Drama, Mystery","['Andrew Garfield', 'Riley Keough', 'Topher Grace', 'Callie Hernandez']"
-Cyrus,2010,"Comedy, Drama, Romance","['Mark Duplass', 'John C. Reilly', 'Marisa Tomei', 'Jonah Hill', 'Catherine Keener']"
-The Killing of a Sacred Deer,2017,"Drama, Horror, Mystery","['Barry G. Bernson', 'Herb Caillouet', 'Bill Camp', 'Raffey Cassidy']"
-Brigsby Bear,2017,"Comedy, Drama","['Kyle Mooney', 'Mark Hamill', 'Jorge Lendeborg Jr.', 'Matt Walsh']"
-Joe,2013,"Crime, Drama","['Nicolas Cage', 'Tye Sheridan', 'Gary Poulter', 'Ronnie Gene Blevins']"
-Suspiria,2018,"Fantasy, Horror, Mystery","['Chloë Grace Moretz', 'Tilda Swinton', 'Doris Hick', 'Malgorzata Bela']"
-Unsane,2018,"Drama, Horror, Mystery","['Claire Foy', 'Joshua Leonard', 'Jay Pharoah', 'Juno Temple']"
-Prometheus,2012,"Adventure, Mystery, Sci-Fi","['Noomi Rapace', 'Logan Marshall-Green', 'Michael Fassbender', 'Charlize Theron']"
+Title,Year,Genre,Director,Stars,Rating,Oscar,Duration
+Avatar,2009,"Action, Adventure, Fantasy",James Cameron,"['Sam Worthington', 'Zoe Saldana', 'Sigourney Weaver', 'Michelle Rodriguez']",7.8,True,162
+Titanic,1997,"Drama, Romance",James Cameron,"['Leonardo DiCaprio', 'Kate Winslet', 'Billy Zane', 'Kathy Bates']",7.8,True,194
+Frozen,2013,"Animation, Adventure, Comedy",Chris Buck,"['Jennifer Lee', 'Kristen Bell', 'Idina Menzel', 'Jonathan Groff', 'Josh Gad']",7.5,True,102
+The Lord of the Rings: The Return of the King,2003,"Adventure, Drama, Fantasy",Peter Jackson,"['Elijah Wood', 'Viggo Mortensen', 'Ian McKellen', 'Orlando Bloom']",8.9,True,201
+Skyfall,2012,"Action, Adventure, Thriller",Sam Mendes,"['Daniel Craig', 'Javier Bardem', 'Naomie Harris', 'Judi Dench']",7.7,True,143
+Toy Story 3,2010,"Animation, Adventure, Comedy",Lee Unkrich,"['Tom Hanks', 'Tim Allen', 'Joan Cusack', 'Ned Beatty']",8.3,True,103
+Jurassic Park,1993,"Action, Adventure, Sci-Fi",Steven Spielberg,"['Sam Neill', 'Laura Dern', 'Jeff Goldblum', 'Richard Attenborough']",8.1,True,127
+Alice in Wonderland,2010,"Adventure, Family, Fantasy",Tim Burton,"['Mia Wasikowska', 'Johnny Depp', 'Helena Bonham Carter', 'Anne Hathaway']",6.4,True,108
+Zootopia,2016,"Animation, Adventure, Comedy",Byron Howard,"['Rich Moore', 'Jared Bush', 'Ginnifer Goodwin', 'Jason Bateman', 'Idris Elba', 'Jenny Slate']",8.5,True,108
+The Dark Knight,2008,"Action, Crime, Drama",Christopher Nolan,"['Christian Bale', 'Heath Ledger', 'Aaron Eckhart', 'Michael Caine']",7.4,True,152
+The Lion King,1994,"Animation, Adventure, Drama",Roger Allers,"['Rob Minkoff', 'Matthew Broderick', 'Jeremy Irons', 'James Earl Jones', 'Whoopi Goldberg']",8.1,True,88
+The Jungle Book,2016,"Adventure, Drama, Family",Jon Favreau,"['Neel Sethi', 'Bill Murray', 'Ben Kingsley', 'Idris Elba']",8.7,True,106
+Finding Nemo,2003,"Animation, Adventure, Comedy",Andrew Stanton,"['Lee Unkrich', 'Albert Brooks', 'Ellen DeGeneres', 'Alexander Gould', 'Willem Dafoe']",6.8,True,100
+The Lord of the Rings: The Two Towers,2002,"Adventure, Drama, Fantasy",Peter Jackson,"['Elijah Wood', 'Ian McKellen', 'Viggo Mortensen', 'Orlando Bloom']",8.8,True,179
+Spectre,2015,"Action, Adventure, Thriller",Sam Mendes,"['Daniel Craig', 'Christoph Waltz', 'Léa Seydoux', 'Ralph Fiennes']",8.2,True,148
+The Lord of the Rings: The Fellowship of the Ring,2001,"Action, Adventure, Drama",Peter Jackson,"['Elijah Wood', 'Ian McKellen', 'Orlando Bloom', 'Sean Bean']",8.8,True,178
+Inside Out,2015,"Animation, Adventure, Comedy",Pete Docter,"['Ronnie Del Carmen', 'Amy Poehler', 'Bill Hader', 'Lewis Black', 'Mindy Kaling']",7.3,True,95
+Inception,2010,"Action, Adventure, Sci-Fi",Christopher Nolan,"['Leonardo DiCaprio', 'Joseph Gordon-Levitt', 'Ellen Page', 'Ken Watanabe']",7.8,True,148
+Independence Day,1996,"Action, Adventure, Sci-Fi",Roland Emmerich,"['Will Smith', 'Bill Pullman', 'Jeff Goldblum', 'Mary McDonnell']",7.3,True,145
+Fantastic Beasts and Where to Find Them,2016,"Adventure, Family, Fantasy",David Yates,"['Eddie Redmayne', 'Katherine Waterston', 'Alison Sudol', 'Dan Fogler']",8.6,True,132
+E.T. the Extra-Terrestrial,1982,"Family, Sci-Fi",Steven Spielberg,"['Henry Thomas', 'Drew Barrymore', 'Peter Coyote', 'Dee Wallace']",8.2,True,115
+Spider-Man 2,2004,"Action, Adventure, Sci-Fi",Sam Raimi,"['Tobey Maguire', 'Kirsten Dunst', 'Alfred Molina', 'James Franco']",7.7,True,127
+Star Wars,1977,"Action, Adventure, Fantasy",George Lucas,"['Mark Hamill', 'Harrison Ford', 'Carrie Fisher', 'Alec Guinness']",8.8,True,121
+Suicide Squad,2016,"Action, Adventure, Fantasy",David Ayer,"['Will Smith', 'Jared Leto', 'Margot Robbie', 'Viola Davis']",8.6,True,123
+Up,2009,"Animation, Adventure, Comedy",Pete Docter,"['Bob Peterson', 'Edward Asner', 'Jordan Nagai', 'John Ratzenberger', 'Christopher Plummer']",8.1,True,96
+Gravity,2013,"Drama, Sci-Fi, Thriller",Alfonso Cuarón,"['Sandra Bullock', 'George Clooney', 'Ed Harris', 'Orto Ignatiussen']",7.8,True,91
+Forrest Gump,1994,"Drama, Romance",Robert Zemeckis,"['Tom Hanks', 'Robin Wright', 'Gary Sinise', 'Sally Field']",7.9,True,142
+Interstellar,2014,"Adventure, Drama, Sci-Fi",Christopher Nolan,"['Matthew McConaughey', 'Anne Hathaway', 'Jessica Chastain', 'Mackenzie Foy']",7.2,True,169
+The Sixth Sense,1999,"Drama, Mystery, Thriller",M. Night Shyamalan,"['Bruce Willis', 'Haley Joel Osment', 'Toni Collette', 'Olivia Williams']",7.3,True,107
+Big Hero 6,2014,"Animation, Action, Adventure",Don Hall,"['Chris Williams', 'Ryan Potter', 'Scott Adsit', 'Jamie Chung', 'T.J. Miller']",7.1,True,102
+The Incredibles,2004,"Animation, Action, Adventure",Brad Bird,"['Craig T. Nelson', 'Samuel L. Jackson', 'Holly Hunter', 'Jason Lee']",8.7,True,115
+Ratatouille,2007,"Animation, Adventure, Comedy",Brad Bird,"['Jan Pinkava', 'Brad Garrett', 'Lou Romano', 'Patton Oswalt', 'Ian Holm']",8.4,True,111
+Life of Pi,2012,"Adventure, Drama, Fantasy",Ang Lee,"['Suraj Sharma', 'Irrfan Khan', 'Adil Hussain', 'Tabu']",8.5,True,127
+King Kong,2005,"Action, Adventure, Drama",Peter Jackson,"['Naomi Watts', 'Jack Black', 'Adrien Brody', 'Thomas Kretschmann']",7.8,True,187
+American Sniper,2014,"Action, Biography, Drama",Clint Eastwood,"['Bradley Cooper', 'Sienna Miller', 'Kyle Gallner', 'Cole Konis']",8.6,True,133
+Brave,2012,"Animation, Adventure, Comedy",Mark Andrews,"['Brenda Chapman', 'Steve Purcell', 'Kelly Macdonald', 'Billy Connolly', 'Emma Thompson', 'Julie Walters']",8.2,True,93
+Star Wars: Episode V - The Empire Strikes Back,1980,"Action, Adventure, Fantasy",Irvin Kershner,"['Mark Hamill', 'Harrison Ford', 'Carrie Fisher', 'Billy Dee Williams']",8.7,True,124
+WALL·E,2008,"Animation, Adventure, Family",Andrew Stanton,"['Ben Burtt', 'Elissa Knight', 'Jeff Garlin', 'Fred Willard']",8.5,True,98
+The Revenant,2015,"Action, Adventure, Biography",Alejandro G. Iñárritu,"['Leonardo DiCaprio', 'Tom Hardy', 'Will Poulter', 'Domhnall Gleeson']",6.2,True,156
+Terminator 2: Judgment Day,1991,"Action, Sci-Fi",James Cameron,"['Arnold Schwarzenegger', 'Linda Hamilton', 'Edward Furlong', 'Robert Patrick']",7.3,True,137
+Hardcore Henry,2015,"Action, Adventure, Sci-Fi",Ilya Naishuller,"['Sharlto Copley', 'Tim Roth', 'Haley Bennett', 'Danila Kozlovsky']",6.7,False,96
+The Neon Demon,2016,"Horror, Thriller",Nicolas Winding Refn,"['Elle Fanning', 'Christina Hendricks', 'Keanu Reeves', 'Karl Glusman']",6.2,False,117
+13 Hours,2016,"Action, Drama, History",Michael Bay,"['John Krasinski', 'Pablo Schreiber', 'James Badge Dale', 'David Denman']",7.3,False,144
+Hush,2016,"Horror, Thriller",Mike Flanagan,"['John Gallagher Jr.', 'Kate Siegel', 'Michael Trucco', 'Samantha Sloyan']",6.6,False,82
+The Hollars,2016,"Comedy, Drama, Romance",John Krasinski,"['Sharlto Copley', 'Charlie Day', 'Richard Jenkins', 'Anna Kendrick']",6.5,False,88
+Keanu,2016,"Action, Comedy, Crime",Peter Atencio,"['Keegan-Michael Key', 'Jordan Peele', 'Tiffany Haddish', 'Method Man']",6.2,False,100
+The Edge of Seventeen,2016,"Comedy, Drama",Kelly Fremon Craig,"['Hailee Steinfeld', 'Haley Lu Richardson', 'Blake Jenner', 'Kyra Sedgwick']",7.3,False,104
+Anthropoid,2016,"Action, Biography, Drama",Sean Ellis,"['Jamie Dornan', 'Cillian Murphy', 'Brian Caspe', 'Karel Hermánek Jr.']",7.2,False,120
+Popstar: Never Stop Never Stopping,2016,"Comedy, Music",Akiva Schaffer,"['Jorma Taccone', 'Andy Samberg', 'Jorma Taccone', 'Akiva Schaffer', 'Sarah Silverman']",6.7,False,87
+Imperium,2016,"Biography, Crime, Drama",Daniel Ragussis,"['Daniel Radcliffe', 'Toni Collette', 'Tracy Letts', 'Sam Trammell']",6.5,False,109
+A Monster Calls,2016,"Animation, Drama, Fantasy",J.A. Bayona,"['Lewis MacDougall', 'Sigourney Weaver', 'Felicity Jones', 'Toby Kebbell']",7.5,False,108
+Man Down,2015,"Drama, Thriller",Dito Montiel,"['Shia LaBeouf', 'Jai Courtney', 'Gary Oldman', 'Kate Mara']",5.9,False,90
+The Fundamentals of Caring,2016,"Comedy, Drama",Rob Burnett,"['Craig Roberts', 'Paul Rudd', 'Selena Gomez', 'Alex Huff']",7.3,False,97
+The Girl with All the Gifts,2016,"Drama, Horror, Sci-Fi",Colm McCarthy,"['Sennia Nanua', 'Fisayo Akinade', 'Dominique Tipper', 'Paddy Considine']",6.6,False,111
+Crawl,2019,"Drama, Horror, Thriller",Alexandre Aja,"['Kaya Scodelario', 'Barry Pepper', 'Morfydd Clark', 'Ross Anderson']",6.2,False,87
+Long Shot,2019,"Comedy, Romance",Jonathan Levine,"['Charlize Theron', 'Seth Rogen', 'June Diane Raphael', ""O'Shea Jackson Jr.""]",6.9,False,125
+The Peanut Butter Falcon,2019,"Adventure, Comedy, Drama",Tyler Nilson,"['Michael Schwartz', 'Zack Gottsagen', 'Ann Owens', 'Dakota Johnson', 'Bruce Dern']",7.6,False,97
+Ready or Not,2019,"Comedy, Horror, Mystery",Matt Bettinelli-Olpin,"['Tyler Gillett', 'Samara Weaving', 'Adam Brody', ""Mark O'Brien"", 'Henry Czerny']",6.8,False,95
+Plus One,2019,"Comedy, Drama, Romance",Jeff Chan,"['Andrew Rhymer', 'Maya Erskine', 'Jack Quaid', 'Ed Begley Jr.', 'Alex Anfanger']",6.6,False,98
+Booksmart,2019,Comedy,Olivia Wilde,"['Kaitlyn Dever', 'Beanie Feldstein', 'Jessica Williams', 'Jason Sudeikis']",7.2,False,102
+Triple Frontier,2019,"Action, Adventure, Crime",J.C. Chandor,"['Ben Affleck', 'Oscar Isaac', 'Charlie Hunnam', 'Garrett Hedlund']",6.4,False,125
+Fighting with My Family,2019,"Biography, Comedy, Drama",Stephen Merchant,"['Dwayne Johnson', 'Lena Headey', 'Vince Vaughn', 'Florence Pugh']",7.1,False,108
+Angel Has Fallen,2019,"Action, Thriller",Ric Roman Waugh,"['Gerard Butler', 'Frederick Schmidt', 'Danny Huston', 'Rocci Williams']",6.4,False,121
+Togo,2019,"Adventure, Biography, Drama",Ericson Core,"['Willem Dafoe', 'Julianne Nicholson', 'Christopher Heyerdahl', 'Richard Dormer']",8.1,False,113
+Dragged Across Concrete,2018,"Action, Crime, Drama",S. Craig Zahler,"['Mel Gibson', 'Vince Vaughn', 'Tory Kittles', 'Michael Jai White']",7.4,False,159
+November,2004,"Drama, Mystery, Thriller",Greg Harrison,"['Courteney Cox', 'James Le Gros', 'Michael Ealy', 'Dori Mizrahi']",5.5,False,73
+Powder Blue,2009,Drama,Timothy Linh Bui,"['Jessica Biel', 'Eddie Redmayne', 'Forest Whitaker', 'Ray Liotta']",6.3,False,106
+Bordertown,2007,"Crime, Drama, Mystery",Gregory Nava,"['Jennifer Lopez', 'Antonio Banderas', 'Maya Zapata', 'Irineo Alvarez']",6.1,False,112
+For One Night,2006,"Drama, Romance",Ernest R. Dickerson,"['Raven-Symoné', 'Aisha Tyler', 'Sam Jones III', 'Gary Grubbs']",6.4,False,89
+Mom at Sixteen,2005,Drama,Peter Werner,"['Danielle Panabaker', 'Jane Krakowski', 'Clare Stone', 'Tyler Hynes']",6.7,False,90
+Lucky Girl,2001,Drama,John Fawcett,"['Elisha Cuthbert', 'Sherry Miller', 'Evan Sabba', 'Greg Ellwand']",6.6,False,100
+Veronika Decides to Die,2009,"Drama, Romance",Emily Young,"['Sarah Michelle Gellar', 'Jonathan Tucker', 'Erika Christensen', 'Florencia Lozano']",6.4,False,103
+Fetching Cody,2005,"Drama, Fantasy, Romance",David Ray,"['Jay Baruchel', 'Sarah Lind', 'Jim Byrnes', 'Lucas Blaney']",6.7,False,86
+The Sleeping Dictionary,2003,"Drama, Romance",Guy Jenkin,"['Jessica Alba', 'Brenda Blethyn', 'Hugh Dancy', 'Bob Hoskins']",6.6,False,109
+Motorama,1991,"Adventure, Comedy, Crime",Barry Shils,"['Jordan Christopher Michael', 'Martha Quinn', 'Michael Naegel', 'Susan Tyrrell']",6.4,False,90
+Tennessee,2008,"Adventure, Comedy, Drama",Aaron Woodley,"['Adam Rothenberg', 'Ethan Peck', 'Mariah Carey', 'Lance Reddick']",5.5,False,99
+Angel Eyes,2001,"Drama, Romance",Luis Mandoki,"['Jennifer Lopez', 'Jim Caviezel', 'Jeremy Sisto', 'Terrence Howard']",5.6,False,102
+Trucker,2008,Drama,James Mottern,"['Michelle Monaghan', 'Nathan Fillion', 'Benjamin Bratt', 'Joey Lauren Adams']",6.7,False,90
+Speedway Junky,1999,"Crime, Drama, Romance",Nickolas Perry,"['Richard Balin', 'Jaime Bergman', 'Jesse Bradford', 'Jordan Brower']",5.7,False,105
+Freeway,1996,"Comedy, Crime, Drama",Matthew Bright,"['Reese Witherspoon', 'Kiefer Sutherland', 'Bokeem Woodbine', 'Paul Perri']",6.8,False,102
+Greta,2009,"Drama, Romance",Nancy Bardawil,"['Hilary Duff', 'Evan Ross', 'Michael Murphy', 'Ellen Burstyn']",6.1,False,92
+Bang Bang You're Dead,2002,"Crime, Drama, Thriller",Guy Ferland,"['Tom Cavanagh', 'Ben Foster', 'Randy Harrison', 'Janel Moloney']",7.8,False,93
+Wild Tigers I Have Known,2006,Drama,Cam Archer,"['Malcolm Stumpf', 'Patrick White', 'Max Paradise', 'Fairuza Balk']",6.1,False,88
+Agnes of God,1985,"Drama, Mystery",Norman Jewison,"['Jane Fonda', 'Anne Bancroft', 'Meg Tilly', 'Anne Pitoniak']",6.6,False,98
+An American Crime,2007,"Biography, Crime, Drama",Tommy O'Haver,"['Ellen Page', 'Hayley McFarland', 'Nick Searcy', 'Romy Rosemont']",7.3,False,98
+Beloved,1998,"Drama, History, Horror",Jonathan Demme,"['Oprah Winfrey', 'Danny Glover', 'Yada Beener', 'Emil Pinnock']",6.5,False,172
+Boys on the Side,1995,"Comedy, Drama",Herbert Ross,"['Whoopi Goldberg', 'Mary-Louise Parker', 'Drew Barrymore', 'Matthew McConaughey']",7.2,False,115
+Conviction,2010,"Biography, Crime, Drama",Tony Goldwyn,"['Hilary Swank', 'Sam Rockwell', 'Melissa Leo', 'Thomas D. Mahard']",6.7,False,107
+Crossing Over,2009,"Crime, Drama",Wayne Kramer,"['Harrison Ford', 'Ashley Judd', 'Ray Liotta', 'Jim Sturgess']",7.5,False,113
+Disconnect,2012,"Drama, Thriller",Henry Alex Rubin,"['Jason Bateman', 'Jonah Bobo', 'Haley Ramm', 'Hope Davis']",6.5,False,115
+Big Miracle,2012,"Biography, Drama, Family",Ken Kwapis,"['Drew Barrymore', 'John Krasinski', 'John Pingayak', 'Ahmaogak Sweeney']",6.8,False,107
+One Hour Photo,2002,"Drama, Thriller",Mark Romanek,"['Robin Williams', 'Connie Nielsen', 'Michael Vartan', 'Dylan Smith']",7.6,False,96
+Vera Drake,2004,"Crime, Drama",Mike Leigh,"['Imelda Staunton', 'Jim Broadbent', 'Heather Craney', 'Richard Graham']",6.6,False,125
+The Dead Girl,2006,"Crime, Drama, Mystery",Karen Moncrieff,"['Toni Collette', 'Brittany Murphy', 'Marcia Gay Harden', 'Piper Laurie']",7.4,False,85
+Running Scared,2006,"Action, Crime, Drama",Wayne Kramer,"['Paul Walker', 'Cameron Bright', 'Chazz Palminteri', 'Vera Farmiga']",7.1,False,122
+Naked Lunch,1991,Drama,David Cronenberg,"['Peter Weller', 'Judy Davis', 'Ian Holm', 'Julian Sands']",7.5,False,115
+House of Sand and Fog,2003,"Crime, Drama",Vadim Perelman,"['Jennifer Connelly', 'Ben Kingsley', 'Ron Eldard', 'Frances Fisher']",6.1,False,126
+Bug,2006,"Drama, Horror, Thriller",William Friedkin,"['Ashley Judd', 'Michael Shannon', 'Harry Connick Jr.', 'Lynn Collins']",6.8,False,102
+The Burning Plain,2008,"Crime, Drama, Romance",Guillermo Arriaga,"['Charlize Theron', 'John Corbett', 'José María Yazpik', 'Robin Tunney']",7.3,False,107
+Revolutionary Road,2008,"Drama, Romance",Sam Mendes,"['Leonardo DiCaprio', 'Kate Winslet', 'Christopher Fitzgerald', 'Jonathan Roumie']",6.8,False,119
+The Pledge,2001,"Crime, Drama, Mystery",Sean Penn,"['Jack Nicholson', 'Benicio Del Toro', 'Patricia Clarkson', 'Beau Daniels']",7.3,False,124
+If These Walls Could Talk,1996,"Drama, Thriller",Cher,"['Nancy Savoca', 'Demi Moore', 'Shirley Knight', 'Catherine Keener', 'Jason London']",6.4,False,97
+Bound,1996,"Crime, Romance, Thriller",Lana Wachowski,"['Lilly Wachowski', 'Jennifer Tilly', 'Gina Gershon', 'Joe Pantoliano', 'John P. Ryan']",6.1,False,109
+Hard Ball,2001,"Drama, Sport",Brian Robbins,"['Keanu Reeves', 'Diane Lane', 'John Hawkes', 'Bryan Hearne']",6.8,False,106
+Frozen,2010,"Adventure, Drama, Thriller",Adam Green,"['Shawn Ashmore', 'Emma Bell', 'Kevin Zegers', 'Ed Ackerman']",7.3,False,93
+Death and the Maiden,1994,"Drama, Mystery, Thriller",Roman Polanski,"['Sigourney Weaver', 'Ben Kingsley', 'Stuart Wilson', 'Krystia Mova']",7.1,False,103
+Funny Money,2006,Comedy,Leslie Greif,"['Chevy Chase', 'Penelope Ann Miller', 'Armand Assante', 'Christopher McDonald']",5.5,False,98
+The Whistleblower,2010,"Biography, Crime, Drama",Larysa Kondracki,"['Rachel Weisz', 'Monica Bellucci', 'Vanessa Redgrave', 'David Strathairn']",7.2,False,112
+After Sex,2007,"Comedy, Drama, Romance",Eric Amadio,"['Marc Blucas', 'Jose Pablo Cantillo', 'Emmanuelle Chriqui', 'James DeBello']",7.1,False,77
+Jet Boy,2001,Drama,Dave Schultz,"['Branden Nadon', 'Joe Norman Shaw', 'Dylan Walsh', 'Matthew Currie Holmes']",7.2,False,99
+L.I.E.,2001,"Crime, Drama",Michael Cuesta,"['Brian Cox', 'Paul Dano', 'Bruce Altman', 'Billy Kay']",7.7,False,97
+Mean Creek,2004,"Crime, Drama",Jacob Estes,"['Rory Culkin', 'Ryan Kelley', 'Scott Mechlowicz', 'Trevor Morgan']",6.3,False,90
+Hide and Seek,2005,"Drama, Horror, Mystery",John Polson,"['Robert De Niro', 'Dakota Fanning', 'Famke Janssen', 'Elisabeth Shue']",6.4,False,101
+The Cure,1995,Drama,Peter Horton,"['Joseph Mazzello', 'Brad Renfro', 'Aeryk Egan', 'Delphine French']",5.7,False,97
+The Family Stone,2005,"Comedy, Drama, Romance",Thomas Bezucha,"['Dermot Mulroney', 'Sarah Jessica Parker', 'Claire Danes', 'Diane Keaton']",7.8,False,103
+Smilla's Sense of Snow,1997,"Crime, Drama, Mystery",Bille August,"['Julia Ormond', 'Jens Jørgen Fleischer', 'Agga Olsen', 'Patrick Field']",5.9,False,121
+New Suit,2002,Comedy,François Velle,"['Jordan Bridges', 'Marisa Coughlan', 'Heather Donahue', 'Mark Setlock']",6.4,False,94
+A Christmas Carol,1984,"Drama, Family, Fantasy",Clive Donner,"['George C. Scott', 'Frank Finlay', 'Angela Pleasence', 'Edward Woodward']",6.2,False,100
+The Invasion,2007,"Sci-Fi, Thriller",Oliver Hirschbiegel,"['James McTeigue', 'Nicole Kidman', 'Daniel Craig', 'Jeremy Northam', 'Jackson Bond']",6.8,False,99
+Rabbit Hole,2010,Drama,John Cameron Mitchell,"['Nicole Kidman', 'Aaron Eckhart', 'Dianne Wiest', 'Miles Teller']",7.4,False,91
+Dirty Girl,2010,"Comedy, Drama",Abe Sylvia,"['Juno Temple', 'Jeremy Dozier', 'Milla Jovovich', 'Zach Lasry']",7.3,False,90
+Deceived,1991,"Crime, Drama, Mystery",Damian Harris,"['Goldie Hawn', 'John Heard', 'Damon Redfern', 'Charles Kassatly']",6.5,False,104
+U Turn,1997,"Crime, Drama, Thriller",Oliver Stone,"['Sean Penn', 'Jennifer Lopez', 'Nick Nolte', 'Billy Bob Thornton']",6.9,False,125
+Dolores Claiborne,1995,"Crime, Drama, Mystery",Taylor Hackford,"['Kathy Bates', 'Jennifer Jason Leigh', 'Christopher Plummer', 'Judy Parfitt']",6.7,False,132
+North Country,2005,Drama,Niki Caro,"['Charlize Theron', 'Jeremy Renner', 'Frances McDormand', 'Thomas Curtis']",6.6,False,126
+Riding in Cars with Boys,2001,"Biography, Comedy, Drama",Penny Marshall,"['Drew Barrymore', 'Steve Zahn', 'Adam Garcia', 'Brittany Murphy']",6.4,False,132
+Trust,2010,"Crime, Drama, Thriller",David Schwimmer,"['Clive Owen', 'Catherine Keener', 'Liana Liberato', 'Jason Clarke']",5.5,False,106
+Anna and the King,1999,"Drama, History, Romance",Andy Tennant,"['Jodie Foster', 'Yun-Fat Chow', 'Bai Ling', 'Tom Felton']",6.1,False,148
+Blindness,2008,"Drama, Mystery, Sci-Fi",Fernando Meirelles,"['Julianne Moore', 'Mark Ruffalo', 'Gael García Bernal', 'Yûsuke Iseya']",6.3,False,121
+The Good Girl,2002,"Drama, Romance",Miguel Arteta,"['Jennifer Aniston', 'Jake Gyllenhaal', 'Deborah Rush', 'Mike White']",7.4,False,93
+Man About Town,2006,"Comedy, Drama",Mike Binder,"['Ben Affleck', 'Rebecca Romijn', 'John Cleese', 'Sam Ball']",5.8,False,96
+The Mexican,2001,"Adventure, Comedy, Crime",Gore Verbinski,"['Brad Pitt', 'Julia Roberts', 'James Gandolfini', 'J.K. Simmons']",5.7,False,123
+No Reservations,2007,"Comedy, Drama, Romance",Scott Hicks,"['Catherine Zeta-Jones', 'Aaron Eckhart', 'Abigail Breslin', 'Patricia Clarkson']",6.2,False,104
+Transamerica,2005,"Adventure, Comedy, Drama",Duncan Tucker,"['Felicity Huffman', 'Kevin Zegers', 'Fionnula Flanagan', 'Andrea James']",6.1,False,103
+Straight Talk,1992,"Comedy, Drama, Romance",Barnet Kellman,"['Dolly Parton', 'James Woods', 'Griffin Dunne', 'Michael Madsen']",5.8,False,91
+The Juror,1996,"Crime, Drama, Thriller",Brian Gibson,"['Demi Moore', 'Alec Baldwin', 'Joseph Gordon-Levitt', 'James Gandolfini']",6.6,False,118
+Heartbreakers,2001,"Comedy, Crime, Romance",David Mirkin,"['Sigourney Weaver', 'Jennifer Love Hewitt', 'Gene Hackman', 'Ray Liotta']",6.3,False,123
+The Killer Inside Me,2010,"Crime, Drama, Thriller",Michael Winterbottom,"['Casey Affleck', 'Kate Hudson', 'Jessica Alba', 'Ned Beatty']",7.2,False,109
+Georgia Rule,2007,"Comedy, Drama",Garry Marshall,"['Jane Fonda', 'Lindsay Lohan', 'Felicity Huffman', 'Dermot Mulroney']",7.2,False,113
+Inhale,2010,"Drama, Thriller",Baltasar Kormákur,"['Dermot Mulroney', 'Diane Kruger', 'Sam Shepard', 'Rosanna Arquette']",6.4,False,83
+Happy Endings,2005,"Comedy, Drama, Music",Don Roos,"['Lisa Kudrow', 'Steve Coogan', 'Maggie Gyllenhaal', 'Jesse Bradford']",6.6,False,128
+Mother and Child,2009,"Drama, Romance",Rodrigo García,"['Naomi Watts', 'Annette Bening', 'Kerry Washington', 'Alexandria M. Salling']",7.7,False,125
+Imaginary Heroes,2004,"Comedy, Drama",Dan Harris,"['Sigourney Weaver', 'Jeff Daniels', 'Emile Hirsch', 'Michelle Williams']",6.3,False,111
+Thanks for Sharing,2012,"Comedy, Drama, Romance",Stuart Blumberg,"['Mark Ruffalo', 'Tim Robbins', 'Gwyneth Paltrow', 'Josh Gad']",7.4,False,112
+Louder Than Bombs,2015,Drama,Joachim Trier,"['Jesse Eisenberg', 'Gabriel Byrne', 'Isabelle Huppert', 'Devin Druid']",7.3,False,109
+Fried Green Tomatoes,1991,Drama,Jon Avnet,"['Kathy Bates', 'Jessica Tandy', 'Mary Stuart Masterson', 'Mary-Louise Parker']",6.2,False,130
+Secret in Their Eyes,2015,"Crime, Drama, Mystery",Billy Ray,"['Chiwetel Ejiofor', 'Nicole Kidman', 'Julia Roberts', 'Dean Norris']",6.3,False,111
+Welcome to the Dollhouse,1995,"Comedy, Drama",Todd Solondz,"['Heather Matarazzo', 'Christina Brucato', 'Victoria Davis', 'Christina Vidal']",6.2,False,88
+Manderlay,2005,Drama,Lars von Trier,"['Bryce Dallas Howard', 'Isaach De Bankolé', 'Danny Glover', 'Willem Dafoe']",6.9,False,139
+Maps to the Stars,2014,"Comedy, Drama",David Cronenberg,"['Julianne Moore', 'Mia Wasikowska', 'Robert Pattinson', 'John Cusack']",7.3,False,111
+Before I Go to Sleep,2014,"Drama, Horror, Mystery",Rowan Joffe,"['Nicole Kidman', 'Colin Firth', 'Mark Strong', 'Anne-Marie Duff']",7.1,False,92
+Prime,2005,"Comedy, Drama, Romance",Ben Younger,"['Uma Thurman', 'Meryl Streep', 'Bryan Greenberg', 'Jon Abrahams']",7.5,False,105
+Triangle,2009,"Fantasy, Mystery, Thriller",Christopher Smith,"['Melissa George', 'Joshua McIvor', 'Jack Taylor', 'Michael Dorman']",7.1,False,99
+Blue Jasmine,2013,Drama,Woody Allen,"['Cate Blanchett', 'Alec Baldwin', 'Peter Sarsgaard', 'Sally Hawkins']",6.9,False,98
+The Kings of Summer,2013,"Adventure, Comedy, Drama",Jordan Vogt-Roberts,"['Nick Robinson', 'Gabriel Basso', 'Moises Arias', 'Nick Offerman']",6.7,False,95
+The Painted Veil,2006,"Drama, Romance",John Curran,"['Naomi Watts', 'Edward Norton', 'Liev Schreiber', 'Catherine An']",6.4,False,125
+Wild,2014,"Biography, Drama",Jean-Marc Vallée,"['Reese Witherspoon', 'Laura Dern', 'Gaby Hoffmann', 'Michiel Huisman']",7.4,False,115
+Warm Bodies,2013,"Comedy, Horror, Romance",Jonathan Levine,"['Nicholas Hoult', 'Teresa Palmer', 'John Malkovich', 'Analeigh Tipton']",6.5,False,98
+Cidade de Deus,2002,"Crime, Drama",Fernando Meirelles,"['Kátia Lund', 'Alexandre Rodrigues', 'Leandro Firmino', 'Matheus Nachtergaele', 'Phellipe Haagensen']",8.6,False,130
+Mr. Nobody,2009,"Drama, Fantasy, Romance",Jaco Van Dormael,"['Jared Leto', 'Sarah Polley', 'Diane Kruger', 'Linh Dan Pham']",7.8,False,141
+Hard Candy,2005,"Drama, Thriller",David Slade,"['Patrick Wilson', 'Ellen Page', 'Sandra Oh', 'Odessa Rae']",7.1,False,104
+Última Parada 174,2008,"Crime, Drama, Thriller",Bruno Barreto,"['Michel Gomes', 'Cris Vianna', 'Marcello Melo Jr.', 'Gabriela Luiz']",7.1,False,110
+Black Panther,2010,"Animation, Action, Adventure",Djimon Hounsou,"['Jill Scott', 'Carl Lumbly', 'Stephen Stanton']",7.2,False,79
+House of Usher,1960,"Drama, Horror",Roger Corman,"['Vincent Price', 'Mark Damon', 'Myrna Fahey', 'Harry Ellerbe']",6.2,False,137
+Gomorra,2008,"Crime, Drama",Matteo Garrone,"['Gianfelice Imparato', 'Salvatore Abbruzzese', 'Toni Servillo', 'Simone Sacchettino']",5.1,False,120
+The Stick Up Kids,2008,Drama,Hawthorne James,"['Tariq Alexander', 'Mel Jackson', 'Bryce Wilson', 'Holly Joy Gaines']",7.9,False,101
+Asunder,1999,"Drama, Romance, Thriller",Tim Reid,"['Blair Underwood', 'Debbi Morgan', 'Michael Beach', 'Marva Hicks']",6.6,False,97
+Angels with Dirty Faces,1938,"Crime, Drama, Film-Noir",Michael Curtiz,"['James Cagney', ""Pat O'Brien"", 'Humphrey Bogart', 'Ann Sheridan']",6.8,False,106
+The Roaring Twenties,1939,"Crime, Drama, Film-Noir",Raoul Walsh,"['James Cagney', 'Humphrey Bogart', 'Priscilla Lane', 'Gladys George']",7.3,False,140
+The Feast of All Saints,2001,"Drama, Romance",Peter Medak,"[""Robert Ri'chard"", 'Peter Gallagher', 'Gloria Reuben', 'Jennifer Beals']",6.8,False,103
+Gangster No. 1,2000,"Crime, Drama, Thriller",Paul McGuigan,"['Malcolm McDowell', 'David Thewlis', 'Paul Bettany', 'Saffron Burrows']",6.8,False,119
+Jerusalema,2008,"Action, Crime, Drama",Ralph Ziman,"['Rapulana Seiphemo', 'Jeffrey Zekele', 'Ronnie Nyakale', 'Shelley Meskin']",7.7,False,98
+Johnny Mad Dog,2008,"Drama, War",Jean-Stéphane Sauvaire,"['Christophe Minie', 'Daisy Victoria Vandy', 'Joseph Duo', 'Dagbeth Tweh']",8.1,False,81
+The Last Gangster,1937,"Crime, Drama, Thriller",Edward Ludwig,"['Edward G. Robinson', 'James Stewart', 'Rose Stradner', 'Lionel Stander']",7.8,False,83
+The Public Enemy,1931,"Crime, Drama",William A. Wellman,"['James Cagney', 'Jean Harlow', 'Edward Woods', 'Joan Blondell']",6.3,False,88
+Brother Orchid,1940,"Comedy, Crime, Drama",Lloyd Bacon,"['Edward G. Robinson', 'Humphrey Bogart', 'Ann Sothern', 'Donald Crisp']",3.6,False,114
+White Heat,1949,"Action, Crime, Drama",Raoul Walsh,"['James Cagney', 'Virginia Mayo', ""Edmond O'Brien"", 'Margaret Wycherly']",7.9,False,94
+Grandma's Boy,2006,Comedy,Nicholaus Goossen,"['Allen Covert', 'Linda Cardellini', 'Shirley Jones', 'Peter Dante']",6.4,False,83
+Bloody Crisis,2002,"Action, Drama, Horror",Gerald Barclay,"['Gano Grills', 'Kalimi Baxter', 'Jamel Scott', 'Olatunde Olusei']",8.3,False,108
+The Boondock Saints,1999,"Action, Crime, Thriller",Troy Duffy,"['Willem Dafoe', 'Sean Patrick Flanery', 'Norman Reedus', 'David Della Rocco']",7.1,False,106
+Powder Blue,2009,Drama,Timothy Linh Bui,"['Jessica Biel', 'Eddie Redmayne', 'Forest Whitaker', 'Ray Liotta']",6.8,False,92
+Death of a Dynasty,2003,"Musical, Comedy",Damon Dash,"['Ebon Moss-Bachrach', 'Robert Stapleton', 'Capone Lee', 'Loon']",7.5,False,95
+Lackawanna Blues,2005,"Drama, Music",George C. Wolfe,"['S. Epatha Merkerson', 'Marcus Carl Franklin', 'Yasiin Bey', 'Carmen Ejogo']",7.2,False,97
+Bowfinger,1999,Comedy,Frank Oz,"['Steve Martin', 'Eddie Murphy', 'Heather Graham', 'Christine Baranski']",7.1,False,160
+Amadeus,1984,"Biography, Drama, History",Milos Forman,"['F. Murray Abraham', 'Tom Hulce', 'Elizabeth Berridge', 'Roy Dotrice']",7.4,False,144
+Marley,2012,"Documentary, Biography, Music",Kevin Macdonald,"['Bob Marley', 'Ziggy Marley', 'Rita Marley', 'Jimmy Cliff']",6.1,False,94
+T Bone N Weasel,1992,Comedy,Lewis Teague,"['Gregory Hines', 'Christopher Lloyd', 'Ned Beatty', 'Larry Hankin']",6.6,False,98
+Cabin in the Sky,1943,"Fantasy, Musical",Vincente Minnelli,"['Busby Berkeley', 'Ethel Waters', ""Eddie 'Rochester' Anderson"", 'Lena Horne', 'Louis Armstrong']",7.5,False,93
+The Green Pastures,1936,Drama,Marc Connelly,"['William Keighley', 'Rex Ingram', 'Oscar Polk', ""Eddie 'Rochester' Anderson"", 'Frank H. Wilson']",6.9,False,90
+Siu nin Wong Fei Hung chi: Tit ma lau,1993,"Action, Crime, Drama",Woo-Ping Yuen,"['Rongguang Yu', 'Donnie Yen', 'Jean Wang', 'Sze-Man Tsang']",6.3,False,108
+Ong-bak,2003,"Action, Crime, Thriller",Prachya Pinkaew,"['Tony Jaa', 'Petchtai Wongkamlao', 'Pumwaree Yodkamol', 'Suchao Pongwilai']",5.1,False,106
+Yip Man,2008,"Action, Biography, Drama",Wilson Yip,"['Donnie Yen', 'Simon Yam', 'Siu-Wong Fan', 'Ka Tung Lam']",5.1,False,111
+Tom yum goong,2005,"Action, Crime, Drama",Prachya Pinkaew,"['Tony Jaa', 'Nathan Jones', 'Xing Jin', 'Petchtai Wongkamlao']",4.4,False,146
+Chi bi,2008,"Action, Adventure, Drama",John Woo,"['Tony Chiu-Wai Leung', 'Takeshi Kaneshiro', 'Fengyi Zhang', 'Chen Chang']",6.2,False,153
+Qi jian,2005,"Action, Adventure, Fantasy",Hark Tsui,"['Leon Lai', 'Donnie Yen', 'Charlie Yeung', 'Honglei Sun']",4.5,False,123
+Di renjie: Tong tian di guo,2010,"Action, Adventure, Drama",Hark Tsui,"['Tony Ka Fai Leung', 'Chao Deng', 'Carina Lau', 'Bingbing Li']",6.2,False,119
+Shi mian mai fu,2004,"Action, Adventure, Drama",Yimou Zhang,"['Ziyi Zhang', 'Takeshi Kaneshiro', 'Andy Lau', 'Dandan Song']",6.6,False,111
+Man cheng jin dai huang jin jia,2006,"Action, Adventure, Drama",Yimou Zhang,"['Yun-Fat Chow', 'Li Gong', 'Jay Chou', 'Ye Liu']",6.9,False,128
+Clockers,1995,"Crime, Drama, Mystery",Spike Lee,"['Harvey Keitel', 'John Turturro', 'Delroy Lindo', 'Mekhi Phifer']",7.8,False,130
+Hoodlum,1997,"Crime, Drama",Bill Duke,"['Laurence Fishburne', 'Tim Roth', 'Vanessa Williams', 'Andy Garcia']",8.1,False,94
+Nothing But Trouble,1991,Comedy,Dan Aykroyd,"['Chevy Chase', 'Dan Aykroyd', 'John Candy', 'Demi Moore']",7.2,False,84
+Foolish,1999,"Comedy, Drama",Dave Meyers,"['Eddie Griffin', 'Master P', 'Amie Petersen', 'Frank Sivero']",5.5,False,90
+Who Made the Potatoe Salad?,2006,"Comedy, Romance",Coke Daniels,"['Daphne Bloomer', 'Michael Colyar', 'Kaleem Daniels', 'DeRay Davis']",6.3,False,95
+Shottas,2002,"Action, Crime, Drama",Cess Silvera,"['Ky-Mani Marley', 'Spragga Benz', 'Louie Rankin', 'Paul Campbell']",6.8,False,90
+Rude Boy: The Jamaican Don,2003,Action,Desmond Gumbs,"['LaNease Adams', 'Nahtasha Budhi', 'Jimmy Cliff', ""John 'Ras Kidus' Cornelius""]",7.7,False,98
+Third World Cop,1999,"Action, Drama, Thriller",Chris Browne,"['Paul Campbell', 'Mark Danvers', 'Carl Bradshaw', ""Winston 'Bello' Bell""]",7.4,False,99
+Candyman,1992,"Horror, Thriller",Bernard Rose,"['Virginia Madsen', 'Xander Berkeley', 'Tony Todd', 'Kasi Lemmons']",7.2,False,115
+L'amant,1992,"Biography, Drama, Romance",Jean-Jacques Annaud,"['Jane March', 'Tony Ka Fai Leung', 'Frédérique Meininger', 'Arnaud Giovaninetti']",6.4,False,128
+Lat sau san taam,1992,"Action, Crime, Thriller",John Woo,"['Yun-Fat Chow', 'Tony Chiu-Wai Leung', 'Teresa Mo', 'Philip Chan']",5.8,False,115
+Tropa de Elite,2007,"Action, Crime, Drama",José Padilha,"['Wagner Moura', 'André Ramiro', 'Caio Junqueira', 'Milhem Cortaz']",6.3,False,125
+The Shawshank Redemption,1994,Drama,Frank Darabont,"['Tim Robbins', 'Morgan Freeman', 'Bob Gunton', 'William Sadler']",9.3,False,142
+The Godfather,1972,"Crime, Drama",Francis Ford Coppola,"['Marlon Brando', 'Al Pacino', 'James Caan', 'Diane Keaton']",9.2,False,175
+The Dark Knight,2008,"Action, Crime, Drama",Christopher Nolan,"['Christian Bale', 'Heath Ledger', 'Aaron Eckhart', 'Michael Caine']",8.9,False,152
+The Godfather: Part II,1974,"Crime, Drama",Francis Ford Coppola,"['Al Pacino', 'Robert De Niro', 'Robert Duvall', 'Diane Keaton']",8.9,False,202
+Pulp Fiction,1994,"Crime, Drama",Quentin Tarantino,"['John Travolta', 'Uma Thurman', 'Samuel L. Jackson', 'Bruce Willis']",8.9,False,154
+Schindler's List,1993,"Biography, Drama, History",Steven Spielberg,"['Liam Neeson', 'Ralph Fiennes', 'Ben Kingsley', 'Caroline Goodall']",8.9,False,195
+The Lord of the Rings: The Return of the King,2003,"Adventure, Drama, Fantasy",Peter Jackson,"['Elijah Wood', 'Viggo Mortensen', 'Ian McKellen', 'Orlando Bloom']",8.8,False,201
+12 Angry Men,1957,Drama,Sidney Lumet,"['Henry Fonda', 'Lee J. Cobb', 'Martin Balsam', 'John Fiedler']",8.8,False,96
+"Il buono, il brutto, il cattivo",1966,Western,Sergio Leone,"['Clint Eastwood', 'Eli Wallach', 'Lee Van Cleef', 'Aldo Giuffrè']",8.8,False,161
+Forrest Gump,1994,"Drama, Romance",Robert Zemeckis,"['Tom Hanks', 'Robin Wright', 'Gary Sinise', 'Sally Field']",8.8,False,142
+Inception,2010,"Action, Adventure, Sci-Fi",Christopher Nolan,"['Leonardo DiCaprio', 'Joseph Gordon-Levitt', 'Ellen Page', 'Ken Watanabe']",8.8,False,148
+The Lord of the Rings: The Fellowship of the Ring,2001,"Action, Adventure, Drama",Peter Jackson,"['Elijah Wood', 'Ian McKellen', 'Orlando Bloom', 'Sean Bean']",8.4,False,178
+Fight Club,1999,Drama,David Fincher,"['Brad Pitt', 'Edward Norton', 'Meat Loaf', 'Zach Grenier']",8.7,False,139
+Dangal,2016,"Action, Biography, Drama",Nitesh Tiwari,"['Aamir Khan', 'Sakshi Tanwar', 'Fatima Sana Shaikh', 'Sanya Malhotra']",8.6,False,161
+Star Wars: Episode V - The Empire Strikes Back,1980,"Action, Adventure, Fantasy",Irvin Kershner,"['Mark Hamill', 'Harrison Ford', 'Carrie Fisher', 'Billy Dee Williams']",8.7,False,124
+Star Wars,1977,"Action, Adventure, Fantasy",George Lucas,"['Mark Hamill', 'Harrison Ford', 'Carrie Fisher', 'Alec Guinness']",8.7,False,121
+The Matrix,1999,"Action, Sci-Fi",Lana Wachowski,"['Lilly Wachowski', 'Keanu Reeves', 'Laurence Fishburne', 'Carrie-Anne Moss', 'Hugo Weaving']",8.7,False,136
+Goodfellas,1990,"Biography, Crime, Drama",Martin Scorsese,"['Robert De Niro', 'Ray Liotta', 'Joe Pesci', 'Lorraine Bracco']",8.6,False,146
+One Flew Over the Cuckoo's Nest,1975,Drama,Milos Forman,"['Jack Nicholson', 'Louise Fletcher', 'Will Sampson', 'Michael Berryman']",8.7,False,133
+Cidade de Deus,2002,"Crime, Drama",Fernando Meirelles,"['Kátia Lund', 'Alexandre Rodrigues', 'Leandro Firmino', 'Matheus Nachtergaele', 'Phellipe Haagensen']",8.6,False,130
+The Lord of the Rings: The Two Towers,2002,"Adventure, Drama, Fantasy",Peter Jackson,"['Elijah Wood', 'Ian McKellen', 'Viggo Mortensen', 'Orlando Bloom']",8.6,False,179
+Shichinin no samurai,1954,"Action, Adventure, Drama",Akira Kurosawa,"['Toshirô Mifune', 'Takashi Shimura', 'Keiko Tsushima', 'Yukiko Shimazaki']",8.4,False,207
+Interstellar,2014,"Adventure, Drama, Sci-Fi",Christopher Nolan,"['Matthew McConaughey', 'Anne Hathaway', 'Jessica Chastain', 'Mackenzie Foy']",8.6,False,169
+Kimi no na wa.,2016,"Animation, Drama, Fantasy",Makoto Shinkai,"['Ryûnosuke Kamiki', 'Mone Kamishiraishi', 'Ryô Narita', 'Aoi Yûki']",8.5,False,106
+The Silence of the Lambs,1991,"Crime, Drama, Thriller",Jonathan Demme,"['Jodie Foster', 'Anthony Hopkins', 'Lawrence A. Bonney', 'Kasi Lemmons']",8.6,False,118
+Léon,1994,"Action, Crime, Drama",Luc Besson,"['Jean Reno', 'Gary Oldman', 'Natalie Portman', 'Danny Aiello']",8.6,False,110
+Se7en,1995,"Crime, Drama, Mystery",David Fincher,"['Morgan Freeman', 'Brad Pitt', 'Kevin Spacey', 'Andrew Kevin Walker']",8.5,False,127
+Saving Private Ryan,1998,"Drama, War",Steven Spielberg,"['Tom Hanks', 'Matt Damon', 'Tom Sizemore', 'Edward Burns']",8.6,False,169
+The Usual Suspects,1995,"Crime, Mystery, Thriller",Bryan Singer,"['Kevin Spacey', 'Gabriel Byrne', 'Chazz Palminteri', 'Stephen Baldwin']",8.6,False,106
+Sen to Chihiro no kamikakushi,2001,"Animation, Adventure, Family",Hayao Miyazaki,"['Daveigh Chase', 'Suzanne Pleshette', 'Miyu Irino', 'Rumi Hiiragi']",8.5,False,125
+La vita è bella,1997,"Comedy, Drama, Romance",Roberto Benigni,"['Roberto Benigni', 'Nicoletta Braschi', 'Giorgio Cantarini', 'Giustino Durano']",8.5,False,116
+The Intouchables,2011,"Biography, Comedy, Drama",Olivier Nakache,"['Éric Toledano', 'François Cluzet', 'Omar Sy', 'Anne Le Ny', 'Audrey Fleurot']",8.6,False,112
+Once Upon a Time in the West,1968,Western,Sergio Leone,"['Henry Fonda', 'Charles Bronson', 'Claudia Cardinale', 'Jason Robards']",8.5,False,165
+It's a Wonderful Life,1946,"Drama, Family, Fantasy",Frank Capra,"['James Stewart', 'Donna Reed', 'Lionel Barrymore', 'Thomas Mitchell']",8.3,False,130
+City Lights,1931,"Comedy, Drama, Romance",Charles Chaplin,"['Charles Chaplin', 'Virginia Cherrill', 'Florence Lee', 'Harry Myers']",8.4,False,87
+Babam ve Oglum,2005,"Drama, Family",Çagan Irmak,"['Çetin Tekindor', 'Fikret Kuskan', 'Hümeyra', 'Ege Tanman']",8.5,False,108
+Alien,1979,"Horror, Sci-Fi",Ridley Scott,"['Sigourney Weaver', 'Tom Skerritt', 'John Hurt', 'Veronica Cartwright']",8.5,False,117
+The Prestige,2006,"Drama, Mystery, Sci-Fi",Christopher Nolan,"['Christian Bale', 'Hugh Jackman', 'Scarlett Johansson', 'Michael Caine']",8.4,False,130
+Gladiator,2000,"Action, Adventure, Drama",Ridley Scott,"['Russell Crowe', 'Joaquin Phoenix', 'Connie Nielsen', 'Oliver Reed']",8.5,False,155
+The Dark Knight Rises,2012,"Action, Adventure",Christopher Nolan,"['Christian Bale', 'Tom Hardy', 'Anne Hathaway', 'Gary Oldman']",8.4,False,164
+Whiplash,2014,"Drama, Music",Damien Chazelle,"['Miles Teller', 'J.K. Simmons', 'Melissa Benoist', 'Paul Reiser']",8.6,False,106
+Memento,2000,"Mystery, Thriller",Christopher Nolan,"['Guy Pearce', 'Carrie-Anne Moss', 'Joe Pantoliano', 'Mark Boone Junior']",8.4,False,113
+The Green Mile,1999,"Crime, Drama, Fantasy",Frank Darabont,"['Tom Hanks', 'Michael Clarke Duncan', 'David Morse', 'Bonnie Hunt']",8.5,False,189
+Apocalypse Now,1979,"Drama, Mystery, War",Francis Ford Coppola,"['Martin Sheen', 'Marlon Brando', 'Robert Duvall', 'Frederic Forrest']",8.4,False,147
+Psycho,1960,"Horror, Mystery, Thriller",Alfred Hitchcock,"['Anthony Perkins', 'Janet Leigh', 'Vera Miles', 'John Gavin']",8.5,False,109
+Raiders of the Lost Ark,1981,"Action, Adventure",Steven Spielberg,"['Harrison Ford', 'Karen Allen', 'Paul Freeman', 'John Rhys-Davies']",8.5,False,115
+Terminator 2: Judgment Day,1991,"Action, Sci-Fi",James Cameron,"['Arnold Schwarzenegger', 'Linda Hamilton', 'Edward Furlong', 'Robert Patrick']",8.4,False,137
+The Pianist,2002,"Biography, Drama, Music",Roman Polanski,"['Adrien Brody', 'Thomas Kretschmann', 'Frank Finlay', 'Emilia Fox']",8.4,False,150
+The Lives of Others,2006,"Drama, Mystery, Thriller",Florian Henckel von Donnersmarck,"['Ulrich Mühe', 'Martina Gedeck', 'Sebastian Koch', 'Ulrich Tukur']",8.5,False,137
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1964,Comedy,Stanley Kubrick,"['Peter Sellers', 'George C. Scott', 'Sterling Hayden', 'Keenan Wynn']",8.5,False,95
+American History X,1998,Drama,Tony Kaye,"['Edward Norton', 'Edward Furlong', ""Beverly D'Angelo"", 'Jennifer Lien']",8.2,False,119
+Back to the Future,1985,"Adventure, Comedy, Sci-Fi",Robert Zemeckis,"['Michael J. Fox', 'Christopher Lloyd', 'Lea Thompson', 'Crispin Glover']",8.2,False,116
+Casino,1995,"Crime, Drama",Martin Scorsese,"['Robert De Niro', 'Sharon Stone', 'Joe Pesci', 'James Woods']",8.1,False,178
+Die Hard,1988,"Action, Thriller",John McTiernan,"['Bruce Willis', 'Alan Rickman', 'Bonnie Bedelia', 'Reginald VelJohnson']",8.1,False,132
+The Elephant Man,1980,"Biography, Drama",David Lynch,"['Anthony Hopkins', 'John Hurt', 'Anne Bancroft', 'John Gielgud']",8.1,False,124
+Finding Nemo,2003,"Animation, Adventure, Comedy",Andrew Stanton,"['Lee Unkrich', 'Albert Brooks', 'Ellen DeGeneres', 'Alexander Gould', 'Willem Dafoe']",7.6,False,100
+Gran Torino,2008,Drama,Clint Eastwood,"['Clint Eastwood', 'Bee Vang', 'Christopher Carley', 'Ahney Her']",7.6,False,116
+Harry Potter and the Sorcerer's Stone,2001,"Adventure, Family, Fantasy",Chris Columbus,"['Daniel Radcliffe', 'Rupert Grint', 'Richard Harris', 'Maggie Smith']",8.1,False,152
+Indiana Jones and the Temple of Doom,1984,"Action, Adventure",Steven Spielberg,"['Harrison Ford', 'Kate Capshaw', 'Ke Huy Quan', 'Amrish Puri']",8.1,False,118
+Jurassic Park,1993,"Action, Adventure, Sci-Fi",Steven Spielberg,"['Sam Neill', 'Laura Dern', 'Jeff Goldblum', 'Richard Attenborough']",8.1,False,127
+Kill Bill: Vol. 1,2003,"Action, Crime, Thriller",Quentin Tarantino,"['Uma Thurman', 'David Carradine', 'Daryl Hannah', 'Michael Madsen']",7.9,False,111
+Logan,2017,"Action, Drama, Sci-Fi",James Mangold,"['Hugh Jackman', 'Patrick Stewart', 'Dafne Keen', 'Boyd Holbrook']",7.7,False,137
+"Monsters, Inc.",2001,"Animation, Adventure, Comedy",Pete Docter,"['David Silverman', 'Lee Unkrich', 'Billy Crystal', 'John Goodman', 'Mary Gibbs', 'Steve Buscemi']",6.6,False,92
+Night of the Living Dead,1968,Horror,George A. Romero,"['Duane Jones', ""Judith O'Dea"", 'Karl Hardman', 'Marilyn Eastman']",8.1,False,96
+Ocean's Eleven,2001,"Crime, Thriller",Steven Soderbergh,"['George Clooney', 'Brad Pitt', 'Julia Roberts', 'Matt Damon']",7.8,False,116
+Pirates of the Caribbean: The Curse of the Black Pearl,2003,"Action, Adventure, Fantasy",Gore Verbinski,"['Johnny Depp', 'Geoffrey Rush', 'Orlando Bloom', 'Keira Knightley']",7.8,False,143
+Quantum of Solace,2008,"Action, Adventure, Thriller",Marc Forster,"['Daniel Craig', 'Olga Kurylenko', 'Mathieu Amalric', 'Judi Dench']",8.2,False,106
+Rocky,1976,"Drama, Sport",John G. Avildsen,"['Sylvester Stallone', 'Talia Shire', 'Burt Young', 'Carl Weathers']",8.2,False,120
+Shrek,2001,"Animation, Adventure, Comedy",Andrew Adamson,"['Vicky Jenson', 'Mike Myers', 'Eddie Murphy', 'Cameron Diaz', 'John Lithgow']",8.4,False,90
+Taken,2008,"Action, Thriller",Pierre Morel,"['Liam Neeson', 'Maggie Grace', 'Famke Janssen', 'Leland Orser']",7.4,False,90
+Up,2009,"Animation, Adventure, Comedy",Pete Docter,"['Bob Peterson', 'Edward Asner', 'Jordan Nagai', 'John Ratzenberger', 'Christopher Plummer']",7.7,False,96
+V for Vendetta,2005,"Action, Drama, Sci-Fi",James McTeigue,"['Hugo Weaving', 'Natalie Portman', 'Rupert Graves', 'Stephen Rea']",8.5,False,132
+WALL·E,2008,"Animation, Adventure, Family",Andrew Stanton,"['Ben Burtt', 'Elissa Knight', 'Jeff Garlin', 'Fred Willard']",8.4,False,98
+X-Men,2000,"Action, Adventure, Sci-Fi",Bryan Singer,"['Patrick Stewart', 'Hugh Jackman', 'Ian McKellen', 'Famke Janssen']",8.4,False,104
+Young Frankenstein,1974,Comedy,Mel Brooks,"['Gene Wilder', 'Madeline Kahn', 'Marty Feldman', 'Peter Boyle']",8.5,False,106
+Zulu,1964,"Drama, History, War",Cy Endfield,"['Stanley Baker', 'Jack Hawkins', 'Ulla Jacobsson', 'James Booth']",8.5,False,138
+Casablanca,1942,"Drama, Romance, War",Michael Curtiz,"['Humphrey Bogart', 'Ingrid Bergman', 'Paul Henreid', 'Claude Rains']",8.4,False,102
+Rear Window,1954,"Mystery, Thriller",Alfred Hitchcock,"['James Stewart', 'Grace Kelly', 'Wendell Corey', 'Thelma Ritter']",8.5,False,112
+Sunset Blvd.,1950,"Drama, Film-Noir",Billy Wilder,"['William Holden', 'Gloria Swanson', 'Erich von Stroheim', 'Nancy Olson']",8.4,False,110
+Hotaru no haka,1988,"Animation, Drama, War",Isao Takahata,"['Tsutomu Tatsumi', 'Ayano Shiraishi', 'Akemi Yamaguchi', 'Yoshiko Shinohara']",8.4,False,89
+Nuovo Cinema Paradiso,1988,Drama,Giuseppe Tornatore,"['Philippe Noiret', 'Enzo Cannavale', 'Antonella Attili', 'Isa Danieli']",8.3,False,155
+The Great Dictator,1940,"Comedy, Drama, War",Charles Chaplin,"['Charles Chaplin', 'Paulette Goddard', 'Jack Oakie', 'Reginald Gardiner']",8.4,False,125
+Modern Times,1936,"Comedy, Drama, Family",Charles Chaplin,"['Charles Chaplin', 'Paulette Goddard', 'Henry Bergman', 'Tiny Sandford']",8.3,False,87
+Paths of Glory,1957,"Drama, War",Stanley Kubrick,"['Kirk Douglas', 'Ralph Meeker', 'Adolphe Menjou', 'George Macready']",8.4,False,88
+Taare Zameen Par,2007,"Drama, Family",Aamir Khan,"['Amole Gupte', 'Darsheel Safary', 'Aamir Khan', 'Tisca Chopra', 'Vipin Sharma']",8.3,False,165
+Aliens,1986,"Action, Adventure, Sci-Fi",James Cameron,"['Sigourney Weaver', 'Michael Biehn', 'Carrie Henn', 'Paul Reiser']",8.3,False,137
+Django Unchained,2012,"Drama, Western",Quentin Tarantino,"['Jamie Foxx', 'Christoph Waltz', 'Leonardo DiCaprio', 'Kerry Washington']",8.4,False,165
+American Beauty,1999,Drama,Sam Mendes,"['Kevin Spacey', 'Annette Bening', 'Thora Birch', 'Wes Bentley']",8.3,False,122
+The Shining,1980,"Drama, Horror",Stanley Kubrick,"['Jack Nicholson', 'Shelley Duvall', 'Danny Lloyd', 'Scatman Crothers']",8.3,False,146
+Requiem for a Dream,2000,Drama,Darren Aronofsky,"['Ellen Burstyn', 'Jared Leto', 'Jennifer Connelly', 'Marlon Wayans']",8.3,False,102
+Braveheart,1995,"Biography, Drama, History",Mel Gibson,"['Mel Gibson', 'Sophie Marceau', 'Patrick McGoohan', 'Angus Macfadyen']",8.4,False,178
+Oldeuboi,2003,"Action, Drama, Mystery",Chan-wook Park,"['Min-sik Choi', 'Ji-Tae Yoo', 'Hye-jeong Kang', 'Dae-han Ji']",8.4,False,101
+Star Wars: Episode VI - Return of the Jedi,1983,"Action, Adventure, Fantasy",Richard Marquand,"['Mark Hamill', 'Harrison Ford', 'Carrie Fisher', 'Billy Dee Williams']",8.4,False,131
+North by Northwest,1959,"Adventure, Mystery, Thriller",Alfred Hitchcock,"['Cary Grant', 'Eva Marie Saint', 'James Mason', 'Jessie Royce Landis']",8.3,False,136
+Amélie,2001,"Comedy, Romance",Jean-Pierre Jeunet,"['Audrey Tautou', 'Mathieu Kassovitz', 'Rufus', 'Lorella Cravotta']",8.3,False,122
+Das Boot,1981,"Adventure, Drama, Thriller",Wolfgang Petersen,"['Jürgen Prochnow', 'Herbert Grönemeyer', 'Klaus Wennemann', 'Hubertus Bengsch']",8.3,False,149
+M - Eine Stadt sucht einen Mörder,1931,"Crime, Mystery, Thriller",Fritz Lang,"['Peter Lorre', 'Ellen Widmann', 'Inge Landgut', 'Otto Wernicke']",8.3,False,117
+Jodaeiye Nader az Simin,2011,Drama,Asghar Farhadi,"['Payman Maadi', 'Leila Hatami', 'Sareh Bayat', 'Shahab Hosseini']",8.3,False,123
+Bacheha-Ye aseman,1997,"Drama, Family, Sport",Majid Majidi,"['Mohammad Amir Naji', 'Amir Farrokh Hashemian', 'Bahare Seddiqi', 'Nafise Jafar-Mohammadi']",8.3,False,89
+Witness for the Prosecution,1957,"Crime, Drama, Film-Noir",Billy Wilder,"['Tyrone Power', 'Marlene Dietrich', 'Charles Laughton', 'Elsa Lanchester']",8.4,False,116
+Drishyam,2015,"Crime, Drama, Mystery",Nishikant Kamat,"['Ajay Devgn', 'Shriya Saran', 'Tabu', 'Rajat Kapoor']",8.2,False,163
+Eskiya,1996,"Crime, Drama, Thriller",Yavuz Turgul,"['Sener Sen', 'Ugur Yücel', 'Sermin Hürmeriç', 'Yesim Salkim']",8.3,False,128
+La La Land,2016,"Comedy, Drama, Music",Damien Chazelle,"['Ryan Gosling', 'Emma Stone', 'Rosemarie DeWitt', 'J.K. Simmons']",8.3,False,128
+Inglourious Basterds,2009,"Adventure, Drama, War",Quentin Tarantino,"['Brad Pitt', 'Diane Kruger', 'Eli Roth', 'Mélanie Laurent']",8.3,False,153
+Good Will Hunting,1997,"Drama, Romance",Gus Van Sant,"['Robin Williams', 'Matt Damon', 'Ben Affleck', 'Stellan Skarsgård']",8.3,False,126
+Snatch,2000,"Comedy, Crime",Guy Ritchie,"['Jason Statham', 'Brad Pitt', 'Benicio Del Toro', 'Dennis Farina']",8.2,False,104
+Batman Begins,2005,"Action, Adventure",Christopher Nolan,"['Christian Bale', 'Michael Caine', 'Ken Watanabe', 'Liam Neeson']",8.3,False,140
+Taxi Driver,1976,"Crime, Drama",Martin Scorsese,"['Robert De Niro', 'Jodie Foster', 'Cybill Shepherd', 'Albert Brooks']",8.3,False,114
+Eternal Sunshine of the Spotless Mind,2004,"Drama, Romance, Sci-Fi",Michel Gondry,"['Jim Carrey', 'Kate Winslet', 'Tom Wilkinson', 'Gerry Robert Byrne']",8.3,False,108
+A Clockwork Orange,1971,"Crime, Drama, Sci-Fi",Stanley Kubrick,"['Malcolm McDowell', 'Patrick Magee', 'Michael Bates', 'Warren Clarke']",8.3,False,136
+Reservoir Dogs,1992,"Crime, Drama, Thriller",Quentin Tarantino,"['Harvey Keitel', 'Tim Roth', 'Michael Madsen', 'Chris Penn']",8.3,False,99
+Full Metal Jacket,1987,"Drama, War",Stanley Kubrick,"['Matthew Modine', 'R. Lee Ermey', ""Vincent D'Onofrio"", 'Adam Baldwin']",8.3,False,116
+2001: A Space Odyssey,1968,"Adventure, Sci-Fi",Stanley Kubrick,"['Keir Dullea', 'Gary Lockwood', 'William Sylvester', 'Daniel Richter']",8.2,False,149
+Der Untergang,2004,"Biography, Drama, History",Oliver Hirschbiegel,"['Bruno Ganz', 'Alexandra Maria Lara', 'Ulrich Matthes', 'Juliane Köhler']",8.3,False,156
+Jagten,2012,Drama,Thomas Vinterberg,"['Mads Mikkelsen', 'Thomas Bo Larsen', 'Annika Wedderkopp', 'Lasse Fogelstrøm']",8.2,False,115
+L.A. Confidential,1997,"Crime, Drama, Mystery",Curtis Hanson,"['Kevin Spacey', 'Russell Crowe', 'Guy Pearce', 'Kim Basinger']",7.6,False,138
+American Psycho,2000,"Comedy, Crime, Drama",Mary Harron,"['Christian Bale', 'Justin Theroux', 'Josh Lucas', 'Bill Sage']",8.5,False,101
+Beauty and the Beast,1991,"Animation, Family, Fantasy",Gary Trousdale,"['Kirk Wise', ""Paige O'Hara"", 'Robby Benson', 'Jesse Corti', 'Rex Everhart']",8.1,False,84
+The Departed,2006,"Crime, Drama, Thriller",Martin Scorsese,"['Leonardo DiCaprio', 'Matt Damon', 'Jack Nicholson', 'Mark Wahlberg']",7.4,False,151
+Fargo,1996,"Crime, Drama, Thriller",Joel Coen,"['Ethan Coen', 'William H. Macy', 'Frances McDormand', 'Steve Buscemi', 'Peter Stormare']",8.5,False,98
+The Jungle Book,2016,"Adventure, Drama, Family",Jon Favreau,"['Neel Sethi', 'Bill Murray', 'Ben Kingsley', 'Idris Elba']",7.8,False,106
+The Lion King,1994,"Animation, Adventure, Drama",Roger Allers,"['Rob Minkoff', 'Matthew Broderick', 'Jeremy Irons', 'James Earl Jones', 'Whoopi Goldberg']",8.3,False,88
+Mary Poppins,1964,"Comedy, Family, Fantasy",Robert Stevenson,"['Julie Andrews', 'Dick Van Dyke', 'David Tomlinson', 'Glynis Johns']",8.2,False,139
+Planet of the Apes,1968,"Adventure, Sci-Fi",Franklin J. Schaffner,"['Charlton Heston', 'Roddy McDowall', 'Kim Hunter', 'Maurice Evans']",8.3,False,112
+Scarface,1983,"Crime, Drama",Brian De Palma,"['Al Pacino', 'Michelle Pfeiffer', 'Steven Bauer', 'Mary Elizabeth Mastrantonio']",8.3,False,170
+The Wolf of Wall Street,2013,"Biography, Crime, Drama",Martin Scorsese,"['Leonardo DiCaprio', 'Jonah Hill', 'Margot Robbie', 'Matthew McConaughey']",8.2,False,180
+Toy Story,1995,"Animation, Adventure, Comedy",John Lasseter,"['Tom Hanks', 'Tim Allen', 'Don Rickles', 'Jim Varney']",8.2,False,81
+Amadeus,1984,"Biography, Drama, History",Milos Forman,"['F. Murray Abraham', 'Tom Hulce', 'Elizabeth Berridge', 'Roy Dotrice']",8.3,False,160
+To Kill a Mockingbird,1962,"Crime, Drama",Robert Mulligan,"['Gregory Peck', 'John Megna', 'Frank Overton', 'Rosemary Murphy']",8.3,False,129
+Monty Python and the Holy Grail,1975,"Adventure, Comedy, Fantasy",Terry Gilliam,"['Terry Jones', 'Graham Chapman', 'John Cleese', 'Eric Idle', 'Terry Gilliam']",8.2,False,91
+Lawrence of Arabia,1962,"Adventure, Biography, Drama",David Lean,"[""Peter O'Toole"", 'Alec Guinness', 'Anthony Quinn', 'Jack Hawkins']",8.3,False,228
+Toy Story 3,2010,"Animation, Adventure, Comedy",Lee Unkrich,"['Tom Hanks', 'Tim Allen', 'Joan Cusack', 'Ned Beatty']",8.3,False,103
+Some Like It Hot,1959,"Comedy, Music, Romance",Billy Wilder,"['Marilyn Monroe', 'Tony Curtis', 'Jack Lemmon', 'George Raft']",8.3,False,121
+Singin' in the Rain,1952,"Comedy, Musical, Romance",Stanley Donen,"['Gene Kelly', 'Gene Kelly', ""Donald O'Connor"", 'Debbie Reynolds', 'Jean Hagen']",8.3,False,103
+Idi i smotri,1985,"Drama, War",Elem Klimov,"['Aleksey Kravchenko', 'Olga Mironova', 'Liubomiras Laucevicius', 'Vladas Bagdonas']",8.1,False,142
+Metropolis,1927,"Drama, Sci-Fi",Fritz Lang,"['Brigitte Helm', 'Alfred Abel', 'Gustav Fröhlich', 'Rudolf Klein-Rogge']",8.3,False,153
+The Sting,1973,"Comedy, Crime, Drama",George Roy Hill,"['Paul Newman', 'Robert Redford', 'Robert Shaw', 'Charles Durning']",8.3,False,129
+The Third Man,1949,"Film-Noir, Mystery, Thriller",Carol Reed,"['Orson Welles', 'Joseph Cotten', 'Alida Valli', 'Trevor Howard']",8.2,False,104
+Per qualche dollaro in più,1965,Western,Sergio Leone,"['Clint Eastwood', 'Lee Van Cleef', 'Gian Maria Volontè', 'Mara Krupp']",8.2,False,132
+The Apartment,1960,"Comedy, Drama, Romance",Billy Wilder,"['Jack Lemmon', 'Shirley MacLaine', 'Fred MacMurray', 'Ray Walston']",8.2,False,125
+Judgment at Nuremberg,1961,"Drama, War",Stanley Kramer,"['Spencer Tracy', 'Burt Lancaster', 'Richard Widmark', 'Marlene Dietrich']",8.3,False,179
+All About Eve,1950,Drama,Joseph L. Mankiewicz,"['Bette Davis', 'Anne Baxter', 'George Sanders', 'Celeste Holm']",8.2,False,138
+Rang De Basanti,2006,"Comedy, Drama",Rakeysh Omprakash Mehra,"['Aamir Khan', 'Soha Ali Khan', 'Siddharth', 'Sharman Joshi']",8.3,False,167
+Double Indemnity,1944,"Crime, Drama, Film-Noir",Billy Wilder,"['Fred MacMurray', 'Barbara Stanwyck', 'Edward G. Robinson', 'Byron Barr']",8.2,False,107
+Rashômon,1950,"Crime, Drama, Mystery",Akira Kurosawa,"['Toshirô Mifune', 'Machiko Kyô', 'Masayuki Mori', 'Takashi Shimura']",8.2,False,88
+Ladri di biciclette,1948,Drama,Vittorio De Sica,"['Lamberto Maggiorani', 'Enzo Staiola', 'Lianella Carell', 'Elena Altieri']",8.2,False,89
+Andrei Rublev,1966,"Biography, Drama, History",Andrei Tarkovsky,"['Anatoliy Solonitsyn', 'Ivan Lapikov', 'Nikolay Grinko', 'Nikolay Sergeev']",8.2,False,205
+Yôjinbô,1961,"Action, Drama, Thriller",Akira Kurosawa,"['Toshirô Mifune', 'Eijirô Tôno', 'Tatsuya Nakadai', 'Yôko Tsukasa']",8.3,False,110
+Gangs of Wasseypur,2012,"Action, Comedy, Crime",Anurag Kashyap,"['Manoj Bajpayee', 'Richa Chadha', 'Nawazuddin Siddiqui', 'Tigmanshu Dhulia']",8.3,False,321
+The Treasure of the Sierra Madre,1948,"Adventure, Drama, Western",John Huston,"['Humphrey Bogart', 'Walter Huston', 'Tim Holt', 'Bruce Bennett']",8.1,False,126
+The Kid,1921,"Comedy, Drama, Family",Charles Chaplin,"['Charles Chaplin', 'Edna Purviance', 'Jackie Coogan', 'Carl Miller']",8.1,False,68
+Ikiru,1952,Drama,Akira Kurosawa,"['Takashi Shimura', 'Nobuo Kaneko', ""Shin'ichi Himori"", 'Haruo Tanaka']",8.1,False,143
+A Wednesday,2008,"Crime, Drama, Mystery",Neeraj Pandey,"['Anupam Kher', 'Naseeruddin Shah', 'Jimmy Sheirgill', 'Aamir Bashir']",8.2,False,104
+Sunrise: A Song of Two Humans,1927,"Drama, Romance",F.W. Murnau,"[""George O'Brien"", 'Janet Gaynor', 'Margaret Livingston', 'Bodil Rosing']",8.1,False,94
+La passion de Jeanne d'Arc,1928,"Biography, Drama, History",Carl Theodor Dreyer,"['Maria Falconetti', 'Eugene Silvain', 'André Berley', 'Maurice Schutz']",8.2,False,110
+Sholay,1975,"Action, Adventure, Comedy",Ramesh Sippy,"['Sanjeev Kumar', 'Dharmendra', 'Amitabh Bachchan', 'Amjad Khan']",8.2,False,204
+Munna Bhai M.B.B.S.,2003,"Comedy, Drama, Musical",Rajkumar Hirani,"['Sanjay Dutt', 'Arshad Warsi', 'Gracy Singh', 'Sunil Dutt']",8.1,False,156
+Andaz Apna Apna,1994,"Action, Comedy, Family",Rajkumar Santoshi,"['Aamir Khan', 'Salman Khan', 'Raveena Tandon', 'Karisma Kapoor']",8.1,False,160
+Hera Pheri,2000,"Action, Comedy, Crime",Priyadarshan,"['Akshay Kumar', 'Sunil Shetty', 'Paresh Rawal', 'Tabu']",8.1,False,156
+Hacksaw Ridge,2016,"Biography, Drama, History",Mel Gibson,"['Andrew Garfield', 'Sam Worthington', 'Luke Bracey', 'Teresa Palmer']",8.1,False,139
+Trainspotting,1996,Drama,Danny Boyle,"['Ewan McGregor', 'Ewen Bremner', 'Jonny Lee Miller', 'Kevin McKidd']",8.1,False,93
+Blade Runner,1982,"Action, Sci-Fi, Thriller",Ridley Scott,"['Harrison Ford', 'Rutger Hauer', 'Sean Young', 'Edward James Olmos']",8.2,False,117
+Room,2015,"Drama, Thriller",Lenny Abrahamson,"['Brie Larson', 'Jacob Tremblay', 'Sean Bridgers', 'Wendy Crewson']",8.1,False,118
+Gone with the Wind,1939,"Drama, History, Romance",Victor Fleming,"['George Cukor', 'Sam Wood', 'Clark Gable', 'Vivien Leigh', 'Thomas Mitchell', ""Barbara O'Neil""]",8.2,False,238
+Heat,1995,"Crime, Drama, Thriller",Michael Mann,"['Al Pacino', 'Robert De Niro', 'Val Kilmer', 'Jon Voight']",8.2,False,170
+The Big Lebowski,1998,"Comedy, Crime, Sport",Joel Coen,"['Ethan Coen', 'Jeff Bridges', 'John Goodman', 'Julianne Moore', 'Steve Buscemi']",8.2,False,117
+Warrior,2011,"Drama, Sport",Gavin O'Connor,"['Tom Hardy', 'Nick Nolte', 'Joel Edgerton', 'Jennifer Morrison']",8.2,False,140
+Unforgiven,1992,"Drama, Western",Clint Eastwood,"['Clint Eastwood', 'Gene Hackman', 'Morgan Freeman', 'Richard Harris']",8.2,False,130
+Pan's Labyrinth,2006,"Drama, Fantasy, War",Guillermo del Toro,"['Ivana Baquero', 'Ariadna Gil', 'Sergi López', 'Maribel Verdú']",8.1,False,118
+Inside Out,2015,"Animation, Adventure, Comedy",Pete Docter,"['Ronnie Del Carmen', 'Amy Poehler', 'Bill Hader', 'Lewis Black', 'Mindy Kaling']",8.1,False,95
+A Beautiful Mind,2001,"Biography, Drama",Ron Howard,"['Russell Crowe', 'Ed Harris', 'Jennifer Connelly', 'Christopher Plummer']",8.2,False,135
+The Deer Hunter,1978,"Drama, War",Michael Cimino,"['Robert De Niro', 'Christopher Walken', 'John Cazale', 'John Savage']",8.1,False,183
+The Thing,1982,"Horror, Mystery, Sci-Fi",John Carpenter,"['Kurt Russell', 'Wilford Brimley', 'Keith David', 'Richard Masur']",8.2,False,109
+"Lock, Stock and Two Smoking Barrels",1998,"Comedy, Crime",Guy Ritchie,"['Jason Flemyng', 'Dexter Fletcher', 'Nick Moran', 'Jason Statham']",8.2,False,107
+Cool Hand Luke,1967,"Crime, Drama",Stuart Rosenberg,"['Paul Newman', 'George Kennedy', 'Strother Martin', 'J.D. Cannon']",8.2,False,127
+Raging Bull,1980,"Biography, Drama, Sport",Martin Scorsese,"['Robert De Niro', 'Cathy Moriarty', 'Joe Pesci', 'Frank Vincent']",8.3,False,129
+Hauru no ugoku shiro,2004,"Animation, Adventure, Family",Hayao Miyazaki,"['Chieko Baishô', 'Takuya Kimura', 'Tatsuya Gashûin', 'Akihiro Miwa']",8.2,False,119
+El secreto de sus ojos,2009,"Drama, Mystery, Romance",Juan José Campanella,"['Ricardo Darín', 'Soledad Villamil', 'Pablo Rago', 'Carla Quevedo']",8.2,False,129
+Incendies,2010,"Drama, Mystery, War",Denis Villeneuve,"['Lubna Azabal', 'Mélissa Désormeaux-Poulin', 'Maxim Gaudette', 'Mustafa Kamel']",8.2,False,131
+Chinatown,1974,"Drama, Mystery, Thriller",Roman Polanski,"['Jack Nicholson', 'Faye Dunaway', 'John Huston', 'Perry Lopez']",8.2,False,130
+The Great Escape,1963,"Adventure, Drama, History",John Sturges,"['Steve McQueen', 'James Garner', 'Richard Attenborough', 'Charles Bronson']",8.1,False,172
+Tonari no Totoro,1988,"Animation, Family, Fantasy",Hayao Miyazaki,"['Hitoshi Takagi', 'Noriko Hidaka', 'Chika Sakamoto', 'Shigesato Itoi']",8.1,False,86
+Det sjunde inseglet,1957,"Drama, Fantasy",Ingmar Bergman,"['Max von Sydow', 'Gunnar Björnstrand', 'Bengt Ekerot', 'Nils Poppe']",8.2,False,96
+On the Waterfront,1954,"Crime, Drama, Thriller",Elia Kazan,"['Marlon Brando', 'Karl Malden', 'Lee J. Cobb', 'Rod Steiger']",8.1,False,108
+The Bridge on the River Kwai,1957,"Adventure, Drama, War",David Lean,"['William Holden', 'Alec Guinness', 'Jack Hawkins', 'Sessue Hayakawa']",8.1,False,161
+Ran,1985,"Action, Drama, War",Akira Kurosawa,"['Tatsuya Nakadai', 'Akira Terao', 'Jinpachi Nezu', 'Daisuke Ryû']",8.2,False,162
+Rebecca,1940,"Drama, Mystery, Romance",Alfred Hitchcock,"['Laurence Olivier', 'Joan Fontaine', 'George Sanders', 'Judith Anderson']",8.1,False,130
+Mary and Max,2009,"Animation, Comedy, Drama",Adam Elliot,"['Toni Collette', 'Philip Seymour Hoffman', 'Eric Bana', 'Barry Humphries']",8.1,False,92
+Dial M for Murder,1954,"Crime, Thriller",Alfred Hitchcock,"['Ray Milland', 'Grace Kelly', 'Robert Cummings', 'John Williams']",8.2,False,105
+Mr. Smith Goes to Washington,1939,"Comedy, Drama",Frank Capra,"['James Stewart', 'Jean Arthur', 'Claude Rains', 'Edward Arnold']",8.1,False,129
+It Happened One Night,1934,"Comedy, Romance",Frank Capra,"['Clark Gable', 'Claudette Colbert', 'Walter Connolly', 'Roscoe Karns']",8.2,False,105
+Smultronstället,1957,"Drama, Romance",Ingmar Bergman,"['Victor Sjöström', 'Bibi Andersson', 'Ingrid Thulin', 'Gunnar Björnstrand']",8.1,False,91
+Le notti di Cabiria,1957,Drama,Federico Fellini,"['Giulietta Masina', 'François Périer', 'Franca Marzi', 'Dorian Gray']",8.1,False,110
+Guardians of the Galaxy Vol. 2,2017,"Action, Adventure, Comedy",James Gunn,"['Chris Pratt', 'Zoe Saldana', 'Dave Bautista', 'Vin Diesel']",7.6,False,136
+Star Wars: The Force Awakens,2015,"Action, Adventure, Sci-Fi",J.J. Abrams,"['Daisy Ridley', 'John Boyega', 'Oscar Isaac', 'Domhnall Gleeson']",7.9,False,138
+Mad Max: Fury Road,2015,"Action, Adventure, Sci-Fi",George Miller,"['Tom Hardy', 'Charlize Theron', 'Nicholas Hoult', 'Zoë Kravitz']",8.1,False,120
+No Country for Old Men,2007,"Crime, Drama, Thriller",Ethan Coen,"['Joel Coen', 'Tommy Lee Jones', 'Javier Bardem', 'Josh Brolin', 'Woody Harrelson']",8.1,False,122
+Gone Girl,2014,"Drama, Mystery, Thriller",David Fincher,"['Ben Affleck', 'Rosamund Pike', 'Neil Patrick Harris', 'Tyler Perry']",8.1,False,149
+Prisoners,2013,"Crime, Drama, Mystery",Denis Villeneuve,"['Hugh Jackman', 'Jake Gyllenhaal', 'Viola Davis', 'Melissa Leo']",8.1,False,153
+What Ever Happened to Baby Jane?,1962,"Drama, Horror, Thriller",Robert Aldrich,"['Bette Davis', 'Joan Crawford', 'Victor Buono', 'Wesley Addy']",8.1,False,134
+Spotlight,2015,"Biography, Crime, Drama",Tom McCarthy,"['Mark Ruffalo', 'Michael Keaton', 'Rachel McAdams', 'Liev Schreiber']",8.1,False,129
+The Princess Bride,1987,"Adventure, Family, Fantasy",Rob Reiner,"['Cary Elwes', 'Mandy Patinkin', 'Robin Wright', 'Chris Sarandon']",8.1,False,98
+Donnie Darko,2001,"Drama, Mystery, Sci-Fi",Richard Kelly,"['Jake Gyllenhaal', 'Jena Malone', 'Mary McDonnell', 'Holmes Osborne']",8.1,False,113
+Stand by Me,1986,"Adventure, Drama",Rob Reiner,"['Wil Wheaton', 'River Phoenix', 'Corey Feldman', ""Jerry O'Connell""]",8.1,False,89
+Into the Wild,2007,"Adventure, Biography, Drama",Sean Penn,"['Emile Hirsch', 'Vince Vaughn', 'Catherine Keener', 'Marcia Gay Harden']",8.1,False,148
+The Sixth Sense,1999,"Drama, Mystery, Thriller",M. Night Shyamalan,"['Bruce Willis', 'Haley Joel Osment', 'Toni Collette', 'Olivia Williams']",8.1,False,107
+Shutter Island,2010,"Mystery, Thriller",Martin Scorsese,"['Leonardo DiCaprio', 'Emily Mortimer', 'Mark Ruffalo', 'Ben Kingsley']",8.1,False,138
+The Grand Budapest Hotel,2014,"Adventure, Comedy, Crime",Wes Anderson,"['Ralph Fiennes', 'F. Murray Abraham', 'Mathieu Amalric', 'Adrien Brody']",8.1,False,99
+The Help,2011,Drama,Tate Taylor,"['Emma Stone', 'Viola Davis', 'Octavia Spencer', 'Bryce Dallas Howard']",8.2,False,146
+There Will Be Blood,2007,Drama,Paul Thomas Anderson,"['Daniel Day-Lewis', 'Paul Dano', 'Ciarán Hinds', 'Martin Stringer']",8.1,False,158
+Catch Me If You Can,2002,"Biography, Crime, Drama",Steven Spielberg,"['Leonardo DiCaprio', 'Tom Hanks', 'Christopher Walken', 'Martin Sheen']",8.1,False,141
+12 Years a Slave,2013,"Biography, Drama, History",Steve McQueen,"['Chiwetel Ejiofor', 'Michael Kenneth Williams', 'Michael Fassbender', 'Brad Pitt']",8.1,False,134
+The Wizard of Oz,1939,"Adventure, Family, Fantasy",Victor Fleming,"['George Cukor', 'Mervyn LeRoy', 'Norman Taurog', 'Richard Thorpe', 'King Vidor', 'Judy Garland', 'Frank Morgan', 'Ray Bolger', 'Bert Lahr']",8.1,False,102
+Rush,2013,"Biography, Drama, Sport",Ron Howard,"['Daniel Brühl', 'Chris Hemsworth', 'Olivia Wilde', 'Alexandra Maria Lara']",8.1,False,123
+The Truman Show,1998,"Comedy, Drama, Sci-Fi",Peter Weir,"['Jim Carrey', 'Ed Harris', 'Laura Linney', 'Noah Emmerich']",8.1,False,103
+Platoon,1986,"Drama, War",Oliver Stone,"['Charlie Sheen', 'Tom Berenger', 'Willem Dafoe', 'Keith David']",8.2,False,120
+Million Dollar Baby,2004,"Drama, Sport",Clint Eastwood,"['Hilary Swank', 'Clint Eastwood', 'Morgan Freeman', 'Jay Baruchel']",8.1,False,132
+The Bourne Ultimatum,2007,"Action, Mystery, Thriller",Paul Greengrass,"['Matt Damon', 'Edgar Ramírez', 'Joan Allen', 'Julia Stiles']",8.1,False,115
+Stalker,1979,"Drama, Sci-Fi",Andrei Tarkovsky,"['Alisa Freyndlikh', 'Aleksandr Kaydanovskiy', 'Anatoliy Solonitsyn', 'Nikolay Grinko']",8.1,False,162
+Relatos salvajes,2014,"Comedy, Drama, Thriller",Damián Szifron,"['Darío Grandinetti', 'María Marull', 'Mónica Villa', 'Diego Starosta']",8.1,False,122
+Hachi: A Dog's Tale,2009,"Drama, Family",Lasse Hallström,"['Richard Gere', 'Joan Allen', 'Cary-Hiroyuki Tagawa', 'Sarah Roemer']",8.1,False,93
+How to Train Your Dragon,2010,"Animation, Action, Adventure",Dean DeBlois,"['Chris Sanders', 'Jay Baruchel', 'Gerard Butler', 'Christopher Mintz-Plasse', 'Craig Ferguson']",8.1,False,98
+Annie Hall,1977,"Comedy, Romance",Woody Allen,"['Woody Allen', 'Diane Keaton', 'Tony Roberts', 'Carol Kane']",8.1,False,93
+Ben-Hur,1959,"Adventure, Drama, History",William Wyler,"['Charlton Heston', 'Jack Hawkins', 'Stephen Boyd', 'Haya Harareet']",8.1,False,212
+Before Sunrise,1995,"Drama, Romance",Richard Linklater,"['Ethan Hawke', 'Julie Delpy', 'Andrea Eckert', 'Hanno Pöschl']",8.1,False,101
+Faa yeung nin wa,2000,"Drama, Romance",Kar-Wai Wong,"['Tony Chiu-Wai Leung', 'Maggie Cheung', 'Ping Lam Siu', ""Tung Cho 'Joe' Cheung""]",8.1,False,98
+Hotel Rwanda,2004,"Biography, Drama, History",Terry George,"['Don Cheadle', 'Sophie Okonedo', 'Joaquin Phoenix', 'Xolani Mali']",8.1,False,121
+Butch Cassidy and the Sundance Kid,1969,"Biography, Crime, Drama",George Roy Hill,"['Paul Newman', 'Robert Redford', 'Katharine Ross', 'Strother Martin']",8.1,False,110
+Gandhi,1982,"Biography, Drama, History",Richard Attenborough,"['Ben Kingsley', 'John Gielgud', 'Rohini Hattangadi', 'Roshan Seth']",8.1,False,191
+Barry Lyndon,1975,"Adventure, Drama, History",Stanley Kubrick,"[""Ryan O'Neal"", 'Marisa Berenson', 'Patrick Magee', 'Hardy Krüger']",8.1,False,185
+Salinui chueok,2003,"Action, Crime, Drama",Bong Joon Ho,"['Kang-ho Song', 'Sang-kyung Kim', 'Roe-ha Kim', 'Jae-ho Song']",8.1,False,131
+Life of Brian,1979,Comedy,Terry Jones,"['Graham Chapman', 'John Cleese', 'Michael Palin', 'Terry Gilliam']",8.1,False,94
+The Counselor,2013,"Crime, Drama, Thriller",Ridley Scott,"['Michael Fassbender', 'Penélope Cruz', 'Cameron Diaz', 'Javier Bardem']",5.3,False,117
+Bad Words,2013,"Comedy, Drama",Jason Bateman,"['Jason Bateman', 'Kathryn Hahn', 'Allison Janney', 'Rohan Chand']",6.6,False,89
+The Neon Demon,2016,"Horror, Thriller",Nicolas Winding Refn,"['Elle Fanning', 'Christina Hendricks', 'Keanu Reeves', 'Karl Glusman']",6.2,False,117
+Cloud Atlas,2012,"Action, Drama, Mystery",Tom Tykwer,"['Lana Wachowski', 'Lilly Wachowski', 'Tom Hanks', 'Halle Berry', 'Hugh Grant', 'Hugo Weaving']",7.4,False,172
+Popstar: Never Stop Never Stopping,2016,"Comedy, Music",Akiva Schaffer,"['Jorma Taccone', 'Andy Samberg', 'Jorma Taccone', 'Akiva Schaffer', 'Sarah Silverman']",6.7,False,87
+Source Code,2011,"Action, Drama, Mystery",Duncan Jones,"['Jake Gyllenhaal', 'Michelle Monaghan', 'Vera Farmiga', 'Jeffrey Wright']",7.5,False,93
+Super,2010,"Action, Comedy, Drama",James Gunn,"['Rainn Wilson', 'Ellen Page', 'Liv Tyler', 'Kevin Bacon']",6.7,False,96
+Everybody Wants Some!!,2016,Comedy,Richard Linklater,"['Blake Jenner', 'Tyler Hoechlin', 'Ryan Guzman', 'Zoey Deutch']",6.9,False,117
+Enemy,2013,"Drama, Mystery, Thriller",Denis Villeneuve,"['Jake Gyllenhaal', 'Mélanie Laurent', 'Sarah Gadon', 'Isabella Rossellini']",6.9,False,91
+The Guest,2014,"Action, Comedy, Crime",Adam Wingard,"['Dan Stevens', 'Sheila Kelley', 'Maika Monroe', 'Joel David Moore']",6.7,False,100
+Mississippi Grind,2015,"Comedy, Drama",Anna Boden,"['Ryan Fleck', 'Ben Mendelsohn', 'Ryan Reynolds', 'Yvonne Landry', 'Anthony Howard']",6.4,False,108
+The Beguiled,2017,"Drama, Thriller",Sofia Coppola,"['Nicole Kidman', 'Kirsten Dunst', 'Elle Fanning', 'Colin Farrell']",6.3,False,93
+Noah,2014,"Action, Adventure, Drama",Darren Aronofsky,"['Russell Crowe', 'Jennifer Connelly', 'Anthony Hopkins', 'Emma Watson']",5.8,False,138
+The Grey,2011,"Action, Adventure, Drama",Joe Carnahan,"['Liam Neeson', 'Dermot Mulroney', 'Frank Grillo', 'Dallas Roberts']",6.8,False,117
+The Place Beyond the Pines,2012,"Crime, Drama, Thriller",Derek Cianfrance,"['Ryan Gosling', 'Bradley Cooper', 'Eva Mendes', 'Craig Van Hook']",7.3,False,140
+Killer Joe,2011,"Crime, Drama, Thriller",William Friedkin,"['Matthew McConaughey', 'Emile Hirsch', 'Juno Temple', 'Thomas Haden Church']",6.7,False,102
+Swiss Army Man,2016,"Comedy, Drama, Fantasy",Dan Kwan,"['Daniel Scheinert', 'Paul Dano', 'Daniel Radcliffe', 'Mary Elizabeth Winstead', 'Antonia Ribero']",6.6,False,97
+Macbeth,2015,"Drama, History, War",Justin Kurzel,"['Michael Fassbender', 'Marion Cotillard', 'Jack Madigan', 'Frank Madigan']",7.1,False,113
+Super 8,2011,"Action, Mystery, Sci-Fi",J.J. Abrams,"['Elle Fanning', 'AJ Michalka', 'Kyle Chandler', 'Joel Courtney']",7.2,False,112
+The Drop,2014,"Crime, Drama, Thriller",Michaël R. Roskam,"['Tom Hardy', 'Noomi Rapace', 'James Gandolfini', 'Matthias Schoenaerts']",6.2,False,106
+Dope,2015,"Comedy, Crime, Drama",Rick Famuyiwa,"['Shameik Moore', 'Tony Revolori', 'Kiersey Clemons', 'Kimberly Elise']",6.5,False,103
+Killing Them Softly,2012,"Crime, Drama, Thriller",Andrew Dominik,"['Brad Pitt', 'Ray Liotta', 'Richard Jenkins', 'Scoot McNairy']",6.3,False,97
+Under the Silver Lake,2018,"Crime, Drama, Mystery",David Robert Mitchell,"['Andrew Garfield', 'Riley Keough', 'Topher Grace', 'Callie Hernandez']",7.1,False,139
+Cyrus,2010,"Comedy, Drama, Romance",Jay Duplass,"['Mark Duplass', 'John C. Reilly', 'Marisa Tomei', 'Jonah Hill', 'Catherine Keener']",7.3,False,91
+The Killing of a Sacred Deer,2017,"Drama, Horror, Mystery",Yorgos Lanthimos,"['Barry G. Bernson', 'Herb Caillouet', 'Bill Camp', 'Raffey Cassidy']",6.9,False,121
+Brigsby Bear,2017,"Comedy, Drama",Dave McCary,"['Kyle Mooney', 'Mark Hamill', 'Jorge Lendeborg Jr.', 'Matt Walsh']",6.8,False,97
+Joe,2013,"Crime, Drama",David Gordon Green,"['Nicolas Cage', 'Tye Sheridan', 'Gary Poulter', 'Ronnie Gene Blevins']",6.4,False,117
