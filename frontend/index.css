@@ -4,10 +4,31 @@ html, body {
     margin: 0px;
 }
 
+body {
+    background-image: url("./assets/background.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 * {
     box-sizing: border-box;
 }
 
-#container {
-    
+#over {
+    width: 100%;
+    z-index: 10;
+    position: relative;    
+    height: 4000px;
+}
+
+#under {
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    left: 0px;
+    height: 100%;
+    background: #fff;
+    z-index: 1;
 }
