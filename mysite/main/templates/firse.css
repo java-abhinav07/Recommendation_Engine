@@ -56,7 +56,11 @@ nav.black{
         background: #000;
 }
 
-.icon-bar{
-
-    color: #ffffff;
+.icon-bar {
+  width: 22px; 
+  height: 2px;
+  background-color: #B6B6B6;
+  display: block;
+  transition: all 0.2s;
+  margin-top: 12px
 }
