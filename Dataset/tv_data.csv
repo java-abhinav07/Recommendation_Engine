@@ -1,924 +1,924 @@
-Title,Year,Genre,Stars,Rating,Duration
-Mr. Robot,2015,"Crime, Drama, Thriller","['Christian Slater', 'Carly Chaikin', 'Martin Wallström']",8.5,49
-The Boys,2019,"Action, Comedy, Crime","['Jack Quaid', 'Antony Starr', 'Erin Moriarty']",8.7,60
-La Casa de Papel,2017,"Action, Crime, Mystery","['Álvaro Morte', 'Itziar Ituño', 'Pedro Alonso']",8.5,70
-Game of Thrones,2011,"Action, Adventure, Drama","['Peter Dinklage', 'Kit Harington', 'Lena Headey']",9.3,57
-Chernobyl,2019,"Drama, History, Thriller","['Jared Harris', 'Stellan Skarsgård', 'Adam Nagaitis']",9.4,330
-The Marvelous Mrs. Maisel,2017,"Comedy, Drama","['Michael Zegen', 'Marin Hinkle', 'Tony Shalhoub']",8.7,57
-True Detective,2014,"Crime, Drama, Mystery","['Colin Farrell', 'Rachel McAdams', 'Taylor Kitsch']",8.7,55
-Better Call Saul,2015,"Crime, Drama","['Rhea Seehorn', 'Jonathan Banks', 'Patrick Fabian']",9.5,46
-Breaking Bad,2008,"Crime, Drama, Thriller","['Aaron Paul', 'Anna Gunn', 'Betsy Brandt']",8.9,49
-Fargo,2014,"Crime, Drama, Thriller","['Martin Freeman', 'Allison Tolman', 'Colin Hanks']",8.4,53
-Happy Valley,2014,"Crime, Drama","['Siobhan Finneran', 'Shane Zaza', 'Charlie Murphy']",8.7,58
-Six Feet Under,2001,"Comedy, Drama","['Michael C. Hall', 'Frances Conroy', 'Lauren Ambrose']",8.7,55
-Dark,2017,"Crime, Drama, Mystery","['Louis Hofmann', 'Jördis Triebel', 'Maja Schöne']",8.8,60
-Stranger Things,2016,"Drama, Fantasy, Horror","['Finn Wolfhard', 'Winona Ryder', 'David Harbour']",8.5,51
-The Night Of,2016,"Crime, Drama, Mystery","['John Turturro', 'Bill Camp', 'Amara Karan']",8.8,525
-Black Mirror,2011,"Drama, Sci-Fi, Thriller","['Hannah John-Kamen', 'Michaela Coel', 'Beatrice Robertson-Jones']",8.4,60
-Narcos: Mexico,2018,"Crime, Drama","['Scoot McNairy', 'José María Yazpik', 'Fermín Martínez']",8.8,50
-Narcos,2015,"Biography, Crime, Drama","['Wagner Moura', 'Boyd Holbrook', 'Alberto Ammann']",8.5,49
-The Punisher,2017,"Action, Adventure, Crime","['Amber Rose Revah', 'Ben Barnes', 'Jason R. Moore']",8.5,53
-The Handmaid's Tale,2017,"Drama, Sci-Fi, Thriller","['Amanda Brugel', 'Madeline Brewer', 'Max Minghella']",8.7,60
-Westworld,2016,"Drama, Mystery, Sci-Fi","['Jeffrey Wright', 'Ed Harris', 'Thandie Newton']",8.8,62
-House of Cards,2013,Drama,"['Michel Gill', 'Robin Wright', 'Kate Mara']",9.3,51
-The Wire,2002,"Crime, Drama, Thriller","['Lance Reddick', 'Sonja Sohn', 'Wendell Pierce']",8.5,59
-The Knick,2014,"Drama, History","['André Holland', 'Jeremy Bobb', 'Juliet Rylance']",8.7,58
-The Crown,2016,"Drama, History","['Matt Smith', 'Olivia Colman', 'Tobias Menzies']",8.4,58
-Taboo,2017,"Drama, Mystery, Thriller","['David Hayman', 'Jonathan Pryce', 'Oona Chaplin']",8.3,59
-The Leftovers,2014,"Drama, Fantasy, Mystery","['Amy Brenneman', 'Christopher Eccleston', 'Liv Tyler']",8.6,60
-Sons of Anarchy,2008,"Crime, Drama, Thriller","['Katey Sagal', 'Mark Boone Junior', 'Kim Coates']",8.4,45
-Babylon Berlin,2017,"Crime, Drama, Thriller","['Liv Lisa Fries', 'Leonie Benesch', 'Christian Friedel']",8.6,45
-Deadwood,2004,"Crime, Drama, History","['Ian McShane', 'Molly Parker', 'Brad Dourif']",8.5,55
-Big Little Lies,2017,"Crime, Drama, Mystery","['Nicole Kidman', 'Shailene Woodley', 'Zoë Kravitz']",8.6,60
-Mindhunter,2017,"Crime, Drama, Thriller","['Holt McCallany', 'Anna Torv', 'Hannah Gross']",8.4,60
-Utopia,2013,"Drama, Mystery, Sci-Fi","['Paul Higgins', 'Neil Maskell', ""Fiona O'Shaughnessy""]",8.5,50
-Feud,2017,"Biography, Drama","['Susan Sarandon', 'Judy Davis', 'Jackie Hoffman']",8.6,45
-Mad Men,2007,Drama,"['Elisabeth Moss', 'Vincent Kartheiser', 'January Jones']",8.2,47
-Sneaky Pete,2015,"Crime, Drama","['Marin Ireland', 'Shane McRae', 'Libe Barer']",8.3,60
-Homeland,2011,"Crime, Drama, Mystery","['Mandy Patinkin', 'Damian Lewis', 'Rupert Friend']",8.6,55
-Making a Murderer,2015,"Documentary, Crime","['Steven Avery', 'Laura Nirider', 'Ken Kratz']",8.5,60
-Spartacus: Blood and Sand,2010,"Action, Adventure, Biography","['Lucy Lawless', 'Manu Bennett', 'Daniel Feuerriegel']",8.5,55
-Spartacus: Gods of the Arena,2011,"Action, Adventure, Biography","['Manu Bennett', 'Peter Mensah', 'Dustin Clare']",8.6,331
-Vikings,2013,"Action, Adventure, Drama","['Gustaf Skarsgård', 'Alexander Ludwig', 'Georgia Hirst']",8.7,44
-Rome,2005,"Action, Drama, History","['Ray Stevenson', 'Polly Walker', 'Kerry Condon']",8.7,52
-House M.D.,2004,"Drama, Mystery","['Omar Epps', 'Robert Sean Leonard', 'Jesse Spencer']",8.4,44
-American Crime Story,2016,"Biography, Crime, Drama","['Annaleigh Ashford', 'Sterling K. Brown', 'Kenneth Choi']",8.4,42
-Supernatural,2005,"Drama, Fantasy, Horror","['Jensen Ackles', 'Jim Beaver', 'Misha Collins']",8.2,44
-Misfits,2009,"Comedy, Drama, Fantasy","['Joseph Gilgun', 'Iwan Rheon', 'Lauren Socha']",8.3,60
-Sense8,2015,"Drama, Mystery, Sci-Fi","['Jamie Clayton', 'Tina Desai', 'Tuppence Middleton']",8.3,60
-Bloodline,2015,"Drama, Thriller","['Ben Mendelsohn', 'Linda Cardellini', 'Sissy Spacek']",8.4,60
-Rectify,2013,Drama,"['Abigail Spencer', 'J. Smith-Cameron', 'Adelaide Clemens']",9.2,60
-Entourage,2004,"Comedy, Drama","['Adrian Grenier', 'Kevin Dillon', 'Jerry Ferrara']",8.5,28
-The Sopranos,1999,"Crime, Drama","['Lorraine Bracco', 'Edie Falco', 'Michael Imperioli']",9.1,55
-Love/Hate,2010,"Crime, Drama","['Killian Scott', 'Aoibhinn McGinnity', 'Charlie Murphy']",8.5,51
-Sherlock,2010,"Crime, Drama, Mystery","['Martin Freeman', 'Una Stubbs', 'Rupert Graves']",8.5,88
-Firefly,2002,"Adventure, Drama, Sci-Fi","['Gina Torres', 'Alan Tudyk', 'Morena Baccarin']",8.6,44
-Hannibal,2013,"Crime, Drama, Horror","['Mads Mikkelsen', 'Caroline Dhavernas', 'Laurence Fishburne']",8.6,44
-Luther,2010,"Crime, Drama, Mystery","['Dermot Crowley', 'Michael Smiley', 'Warren Brown']",8.4,60
-Bron/Broen,2011,"Crime, Mystery, Thriller","['Rafael Pettersson', 'Sarah Boberg', 'Dag Malmberg']",8.5,60
-The Newsroom,2012,Drama,"['Emily Mortimer', 'John Gallagher Jr.', 'Alison Pill']",8.8,55
-Carnivàle,2003,"Drama, Fantasy, Mystery","['Adrienne Barbeau', 'Clancy Brown', 'Debra Christofferson']",8.7,55
-Boardwalk Empire,2010,"Crime, Drama, History","['Kelly Macdonald', 'Michael Shannon', 'Shea Whigham']",8.4,55
-Peaky Blinders,2013,"Crime, Drama","['Paul Anderson', 'Helen McCrory', 'Sophie Rundle']",8.2,60
-Downton Abbey,2010,"Drama, Romance","['Phyllis Logan', 'Elizabeth McGovern', 'Brendan Coyle']",8.6,58
-Outlander,2014,"Drama, Fantasy, Romance","['Sam Heughan', 'Duncan Lacroix', 'Sophie Skelton']",8.4,64
-Penny Dreadful,2014,"Drama, Fantasy, Horror","['Timothy Dalton', 'Eva Green', 'Reeve Carney']",8.2,60
-Dexter,2006,"Crime, Drama, Mystery","['Jennifer Carpenter', 'David Zayas', 'James Remar']",8.2,53
-Person of Interest,2011,"Action, Crime, Drama","['Taraji P. Henson', 'Kevin Chapman', 'Michael Emerson']",8.5,43
-The Walking Dead,2010,"Drama, Horror, Thriller","['Norman Reedus', 'Melissa McBride', 'Danai Gurira']",8.4,44
-The Lost Room,2006,"Action, Fantasy, Mystery","['Julianna Margulies', 'Peter Jacobson', 'Dennis Christopher']",8.4,270
-Twin Peaks,2017,"Crime, Drama, Fantasy","['Sheryl Lee', 'Michael Horse', 'Chrysta Bell']",8.1,60
-Fringe,2008,"Drama, Mystery, Sci-Fi","['Joshua Jackson', 'John Noble', 'Jasika Nicole']",8.7,46
-Banshee,2013,"Action, Crime, Drama","['Ivana Milicevic', 'Ulrich Thomsen', 'Frankie Faison']",8.3,60
-American Horror Story,2011,"Drama, Horror, Thriller","['Kathy Bates', 'Angela Bassett', 'Sarah Paulson']",8.5,60
-The Shield,2002,"Crime, Drama, Thriller","['Catherine Dent', 'Walton Goggins', 'Michael Jace']",8.6,47
-Prison Break,2005,"Action, Crime, Drama","['Wentworth Miller', 'Amaury Nolasco', 'Robert Knepper']",8.3,44
-John Adams,2008,"Biography, Drama, History","['Laura Linney', 'John Dossett', 'Stephen Dillane']",8.7,71
-Justified,2010,"Action, Crime, Drama","['Nick Searcy', 'Joelle Carter', 'Jacob Pitts']",8.5,44
-Californication,2007,"Comedy, Drama","['Natascha McElhone', 'Evan Handler', 'Pamela Adlon']",8.2,28
-Gomorra: La serie,2014,"Crime, Drama, Thriller","[""Marco D'Amore"", ""Cristiana Dell'Anna"", 'Fortunato Cerlino']",8.1,55
-Suits,2011,"Comedy, Drama","['Patrick J. Adams', 'Meghan Markle', 'Sarah Rafferty']",8.1,44
-White Collar,2009,"Comedy, Crime, Drama","['Tim DeKay', 'Willie Garson', 'Tiffani Thiessen']",8.6,40
-Castle,2009,"Comedy, Crime, Drama","['Stana Katic', 'Susan Sullivan', 'Jon Huertas']",8.7,43
-The Blacklist,2013,"Crime, Drama, Mystery","['Megan Boone', 'Diego Klattenhoff', 'Ryan Eggold']",8.6,43
-The Mentalist,2008,"Crime, Drama, Mystery","['Robin Tunney', 'Tim Kang', 'Owain Yeoman']",8.3,43
-Daredevil,2015,"Action, Crime, Drama","[""Vincent D'Onofrio"", 'Deborah Ann Woll', 'Elden Henson']",8.4,54
-Battlestar Galactica,2004,"Action, Adventure, Drama","['Mary McDonnell', 'Jamie Bamber', 'James Callis']",8.3,44
-Archer,2009,"Animation, Action, Comedy","['Judy Greer', 'Amber Nash', 'Chris Parnell']",8.4,22
-24,2001,"Action, Crime, Drama","['Mary Lynn Rajskub', 'Carlos Bernard', 'Dennis Haysbert']",8.2,44
-24: Live Another Day,2014,"Action, Crime, Drama","['Yvonne Strahovski', 'Tate Donovan', 'Mary Lynn Rajskub']",8.6,46
-Life on Mars,2006,"Crime, Drama, Mystery","['Philip Glenister', 'Liz White', 'Dean Andrews']",8.6,60
-Forbrydelsen,2007,"Crime, Drama, Mystery","['Morten Suurballe', 'Lars Mikkelsen', 'Bjarne Henriksen']",9.5,57
-The Killing,2011,"Crime, Drama, Mystery","['Joel Kinnaman', 'Billy Campbell', 'Liam James']",8.3,45
-Shameless,2011,"Comedy, Drama","['William H. Macy', 'Ethan Cutkosky', 'Jeremy Allen White']",8.1,46
-Doctor Who,2005,"Adventure, Drama, Family","['Peter Capaldi', 'Pearl Mackie', 'Matt Smith']",8.1,45
-Band of Brothers,2001,"Action, Drama, History","['Damian Lewis', 'Ron Livingston', 'Shane Taylor']",8.7,594
-Lost,2004,"Adventure, Drama, Fantasy","['Josh Holloway', 'Yunjin Kim', 'Evangeline Lilly']",8.8,44
-The Tudors,2007,"Drama, History, Romance","['Henry Cavill', 'Anthony Brophy', 'James Frain']",8.5,60
-The Inbetweeners,2008,Comedy,"['James Buckley', 'Blake Harrison', 'Joe Thomas']",8.4,25
-Curb Your Enthusiasm,2000,Comedy,"['Cheryl Hines', 'Jeff Garlin', 'Susie Essman']",8.7,28
-State of Play,2003,"Crime, Drama, Mystery","['Kelly Macdonald', 'Bill Nighy', 'Philip Glenister']",8.4,312
-Extras,2005,"Comedy, Drama","['Ashley Jensen', 'Stephen Merchant', 'Shaun Williamson']",8.3,30
-Ray Donovan,2013,"Crime, Drama","['Eddie Marsan', 'Dash Mihok', 'Pooch Hall']",8.3,60
-The Americans,2013,"Crime, Drama, Mystery","['Matthew Rhys', 'Keidrich Sellati', 'Holly Taylor']",8.4,44
-Almost Human,2013,"Action, Crime, Drama","['Michael Ealy', 'Minka Kelly', 'Mackenzie Crook']",8.5,60
-Community,2009,Comedy,"['Danny Pudi', 'Donald Glover', 'Chevy Chase']",8.4,22
-Modern Family,2009,"Comedy, Drama, Romance","['Sofía Vergara', 'Julie Bowen', 'Ty Burrell']",8.6,22
-Parks and Recreation,2009,Comedy,"[""Jim O'Heir"", 'Nick Offerman', 'Chris Pratt']",8.2,22
-30 Rock,2006,Comedy,"['Alec Baldwin', 'Tracy Morgan', 'Jack McBrayer']",8.2,22
-Party Down,2009,Comedy,"['Ken Marino', 'Ryan Hansen', 'Martin Starr']",8.1,30
-Workaholics,2011,Comedy,"['Adam Devine', 'Anders Holm', 'Maribeth Monroe']",8.2,22
-The League,2009,"Comedy, Sport","['Jonathan Lajoie', 'Nick Kroll', 'Stephen Rannazzisi']",8.3,22
-Veronica Mars,2004,"Crime, Drama, Mystery","['Jason Dohring', 'Enrico Colantoni', 'Percy Daggs III']",8.3,44
-Life,2007,"Crime, Drama, Mystery","['Sarah Shahi', 'Adam Arkin', 'Brent Sexton']",8.3,45
-How I Met Your Mother,2005,"Comedy, Romance","['Jason Segel', 'Cobie Smulders', 'Neil Patrick Harris']",8.9,22
-The Office,2005,Comedy,"['Jenna Fischer', 'John Krasinski', 'Rainn Wilson']",8.1,22
-Criminal Minds,2005,"Crime, Drama, Mystery","['Kirsten Vangsness', 'A.J. Cook', 'Joe Mantegna']",8.3,42
-Orphan Black,2013,"Action, Drama, Sci-Fi","['Dylan Bruce', 'Jordan Gavaris', 'Kevin Hanchard']",8.2,44
-Chuck,2007,"Action, Comedy, Drama","['Yvonne Strahovski', 'Joshua Gomez', 'Vik Sahay']",8.2,43
-The Originals,2013,"Drama, Fantasy, Horror","['Daniel Gillies', 'Claire Holt', 'Phoebe Tonkin']",8.6,45
-Spaced,1999,"Action, Comedy","['Simon Pegg', 'Julia Deakin', 'Nick Frost']",8.5,25
-Black Books,2000,Comedy,"['Bill Bailey', 'Tamsin Greig', 'Paul Beech']",8.2,25
-The Fall,2013,"Crime, Drama, Thriller","['Jamie Dornan', 'John Lynch', 'Aisling Franciosi']",8.4,60
-Broadchurch,2013,"Crime, Drama, Mystery","['Olivia Colman', 'Jodie Whittaker', 'Andrew Buchan']",8.1,48
-Orange Is the New Black,2013,"Comedy, Crime, Drama","['Danielle Brooks', 'Taryn Manning', 'Emma Myles']",8.3,59
-Hell on Wheels,2011,"Drama, Western","['Colm Meaney', 'Robin McLeavy', 'Phil Burke']",8.4,42
-Southland,2009,"Crime, Drama, Thriller","['Shawn Hatosy', 'Regina King', 'Ben McKenzie']",8.6,42
-Da Vinci's Demons,2013,"Adventure, Biography, Drama","['Gregg Chillin', 'Eros Vlahos', 'Laura Haddock']",8.2,59
-Bates Motel,2013,"Drama, Horror, Mystery","['Freddie Highmore', 'Max Thieriot', 'Nicola Peltz']",8.5,45
-Halt and Catch Fire,2014,Drama,"['Scoot McNairy', 'Mackenzie Davis', 'Kerry Bishé']",8.7,60
-Silicon Valley,2014,Comedy,"['T.J. Miller', 'Josh Brener', 'Martin Starr']",8.1,28
-Friday Night Lights,2006,"Drama, Sport","['Connie Britton', 'Zach Gilford', 'Aimee Teegarden']",8.3,44
-Dead Like Me,2003,"Comedy, Drama, Fantasy","['Callum Blue', 'Jasmine Guy', 'Mandy Patinkin']",8.3,60
-Forever,2014,"Crime, Drama, Fantasy","['Alana De La Garza', 'Joel David Moore', 'Donnie Keshawarz']",8.2,43
-Lilyhammer,2012,"Comedy, Crime, Drama","['Trond Fausa', 'Steinar Sagen', 'Marian Saastad Ottesen']",8.3,45
-The Good Wife,2009,"Crime, Drama, Mystery","['Chris Noth', 'Josh Charles', 'Matt Czuchry']",8.4,43
-The Missing,2014,"Crime, Drama, Mystery","['Anastasia Hille', 'David Morrissey', 'Keeley Hawes']",8.5,60
-Olive Kitteridge,2014,Drama,"['Richard Jenkins', 'Ken Cheeseman', 'Ann Dowd']",8.4,239
-Bosch,2014,"Crime, Drama","['Jamie Hector', 'Amy Aquino', 'Lance Reddick']",8.4,51
-Marco Polo,2014,"Adventure, Drama, History","['Benedict Wong', 'Joan Chen', 'Remy Hii']",8.6,60
-The IT Crowd,2006,Comedy,"['Richard Ayoade', 'Katherine Parkinson', 'Matt Berry']",8.6,25
-My Mad Fat Diary,2013,"Comedy, Drama, Romance","['Ciara Baxendale', 'Dan Cohen', 'Sharon Rooney']",8.2,47
-Call the Midwife,2012,"Drama, History","['Laura Main', 'Jenny Agutter', 'Judy Parfitt']",9.2,60
-Wentworth,2013,"Crime, Drama","['Robbie Magasiva', 'Katrina Milosevic', 'Jacqueline Brennan']",8.3,45
-Rake,2010,"Comedy, Drama","['Matt Day', 'Kate Box', 'Caroline Brazier']",8.4,60
-Jonathan Strange & Mr Norrell,2015,"Fantasy, History, Sci-Fi","['Eddie Marsan', 'Marc Warren', 'Charlotte Riley']",8.4,60
-Rick and Morty,2013,"Animation, Adventure, Comedy","['Chris Parnell', 'Spencer Grammer', 'Sarah Chalke']",8.6,23
-The Last Kingdom,2015,"Action, Drama, History","['Eliza Butterworth', 'Ian Hart', 'David Dawson']",8.1,60
-The Man in the High Castle,2015,"Drama, Sci-Fi, Thriller","['Luke Kleintank', 'Rufus Sewell', 'Rupert Evans']",8.2,60
-Terriers,2010,"Comedy, Crime, Drama","['Michael Raymond-James', 'Laura Allen', 'Kimberly Quinn']",8.2,45
-Jessica Jones,2015,"Action, Crime, Drama","['Rachael Taylor', 'Eka Darville', 'Carrie-Anne Moss']",8.1,56
-Ash vs Evil Dead,2015,"Action, Comedy, Fantasy","['Ray Santiago', 'Dana DeLorenzo', 'Lucy Lawless']",8.3,30
-Detectorists,2014,Comedy,"['Toby Jones', 'Rachael Stirling', 'Gerard Horan']",8.3,30
-Deutschland 83,2015,"Drama, History, Romance","['Maria Schrader', 'Ulrich Noethen', 'Sylvester Groth']",8.5,42
-Lucifer,2015,"Crime, Drama, Fantasy","['Lauren German', 'Kevin Alejandro', 'Lesley-Ann Brandt']",8.4,42
-11.22.63,2016,"Drama, Mystery, Sci-Fi","['Sarah Gadon', 'George MacKay', 'Chris Cooper']",8.9,60
-The Night Manager,2016,"Crime, Drama, Mystery","['Tom Hiddleston', 'Elizabeth Debicki', 'Olivia Colman']",8.2,358
-This Is England '86,2010,"Crime, Drama","['Andrew Shim', 'Chanel Cresswell', 'Danielle Watson']",8.2,47
-This Is England '88,2011,"Crime, Drama","['Andrew Shim', 'Chanel Cresswell', 'Charlotte Tyree']",8.3,70
-This Is England '90,2015,"Crime, Drama","['Billy Braithwait', 'Chanel Cresswell', 'Katherine Dow Blyton']",8.1,55
-Kingdom,2014,Drama,"['Kiele Sanchez', 'Matt Lauria', 'Jonathan Tucker']",8.6,43
-O.J.: Made in America,2016,"Documentary, Biography, Crime","['Kareem Abdul-Jabbar', 'Mike Albanese', 'Muhammad Ali', 'Marcus Allen']",8.1,467
-Strike Back,2010,"Action, Drama, Thriller","['Sullivan Stapleton', 'Michelle Lukes', 'Daniel MacPherson']",8.7,45
-Power,2014,"Crime, Drama","['Lela Loren', 'Naturi Naughton', 'Joseph Sikora']",8.2,50
-The Get Down,2016,"Drama, Music, Musical","['Shameik Moore', 'Herizen F. Guardiola', 'Skylan Brooks']",8.7,52
-Preacher,2016,"Adventure, Drama, Fantasy","['Joseph Gilgun', 'Ruth Negga', 'Ian Colletti']",8.3,60
-The Exorcist,2016,"Drama, Horror, Mystery","['Ben Daniels', 'Kurt Egyiawan', 'Hannah Kasulka']",8.3,45
-Atlanta,2016,"Comedy, Drama, Music","['Brian Tyree Henry', 'LaKeith Stanfield', 'Zazie Beetz']",8.3,30
-Quarry,2016,"Crime, Drama, Thriller","['Jodi Balfour', 'Damon Herriman', 'Edoardo Ballerini']",8.4,60
-This Is Us,2016,"Comedy, Drama, Romance","['Mandy Moore', 'Sterling K. Brown', 'Chrissy Metz']",8.2,45
-Goliath,2016,Drama,"['Tania Raymonde', 'Nina Arianda', 'Diana Hopper']",8.3,60
-Skam,2015,"Drama, Romance","['Iman Meskini', 'Ulrikke Falch', 'Lisa Teige']",8.4,30
-Longmire,2012,"Action, Crime, Drama","['Katee Sackhoff', 'Lou Diamond Phillips', 'Cassidy Freeman']",8.1,60
-Legion,2017,"Action, Drama, Sci-Fi","['Rachel Keller', 'Aubrey Plaza', 'Bill Irwin']",8.3,60
-The Good Fight,2017,"Crime, Drama","['Cush Jumbo', 'Delroy Lindo', 'Sarah Steele']",8.8,45
-Ozark,2017,"Crime, Drama, Thriller","['Laura Linney', 'Sofia Hublitz', 'Skylar Gaertner']",8.6,60
-The Good Doctor,2017,Drama,"['Antonia Thomas', 'Hill Harper', 'Richard Schiff']",8.2,41
-Godless,2017,"Drama, Western","['Michelle Dockery', 'Scoot McNairy', 'Merritt Wever']",8.4,60
-Billions,2016,Drama,"['Damian Lewis', 'Maggie Siff', 'David Costabile']",8.3,60
-Altered Carbon,2018,"Action, Drama, Sci-Fi","['Renée Elise Goldsberry', 'Will Yun Lee', 'Dichen Lachman']",8.7,60
-Killing Eve,2018,"Action, Adventure, Drama","['Sandra Oh', 'Fiona Shaw', 'Kim Bodnia']",8.5,42
-Cobra Kai,2018,"Action, Comedy, Drama","['Ralph Macchio', 'William Zabka', 'Courtney Henggeler']",8.4,30
-The Defiant Ones,2017,"Documentary, Biography, Crime","['Jimmy Iovine', 'Trent Reznor', 'Verna Griffin']",8.6,60
-Sharp Objects,2018,"Crime, Drama, Mystery","['Patricia Clarkson', 'Chris Messina', 'Eliza Scanlen']",8.6,421
-Yellowstone,2018,"Drama, Western","['Luke Grimes', 'Kelly Reilly', 'Wes Bentley']",8.5,60
-Who Is America?,2018,Comedy,"['Roy Elghanayan', 'Emanuela Postacchini', 'Alfred Pierce']",8.5,30
-The Witcher,2019,"Action, Adventure, Drama","['Freya Allan', 'Anya Chalotra', 'Mimi Ndiweni']",8.3,60
-The Act,2019,"Biography, Crime, Drama","['Joey King', 'AnnaSophia Robb', 'Chloë Sevigny']",8.4,60
-The Morning Show,2019,Drama,"['Reese Witherspoon', 'Desean Terry', 'Victoria Tate']",8.5,60
-Succession,2018,Drama,"['Nicholas Braun', 'Brian Cox', 'Kieran Culkin']",8.2,60
-The Outsider,2020,"Crime, Drama, Mystery","['Bill Camp', 'Jeremy Bobb', 'Mare Winningham']",8.6,60
-Lights Out,2011,"Crime, Drama, Sport","['Stacy Keach', 'Catherine McCormack', 'Pablo Schreiber']",8.4,60
-Kingdom,2014,Drama,"['Kiele Sanchez', 'Matt Lauria', 'Jonathan Tucker']",8.3,43
-Heimebane,2018,"Drama, Sport","['John Carew', 'Axel Bøyum', 'Emma Bones']",8.4,50
-Poldark,2015,"Drama, History, Romance","['Eleanor Tomlinson', 'Jack Farthing', 'Beatie Edney']",8.1,60
-Gran Hotel,2011,"Crime, Drama, Mystery","['Amaia Salamanca', 'Yon González', 'Eloy Azorín']",8.2,60
-Damages,2007,"Crime, Drama, Mystery","['Rose Byrne', 'Tate Donovan', 'Zachary Booth']",8.3,60
-Les Revenants,2012,"Drama, Fantasy, Horror","['Clotilde Hesme', 'Frédéric Pierrot', 'Céline Sallette']",8.3,52
-Godless,2017,"Drama, Western","['Michelle Dockery', 'Scoot McNairy', 'Merritt Wever']",8.3,60
-Rectify,2013,Drama,"['Abigail Spencer', 'J. Smith-Cameron', 'Adelaide Clemens']",8.2,60
-The Virtues,2019,Drama,"['Niamh Algar', 'Helen Behan', 'Frank Laverty']",8.3,213
-Unorthodox,2020,Drama,"['Amit Rahav', 'Jeff Wilbusch', 'Alex Reid']",8.3,60
-The Last Kingdom,2015,"Action, Drama, History","['Eliza Butterworth', 'Ian Hart', 'David Dawson']",8.4,60
-Longmire,2012,"Action, Crime, Drama","['Katee Sackhoff', 'Lou Diamond Phillips', 'Cassidy Freeman']",7.9,44
-The Americans,2013,"Crime, Drama, Mystery","['Matthew Rhys', 'Keidrich Sellati', 'Holly Taylor']",8.2,45
-Rubicon,2010,"Crime, Drama, Mystery","['Jessica Collins', 'Lauren Hodges', 'Dallas Roberts']",8.6,60
-The Missing,2014,"Crime, Drama, Mystery","['Anastasia Hille', 'David Morrissey', 'Keeley Hawes']",7.8,60
-Line of Duty,2012,"Crime, Drama, Mystery","['Vicky McClure', 'Adrian Dunbar', 'Craig Parkinson']",8.4,60
-The Beast,2009,"Action, Crime, Drama","['Travis Fimmel', 'Lindsay Pulsipher', ""Kevin J. O'Connor""]",8.4,42
-Southland,2009,"Crime, Drama, Thriller","['Shawn Hatosy', 'Regina King', 'Ben McKenzie']",8.1,51
-Bosch,2014,"Crime, Drama","['Jamie Hector', 'Amy Aquino', 'Lance Reddick']",8.6,60
-Shetland,2013,"Crime, Drama, Mystery","[""Alison O'Donnell"", 'Steven Robertson', 'Erin Armstrong']",8.4,89
-Endeavour,2012,"Crime, Drama, Mystery","['Roger Allam', 'James Bradshaw', 'Sean Rigby']",7.9,45
-Babylon Berlin,2017,"Crime, Drama, Thriller","['Liv Lisa Fries', 'Leonie Benesch', 'Christian Friedel']",8.4,60
-Strike,2017,"Crime, Drama, Mystery","['Holliday Grainger', 'Kerr Logan', 'Killian Scott']",8.3,45
-Terriers,2010,"Comedy, Crime, Drama","['Michael Raymond-James', 'Laura Allen', 'Kimberly Quinn']",8.1,60
-Life on Mars,2006,"Crime, Drama, Mystery","['Philip Glenister', 'Liz White', 'Dean Andrews']",7.5,60
-Ashes to Ashes,2008,"Crime, Drama, Fantasy","['Keeley Hawes', 'Dean Andrews', 'Marshall Lancaster']",8.3,60
-Haven,2010,"Crime, Drama, Fantasy","['Lucas Bryant', 'Eric Balfour', 'Richard Donat']",8.4,60
-Dirk Gently's Holistic Detective Agency,2016,"Action, Adventure, Comedy","['Elijah Wood', 'Hannah Marks', 'Jade Eshete']",7.5,50
-Utopia,2013,"Drama, Mystery, Sci-Fi","['Paul Higgins', 'Neil Maskell', ""Fiona O'Shaughnessy""]",8.3,50
-"Perpetual Grace, LTD",2019,"Comedy, Crime, Drama","['Jimmi Simpson', 'Luis Guzmán', 'Damon Herriman']",8.4,30
-Mr Inbetween,2018,"Crime, Drama","['Chika Yasumura', 'Damon Herriman', 'Justin Rosniak']",7.6,30
-Wayne,2019,"Action, Comedy","['Ciara Bravo', 'Jon Champagne', 'Jamie Champagne']",8.3,60
-Mad Dogs,2011,"Comedy, Crime, Drama","['John Simm', 'Marc Warren', 'Philip Glenister']",7.9,30
-Barry,2018,"Action, Comedy, Crime","['Stephen Root', 'Sarah Goldberg', 'Anthony Carrigan']",6.8,30
-Spy,2011,Comedy,"['Jude Wright', 'Robert Lindsay', 'Rebekah Staton']",8.7,25
-Way to Go,2012,Comedy,"['Ben Heathcote', 'Sinead Matthews', 'Marc Wootton']",7.5,30
-BoJack Horseman,2014,"Animation, Comedy, Drama","['Amy Sedaris', 'Alison Brie', 'Aaron Paul']",7.8,22
-Back to Life,2019,"Comedy, Drama","['Geraldine James', 'Richard Durden', 'Liam Williams']",8.4,30
-Wilfred,2011,"Comedy, Drama, Mystery","['Jason Gann', 'Fiona Gubelmann', 'Dorian Brown Pham']",8.6,30
-After Life,2019,"Comedy, Drama","['Tom Basden', 'Tony Way', 'Diane Morgan']",8.2,34
-Detectorists,2014,Comedy,"['Toby Jones', 'Rachael Stirling', 'Gerard Horan']",8.8,30
-American Vandal,2017,"Comedy, Crime, Drama","['Griffin Gluck', 'Jimmy Tatro', 'Travis Tope']",8.2,30
-Cobra Kai,2018,"Action, Comedy, Drama","['Ralph Macchio', 'William Zabka', 'Courtney Henggeler']",8.4,60
-Party Down,2009,Comedy,"['Ken Marino', 'Ryan Hansen', 'Martin Starr']",7.8,30
-Slings and Arrows,2003,Comedy,"['Martha Burns', 'Stephen Ouimette', 'Susan Coyne']",8.2,30
-Episodes,2011,Comedy,"['Stephen Mangan', 'Tamsin Greig', 'John Pankow']",7.1,21
-The Kominsky Method,2018,Comedy,"['Alan Arkin', 'Sarah Baker', 'Nancy Travis']",8.3,30
-The Grinder,2015,Comedy,"['Fred Savage', 'Mary Elizabeth Ellis', 'Hana Hayes']",8.1,22
-Car Share,2015,Comedy,"['Sian Gibson', 'Danny Swarsbrick', 'Guy Garvey']",7.8,30
-Galavant,2015,"Adventure, Comedy, Fantasy","['Timothy Omundson', 'Vinnie Jones', 'Mallory Jansen']",7.8,26
-W1A,2014,Comedy,"['Monica Dolan', 'Jessica Hynes', 'Sarah Parish']",7.4,22
-Au service de la France,2015,Comedy,"['Wilfred Benaïche', 'Christophe Kourotchkine', 'Karim Barras']",7.8,29
-Hello Ladies,2013,Comedy,"['Christine Woods', 'Nate Torrence', 'Kevin Weisman']",8.4,30
-Ghosts,2019,"Comedy, Fantasy","['Jim Howick', 'Charlotte Ritchie', 'Kiell Smith-Bynoe']",8.8,30
-The Mick,2017,Comedy,"[""Sofia Black-D'Elia"", 'Thomas Barbusca', 'Carla Jimenez']",8.9,47
-The Larry Sanders Show,1992,Comedy,"['Jeffrey Tambor', 'Wallace Langham', 'Rip Torn']",8.7,467
-One Strange Rock,2018,Documentary,"['Chris Hadfield', 'Jerry Linenger', 'Mae C. Jemison']",8.2,279
-O.J.: Made in America,2016,"Documentary, Biography, Crime","['Kareem Abdul-Jabbar', 'Mike Albanese', 'Muhammad Ali', 'Marcus Allen']",8.1,403
-The Jinx: The Life and Deaths of Robert Durst,2015,"Documentary, Crime","['Andrew Jarecki', 'Gary Napoli', 'Debra Kay Anderson']",7.9,60
-Wild Wild Country,2018,"Documentary, Crime","['Osho', 'Philip Toelkes', 'Jane Stork']",7.4,629
-Dirty Money,2018,"Documentary, Crime","['Alex Gibney', 'Anabel Hernández', 'Fahmi Quadir']",8.1,202
-Soupçons,2004,"Documentary, Crime, Drama","['David Rudolf', 'Ron Guerette', 'Tom Maher']",8.2,187
-Revolution,2012,"Action, Adventure, Drama","['Tracy Spiridakos', 'Giancarlo Esposito', 'Zak Orth']",6.7,43
-That '70s Show,1998,"Comedy, Romance","['Laura Prepon', 'Mila Kunis', 'Danny Masterson']",8.1,22
-The OA,2016,"Drama, Fantasy, Mystery","['Jason Isaacs', 'Scott Wilson', 'Alice Krige']",7.9,60
-The 100,2014,"Drama, Mystery, Sci-Fi","['Bob Morley', 'Marie Avgeropoulos', 'Isaiah Washington']",7.7,43
-Ghost Adventures,2008,"Documentary, History, Reality-TV","['Aaron Goodwin', 'Billy Tolley', 'Jay Wasley']",7.5,45
-Bates Motel,2013,"Drama, Horror, Mystery","['Freddie Highmore', 'Max Thieriot', 'Nicola Peltz']",8.2,45
-Spartacus: Blood and Sand,2010,"Action, Adventure, Biography","['Lucy Lawless', 'Manu Bennett', 'Daniel Feuerriegel']",8.5,55
-This Is Us,2016,"Comedy, Drama, Romance","['Mandy Moore', 'Sterling K. Brown', 'Chrissy Metz']",8.7,45
-Burn Notice,2007,"Action, Crime, Drama","['Gabrielle Anwar', 'Bruce Campbell', 'Sharon Gless']",7.9,44
-Black Sails,2014,"Adventure, Drama","['Toby Stephens', 'Hannah New', 'Zach McGowan']",8.2,56
-The Last Kingdom,2015,"Action, Drama, History","['Eliza Butterworth', 'Ian Hart', 'David Dawson']",8.3,60
-Into the Badlands,2015,"Action, Adventure, Drama","['Orla Brady', 'Emily Beecham', 'Aramis Knight']",7.7,42
-Limitless,2015,"Comedy, Crime, Drama","['Jennifer Carpenter', 'Hill Harper', 'Mary Elizabeth Mastrantonio']",6.5,42
-Camelot,2011,"Drama, Fantasy, History","['Jamie Campbell Bower', 'Tamsin Egerton', 'Peter Mooney']",7.2,45
-Containment,2016,Drama,"['Christina Moses', 'Chris Wood', 'Claudia Black']",7.2,60
-The Shannara Chronicles,2016,"Adventure, Fantasy, Sci-Fi","['Ivana Baquero', 'Manu Bennett', 'Aaron Jakubenko']",7.5,42
-Hannibal,2013,"Crime, Drama, Horror","['Mads Mikkelsen', 'Caroline Dhavernas', 'Laurence Fishburne']",8.5,44
-Banshee,2013,"Action, Crime, Drama","['Ivana Milicevic', 'Ulrich Thomsen', 'Frankie Faison']",8.4,60
-Kingdom,2014,Drama,"['Kiele Sanchez', 'Matt Lauria', 'Jonathan Tucker']",8.4,43
-Luther,2010,"Crime, Drama, Mystery","['Dermot Crowley', 'Michael Smiley', 'Warren Brown']",8.5,60
-Bates Motel,2013,"Drama, Horror, Mystery","['Freddie Highmore', 'Max Thieriot', 'Nicola Peltz']",8.2,45
-Harper's Island,2009,"Drama, Horror, Mystery","['Christopher Gorham', 'Matt Barr', 'Gina Holden']",7.5,40
-Penny Dreadful,2014,"Drama, Fantasy, Horror","['Timothy Dalton', 'Eva Green', 'Reeve Carney']",8.2,60
-Fargo,2014,"Crime, Drama, Thriller","['Martin Freeman', 'Allison Tolman', 'Colin Hanks']",8.9,53
-The Last Ship,2014,"Action, Drama, Sci-Fi","['Adam Baldwin', 'Charles Parnell', 'Travis Van Winkle']",7.5,60
-Constantine,2014,"Drama, Fantasy, Horror","['Harold Perrineau', 'Charles Halford', 'Angélica Celaya']",7.5,43
-Humans,2015,"Drama, Sci-Fi","['Gemma Chan', 'Lucy Carless', 'Tom Goodman-Hill']",7.2,42
-Killjoys,2015,"Action, Adventure, Sci-Fi","['Aaron Ashmore', 'Luke Macfarlane', 'Tamsen McDonough']",7.9,42
-Agent Carter,2015,"Action, Adventure, Sci-Fi","[""James D'Arcy"", 'Enver Gjokaj', 'Chad Michael Murray']",7.4,42
-Wayward Pines,2015,"Drama, Mystery, Sci-Fi","['Toby Jones', 'Shannyn Sossamon', 'Hope Davis']",8.8,60
-Marco Polo,2014,"Adventure, Drama, History","['Benedict Wong', 'Joan Chen', 'Remy Hii']",8.3,60
-Peaky Blinders,2013,"Crime, Drama","['Paul Anderson', 'Helen McCrory', 'Sophie Rundle']",7.5,60
-Orphan Black,2013,"Action, Drama, Sci-Fi","['Dylan Bruce', 'Jordan Gavaris', 'Kevin Hanchard']",8.3,44
-Dark Matter,2015,"Adventure, Drama, Mystery","['Anthony Lemke', 'Alex Mallari Jr.', 'Jodelle Ferland']",7.2,42
-Into the Badlands,2015,"Action, Adventure, Drama","['Orla Brady', 'Emily Beecham', 'Aramis Knight']",8.1,42
-The Last Kingdom,2015,"Action, Drama, History","['Eliza Butterworth', 'Ian Hart', 'David Dawson']",7.7,60
-The Shannara Chronicles,2016,"Adventure, Fantasy, Sci-Fi","['Ivana Baquero', 'Manu Bennett', 'Aaron Jakubenko']",8.2,42
-The Night Manager,2016,"Crime, Drama, Mystery","['Tom Hiddleston', 'Elizabeth Debicki', 'Olivia Colman']",8.5,358
-Limitless,2015,"Comedy, Crime, Drama","['Jennifer Carpenter', 'Hill Harper', 'Mary Elizabeth Mastrantonio']",8.5,42
-Skins,2007,Drama,"['Nicholas Hoult', 'Joe Dempsie', 'Hannah Murray']",8.7,46
-The Night Of,2016,"Crime, Drama, Mystery","['John Turturro', 'Bill Camp', 'Amara Karan']",7.3,525
-The Expanse,2015,"Drama, Mystery, Sci-Fi","['Cas Anvar', 'Dominique Tipper', 'Wes Chatham']",8.2,60
-Utopia,2013,"Drama, Mystery, Sci-Fi","['Paul Higgins', 'Neil Maskell', ""Fiona O'Shaughnessy""]",8.4,50
-The Thick of It,2005,Comedy,"['James Smith', 'Peter Capaldi', 'Joanna Scanlan']",8.7,29
-Luther,2010,"Crime, Drama, Mystery","['Dermot Crowley', 'Michael Smiley', 'Warren Brown']",8.5,60
-Inside No. 9,2014,"Comedy, Drama, Horror","['Steve Pemberton', 'Rosie Cavaliero', 'Aimee-Ffion Edwards']",8.5,30
-Dirk Gently's Holistic Detective Agency,2016,"Action, Adventure, Comedy","['Elijah Wood', 'Hannah Marks', 'Jade Eshete']",8.3,60
-The Leftovers,2014,"Drama, Fantasy, Mystery","['Amy Brenneman', 'Christopher Eccleston', 'Liv Tyler']",8.3,60
-Spaced,1999,"Action, Comedy","['Simon Pegg', 'Julia Deakin', 'Nick Frost']",8.6,25
-Brass Eye,1997,Comedy,"['Mark Heap', 'Kevin Eldon', 'Doon Mackichan']",8.6,25
-Atlanta,2016,"Comedy, Drama, Music","['Brian Tyree Henry', 'LaKeith Stanfield', 'Zazie Beetz']",8.6,30
-Peep Show,2003,Comedy,"['Robert Webb', 'Matt King', 'Olivia Colman']",8.6,25
-The League of Gentlemen,1999,"Comedy, Horror","['Steve Pemberton', 'Reece Shearsmith', 'Jeremy Dyson']",8.4,60
-Life on Mars,2006,"Crime, Drama, Mystery","['Philip Glenister', 'Liz White', 'Dean Andrews']",8.3,60
-Lilyhammer,2012,"Comedy, Crime, Drama","['Trond Fausa', 'Steinar Sagen', 'Marian Saastad Ottesen']",8.1,45
-Ashes to Ashes,2008,"Crime, Drama, Fantasy","['Keeley Hawes', 'Dean Andrews', 'Marshall Lancaster']",8.3,60
-The Mighty Boosh,2003,"Comedy, Fantasy, Musical","['Noel Fielding', 'Michael Fielding', 'Rich Fulcher']",8.3,30
-Patriot,2015,"Comedy, Drama, Thriller","['Kurtwood Smith', 'Michael Chernus', 'Kathleen Munroe']",8.4,58
-Jam,2000,Comedy,"['Amelia Bullmore', 'David Cann', 'Julia Davis']",8.6,24
-The Day Today,1994,Comedy,"['Steve Coogan', 'Patrick Marber', 'Rebecca Front']",8.6,30
-Father Ted,1995,Comedy,"[""Ardal O'Hanlon"", 'Frank Kelly', 'Pauline McLynn']",8.5,25
-I'm Alan Partridge,1997,Comedy,"['Simon Greenall', 'Felicity Montagu', 'Phil Cornwell']",8.5,29
-Garth Marenghi's Darkplace,2004,"Comedy, Fantasy, Horror","['Matt Berry', 'Matthew Holness', 'Alice Lowe']",7.1,30
-Bruiser,2000,Comedy,"['Matthew Holness', 'Charlotte Hudson', 'Martin Freeman']",7.8,29
-PhoneShop,2009,Comedy,"['Tom Bennett', 'Andrew Brooke', 'Javone Prince']",8.2,30
-Happy!,2017,"Action, Comedy, Crime","['Ritchie Coster', 'Lili Mirojnick', 'Patton Oswalt']",8.3,60
-Barry,2018,"Action, Comedy, Crime","['Stephen Root', 'Sarah Goldberg', 'Anthony Carrigan']",8.3,30
-The Armando Iannucci Shows,2001,Comedy,"['Hugh Cecil', 'Karen Ascoe', 'Melanie Hudson']",8.4,26
-Monkey Dust,2003,"Animation, Comedy, Horror","['Morwenna Banks', 'Frances Barber', 'Rebecca Front']",7.7,29
-Xavier: Renegade Angel,2007,"Animation, Adventure, Comedy","['John Lee', 'Alyson Levy', 'Jim Tozzi']",8.8,12
-Nathan for You,2013,"Documentary, Comedy","['Anthony Filosa', 'William Heath', 'Brian S. Wolfe']",8.4,30
-The Booth at the End,2011,"Drama, Mystery","['Jennifer Del Rosario', 'Jenni Blong', 'Michelle Dunker']",8.4,30
-In Treatment,2008,Drama,"['Dianne Wiest', 'Michelle Forbes', 'Blair Underwood']",8.3,25
-Rectify,2013,Drama,"['Abigail Spencer', 'J. Smith-Cameron', 'Adelaide Clemens']",8.3,60
-Happy Valley,2014,"Crime, Drama","['Siobhan Finneran', 'Shane Zaza', 'Charlie Murphy']",8.4,58
-Being Human,2008,"Comedy, Drama, Fantasy","['Russell Tovey', 'Aidan Turner', 'Sinead Keenan']",7.8,60
-Misfits,2009,"Comedy, Drama, Fantasy","['Joseph Gilgun', 'Iwan Rheon', 'Lauren Socha']",8.2,60
-Terriers,2010,"Comedy, Crime, Drama","['Michael Raymond-James', 'Laura Allen', 'Kimberly Quinn']",8.4,45
-Justified,2010,"Action, Crime, Drama","['Nick Searcy', 'Joelle Carter', 'Jacob Pitts']",8.6,44
-Longmire,2012,"Action, Crime, Drama","['Katee Sackhoff', 'Lou Diamond Phillips', 'Cassidy Freeman']",8.3,60
-Burn Notice,2007,"Action, Crime, Drama","['Gabrielle Anwar', 'Bruce Campbell', 'Sharon Gless']",7.9,44
-Banshee,2013,"Action, Crime, Drama","['Ivana Milicevic', 'Ulrich Thomsen', 'Frankie Faison']",8.4,60
-The Knick,2014,"Drama, History","['André Holland', 'Jeremy Bobb', 'Juliet Rylance']",8.5,58
-Southland,2009,"Crime, Drama, Thriller","['Shawn Hatosy', 'Regina King', 'Ben McKenzie']",8.4,42
-The Lost Room,2006,"Action, Fantasy, Mystery","['Julianna Margulies', 'Peter Jacobson', 'Dennis Christopher']",8.2,270
-Vikings,2013,"Action, Adventure, Drama","['Gustaf Skarsgård', 'Alexander Ludwig', 'Georgia Hirst']",8.6,44
-Masters of Sex,2013,"Drama, Romance","['Lizzy Caplan', 'Caitlin FitzGerald', 'Teddy Sears']",7.9,60
-Bored to Death,2009,"Comedy, Crime, Drama","['Zach Galifianakis', 'Ted Danson', 'Heather Burns']",7.9,28
-The Kill Point,2007,"Action, Crime, Drama","['Donnie Wahlberg', 'Michael Hyatt', 'John Leguizamo']",7.4,45
-The Yard,2011,Comedy,"['Devan Cohen', 'Daniel Lupetina', 'Alex Cardillo']",6.9,25
-The Riches,2007,"Comedy, Crime, Drama","['Minnie Driver', 'Shannon Woodward', 'Noel Fisher']",7.8,30
-BoJack Horseman,2014,"Animation, Comedy, Drama","['Amy Sedaris', 'Alison Brie', 'Aaron Paul']",8.7,30
-Togetherness,2015,"Comedy, Drama, Romance","['Melanie Lynskey', 'Amanda Peet', 'Steve Zissis']",7.5,30
-Review,2014,Comedy,"['Jessica St. Clair', 'Megan Stevenson', 'Michael Croner']",8.3,45
-Adam Ruins Everything,2015,"Animation, Comedy, History","['Adam Lustick', 'Emily Axford', 'Amos Vernon']",8.6,42
-Wentworth,2013,"Crime, Drama","['Robbie Magasiva', 'Katrina Milosevic', 'Jacqueline Brennan']",7.8,60
-UnREAL,2015,Drama,"['Craig Bierko', 'Jeffrey Bowyer-Chapman', 'Brennan Elliott']",8.4,56
-Top Boy,2011,"Crime, Drama, Thriller","['Kane Robinson', 'Shone Romulus', 'Micheal Ward']",7.8,22
-In the Flesh,2013,"Drama, Horror","['Harriet Cains', 'Marie Critchley', 'Steve Cooper']",7.2,50
-Death Valley,2011,"Comedy, Horror","['Bryce Johnson', 'Tania Raymonde', 'Charlie Sanders']",8.3,60
-The Wire,2002,"Crime, Drama, Thriller","['Lance Reddick', 'Sonja Sohn', 'Wendell Pierce']",9.3,59
-Mr. Robot,2015,"Crime, Drama, Thriller","['Christian Slater', 'Carly Chaikin', 'Martin Wallström']",8.5,49
-Black Mirror,2011,"Drama, Sci-Fi, Thriller","['Hannah John-Kamen', 'Michaela Coel', 'Beatrice Robertson-Jones']",8.8,60
-Show Me a Hero,2015,"Drama, History","['Carla Quevedo', 'Peter Riegert', 'Natalie Paul']",8.1,60
-Southland,2009,"Crime, Drama, Thriller","['Shawn Hatosy', 'Regina King', 'Ben McKenzie']",8.4,42
-The Wonder Years,1988,"Comedy, Drama, Family","['Dan Lauria', 'Daniel Stern', 'Alley Mills']",8.3,22
-Crime Story,1986,"Crime, Drama, Mystery","['Bill Smitrovich', 'Steve Ryan', 'Billy Campbell']",8.4,60
-Northern Exposure,1990,"Comedy, Drama","['Janine Turner', 'Barry Corbin', 'John Cullum']",8.2,60
-American Gods,2017,"Drama, Fantasy, Mystery","['Emily Browning', 'Crispin Glover', 'Yetide Badaki']",7.9,60
-The Sopranos,1999,"Crime, Drama","['Lorraine Bracco', 'Edie Falco', 'Michael Imperioli']",9.2,55
-Quantum Leap,1989,"Action, Adventure, Drama","['Dean Stockwell', 'Deborah Pratt', 'Dennis Wolfberg']",8.1,60
-Into the Badlands,2015,"Action, Adventure, Drama","['Orla Brady', 'Emily Beecham', 'Aramis Knight']",8.5,42
-Boardwalk Empire,2010,"Crime, Drama, History","['Kelly Macdonald', 'Michael Shannon', 'Shea Whigham']",8.1,55
-Hill Street Blues,1981,"Crime, Drama, Mystery","['Michael Warren', 'Bruce Weitz', 'James Sikking']",8.5,60
-I'll Fly Away,1991,Drama,"['Regina Taylor', 'Jeremy London', 'Ashlee Levitch']",7.8,60
-New York Undercover,1994,"Crime, Drama","['Michael DeLorenzo', ""Patti D'Arbanville"", 'Luna Lauren Velez']",8.5,60
-Homicide: Life on the Street,1993,"Crime, Drama, Mystery","['Clark Johnson', 'Yaphet Kotto', 'Kyle Secor']",7.7,60
-Nikita,2010,"Action, Crime, Drama","['Shane West', 'Lyndsy Fonseca', 'Aaron Stanford']",7.4,60
-Martin,1992,"Comedy, Drama, Romance","['Tisha Campbell-Martin', 'Thomas Mikal Ford', 'Carl Anthony Payne II']",8.1,30
-The Exorcist,2016,"Drama, Horror, Mystery","['Ben Daniels', 'Kurt Egyiawan', 'Hannah Kasulka']",8.8,45
-Narcos,2015,"Biography, Crime, Drama","['Wagner Moura', 'Boyd Holbrook', 'Alberto Ammann']",7.8,49
-Preacher,2016,"Adventure, Drama, Fantasy","['Joseph Gilgun', 'Ruth Negga', 'Ian Colletti']",7.9,60
-Fresh Off the Boat,2015,Comedy,"['Constance Wu', 'Hudson Yang', 'Forrest Wheeler']",8.4,22
-The Making of the Mob,2015,"Documentary, Crime, History","['Craig Thomas Rivela', 'Rich Graff', 'John Binder']",8.5,343
-The Americans,2013,"Crime, Drama, Mystery","['Matthew Rhys', 'Keidrich Sellati', 'Holly Taylor']",8.1,44
-The Night Of,2016,"Crime, Drama, Mystery","['John Turturro', 'Bill Camp', 'Amara Karan']",8.6,525
-The Night Manager,2016,"Crime, Drama, Mystery","['Tom Hiddleston', 'Elizabeth Debicki', 'Olivia Colman']",8.2,358
-Mindhunter,2017,"Crime, Drama, Thriller","['Holt McCallany', 'Anna Torv', 'Hannah Gross']",7.7,60
-Seven Seconds,2018,"Crime, Drama","['Michael Mosley', 'David Lyons', 'Russell Hornsby']",8.3,60
-Atlanta,2016,"Comedy, Drama, Music","['Brian Tyree Henry', 'LaKeith Stanfield', 'Zazie Beetz']",7.9,30
-Master of None,2015,Comedy,"['Eric Wareheim', 'Lena Waithe', 'Noël Wells']",8.4,30
-Red Oaks,2014,"Comedy, Drama, Sport","['Ennis Esmer', 'Oliver Cooper', 'Richard Kind']",8.4,30
-Broad City,2014,Comedy,"['Abbi Jacobson', 'Hannibal Buress', 'Arturo Castro']",7.8,22
-Marco Polo,2014,"Adventure, Drama, History","['Benedict Wong', 'Joan Chen', 'Remy Hii']",7.8,60
-Entourage,2004,"Comedy, Drama","['Adrian Grenier', 'Kevin Dillon', 'Jerry Ferrara']",8.7,28
-Gotham,2014,"Action, Crime, Drama","['Jada Pinkett Smith', 'Donal Logue', 'Camren Bicondova']",8.6,42
-St. Elsewhere,1982,"Comedy, Drama","['Howie Mandel', 'David Morse', 'Christina Pickles']",8.4,60
-This Is Us,2016,"Comedy, Drama, Romance","['Mandy Moore', 'Sterling K. Brown', 'Chrissy Metz']",8.2,45
-Sons of Anarchy,2008,"Crime, Drama, Thriller","['Katey Sagal', 'Mark Boone Junior', 'Kim Coates']",8.2,45
-Top Boy,2011,"Crime, Drama, Thriller","['Kane Robinson', 'Shone Romulus', 'Micheal Ward']",7.8,60
-Treme,2010,"Drama, Music","['Rob Brown', 'Kim Dickens', 'Melissa Leo']",8.1,59
-Celia,2015,"Biography, Drama, Music","['Frank Gerrish', 'Amanda Peter', 'Wayra Schreiber']",7.7,53
-The Twilight Zone,1985,"Drama, Fantasy, Horror","['Charles Aidman', 'Richard Mulligan', 'William Atherton']",7.7,45
-Boss,2011,"Crime, Drama","['Connie Nielsen', 'Hannah Ware', 'Jeff Hephner']",7.9,56
-Shaka Zulu,1986,"Action, Biography, Drama","['Robert Powell', 'Trevor Howard', 'Fiona Fullerton']",8.2,300
-The Outer Limits,1995,"Drama, Fantasy, Horror","['Alex Diakun', 'Eric Schneider', 'Garvin Cross']",8.3,44
-The White Shadow,1978,"Drama, Sport","['Kevin Hooks', 'Byron Stewart', 'Timothy Van Patten']",8.1,60
-True Blood,2008,"Drama, Fantasy, Mystery","['Stephen Moyer', 'Sam Trammell', 'Ryan Kwanten']",8.7,55
-The Walking Dead,2010,"Drama, Horror, Thriller","['Norman Reedus', 'Melissa McBride', 'Danai Gurira']",8.1,44
-Tour of Duty,1987,"Action, Drama, War","['Stephen Caffrey', 'Tony Becker', 'Miguel A. Núñez Jr.']",8.3,47
-Quarry,2016,"Crime, Drama, Thriller","['Jodi Balfour', 'Damon Herriman', 'Edoardo Ballerini']",7.8,60
-The Haunting of Hill House,2018,"Drama, Horror, Mystery","['Oliver Jackson-Cohen', 'Kate Siegel', 'Victoria Pedretti']",7.6,50
-The Goldbergs,2013,Comedy,"['Sean Giambrone', 'Troy Gentile', 'Hayley Orrantia']",8.4,22
-Hell on Wheels,2011,"Drama, Western","['Colm Meaney', 'Robin McLeavy', 'Phil Burke']",7.3,42
-Tales from the Crypt,1989,"Comedy, Crime, Fantasy","['Roy Brocksmith', 'Miguel Ferrer', 'Cam Clarke']",8.8,25
-Condor,2018,"Action, Drama, Thriller","['Kristen Hager', 'Bob Balaban', 'Gage Graham-Arbuthnot']",7.8,60
-Carlos,2010,"Biography, Crime, Drama","['Alexander Scheer', 'Fadi Abi Samra', 'Lamia Ahmed']",8.2,334
-Strangers with Candy,1999,Comedy,"['Paul Dinello', 'Stephen Colbert', 'Greg Hollimon']",8.6,22
-American Crime Story,2016,"Biography, Crime, Drama","['Annaleigh Ashford', 'Sterling K. Brown', 'Kenneth Choi']",7.9,42
-Luke Cage,2016,"Action, Crime, Drama","['Simone Missick', 'Theo Rossi', 'Alfre Woodard']",8.4,55
-Peaky Blinders,2013,"Crime, Drama","['Paul Anderson', 'Helen McCrory', 'Sophie Rundle']",8.6,60
-Jaianto robo,1967,"Action, Adventure, Sci-Fi","['Toshiyuki Tsuchiyama', 'Kôichi Chiba', 'Akio Itô']",8.3,30
-The League,2009,"Comedy, Sport","['Jonathan Lajoie', 'Nick Kroll', 'Stephen Rannazzisi']",8.3,22
-The Corner,2000,"Crime, Drama","['Khandi Alexander', 'Sean Nelson', 'Clarke Peters']",8.2,376
-Star Trek: Deep Space Nine,1993,"Action, Adventure, Drama","['Rene Auberjonois', 'Cirroc Lofton', 'Alexander Siddig']",8.6,45
-Fringe,2008,"Drama, Mystery, Sci-Fi","['Joshua Jackson', 'John Noble', 'Jasika Nicole']",8.2,46
-Daredevil,2015,"Action, Crime, Drama","[""Vincent D'Onofrio"", 'Deborah Ann Woll', 'Elden Henson']",8.6,54
-In Treatment,2008,Drama,"['Dianne Wiest', 'Michelle Forbes', 'Blair Underwood']",7.9,25
-The Get Down,2016,"Drama, Music, Musical","['Shameik Moore', 'Herizen F. Guardiola', 'Skylan Brooks']",8.2,52
-Misfits,2009,"Comedy, Drama, Fantasy","['Joseph Gilgun', 'Iwan Rheon', 'Lauren Socha']",7.9,60
-The Newsroom,2012,Drama,"['Emily Mortimer', 'John Gallagher Jr.', 'Alison Pill']",7.3,55
-Black Sails,2014,"Adventure, Drama","['Toby Stephens', 'Hannah New', 'Zach McGowan']",7.6,56
-The X Files,1993,"Crime, Drama, Mystery","['Gillian Anderson', 'Mitch Pileggi', 'William B. Davis']",8.2,45
-V,1983,"Action, Adventure, Sci-Fi","['Michael Durrell', 'Faye Grant', 'Peter Nelson']",7.7,197
-Power,2014,"Crime, Drama","['Lela Loren', 'Naturi Naughton', 'Joseph Sikora']",8.1,50
-Roots,2016,"Biography, Drama, History","['Jonathan Rhys Meyers', 'Malachi Kirby', 'Forest Whitaker']",7.6,90
-Magic City,2012,"Crime, Drama","['Olga Kurylenko', 'Steven Strait', 'Jessica Marais']",7.8,50
-11.22.63,2016,"Drama, Mystery, Sci-Fi","['Sarah Gadon', 'George MacKay', 'Chris Cooper']",8.5,60
-Man Seeking Woman,2015,"Comedy, Fantasy, Romance","['Eric André', 'Britt Lower', 'Robin Duke']",8.4,21
-How to Get Away with Murder,2014,"Crime, Drama, Mystery","['Billy Brown', 'Jack Falahee', 'Aja Naomi King']",7.7,43
-The Magicians,2015,"Drama, Fantasy, Mystery","['Hale Appleman', 'Arjun Gupta', 'Summer Bishil']",8.8,60
-John Adams,2008,"Biography, Drama, History","['Laura Linney', 'John Dossett', 'Stephen Dillane']",7.6,71
-Underground,2016,"Adventure, Drama, History","['Aldis Hodge', 'Jessica De Gouw', 'Alano Miller']",8.6,43
-Silicon Valley,2014,Comedy,"['T.J. Miller', 'Josh Brener', 'Martin Starr']",7.4,28
-The Terror,2018,"Adventure, Drama, History","['Derek Mio', 'Tobias Menzies', 'Kiki Sukezane']",8.7,60
-Taboo,2017,"Drama, Mystery, Thriller","['David Hayman', 'Jonathan Pryce', 'Oona Chaplin']",7.9,59
-12 Monkeys,2015,"Adventure, Drama, Mystery","['Amanda Schull', 'Noah Bean', 'Barbara Sukowa']",8.6,42
-The Man in the High Castle,2015,"Drama, Sci-Fi, Thriller","['Luke Kleintank', 'Rufus Sewell', 'Rupert Evans']",7.5,60
-Luther,2010,"Crime, Drama, Mystery","['Dermot Crowley', 'Michael Smiley', 'Warren Brown']",8.5,60
-Sliders,1995,"Adventure, Fantasy, Sci-Fi","['Sabrina Lloyd', 'John Rhys-Davies', 'Cleavant Derricks']",7.4,60
-Sparks,1996,Comedy,"['Miguel A. Núñez Jr.', 'Terrence Howard', 'Kym Whitley']",7.1,30
-Six Feet Under,2001,"Comedy, Drama","['Michael C. Hall', 'Frances Conroy', 'Lauren Ambrose']",8.7,55
-Ballers,2015,"Comedy, Drama, Sport","['John David Washington', 'Donovan W. Carter', 'Troy Garity']",7.6,30
-Herman's Head,1991,Comedy,"['Hank Azaria', 'Jane Sibbett', 'Yeardley Smith']",7.1,30
-Too Old to Die Young,2019,"Crime, Drama, Thriller","['Augusto Aguilera', 'Nell Tiger Free', 'Cristina Rodlo']",7.4,55
-Dexter,2006,"Crime, Drama, Mystery","['Jennifer Carpenter', 'David Zayas', 'James Remar']",8.6,53
-Legion,2017,"Action, Drama, Sci-Fi","['Rachel Keller', 'Aubrey Plaza', 'Bill Irwin']",8.3,60
-Carnivàle,2003,"Drama, Fantasy, Mystery","['Adrienne Barbeau', 'Clancy Brown', 'Debra Christofferson']",8.4,55
-Queen Sugar,2016,Drama,"['Dawn-Lyen Gardner', 'Kofi Siriboe', 'Omar J. Dorsey']",7.7,60
-House of Cards,2013,Drama,"['Michel Gill', 'Robin Wright', 'Kate Mara']",8.8,51
-South Central,1994,Comedy,"['Larenz Tate', 'Tasha Scott', 'Keith Mbulo']",7.6,30
-Being Mary Jane,2013,"Drama, Romance, Thriller","['Lisa Vidal', 'Raven Goodwin', 'Margaret Avery']",7.5,60
-Highlander,1992,"Action, Adventure, Fantasy","['Stan Kirsch', 'Jim Byrnes', 'Peter Wingfield']",7.2,60
-Empire,2015,"Drama, Music","['Taraji P. Henson', 'Jussie Smollett', 'Bryshere Y. Gray']",7.4,42
-ER,1994,"Drama, Romance","['George Clooney', 'Julianna Margulies', 'Eriq La Salle']",7.7,44
-The Streets of San Francisco,1972,"Action, Crime, Drama","['Michael Douglas', 'Reuben Collins', 'Richard Hatch']",7.3,60
-La piovra,1984,"Crime, Drama, Romance","['Barbara De Rossi', 'Patricia Millardet', 'Nicole Jamet']",8.7,402
-McMafia,2018,"Crime, Drama, Thriller","['Merab Ninidze', 'Kirill Pirogov', 'Igor Pokrajac']",7.7,60
-Utopia,2013,"Drama, Mystery, Sci-Fi","['Paul Higgins', 'Neil Maskell', ""Fiona O'Shaughnessy""]",8.4,50
-Stalker,2014,"Crime, Drama, Thriller","['Maggie Q', 'Victor Rasuk', 'Mariana Klaveno']",7.5,60
-The Untouchables,1959,"Action, Crime, Drama","['Walter Winchell', 'Nicholas Georgiade', 'Paul Picerni']",7.2,50
-Room 222,1969,"Comedy, Drama, Family","['Denise Nicholas', 'Michael Constantine', 'Karen Valentine']",7.6,30
-Girlfriends,2000,Comedy,"['Golden Brooks', 'Persia White', 'Reginald C. Hayes']",7.1,30
-Mission: Impossible,1988,"Action, Adventure, Crime","['Thaao Penghlis', 'Antony Hamilton', 'Phil Morris']",8.5,47
-Maude,1972,Comedy,"['Bill Macy', 'Conrad Bain', 'Rue McClanahan']",8.1,30
-Generation Kill,2008,"Drama, War","['James Ransone', 'Lee Tergesen', 'Jon Huertas']",7.6,70
-Counterpart,2017,"Drama, Sci-Fi, Thriller","['Olivia Williams', 'Harry Lloyd', 'Nazanin Boniadi']",7.7,60
-Arrow,2012,"Action, Adventure, Crime","['Katie Cassidy', 'David Ramsey', 'Susanna Thompson']",8.3,42
-Barefoot in the Park,1970,Comedy,"['Tracy Reed', 'Thelma Carpenter', 'Nipsey Russell']",8.1,30
-All in the Family,1971,"Comedy, Drama","['Jean Stapleton', 'Rob Reiner', 'Sally Struthers']",8.8,30
-Altered Carbon,2018,"Action, Drama, Sci-Fi","['Renée Elise Goldsberry', 'Will Yun Lee', 'Dichen Lachman']",7.4,60
-Twin Peaks,1990,"Crime, Drama, Mystery","['Michael Ontkean', 'Mädchen Amick', 'Dana Ashbrook']",7.8,47
-Everybody Hates Chris,2005,Comedy,"['Tichina Arnold', 'Tequan Richmond', 'Imani Hakim']",8.5,22
-Insecure,2016,"Comedy, Romance","['Yvonne Orji', 'Jay Ellis', 'Lisa Joyce']",7.7,30
-Il capo dei capi,2007,"Biography, Crime, Drama","['Daniele Liotti', 'Salvatore Lazzaro', 'Simona Cavallari']",7.6,100
-The 100,2014,"Drama, Mystery, Sci-Fi","['Bob Morley', 'Marie Avgeropoulos', 'Isaiah Washington']",7.2,43
-Julia,1968,Comedy,"['Lloyd Nolan', 'Marc Copage', 'Michael Link']",7.6,30
-Boston Public,2000,"Comedy, Drama","['Anthony Heald', 'Fyvush Finkel', 'Chi McBride']",8.6,60
-Taxi,1978,Comedy,"['Jeff Conaway', 'Danny DeVito', 'Marilu Henner']",8.4,30
-Vikings,2013,"Action, Adventure, Drama","['Gustaf Skarsgård', 'Alexander Ludwig', 'Georgia Hirst']",8.6,44
-Person of Interest,2011,"Action, Crime, Drama","['Taraji P. Henson', 'Kevin Chapman', 'Michael Emerson']",8.3,43
-Mad Men,2007,Drama,"['Elisabeth Moss', 'Vincent Kartheiser', 'January Jones']",8.1,47
-Orphan Black,2013,"Action, Drama, Sci-Fi","['Dylan Bruce', 'Jordan Gavaris', 'Kevin Hanchard']",7.2,44
-Damages,2007,"Crime, Drama, Mystery","['Rose Byrne', 'Tate Donovan', 'Zachary Booth']",8.4,60
-Eye Candy,2015,"Crime, Drama, Mystery","['Casey Deidrick', 'Harvey Guillén', 'Marcus Callender']",7.5,60
-Brigada,2002,"Action, Crime, Drama","['Dmitriy Dyuzhev', 'Pavel Maykov', 'Vladimir Vdovichenkov']",7.4,750
-Dark Matter,2015,"Adventure, Drama, Mystery","['Anthony Lemke', 'Alex Mallari Jr.', 'Jodelle Ferland']",7.3,42
-Colony,2016,"Action, Adventure, Drama","['Sarah Wayne Callies', 'Peter Jacobson', 'Tory Kittles']",7.3,42
-The Defenders,2017,"Action, Adventure, Crime","['Krysten Ritter', 'Mike Colter', 'Finn Jones']",7.8,50
-Incorporated,2016,"Crime, Drama, Sci-Fi","['Allison Miller', 'Eddie Ramos', 'Julia Ormond']",8.5,43
-The Fades,2011,"Fantasy, Horror, Mystery","['Tom Ellis', 'Daniel Kaluuya', 'Iain De Caestecker']",7.2,55
-The IT Crowd,2006,Comedy,"['Richard Ayoade', 'Katherine Parkinson', 'Matt Berry']",7.4,25
-Frontier,2016,"Adventure, Drama, History","['Landon Liboiron', 'Zoe Boyle', 'Greg Bryk']",7.3,60
-Malcolm in the Middle,2000,"Comedy, Family","['Bryan Cranston', 'Justin Berfield', 'Erik Per Sullivan']",7.5,22
-Outcast,2016,"Drama, Horror","['Philip Glenister', 'Wrenn Schmidt', 'Reg E. Cathey']",7.2,60
-Lilyhammer,2012,"Comedy, Crime, Drama","['Trond Fausa', 'Steinar Sagen', 'Marian Saastad Ottesen']",7.2,45
-Roadies,2016,"Comedy, Drama, Music","['Luke Wilson', 'Imogen Poots', 'Rafe Spall']",7.6,60
-The Invisible Man,2000,"Action, Comedy, Sci-Fi","['Paul Ben-Victor', 'Shannon Kenny', 'Eddie Jones']",8.2,120
-Channel Zero,2016,"Drama, Fantasy, Horror","['Marina Stephenson Kerr', 'Abigail Pniowsky', 'Diana Bentley']",8.7,44
-The Incredible Hulk,1977,"Action, Adventure, Drama","['Lou Ferrigno', 'Jack Colvin', 'Charles Napier']",8.3,60
-Dirty Sexy Money,2007,Drama,"['Donald Sutherland', 'William Baldwin', 'Natalie Zea']",8.6,45
-Real Husbands of Hollywood,2013,Comedy,"['Duane Martin', 'Nick Cannon', 'Cynthia Kaye McWilliams']",7.3,21
-Happy!,2017,"Action, Comedy, Crime","['Ritchie Coster', 'Lili Mirojnick', 'Patton Oswalt']",8.2,60
-Fleabag,2016,"Comedy, Drama","['Sian Clifford', 'Olivia Colman', 'Jenny Rainsford']",7.3,27
-Vice Principals,2016,Comedy,"['Walton Goggins', 'Sheaun McKinney', 'Georgia King']",7.7,30
-Homeland,2011,"Crime, Drama, Mystery","['Mandy Patinkin', 'Damian Lewis', 'Rupert Friend']",6.9,55
-Deadwood,2004,"Crime, Drama, History","['Ian McShane', 'Molly Parker', 'Brad Dourif']",8.5,55
-A.D.,1985,"Drama, History","['Colleen Dewhurst', 'Ava Gardner', 'David Hedison']",8.2,600
-Animal Kingdom,2016,"Crime, Drama","['Ben Robson', 'Jake Weary', 'Finn Cole']",8.5,60
-Mannix,1967,"Action, Crime, Drama","['Gail Fisher', 'Ward Wood', 'Ron Nyman']",7.5,60
-The Alienist,2018,"Drama, Mystery","['Dakota Fanning', 'Luke Evans', 'Brian Geraghty']",7.8,60
-The Breaks,2016,"Drama, Music","['Sinqua Walls', 'Afton Williamson', 'Tristan Mack Wilds', 'Antoine Harris']",7.4,96
-Fear the Walking Dead,2015,"Drama, Horror, Sci-Fi","['Frank Dillane', 'Cliff Curtis', 'Rubén Blades']",7.7,44
-Spartacus: Blood and Sand,2010,"Action, Adventure, Biography","['Lucy Lawless', 'Manu Bennett', 'Daniel Feuerriegel']",7.5,55
-Penny Dreadful,2014,"Drama, Fantasy, Horror","['Timothy Dalton', 'Eva Green', 'Reeve Carney']",7.4,60
-Spartacus: Gods of the Arena,2011,"Action, Adventure, Biography","['Manu Bennett', 'Peter Mensah', 'Dustin Clare']",7.7,331
-The Last Ship,2014,"Action, Drama, Sci-Fi","['Adam Baldwin', 'Charles Parnell', 'Travis Van Winkle']",7.5,60
-A Series of Unfortunate Events,2017,"Adventure, Comedy, Drama","['Patrick Warburton', 'Malina Weissman', 'Louis Hynes']",6.8,50
-House of Lies,2012,"Comedy, Drama","['Kristen Bell', 'Ben Schwartz', 'Josh Lawson']",8.9,28
-Desmond's,1989,Comedy,"['Carmen Munroe', 'Ram John Holder', 'Gyearbuor Asante']",7.1,50
-Legends,2014,"Action, Crime, Drama","['Morris Chestnut', 'Ali Larter', 'Tina Majorino']",6.7,60
-Wet Hot American Summer: First Day of Camp,2015,Comedy,"['Zak Orth', 'Paul Rudd', 'Michael Showalter']",7.4,30
-Love,2016,"Comedy, Drama, Romance","['Paul Rust', ""Claudia O'Doherty"", 'Mike Mitchell']",7.1,50
-Impulse,2018,"Action, Drama, Sci-Fi","['Sarah Desjardins', 'Enuka Okuma', 'Craig Arnold']",7.8,50
-Time Traveling Bong,2016,Comedy,"['Paul W. Downs', 'Kevin Heffernan', 'Jerry G. Angelo']",7.5,22
-The New Edition Story,2017,"Biography, Drama, Music","['Elijah Kelley', 'Luke James', 'Woody McClain']",7.5,120
-The Girlfriend Experience,2016,Drama,"['Paul Sparks', 'Mary Lynn Rajskub', 'Briony Glassco']",8.7,27
-Powers,2015,"Action, Crime, Drama","['Susan Heyward', 'Noah Taylor', 'Eddie Izzard']",7.6,42
-Amazing Stories,1985,"Adventure, Comedy, Drama","['Douglas Seale', 'Louis Giambalvo', 'Sharon Spelman']",7.6,30
-Falling Skies,2011,"Action, Adventure, Drama","['Drew Roy', 'Maxim Knight', 'Will Patton']",7.2,42
-The End of the F***ing World,2017,"Adventure, Comedy, Crime","['Alex Lawther', 'Steve Oram', 'Christine Bottomley']",8.1,25
-The Six Million Dollar Man,1974,"Action, Adventure, Crime","['Richard Anderson', 'Martin E. Brooks', 'Lindsay Wagner']",7.1,60
-Twin Peaks,2017,"Crime, Drama, Fantasy","['Sheryl Lee', 'Michael Horse', 'Chrysta Bell']",8.5,60
-El Chapo,2017,"Crime, Drama","['Humberto Busto', 'Diego Vásquez', 'Juan Carlos Cruz']",7.8,43
-The Electric Company,1971,"Family, Comedy","['Morgan Freeman', 'Judy Graubart', 'Skip Hinnant']",8.1,28
-Oz,1997,"Crime, Drama, Thriller","['J.K. Simmons', 'Lee Tergesen', 'Dean Winters']",8.7,55
-Soul Food,2000,Drama,"['Darrin Dewitt Henson', 'Aaron Meeks', 'Nicole Ari Parker']",7.2,45
-Jessica Jones,2015,"Action, Crime, Drama","['Rachael Taylor', 'Eka Darville', 'Carrie-Anne Moss']",8.8,56
-Freaks and Geeks,1999,"Comedy, Drama","['John Francis Daley', 'James Franco', 'Samm Levine']",7.5,44
-"Magnum, P.I.",1980,"Action, Adventure, Crime","['John Hillerman', 'Roger E. Mosley', 'Larry Manetti']",7.6,48
-Moonlighting,1985,"Comedy, Drama, Mystery","['Bruce Willis', 'Allyce Beasley', 'Curtis Armstrong']",7.7,60
-New Girl,2011,Comedy,"['Jake Johnson', 'Max Greenfield', 'Hannah Simone']",7.5,22
-Outsourced,2010,Comedy,"['Anisha Nagarajan', 'Diedrich Bader', 'Parvesh Cheena']",7.1,30
-Hung,2009,"Comedy, Drama","['Jane Adams', 'Charlie Saxton', 'Sianoa Smit-McPhee']",7.8,30
-Save Me,2018,"Drama, Mystery","['Stephen Graham', 'Suranne Jones', 'Susan Lynch']",7.3,270
-Girls,2012,"Comedy, Drama","['Allison Williams', 'Jemima Kirke', 'Adam Driver']",7.2,28
-Flaked,2016,"Comedy, Drama","['David Sullivan', 'Ruth Kearney', 'George Basil']",8.2,30
-Sledge Hammer!,1986,"Action, Comedy","['Anne-Marie Martin', 'Harrison Page', 'Leslie Morris']",8.2,30
-Skins,2007,Drama,"['Nicholas Hoult', 'Joe Dempsie', 'Hannah Murray']",7.3,46
-Matlock,1986,"Crime, Drama, Mystery","['Linda Purl', 'Kene Holiday', 'Nancy Stafford']",7.5,60
-The Strain,2014,"Drama, Horror, Thriller","['David Bradley', 'Kevin Durand', 'Jonathan Hyde']",7.7,43
-Mortal Kombat,2011,"Action, Adventure, Crime","['Ian Anthony Dale', 'Samantha Win', 'Kim Do Nguyen']",7.5,10
-Chewing Gum,2015,Comedy,"['Danielle Walters', 'Robert Lonsdale', 'Shola Adewusi']",7.3,23
-High Maintenance,2016,"Comedy, Drama","['Kate Lyn Sheil', 'Britt Lower', 'Abdullah Saeed']",7.5,30
-Search Party,2016,"Comedy, Crime, Drama","['John Reynolds', 'John Early', 'Meredith Hagner']",8.3,24
-That's My Bush!,2001,Comedy,"['Carrie Quinn Dolin', 'Kurt Fuller', 'Marcia Wallace']",7.3,30
-American Dreams,2002,"Drama, Family, History","['Tom Verica', 'Brittany Snow', 'Jonathan Adams']",8.3,60
-The Last Kingdom,2015,"Action, Drama, History","['Eliza Butterworth', 'Ian Hart', 'David Dawson']",8.3,60
-Greenleaf,2016,Drama,"['Desiree Ross', 'Kim Hawthorne', 'Lamman Rucker']",8.9,60
-Scrubs,2001,"Comedy, Drama","['Donald Faison', 'Sarah Chalke', 'John C. McGinley']",8.7,22
-The Pacific,2010,"Action, Adventure, Drama","['Joseph Mazzello', 'Jon Seda', 'Ashton Holmes']",8.6,530
-Vice,2013,"Documentary, News","['Gianna Toboni', 'Thomas Morton', 'Ben Anderson']",8.4,30
-The Shield,2002,"Crime, Drama, Thriller","['Catherine Dent', 'Walton Goggins', 'Michael Jace']",7.5,47
-Justified,2010,"Action, Crime, Drama","['Nick Searcy', 'Joelle Carter', 'Jacob Pitts']",6.8,44
-Banshee,2013,"Action, Crime, Drama","['Ivana Milicevic', 'Ulrich Thomsen', 'Frankie Faison']",6.6,60
-Threads,1984,"Drama, Sci-Fi, War","['Karen Meagher', 'Reece Dinsdale', 'David Brierly', 'Rita May']",8.1,112
-The Chi,2018,Drama,"['Jacob Latimore', 'Ntare Guma Mbaho Mwine', 'Alex R. Hibbert']",7.3,60
-It,1990,"Drama, Horror, Mystery","['Tim Reid', ""Annette O'Toole"", 'Harry Anderson']",7.8,192
-The Breaks,2017,"Drama, Music","['Tristan Mack Wilds', 'Antoine Harris', 'Sinqua Walls']",7.9,42
-American Horror Story,2011,"Drama, Horror, Thriller","['Kathy Bates', 'Angela Bassett', 'Sarah Paulson']",8.3,60
-Blackstone,2009,"Action, Drama","['Eric Schweig', 'Michelle Thrush', 'Steven Cree Molison']",8.1,44
-Curiosity,2011,Documentary,"['Martin Sheen', 'Sean Barrett', 'Morgan Freeman']",7.6,45
-Masters of Sex,2013,"Drama, Romance","['Lizzy Caplan', 'Caitlin FitzGerald', 'Teddy Sears']",8.3,60
-Sense8,2015,"Drama, Mystery, Sci-Fi","['Jamie Clayton', 'Tina Desai', 'Tuppence Middleton']",7.2,60
-Orange Is the New Black,2013,"Comedy, Crime, Drama","['Danielle Brooks', 'Taryn Manning', 'Emma Myles']",7.4,59
-Destination Truth,2007,Reality-TV,"['Gabriel Copeland', 'Mike Morrell', 'Erin Ryder']",6.9,60
-The Leftovers,2014,"Drama, Fantasy, Mystery","['Amy Brenneman', 'Christopher Eccleston', 'Liv Tyler']",6.9,60
-Another Period,2013,"Comedy, History","['Riki Lindhome', 'Armen Weitzman', 'Michael Ian Black']",8.2,21
-Lady Dynamite,2016,Comedy,"['Fred Melamed', 'Mary Kay Place', 'Ana Gasteyer']",7.5,30
-Adam Ruins Everything,2015,"Animation, Comedy, History","['Adam Lustick', 'Emily Axford', 'Amos Vernon']",7.4,30
-A Different World,1987,Comedy,"['Kadeem Hardison', 'Jasmine Guy', 'Darryl M. Bell']",7.1,60
-White Rabbit Project,2016,Reality-TV,"['Kari Byron', 'Grant Imahara', 'Igor Breakenback']",7.4,48
-Good Girls Revolt,2015,Drama,"['Anna Camp', 'Erin Darke', 'Hunter Parrish']",8.4,55
-Second Chance,2016,"Drama, Sci-Fi","['Dilshad Vadsaria', 'Adhir Kalyan', 'Ciara Bravo']",8.4,42
-Sleepy Hollow,2013,"Action, Adventure, Crime","['Lyndie Greenwood', 'Nicole Beharie', 'Orlando Jones']",8.7,45
-Dark Net,2016,Documentary,"['Kristie', 'Drew', 'Anisha Vora']",7.4,30
-Fortitude,2015,"Drama, Horror, Mystery","['Björn Hlynur Haraldsson', 'Sienna Guillory', 'Mia Jexen']",7.3,60
-Billions,2016,Drama,"['Damian Lewis', 'Maggie Siff', 'David Costabile']",7.1,60
-Bloodline,2015,"Drama, Thriller","['Ben Mendelsohn', 'Linda Cardellini', 'Sissy Spacek']",7.4,60
-Bosch,2014,"Crime, Drama","['Jamie Hector', 'Amy Aquino', 'Lance Reddick']",7.2,51
-Flesh and Bone,2015,Drama,"['Ben Daniels', 'Emily Tyra', 'Irina Dvorovenko']",8.5,60
-Gomorra: La serie,2014,"Crime, Drama, Thriller","[""Marco D'Amore"", ""Cristiana Dell'Anna"", 'Fortunato Cerlino']",7.2,55
-3%,2016,"Action, Drama, Sci-Fi","['Vaneza Oliveira', 'Rodolfo Valente', 'Zezé Motta']",7.2,49
-Believe,2014,"Drama, Fantasy, Sci-Fi","['Johnny Sequoyah', 'Jamie Chung', 'Kyle MacLachlan']",7.4,43
-Pitch,2016,"Drama, Sport","['Mark-Paul Gosselaar', 'Mark Consuelos', 'Mo McRae']",6.6,60
-StartUp,2016,"Crime, Thriller","['Edi Gathegi', 'Otmara Marrero', 'Kristen Ariza']",6.7,44
-Containment,2016,Drama,"['Christina Moses', 'Chris Wood', 'Claudia Black']",8.8,60
-The Knick,2014,"Drama, History","['André Holland', 'Jeremy Bobb', 'Juliet Rylance']",6.4,58
-The Shannara Chronicles,2016,"Adventure, Fantasy, Sci-Fi","['Ivana Baquero', 'Manu Bennett', 'Aaron Jakubenko']",5.2,42
-Emerald City,2016,"Adventure, Drama, Fantasy","['Oliver Jackson-Cohen', 'Ana Ularu', 'Gerran Howell']",5.7,60
-What's Happening!!,1976,Comedy,"['Haywood Nelson', 'Danielle Spencer', 'Fred Berry']",7.7,24
-Thirtysomething,1987,"Drama, Romance","['Polly Draper', 'Mel Harris', 'Peter Horton']",7.1,60
-Shuga,2009,Drama,"['Jemima Osunde', 'Timini Egbuson', 'Ayanda Makayi']",6.4,24
-Sybil,1976,"Biography, Drama","['Sally Field', 'Brad Davis', 'Martine Bartlett']",6.9,198
-Heroes Reborn,2015,"Drama, Fantasy, Sci-Fi","['Zachary Levi', 'Robbie Kay', 'Kiki Sukezane']",8.5,60
-Li Xiao Long chuan qi,2008,"Action, Biography, Drama","['Michelle Lang', 'Ted Duran', 'Hazen MacIntyre']",6.8,183
-Cobra Kai,2018,"Action, Comedy, Drama","['Ralph Macchio', 'William Zabka', 'Courtney Henggeler']",8.6,30
-Cleverman,2016,"Drama, Fantasy, Sci-Fi","['Rob Collins', 'Tasma Walton', 'Rarriwuy Hick']",8.3,50
-Rebel,2017,"Crime, Drama","['Angela Ko', 'Brandon Quinn', 'Derek Ray']",7.3,83
-Guerrilla,2017,Drama,"['Nathaniel Martello-White', 'Daniel Mays', 'Denise Gough']",6.1,60
-The Detour,2016,"Adventure, Comedy","['Natalie Zea', 'Ashley Gerasimovich', 'Liam Carroll']",7.9,30
-The Blacklist: Redemption,2017,"Action, Crime, Drama","['Ryan Eggold', 'Edi Gathegi', 'Tawny Cypress']",7.2,43
-Shots Fired,2017,"Crime, Drama","['Stephan James', 'Stephen Moyer', 'Will Patton']",7.3,43
-The Mod Squad,1968,"Action, Crime, Drama","['Clarence Williams III', 'Peggy Lipton', 'Tige Andrews']",6.8,60
-The Handmaid's Tale,2017,"Drama, Sci-Fi, Thriller","['Amanda Brugel', 'Madeline Brewer', 'Max Minghella']",7.3,60
-The Wizard of Lies,2017,"Biography, Crime, Drama","['Robert De Niro', 'Michelle Pfeiffer', 'Alessandro Nivola', 'Nathan Darrow']",8.4,133
-The Crazy Ones,2013,Comedy,"['Sarah Michelle Gellar', 'James Wolk', 'Hamish Linklater']",7.1,30
-The Originals,2013,"Drama, Fantasy, Horror","['Daniel Gillies', 'Claire Holt', 'Phoebe Tonkin']",8.2,45
-True Colors,1990,Comedy,"['Brigid Brannagh', 'Adam Jeffries', 'Nancy Walker']",7.1,30
-13 Reasons Why,2017,"Drama, Mystery","['Katherine Langford', 'Christian Navarro', 'Alisha Boe']",7.8,60
-Survivor's Remorse,2014,Drama,"['Jessie T. Usher', 'Erica Ash', 'Teyonah Parris']",6.9,30
-Brown Nation,2016,Comedy,"['Kapil Bawa', 'Jaspal Binning', 'Melanie Chandra']",6.9,21
-The Looming Tower,2018,"Drama, History","['Tahar Rahim', 'Wrenn Schmidt', 'Bill Camp']",8.4,492
-The Young Pope,2016,Drama,"['Diane Keaton', 'Silvio Orlando', 'Javier Cámara']",7.7,546
-The Flash,2014,"Action, Adventure, Drama","['Candice Patton', 'Danielle Panabaker', 'Carlos Valdes']",8.6,43
-Doctor Who,2005,"Adventure, Drama, Family","['Peter Capaldi', 'Pearl Mackie', 'Matt Smith']",7.9,45
-iZombie,2015,"Comedy, Crime, Drama","['Malcolm Goodwin', 'Rahul Kohli', 'Robert Buckley']",8.2,42
-The Sinner,2017,"Crime, Drama, Mystery","['Dohn Norwood', 'Adam LeFevre', 'Jessica Biel']",8.3,45
-War & Peace,2016,"Drama, History, Romance","['James Norton', 'Lily James', 'Adrian Edmondson']",7.4,379
-Poldark,2015,"Drama, History, Romance","['Eleanor Tomlinson', 'Jack Farthing', 'Beatie Edney']",7.7,60
-Run,2013,"Crime, Drama","['Katharina Schüttler', 'Lennie James', 'Levan Doran']",6.9,60
-Brotherhood,2006,"Crime, Drama","['Jason Clarke', 'Annabeth Gish', 'Kevin Chapman']",6.7,60
-Scare Tactics,2003,"Comedy, Horror, Reality-TV","['Lauren Ash', 'Travis Draft', 'Sven Holmberg']",6.6,180
-The Driver,2014,"Crime, Drama","['Claudie Blakley', 'Ian Hart', 'Sacha Parkinson']",7.6,60
-Dallas,1978,"Drama, Romance","['Ken Kercheval', 'Patrick Duffy', 'Linda Gray']",7.5,43
-Defiance,2013,"Action, Drama, Sci-Fi","['Stephanie Leonidas', 'Julie Benz', 'Graham Greene']",7.8,42
-Extant,2014,"Drama, Sci-Fi, Thriller","['Pierce Gagnon', 'Grace Gummer', 'Tyler Hilton']",5.9,30
-Hindsight,2015,"Comedy, Drama","['Sarah Goldberg', 'Craig Horner', 'Nick Clifford']",6.9,30
-Togetherness,2015,"Comedy, Drama, Romance","['Melanie Lynskey', 'Amanda Peet', 'Steve Zissis']",6.6,22
-Sirens,2014,Comedy,"['Kevin Daniels', 'Kevin Bigley', 'Jessica McNamee']",7.8,42
-Minority Report,2015,"Action, Crime, Drama","['Stark Sands', 'Nick Zano', 'Daniel London']",6.1,60
-The player,2015,"Action, Crime, Drama","['Damon Gupton', 'Wesley Snipes', 'Charity Wakefield']",6.3,46
-L.A. Law,1986,Drama,"['Jill Eikenberry', 'Alan Rachins', 'Michael Tucker']",7.9,43
-Under the Dome,2013,"Drama, Mystery, Sci-Fi","['Rachelle Lefevre', 'Alexander Koch', 'Colin Ford']",6.8,60
-Midnight Caller,1988,Drama,"['Dennis Dun', 'Arthur Taxier', 'Mykelti Williamson']",7.6,43
-Black Lightning,2018,"Action, Drama, Sci-Fi","['China Anne McClain', 'Nafessa Williams', 'Christine Adams']",7.1,60
-Ghost Wars,2017,"Drama, Fantasy, Horror","['Kim Coates', 'Luvia Petersen', 'Jesse Moss']",7.3,265
-The Book of Negroes,2015,"Drama, History, War","['Lyriq Bent', 'Ben Chaplin', 'Allan Hawco']",8.3,60
-The Gentle Touch,1980,"Crime, Drama","['William Marlowe', 'Paul Moriarty', 'Brian Gwaspari']",7.7,60
-Hap and Leonard,2016,"Crime, Drama, Thriller","['Michael Kenneth Williams', 'Tiffany Mack', 'Cranston Johnson']",6.7,22
-Black-ish,2014,Comedy,"['Tracee Ellis Ross', 'Marcus Scribner', 'Miles Brown']",7.5,60
-Tin Star,2017,"Crime, Drama, Thriller","[""Genevieve O'Reilly"", 'Abigail Lawrie', 'Christina Hendricks']",7.9,60
-Godless,2017,"Drama, Western","['Michelle Dockery', 'Scoot McNairy', 'Merritt Wever']",7.2,43
-9-1-1,2018,"Action, Drama, Thriller","['Peter Krause', 'Oliver Stark', 'Aisha Hinds']",8.3,43
-Revolution,2012,"Action, Adventure, Drama","['Tracy Spiridakos', 'Giancarlo Esposito', 'Zak Orth']",7.9,30
-Everything Sucks!,2018,Comedy,"['Peyton Kennedy', 'Patch Darragh', 'Claudine Mboligikpelani Nako']",6.2,60
-Unsolved,2018,"Biography, Crime","['Bokeem Woodbine', 'Wavyy Jonez', 'Marcc Rose']",6.8,42
-The Crossing,2018,"Adventure, Drama, Sci-Fi","['Natalie Martinez', 'Tommy Bastow', 'Rob Campbell']",7.9,42
-Killing Eve,2018,"Action, Adventure, Drama","['Sandra Oh', 'Fiona Shaw', 'Kim Bodnia']",8.1,60
-Strike,2017,"Crime, Drama, Mystery","['Holliday Grainger', 'Kerr Logan', 'Killian Scott']",7.3,60
-Get Christie Love!,1974,"Crime, Drama","['Charles Cioffi', 'Jack Kelly', 'Andy Romano']",8.5,42
-Legends of Tomorrow,2016,"Action, Adventure, Drama","['Caity Lotz', 'Amy Louise Pemberton', 'Dominic Purcell']",7.8,60
-Mr. Mercedes,2017,"Mystery, Sci-Fi, Thriller","['Holland Taylor', 'Jharrel Jerome', 'Breeda Wool']",7.5,60
-Ófærð,2015,"Crime, Drama, Mystery","['Ilmur Kristjánsdóttir', 'Ingvar Sigurdsson', 'Elva María Birgisdóttir']",6.5,60
-Electric Dreams,2017,Sci-Fi,"['Geraldine Chaplin', 'Bryan Cranston', 'Terrence Howard']",6.6,60
-The Expanse,2015,"Drama, Mystery, Sci-Fi","['Cas Anvar', 'Dominique Tipper', 'Wes Chatham']",6.4,30
-Future Man,2017,"Action, Adventure, Comedy","['Eliza Coupe', 'Derek Wilson', 'Haley Joel Osment']",6.2,60
-Trust,2018,"Biography, Crime, Drama","['Donald Sutherland', 'Hilary Swank', 'Luca Marinelli']",6.2,55
-Iron Fist,2017,"Action, Adventure, Crime","['Jessica Henwick', 'Jessica Stroup', 'Tom Pelphrey']",6.9,30
-All-American Girl,1994,Comedy,"['Amy Hill', 'Jodi Long', 'Clyde Kusatsu']",7.9,30
-Hangin' with Mr. Cooper,1992,"Comedy, Family, Sport","['Holly Robinson Peete', 'Sandra Quarterman', 'Marquise Wilson']",6.3,41
-24: Legacy,2016,"Action, Crime, Drama","['Miranda Otto', 'Anna Diop', 'Teddy Sears']",6.3,30
-Dear White People,2017,"Comedy, Drama","['Brandon P Bell', 'DeRon Horton', 'Antoinette Robertson']",6.6,30
-M*A*S*H,1972,"Comedy, Drama, War","['Wayne Rogers', 'Loretta Swit', 'Jamie Farr']",8.4,25
-Cheers,1982,"Comedy, Drama","['Rhea Perlman', 'John Ratzenberger', 'George Wendt']",7.8,22
-Taxi,1978,Comedy,"['Jeff Conaway', 'Danny DeVito', 'Marilu Henner']",7.6,30
-The Sopranos,1999,"Crime, Drama","['Lorraine Bracco', 'Edie Falco', 'Michael Imperioli']",9.2,55
-Mary Tyler Moore,1970,Comedy,"['Edward Asner', 'Gavin MacLeod', 'Valerie Harper']",8.1,30
-The Cosby Show,1984,"Comedy, Family, Romance","['Phylicia Rashad', 'Keshia Knight Pulliam', 'Malcolm-Jamal Warner']",7.3,30
-Frasier,1993,Comedy,"['Jane Leeves', 'David Hyde Pierce', 'Peri Gilpin']",8.8,22
-Twin Peaks,1990,"Crime, Drama, Mystery","['Michael Ontkean', 'Mädchen Amick', 'Dana Ashbrook']",8.3,47
-Homeland,2011,"Crime, Drama, Mystery","['Mandy Patinkin', 'Damian Lewis', 'Rupert Friend']",7.1,55
-Sex and the City,1998,"Comedy, Drama, Romance","['Kim Cattrall', 'Kristin Davis', 'Cynthia Nixon']",7.5,30
-"Magnum, P.I.",1980,"Action, Adventure, Crime","['John Hillerman', 'Roger E. Mosley', 'Larry Manetti']",6.9,48
-Dallas,1978,"Drama, Romance","['Ken Kercheval', 'Patrick Duffy', 'Linda Gray']",8.9,60
-Friends,1994,"Comedy, Romance","['Courteney Cox', 'Lisa Kudrow', 'Matt LeBlanc']",7.9,22
-Breaking Bad,2008,"Crime, Drama, Thriller","['Aaron Paul', 'Anna Gunn', 'Betsy Brandt']",9.5,49
-Game of Thrones,2011,"Action, Adventure, Drama","['Peter Dinklage', 'Kit Harington', 'Lena Headey']",9.3,57
-Band of Brothers,2001,"Action, Drama, History","['Damian Lewis', 'Ron Livingston', 'Shane Taylor']",9.5,594
-Chernobyl,2019,"Drama, History, Thriller","['Jared Harris', 'Stellan Skarsgård', 'Adam Nagaitis']",9.4,330
-Sherlock,2010,"Crime, Drama, Mystery","['Martin Freeman', 'Una Stubbs', 'Rupert Graves']",9.1,88
-The Wire,2002,"Crime, Drama, Thriller","['Lance Reddick', 'Sonja Sohn', 'Wendell Pierce']",9.3,59
-Rick and Morty,2013,"Animation, Adventure, Comedy","['Chris Parnell', 'Spencer Grammer', 'Sarah Chalke']",9.2,23
-Friends,1994,"Comedy, Romance","['Courteney Cox', 'Lisa Kudrow', 'Matt LeBlanc']",8.9,22
-The Sopranos,1999,"Crime, Drama","['Lorraine Bracco', 'Edie Falco', 'Michael Imperioli']",9.2,55
-True Detective,2014,"Crime, Drama, Mystery","['Colin Farrell', 'Rachel McAdams', 'Taylor Kitsch']",8.8,55
-Stranger Things,2016,"Drama, Fantasy, Horror","['Finn Wolfhard', 'Winona Ryder', 'David Harbour']",9.2,51
-Avatar: The Last Airbender,2005,"Animation, Action, Adventure","['Zach Tyler', 'Jack De Sena', 'Mae Whitman']",8.9,23
-The Office,2005,Comedy,"['Jenna Fischer', 'John Krasinski', 'Rainn Wilson']",8.8,22
-House of Cards,2013,Drama,"['Michel Gill', 'Robin Wright', 'Kate Mara']",8.9,51
-Firefly,2002,"Adventure, Drama, Sci-Fi","['Gina Torres', 'Alan Tudyk', 'Morena Baccarin']",8.8,44
-Fargo,2014,"Crime, Drama, Thriller","['Martin Freeman', 'Allison Tolman', 'Colin Hanks']",8.6,53
-Black Mirror,2011,"Drama, Sci-Fi, Thriller","['Hannah John-Kamen', 'Michaela Coel', 'Beatrice Robertson-Jones']",8.8,60
-Death Note: Desu nôto,2006,"Animation, Crime, Drama","['Brad Swaile', 'Vincent Tong', 'Ryô Naitô']",8.7,24
-Dexter,2006,"Crime, Drama, Mystery","['Jennifer Carpenter', 'David Zayas', 'James Remar']",8.7,53
-Narcos,2015,"Biography, Crime, Drama","['Wagner Moura', 'Boyd Holbrook', 'Alberto Ammann']",8.8,49
-House M.D.,2004,"Drama, Mystery","['Omar Epps', 'Robert Sean Leonard', 'Jesse Spencer']",8.7,44
-Westworld,2016,"Drama, Mystery, Sci-Fi","['Jeffrey Wright', 'Ed Harris', 'Thandie Newton']",8.8,62
-Peaky Blinders,2013,"Crime, Drama","['Paul Anderson', 'Helen McCrory', 'Sophie Rundle']",8.7,60
-The Simpsons,1989,"Animation, Comedy","['Nancy Cartwright', 'Harry Shearer', 'Julie Kavner']",9.1,22
-Seinfeld,1989,Comedy,"['Julia Louis-Dreyfus', 'Michael Richards', 'Jason Alexander']",8.6,22
-South Park,1997,"Animation, Comedy","['Matt Stone', 'Isaac Hayes', 'Mona Marshall']",8.7,22
-Hagane no renkinjutsushi,2009,"Animation, Action, Adventure","['Iemasa Kayumi', 'Vic Mignogna', 'Muriel Hofmann']",8.7,24
-Vikings,2013,"Action, Adventure, Drama","['Gustaf Skarsgård', 'Alexander Ludwig', 'Georgia Hirst']",8.6,44
-Better Call Saul,2015,"Crime, Drama","['Rhea Seehorn', 'Jonathan Banks', 'Patrick Fabian']",9.1,46
-Arrested Development,2003,Comedy,"['Michael Cera', 'Portia de Rossi', 'Will Arnett']",8.8,22
-Daredevil,2015,"Action, Crime, Drama","[""Vincent D'Onofrio"", 'Deborah Ann Woll', 'Elden Henson']",8.8,54
-Leyla ile Mecnun,2011,"Adventure, Comedy, Drama","['Ahmet Mümtaz Taylan', 'Serkan Keskin', 'Osman Sonant']",8.5,80
-It's Always Sunny in Philadelphia,2005,Comedy,"['Glenn Howerton', 'Rob McElhenney', 'Kaitlin Olson']",8.6,22
-Twin Peaks,1990,"Crime, Drama, Mystery","['Michael Ontkean', 'Mädchen Amick', 'Dana Ashbrook']",8.8,47
-Suits,2011,"Comedy, Drama","['Patrick J. Adams', 'Meghan Markle', 'Sarah Rafferty']",8.2,44
-Sons of Anarchy,2008,"Crime, Drama, Thriller","['Katey Sagal', 'Mark Boone Junior', 'Kim Coates']",8.5,45
-Shingeki no kyojin,2013,"Animation, Action, Adventure","['Yûki Kaji', 'Yui Ishikawa', 'Josh Grelle']",8.3,24
-Batman: The Animated Series,1992,"Animation, Action, Adventure","['Loren Lester', 'Efrem Zimbalist Jr.', 'Bob Hastings']",9.2,23
-The Walking Dead,2010,"Drama, Horror, Thriller","['Norman Reedus', 'Melissa McBride', 'Danai Gurira']",8.7,44
-Mr. Robot,2015,"Crime, Drama, Thriller","['Christian Slater', 'Carly Chaikin', 'Martin Wallström']",8.8,49
-How I Met Your Mother,2005,"Comedy, Romance","['Jason Segel', 'Cobie Smulders', 'Neil Patrick Harris']",8.4,22
-TVF Pitchers,2015,"Comedy, Drama","['Arunabh Kumar', 'Jitendra Kumar', 'Abhay Mahajan']",8.7,40
-Dark,2017,"Crime, Drama, Mystery","['Louis Hofmann', 'Jördis Triebel', 'Maja Schöne']",8.7,60
-Freaks and Geeks,1999,"Comedy, Drama","['John Francis Daley', 'James Franco', 'Samm Levine']",8.7,44
-Supernatural,2005,"Drama, Fantasy, Horror","['Jensen Ackles', 'Jim Beaver', 'Misha Collins']",8.7,44
-Downton Abbey,2010,"Drama, Romance","['Phyllis Logan', 'Elizabeth McGovern', 'Brendan Coyle']",8.6,58
-The Mandalorian,2019,"Action, Adventure, Sci-Fi","['Carl Weathers', 'Rio Hackford', 'Gina Carano']",8.6,30
-Rome,2005,"Action, Drama, History","['Ray Stevenson', 'Polly Walker', 'Kerry Condon']",8.6,52
-When They See Us,2019,"Biography, Crime, Drama","['Caleel Harris', 'Ethan Herisse', 'Marquis Rodriguez']",8.3,296
-Battlestar Galactica,2004,"Action, Adventure, Drama","['Mary McDonnell', 'Jamie Bamber', 'James Callis']",8.6,44
-Mad Men,2007,Drama,"['Elisabeth Moss', 'Vincent Kartheiser', 'January Jones']",8.6,47
-Parks and Recreation,2009,Comedy,"[""Jim O'Heir"", 'Nick Offerman', 'Chris Pratt']",8.7,22
-Doctor Who,2005,"Adventure, Drama, Family","['Peter Capaldi', 'Pearl Mackie', 'Matt Smith']",8.3,45
-Lost,2004,"Adventure, Drama, Fantasy","['Josh Holloway', 'Yunjin Kim', 'Evangeline Lilly']",8.6,44
-The Twilight Zone,1959,"Drama, Fantasy, Horror","['Robert McCord', 'Jay Overholts', 'Vaughn Taylor']",8.9,51
-The X Files,1993,"Crime, Drama, Mystery","['Gillian Anderson', 'Mitch Pileggi', 'William B. Davis']",8.7,45
-Shameless,2011,"Comedy, Drama","['William H. Macy', 'Ethan Cutkosky', 'Jeremy Allen White']",8.4,46
-The Haunting of Hill House,2018,"Drama, Horror, Mystery","['Oliver Jackson-Cohen', 'Kate Siegel', 'Victoria Pedretti']",8.8,50
-Prison Break,2005,"Action, Crime, Drama","['Wentworth Miller', 'Amaury Nolasco', 'Robert Knepper']",9.6,44
-Mindhunter,2017,"Crime, Drama, Thriller","['Holt McCallany', 'Anna Torv', 'Hannah Gross']",8.5,60
-Kaubôi bibappu,1998,"Animation, Action, Adventure","['Unshô Ishizuka', 'Megumi Hayashibara', 'Steve Blum']",8.5,24
-The Boys,2019,"Action, Comedy, Crime","['Jack Quaid', 'Antony Starr', 'Erin Moriarty']",8.5,60
-Modern Family,2009,"Comedy, Drama, Romance","['Sofía Vergara', 'Julie Bowen', 'Ty Burrell']",8.9,22
-One Punch Man: Wanpanman,2015,"Animation, Action, Comedy","['Kaito Ishikawa', 'Max Mittelman', 'Zach Aguilar']",8.7,24
-Koombiyo,2017,"Crime, Drama, Thriller","['Kalana Gunasekara', 'Andrew Pulle', 'Yureni Noshika']",8.1,20
-Spartacus: Blood and Sand,2010,"Action, Adventure, Biography","['Lucy Lawless', 'Manu Bennett', 'Daniel Feuerriegel']",8.7,55
-Hannibal,2013,"Crime, Drama, Horror","['Mads Mikkelsen', 'Caroline Dhavernas', 'Laurence Fishburne']",8.7,44
-La Casa de Papel,2017,"Action, Crime, Mystery","['Álvaro Morte', 'Itziar Ituño', 'Pedro Alonso']",8.5,70
-Pride and Prejudice,1995,"Drama, Romance","['Jennifer Ehle', 'Susannah Harker', 'Julia Sawalha']",8.9,327
-Six Feet Under,2001,"Comedy, Drama","['Michael C. Hall', 'Frances Conroy', 'Lauren Ambrose']",8.6,55
-The Big Bang Theory,2007,"Comedy, Romance","['Jim Parsons', 'Kaley Cuoco', 'Simon Helberg']",8.5,22
-The Crown,2016,"Drama, History","['Matt Smith', 'Olivia Colman', 'Tobias Menzies']",8.5,58
-Dragon Ball Z,1996,"Animation, Action, Adventure","['Christopher Sabat', 'Scott McNeil', 'Sean Schemmel']",8.7,24
-Community,2009,Comedy,"['Danny Pudi', 'Donald Glover', 'Chevy Chase']",8.3,22
-Gravity Falls,2012,"Animation, Action, Adventure","['Alex Hirsch', 'Kristen Schaal', 'Linda Cardellini']",8.7,23
-Archer,2009,"Animation, Action, Comedy","['Judy Greer', 'Amber Nash', 'Chris Parnell']",8.4,22
-The Punisher,2017,"Action, Adventure, Crime","['Amber Rose Revah', 'Ben Barnes', 'Jason R. Moore']",8.7,53
-Boardwalk Empire,2010,"Crime, Drama, History","['Kelly Macdonald', 'Michael Shannon', 'Shea Whigham']",8.4,55
-Curb Your Enthusiasm,2000,Comedy,"['Cheryl Hines', 'Jeff Garlin', 'Susie Essman']",8.5,28
-Homeland,2011,"Crime, Drama, Mystery","['Mandy Patinkin', 'Damian Lewis', 'Rupert Friend']",8.7,55
-BoJack Horseman,2014,"Animation, Comedy, Drama","['Amy Sedaris', 'Alison Brie', 'Aaron Paul']",8.8,25
-Fringe,2008,"Drama, Mystery, Sci-Fi","['Joshua Jackson', 'John Noble', 'Jasika Nicole']",8.4,46
-This Is Us,2016,"Comedy, Drama, Romance","['Mandy Moore', 'Sterling K. Brown', 'Chrissy Metz']",8.7,45
-Futurama,1999,"Animation, Comedy, Sci-Fi","['John DiMaggio', 'Katey Sagal', 'Tress MacNeille']",8.3,22
-The Handmaid's Tale,2017,"Drama, Sci-Fi, Thriller","['Amanda Brugel', 'Madeline Brewer', 'Max Minghella']",8.5,60
-Oz,1997,"Crime, Drama, Thriller","['J.K. Simmons', 'Lee Tergesen', 'Dean Winters']",8.6,55
-Sacred Games,2018,"Action, Crime, Drama","['Nawazuddin Siddiqui', 'Neeraj Kabi', 'Aamir Bashir']",8.8,50
-Brooklyn Nine-Nine,2013,"Comedy, Crime","['Stephanie Beatriz', 'Terry Crews', 'Melissa Fumero']",8.3,22
-Fawlty Towers,1975,Comedy,"['Prunella Scales', 'Andrew Sachs', 'Connie Booth']",8.5,30
-The Witcher,2019,"Action, Adventure, Drama","['Freya Allan', 'Anya Chalotra', 'Mimi Ndiweni']",9.2,60
-Big Little Lies,2017,"Crime, Drama, Mystery","['Nicole Kidman', 'Shailene Woodley', 'Zoë Kravitz']",8.6,60
-The Newsroom,2012,Drama,"['Emily Mortimer', 'John Gallagher Jr.', 'Alison Pill']",8.9,55
-The West Wing,1999,Drama,"['Rob Lowe', 'Allison Janney', 'John Spencer']",8.5,44
-Scrubs,2001,"Comedy, Drama","['Donald Faison', 'Sarah Chalke', 'John C. McGinley']",8.9,22
-Breaking Bad,2008,"Crime, Drama, Thriller","['Aaron Paul', 'Anna Gunn', 'Betsy Brandt']",9.5,49
-Game of Thrones,2011,"Action, Adventure, Drama","['Peter Dinklage', 'Kit Harington', 'Lena Headey']",9.3,57
-Band of Brothers,2001,"Action, Drama, History","['Damian Lewis', 'Ron Livingston', 'Shane Taylor']",9.5,594
-Chernobyl,2019,"Drama, History, Thriller","['Jared Harris', 'Stellan Skarsgård', 'Adam Nagaitis']",9.4,330
-Sherlock,2010,"Crime, Drama, Mystery","['Martin Freeman', 'Una Stubbs', 'Rupert Graves']",9.1,88
-The Wire,2002,"Crime, Drama, Thriller","['Lance Reddick', 'Sonja Sohn', 'Wendell Pierce']",9.3,59
-Rick and Morty,2013,"Animation, Adventure, Comedy","['Chris Parnell', 'Spencer Grammer', 'Sarah Chalke']",9.2,23
-Friends,1994,"Comedy, Romance","['Courteney Cox', 'Lisa Kudrow', 'Matt LeBlanc']",8.9,22
-The Sopranos,1999,"Crime, Drama","['Lorraine Bracco', 'Edie Falco', 'Michael Imperioli']",9.2,55
-True Detective,2014,"Crime, Drama, Mystery","['Colin Farrell', 'Rachel McAdams', 'Taylor Kitsch']",8.8,55
-Stranger Things,2016,"Drama, Fantasy, Horror","['Finn Wolfhard', 'Winona Ryder', 'David Harbour']",9.2,51
-Avatar: The Last Airbender,2005,"Animation, Action, Adventure","['Zach Tyler', 'Jack De Sena', 'Mae Whitman']",8.9,23
-The Office,2005,Comedy,"['Jenna Fischer', 'John Krasinski', 'Rainn Wilson']",8.8,22
-House of Cards,2013,Drama,"['Michel Gill', 'Robin Wright', 'Kate Mara']",8.9,51
-Firefly,2002,"Adventure, Drama, Sci-Fi","['Gina Torres', 'Alan Tudyk', 'Morena Baccarin']",8.8,44
-Fargo,2014,"Crime, Drama, Thriller","['Martin Freeman', 'Allison Tolman', 'Colin Hanks']",8.6,53
-Black Mirror,2011,"Drama, Sci-Fi, Thriller","['Hannah John-Kamen', 'Michaela Coel', 'Beatrice Robertson-Jones']",8.8,60
-Death Note: Desu nôto,2006,"Animation, Crime, Drama","['Brad Swaile', 'Vincent Tong', 'Ryô Naitô']",8.7,24
-Dexter,2006,"Crime, Drama, Mystery","['Jennifer Carpenter', 'David Zayas', 'James Remar']",8.7,53
-Narcos,2015,"Biography, Crime, Drama","['Wagner Moura', 'Boyd Holbrook', 'Alberto Ammann']",8.8,49
-House M.D.,2004,"Drama, Mystery","['Omar Epps', 'Robert Sean Leonard', 'Jesse Spencer']",8.7,44
-Westworld,2016,"Drama, Mystery, Sci-Fi","['Jeffrey Wright', 'Ed Harris', 'Thandie Newton']",8.8,62
-Peaky Blinders,2013,"Crime, Drama","['Paul Anderson', 'Helen McCrory', 'Sophie Rundle']",8.7,60
-The Simpsons,1989,"Animation, Comedy","['Nancy Cartwright', 'Harry Shearer', 'Julie Kavner']",9.1,22
-Seinfeld,1989,Comedy,"['Julia Louis-Dreyfus', 'Michael Richards', 'Jason Alexander']",8.6,22
-South Park,1997,"Animation, Comedy","['Matt Stone', 'Isaac Hayes', 'Mona Marshall']",8.7,22
-Hagane no renkinjutsushi,2009,"Animation, Action, Adventure","['Iemasa Kayumi', 'Vic Mignogna', 'Muriel Hofmann']",8.7,24
-Vikings,2013,"Action, Adventure, Drama","['Gustaf Skarsgård', 'Alexander Ludwig', 'Georgia Hirst']",8.6,44
-Better Call Saul,2015,"Crime, Drama","['Rhea Seehorn', 'Jonathan Banks', 'Patrick Fabian']",9.1,46
-Arrested Development,2003,Comedy,"['Michael Cera', 'Portia de Rossi', 'Will Arnett']",8.8,22
-Daredevil,2015,"Action, Crime, Drama","[""Vincent D'Onofrio"", 'Deborah Ann Woll', 'Elden Henson']",8.8,54
-Leyla ile Mecnun,2011,"Adventure, Comedy, Drama","['Ahmet Mümtaz Taylan', 'Serkan Keskin', 'Osman Sonant']",8.5,80
-It's Always Sunny in Philadelphia,2005,Comedy,"['Glenn Howerton', 'Rob McElhenney', 'Kaitlin Olson']",8.6,22
-Twin Peaks,1990,"Crime, Drama, Mystery","['Michael Ontkean', 'Mädchen Amick', 'Dana Ashbrook']",8.8,47
-Suits,2011,"Comedy, Drama","['Patrick J. Adams', 'Meghan Markle', 'Sarah Rafferty']",8.2,44
-Sons of Anarchy,2008,"Crime, Drama, Thriller","['Katey Sagal', 'Mark Boone Junior', 'Kim Coates']",8.5,45
-Shingeki no kyojin,2013,"Animation, Action, Adventure","['Yûki Kaji', 'Yui Ishikawa', 'Josh Grelle']",8.3,24
-Batman: The Animated Series,1992,"Animation, Action, Adventure","['Loren Lester', 'Efrem Zimbalist Jr.', 'Bob Hastings']",9.2,23
-The Walking Dead,2010,"Drama, Horror, Thriller","['Norman Reedus', 'Melissa McBride', 'Danai Gurira']",8.7,44
-Mr. Robot,2015,"Crime, Drama, Thriller","['Christian Slater', 'Carly Chaikin', 'Martin Wallström']",8.8,49
-How I Met Your Mother,2005,"Comedy, Romance","['Jason Segel', 'Cobie Smulders', 'Neil Patrick Harris']",8.4,22
-TVF Pitchers,2015,"Comedy, Drama","['Arunabh Kumar', 'Jitendra Kumar', 'Abhay Mahajan']",8.7,40
-Dark,2017,"Crime, Drama, Mystery","['Louis Hofmann', 'Jördis Triebel', 'Maja Schöne']",8.7,60
-Freaks and Geeks,1999,"Comedy, Drama","['John Francis Daley', 'James Franco', 'Samm Levine']",8.7,44
-Supernatural,2005,"Drama, Fantasy, Horror","['Jensen Ackles', 'Jim Beaver', 'Misha Collins']",8.7,44
-Downton Abbey,2010,"Drama, Romance","['Phyllis Logan', 'Elizabeth McGovern', 'Brendan Coyle']",8.6,58
-The Mandalorian,2019,"Action, Adventure, Sci-Fi","['Carl Weathers', 'Rio Hackford', 'Gina Carano']",8.6,30
-Rome,2005,"Action, Drama, History","['Ray Stevenson', 'Polly Walker', 'Kerry Condon']",8.6,52
-When They See Us,2019,"Biography, Crime, Drama","['Caleel Harris', 'Ethan Herisse', 'Marquis Rodriguez']",8.3,296
-Battlestar Galactica,2004,"Action, Adventure, Drama","['Mary McDonnell', 'Jamie Bamber', 'James Callis']",8.6,44
-Mad Men,2007,Drama,"['Elisabeth Moss', 'Vincent Kartheiser', 'January Jones']",8.6,47
-Parks and Recreation,2009,Comedy,"[""Jim O'Heir"", 'Nick Offerman', 'Chris Pratt']",8.7,22
-Doctor Who,2005,"Adventure, Drama, Family","['Peter Capaldi', 'Pearl Mackie', 'Matt Smith']",8.3,45
-Lost,2004,"Adventure, Drama, Fantasy","['Josh Holloway', 'Yunjin Kim', 'Evangeline Lilly']",8.6,44
-The Twilight Zone,1959,"Drama, Fantasy, Horror","['Robert McCord', 'Jay Overholts', 'Vaughn Taylor']",8.9,51
-The X Files,1993,"Crime, Drama, Mystery","['Gillian Anderson', 'Mitch Pileggi', 'William B. Davis']",8.7,45
-Shameless,2011,"Comedy, Drama","['William H. Macy', 'Ethan Cutkosky', 'Jeremy Allen White']",8.4,46
-The Haunting of Hill House,2018,"Drama, Horror, Mystery","['Oliver Jackson-Cohen', 'Kate Siegel', 'Victoria Pedretti']",8.8,50
-Prison Break,2005,"Action, Crime, Drama","['Wentworth Miller', 'Amaury Nolasco', 'Robert Knepper']",9.6,44
-Mindhunter,2017,"Crime, Drama, Thriller","['Holt McCallany', 'Anna Torv', 'Hannah Gross']",8.5,60
-Kaubôi bibappu,1998,"Animation, Action, Adventure","['Unshô Ishizuka', 'Megumi Hayashibara', 'Steve Blum']",8.5,24
-The Boys,2019,"Action, Comedy, Crime","['Jack Quaid', 'Antony Starr', 'Erin Moriarty']",8.5,60
-Modern Family,2009,"Comedy, Drama, Romance","['Sofía Vergara', 'Julie Bowen', 'Ty Burrell']",8.9,22
-One Punch Man: Wanpanman,2015,"Animation, Action, Comedy","['Kaito Ishikawa', 'Max Mittelman', 'Zach Aguilar']",8.7,24
-Koombiyo,2017,"Crime, Drama, Thriller","['Kalana Gunasekara', 'Andrew Pulle', 'Yureni Noshika']",8.1,20
-Spartacus: Blood and Sand,2010,"Action, Adventure, Biography","['Lucy Lawless', 'Manu Bennett', 'Daniel Feuerriegel']",8.7,55
-Hannibal,2013,"Crime, Drama, Horror","['Mads Mikkelsen', 'Caroline Dhavernas', 'Laurence Fishburne']",8.7,44
-La Casa de Papel,2017,"Action, Crime, Mystery","['Álvaro Morte', 'Itziar Ituño', 'Pedro Alonso']",8.5,70
-Pride and Prejudice,1995,"Drama, Romance","['Jennifer Ehle', 'Susannah Harker', 'Julia Sawalha']",8.9,327
-Six Feet Under,2001,"Comedy, Drama","['Michael C. Hall', 'Frances Conroy', 'Lauren Ambrose']",8.6,55
-The Big Bang Theory,2007,"Comedy, Romance","['Jim Parsons', 'Kaley Cuoco', 'Simon Helberg']",8.5,22
-The Crown,2016,"Drama, History","['Matt Smith', 'Olivia Colman', 'Tobias Menzies']",8.5,58
-Dragon Ball Z,1996,"Animation, Action, Adventure","['Christopher Sabat', 'Scott McNeil', 'Sean Schemmel']",8.7,24
-Community,2009,Comedy,"['Danny Pudi', 'Donald Glover', 'Chevy Chase']",8.3,22
-Gravity Falls,2012,"Animation, Action, Adventure","['Alex Hirsch', 'Kristen Schaal', 'Linda Cardellini']",8.7,23
-Archer,2009,"Animation, Action, Comedy","['Judy Greer', 'Amber Nash', 'Chris Parnell']",8.4,22
-The Punisher,2017,"Action, Adventure, Crime","['Amber Rose Revah', 'Ben Barnes', 'Jason R. Moore']",8.7,53
-Boardwalk Empire,2010,"Crime, Drama, History","['Kelly Macdonald', 'Michael Shannon', 'Shea Whigham']",8.4,55
-Curb Your Enthusiasm,2000,Comedy,"['Cheryl Hines', 'Jeff Garlin', 'Susie Essman']",8.5,28
-Homeland,2011,"Crime, Drama, Mystery","['Mandy Patinkin', 'Damian Lewis', 'Rupert Friend']",8.7,55
-BoJack Horseman,2014,"Animation, Comedy, Drama","['Amy Sedaris', 'Alison Brie', 'Aaron Paul']",8.8,25
-Fringe,2008,"Drama, Mystery, Sci-Fi","['Joshua Jackson', 'John Noble', 'Jasika Nicole']",8.4,46
-This Is Us,2016,"Comedy, Drama, Romance","['Mandy Moore', 'Sterling K. Brown', 'Chrissy Metz']",8.7,45
-Futurama,1999,"Animation, Comedy, Sci-Fi","['John DiMaggio', 'Katey Sagal', 'Tress MacNeille']",8.3,22
-The Handmaid's Tale,2017,"Drama, Sci-Fi, Thriller","['Amanda Brugel', 'Madeline Brewer', 'Max Minghella']",8.5,60
-Oz,1997,"Crime, Drama, Thriller","['J.K. Simmons', 'Lee Tergesen', 'Dean Winters']",8.6,55
-Sacred Games,2018,"Action, Crime, Drama","['Nawazuddin Siddiqui', 'Neeraj Kabi', 'Aamir Bashir']",8.8,50
-Brooklyn Nine-Nine,2013,"Comedy, Crime","['Stephanie Beatriz', 'Terry Crews', 'Melissa Fumero']",8.3,22
-Fawlty Towers,1975,Comedy,"['Prunella Scales', 'Andrew Sachs', 'Connie Booth']",8.5,30
-The Witcher,2019,"Action, Adventure, Drama","['Freya Allan', 'Anya Chalotra', 'Mimi Ndiweni']",9.2,60
-Big Little Lies,2017,"Crime, Drama, Mystery","['Nicole Kidman', 'Shailene Woodley', 'Zoë Kravitz']",8.6,60
-The Newsroom,2012,Drama,"['Emily Mortimer', 'John Gallagher Jr.', 'Alison Pill']",8.9,55
-The West Wing,1999,Drama,"['Rob Lowe', 'Allison Janney', 'John Spencer']",8.5,44
-Scrubs,2001,"Comedy, Drama","['Donald Faison', 'Sarah Chalke', 'John C. McGinley']",8.9,22
-Misfits,2009,"Comedy, Drama, Fantasy","['Joseph Gilgun', 'Iwan Rheon', 'Lauren Socha']",8.2,60
-Black Sails,2014,"Adventure, Drama","['Toby Stephens', 'Hannah New', 'Zach McGowan']",8.2,56
-Veronica Mars,2004,"Crime, Drama, Mystery","['Jason Dohring', 'Enrico Colantoni', 'Percy Daggs III']",8.3,44
-The Good Wife,2009,"Crime, Drama, Mystery","['Chris Noth', 'Josh Charles', 'Matt Czuchry']",8.3,43
-Narcos: Mexico,2018,"Crime, Drama","['Scoot McNairy', 'José María Yazpik', 'Fermín Martínez']",8.4,50
-Killing Eve,2018,"Action, Adventure, Drama","['Sandra Oh', 'Fiona Shaw', 'Kim Bodnia']",8.3,42
-Justice League,2001,"Animation, Action, Adventure","['Phil LaMarr', 'Michael Rosenbaum', 'George Newbern']",8.5,22
-How to Get Away with Murder,2014,"Crime, Drama, Mystery","['Billy Brown', 'Jack Falahee', 'Aja Naomi King']",8.1,43
-The Bugs Bunny Show,1960,"Animation, Comedy","['June Foray', 'Jim Backus', 'Bea Benaderet']",8.6,30
-Young Justice,2010,"Animation, Action, Adventure","['Danica McKellar', 'Nolan North', 'Khary Payton']",8.6,23
-M*A*S*H,1972,"Comedy, Drama, War","['Wayne Rogers', 'Loretta Swit', 'Jamie Farr']",8.4,25
-Samurai chanpurû,2004,"Animation, Action, Adventure","['Ginpei Sato', 'Ayako Kawasumi', 'Steve Blum']",8.5,24
-Naruto,2002,"Animation, Action, Adventure","['Maile Flanagan', 'Kate Higgins', 'Chie Nakamura']",8.3,24
-The Last Kingdom,2015,"Action, Drama, History","['Eliza Butterworth', 'Ian Hart', 'David Dawson']",8.3,60
-Master of None,2015,Comedy,"['Eric Wareheim', 'Lena Waithe', 'Noël Wells']",8.3,30
-Sarabhai vs Sarabhai,2004,Comedy,"['Ratna Pathak Shah', 'Sumeet Raghvan', 'Rupali Ganguly']",8.9,30
-Line of Duty,2012,"Crime, Drama, Mystery","['Vicky McClure', 'Adrian Dunbar', 'Craig Parkinson']",8.6,60
-13 Reasons Why,2017,"Drama, Mystery","['Katherine Langford', 'Christian Navarro', 'Alisha Boe']",7.8,60
-Kenpû Denki Berserk,1997,"Animation, Action, Adventure","['Marc Diraison', 'Carrie Keranen', 'Kevin T. Collins']",8.6,23
-Skins,2007,Drama,"['Nicholas Hoult', 'Joe Dempsie', 'Hannah Murray']",8.2,46
-24: Live Another Day,2014,"Action, Crime, Drama","['Yvonne Strahovski', 'Tate Donovan', 'Mary Lynn Rajskub']",8.4,46
-The Fall,2013,"Crime, Drama, Thriller","['Jamie Dornan', 'John Lynch', 'Aisling Franciosi']",8.2,60
-Carnivàle,2003,"Drama, Fantasy, Mystery","['Adrienne Barbeau', 'Clancy Brown', 'Debra Christofferson']",8.4,55
-Gilmore Girls,2000,"Comedy, Drama","['Alexis Bledel', 'Keiko Agena', 'Scott Patterson']",8.1,44
-Boston Legal,2004,"Comedy, Crime, Drama","['William Shatner', 'Candice Bergen', 'Rene Auberjonois']",8.4,44
-Pushing Daisies,2007,"Comedy, Drama, Fantasy","['Anna Friel', 'Chi McBride', 'Jim Dale']",8.3,44
-Anne,2017,Drama,"['Geraldine James', 'R.H. Thomson', 'Dalila Bela']",8.6,60
-Lonesome Dove,1989,"Adventure, Drama, Western","['Tommy Lee Jones', 'Danny Glover', 'Diane Lane']",8.7,384
-Forever,2014,"Crime, Drama, Fantasy","['Alana De La Garza', 'Joel David Moore', 'Donnie Keshawarz']",8.3,43
-The Flash,2014,"Action, Adventure, Drama","['Candice Patton', 'Danielle Panabaker', 'Carlos Valdes']",7.7,43
-Atypical,2017,"Comedy, Drama","['Keir Gilchrist', 'Brigette Lundy-Paine', 'Michael Rapaport']",8.3,30
-11.22.63,2016,"Drama, Mystery, Sci-Fi","['Sarah Gadon', 'George MacKay', 'Chris Cooper']",8.2,60
-The Thick of It,2005,Comedy,"['James Smith', 'Peter Capaldi', 'Joanna Scanlan']",8.7,29
-The Adventures of Sherlock Holmes,1984,"Crime, Drama, Mystery","['David Burke', 'Rosalie Williams', 'Eric Porter']",8.7,60
-Ezel,2009,"Crime, Drama, Thriller","['Cansu Dere', 'Yigit Özsener', 'Baris Falay']",8.6,90
-Arrow,2012,"Action, Adventure, Crime","['Katie Cassidy', 'David Ramsey', 'Susanna Thompson']",7.6,42
-Malcolm in the Middle,2000,"Comedy, Family","['Bryan Cranston', 'Justin Berfield', 'Erik Per Sullivan']",7.8,22
-Gotham,2014,"Action, Crime, Drama","['Jada Pinkett Smith', 'Donal Logue', 'Camren Bicondova']",8.4,42
-Bosch,2014,"Crime, Drama","['Jamie Hector', 'Amy Aquino', 'Lance Reddick']",8.4,51
-Utopia,2013,"Drama, Mystery, Sci-Fi","['Paul Higgins', 'Neil Maskell', ""Fiona O'Shaughnessy""]",7.7,50
-The Vampire Diaries,2009,"Drama, Fantasy, Horror","['Paul Wesley', 'Ian Somerhalder', 'Kat Graham']",8.3,43
-Blue Mountain State,2010,"Comedy, Sport","['Alan Ritchson', 'Chris Romano', 'Ed Marinaro']",8.1,22
-Lie to Me,2009,"Crime, Drama, Mystery","['Kelli Williams', 'Brendan Hines', 'Monica Raymund']",8.4,43
-Bodyguard,2018,"Crime, Drama, Thriller","['Sophie Rundle', 'Vincent Franklin', 'Ash Tandon']",8.3,60
-X-Men,1992,"Animation, Action, Family","['Cathal J. Dodd', 'Lenore Zann', 'George Buza']",8.1,23
-Hell on Wheels,2011,"Drama, Western","['Colm Meaney', 'Robin McLeavy', 'Phil Burke']",8.4,42
-SpongeBob SquarePants,1999,"Animation, Comedy, Family","['Bill Fagerbakke', 'Rodger Bumpass', 'Clancy Brown']",8.1,23
+id,Title,Year,Genre,Stars,Rating,Duration
+1,Mr. Robot,2015,"Crime, Drama, Thriller","['Christian Slater', 'Carly Chaikin', 'Martin Wallström']",8.5,49
+2,The Boys,2019,"Action, Comedy, Crime","['Jack Quaid', 'Antony Starr', 'Erin Moriarty']",8.7,60
+3,La Casa de Papel,2017,"Action, Crime, Mystery","['Álvaro Morte', 'Itziar Ituño', 'Pedro Alonso']",8.5,70
+4,Game of Thrones,2011,"Action, Adventure, Drama","['Peter Dinklage', 'Kit Harington', 'Lena Headey']",9.3,57
+5,Chernobyl,2019,"Drama, History, Thriller","['Jared Harris', 'Stellan Skarsgård', 'Adam Nagaitis']",9.4,330
+6,The Marvelous Mrs. Maisel,2017,"Comedy, Drama","['Michael Zegen', 'Marin Hinkle', 'Tony Shalhoub']",8.7,57
+7,True Detective,2014,"Crime, Drama, Mystery","['Colin Farrell', 'Rachel McAdams', 'Taylor Kitsch']",8.7,55
+8,Better Call Saul,2015,"Crime, Drama","['Rhea Seehorn', 'Jonathan Banks', 'Patrick Fabian']",9.5,46
+9,Breaking Bad,2008,"Crime, Drama, Thriller","['Aaron Paul', 'Anna Gunn', 'Betsy Brandt']",8.9,49
+10,Fargo,2014,"Crime, Drama, Thriller","['Martin Freeman', 'Allison Tolman', 'Colin Hanks']",8.4,53
+11,Happy Valley,2014,"Crime, Drama","['Siobhan Finneran', 'Shane Zaza', 'Charlie Murphy']",8.7,58
+12,Six Feet Under,2001,"Comedy, Drama","['Michael C. Hall', 'Frances Conroy', 'Lauren Ambrose']",8.7,55
+13,Dark,2017,"Crime, Drama, Mystery","['Louis Hofmann', 'Jördis Triebel', 'Maja Schöne']",8.8,60
+14,Stranger Things,2016,"Drama, Fantasy, Horror","['Finn Wolfhard', 'Winona Ryder', 'David Harbour']",8.5,51
+15,The Night Of,2016,"Crime, Drama, Mystery","['John Turturro', 'Bill Camp', 'Amara Karan']",8.8,525
+16,Black Mirror,2011,"Drama, Sci-Fi, Thriller","['Hannah John-Kamen', 'Michaela Coel', 'Beatrice Robertson-Jones']",8.4,60
+17,Narcos: Mexico,2018,"Crime, Drama","['Scoot McNairy', 'José María Yazpik', 'Fermín Martínez']",8.8,50
+18,Narcos,2015,"Biography, Crime, Drama","['Wagner Moura', 'Boyd Holbrook', 'Alberto Ammann']",8.5,49
+19,The Punisher,2017,"Action, Adventure, Crime","['Amber Rose Revah', 'Ben Barnes', 'Jason R. Moore']",8.5,53
+20,The Handmaid's Tale,2017,"Drama, Sci-Fi, Thriller","['Amanda Brugel', 'Madeline Brewer', 'Max Minghella']",8.7,60
+21,Westworld,2016,"Drama, Mystery, Sci-Fi","['Jeffrey Wright', 'Ed Harris', 'Thandie Newton']",8.8,62
+22,House of Cards,2013,Drama,"['Michel Gill', 'Robin Wright', 'Kate Mara']",9.3,51
+23,The Wire,2002,"Crime, Drama, Thriller","['Lance Reddick', 'Sonja Sohn', 'Wendell Pierce']",8.5,59
+24,The Knick,2014,"Drama, History","['André Holland', 'Jeremy Bobb', 'Juliet Rylance']",8.7,58
+25,The Crown,2016,"Drama, History","['Matt Smith', 'Olivia Colman', 'Tobias Menzies']",8.4,58
+26,Taboo,2017,"Drama, Mystery, Thriller","['David Hayman', 'Jonathan Pryce', 'Oona Chaplin']",8.3,59
+27,The Leftovers,2014,"Drama, Fantasy, Mystery","['Amy Brenneman', 'Christopher Eccleston', 'Liv Tyler']",8.6,60
+28,Sons of Anarchy,2008,"Crime, Drama, Thriller","['Katey Sagal', 'Mark Boone Junior', 'Kim Coates']",8.4,45
+29,Babylon Berlin,2017,"Crime, Drama, Thriller","['Liv Lisa Fries', 'Leonie Benesch', 'Christian Friedel']",8.6,45
+30,Deadwood,2004,"Crime, Drama, History","['Ian McShane', 'Molly Parker', 'Brad Dourif']",8.5,55
+31,Big Little Lies,2017,"Crime, Drama, Mystery","['Nicole Kidman', 'Shailene Woodley', 'Zoë Kravitz']",8.6,60
+32,Mindhunter,2017,"Crime, Drama, Thriller","['Holt McCallany', 'Anna Torv', 'Hannah Gross']",8.4,60
+33,Utopia,2013,"Drama, Mystery, Sci-Fi","['Paul Higgins', 'Neil Maskell', ""Fiona O'Shaughnessy""]",8.5,50
+34,Feud,2017,"Biography, Drama","['Susan Sarandon', 'Judy Davis', 'Jackie Hoffman']",8.6,45
+35,Mad Men,2007,Drama,"['Elisabeth Moss', 'Vincent Kartheiser', 'January Jones']",8.2,47
+36,Sneaky Pete,2015,"Crime, Drama","['Marin Ireland', 'Shane McRae', 'Libe Barer']",8.3,60
+37,Homeland,2011,"Crime, Drama, Mystery","['Mandy Patinkin', 'Damian Lewis', 'Rupert Friend']",8.6,55
+38,Making a Murderer,2015,"Documentary, Crime","['Steven Avery', 'Laura Nirider', 'Ken Kratz']",8.5,60
+39,Spartacus: Blood and Sand,2010,"Action, Adventure, Biography","['Lucy Lawless', 'Manu Bennett', 'Daniel Feuerriegel']",8.5,55
+40,Spartacus: Gods of the Arena,2011,"Action, Adventure, Biography","['Manu Bennett', 'Peter Mensah', 'Dustin Clare']",8.6,331
+41,Vikings,2013,"Action, Adventure, Drama","['Gustaf Skarsgård', 'Alexander Ludwig', 'Georgia Hirst']",8.7,44
+42,Rome,2005,"Action, Drama, History","['Ray Stevenson', 'Polly Walker', 'Kerry Condon']",8.7,52
+43,House M.D.,2004,"Drama, Mystery","['Omar Epps', 'Robert Sean Leonard', 'Jesse Spencer']",8.4,44
+44,American Crime Story,2016,"Biography, Crime, Drama","['Annaleigh Ashford', 'Sterling K. Brown', 'Kenneth Choi']",8.4,42
+45,Supernatural,2005,"Drama, Fantasy, Horror","['Jensen Ackles', 'Jim Beaver', 'Misha Collins']",8.2,44
+46,Misfits,2009,"Comedy, Drama, Fantasy","['Joseph Gilgun', 'Iwan Rheon', 'Lauren Socha']",8.3,60
+47,Sense8,2015,"Drama, Mystery, Sci-Fi","['Jamie Clayton', 'Tina Desai', 'Tuppence Middleton']",8.3,60
+48,Bloodline,2015,"Drama, Thriller","['Ben Mendelsohn', 'Linda Cardellini', 'Sissy Spacek']",8.4,60
+49,Rectify,2013,Drama,"['Abigail Spencer', 'J. Smith-Cameron', 'Adelaide Clemens']",9.2,60
+50,Entourage,2004,"Comedy, Drama","['Adrian Grenier', 'Kevin Dillon', 'Jerry Ferrara']",8.5,28
+51,The Sopranos,1999,"Crime, Drama","['Lorraine Bracco', 'Edie Falco', 'Michael Imperioli']",9.1,55
+52,Love/Hate,2010,"Crime, Drama","['Killian Scott', 'Aoibhinn McGinnity', 'Charlie Murphy']",8.5,51
+53,Sherlock,2010,"Crime, Drama, Mystery","['Martin Freeman', 'Una Stubbs', 'Rupert Graves']",8.5,88
+54,Firefly,2002,"Adventure, Drama, Sci-Fi","['Gina Torres', 'Alan Tudyk', 'Morena Baccarin']",8.6,44
+55,Hannibal,2013,"Crime, Drama, Horror","['Mads Mikkelsen', 'Caroline Dhavernas', 'Laurence Fishburne']",8.6,44
+56,Luther,2010,"Crime, Drama, Mystery","['Dermot Crowley', 'Michael Smiley', 'Warren Brown']",8.4,60
+57,Bron/Broen,2011,"Crime, Mystery, Thriller","['Rafael Pettersson', 'Sarah Boberg', 'Dag Malmberg']",8.5,60
+58,The Newsroom,2012,Drama,"['Emily Mortimer', 'John Gallagher Jr.', 'Alison Pill']",8.8,55
+59,Carnivàle,2003,"Drama, Fantasy, Mystery","['Adrienne Barbeau', 'Clancy Brown', 'Debra Christofferson']",8.7,55
+60,Boardwalk Empire,2010,"Crime, Drama, History","['Kelly Macdonald', 'Michael Shannon', 'Shea Whigham']",8.4,55
+61,Peaky Blinders,2013,"Crime, Drama","['Paul Anderson', 'Helen McCrory', 'Sophie Rundle']",8.2,60
+62,Downton Abbey,2010,"Drama, Romance","['Phyllis Logan', 'Elizabeth McGovern', 'Brendan Coyle']",8.6,58
+63,Outlander,2014,"Drama, Fantasy, Romance","['Sam Heughan', 'Duncan Lacroix', 'Sophie Skelton']",8.4,64
+64,Penny Dreadful,2014,"Drama, Fantasy, Horror","['Timothy Dalton', 'Eva Green', 'Reeve Carney']",8.2,60
+65,Dexter,2006,"Crime, Drama, Mystery","['Jennifer Carpenter', 'David Zayas', 'James Remar']",8.2,53
+66,Person of Interest,2011,"Action, Crime, Drama","['Taraji P. Henson', 'Kevin Chapman', 'Michael Emerson']",8.5,43
+67,The Walking Dead,2010,"Drama, Horror, Thriller","['Norman Reedus', 'Melissa McBride', 'Danai Gurira']",8.4,44
+68,The Lost Room,2006,"Action, Fantasy, Mystery","['Julianna Margulies', 'Peter Jacobson', 'Dennis Christopher']",8.4,270
+69,Twin Peaks,2017,"Crime, Drama, Fantasy","['Sheryl Lee', 'Michael Horse', 'Chrysta Bell']",8.1,60
+70,Fringe,2008,"Drama, Mystery, Sci-Fi","['Joshua Jackson', 'John Noble', 'Jasika Nicole']",8.7,46
+71,Banshee,2013,"Action, Crime, Drama","['Ivana Milicevic', 'Ulrich Thomsen', 'Frankie Faison']",8.3,60
+72,American Horror Story,2011,"Drama, Horror, Thriller","['Kathy Bates', 'Angela Bassett', 'Sarah Paulson']",8.5,60
+73,The Shield,2002,"Crime, Drama, Thriller","['Catherine Dent', 'Walton Goggins', 'Michael Jace']",8.6,47
+74,Prison Break,2005,"Action, Crime, Drama","['Wentworth Miller', 'Amaury Nolasco', 'Robert Knepper']",8.3,44
+75,John Adams,2008,"Biography, Drama, History","['Laura Linney', 'John Dossett', 'Stephen Dillane']",8.7,71
+76,Justified,2010,"Action, Crime, Drama","['Nick Searcy', 'Joelle Carter', 'Jacob Pitts']",8.5,44
+77,Californication,2007,"Comedy, Drama","['Natascha McElhone', 'Evan Handler', 'Pamela Adlon']",8.2,28
+78,Gomorra: La serie,2014,"Crime, Drama, Thriller","[""Marco D'Amore"", ""Cristiana Dell'Anna"", 'Fortunato Cerlino']",8.1,55
+79,Suits,2011,"Comedy, Drama","['Patrick J. Adams', 'Meghan Markle', 'Sarah Rafferty']",8.1,44
+80,White Collar,2009,"Comedy, Crime, Drama","['Tim DeKay', 'Willie Garson', 'Tiffani Thiessen']",8.6,40
+81,Castle,2009,"Comedy, Crime, Drama","['Stana Katic', 'Susan Sullivan', 'Jon Huertas']",8.7,43
+82,The Blacklist,2013,"Crime, Drama, Mystery","['Megan Boone', 'Diego Klattenhoff', 'Ryan Eggold']",8.6,43
+83,The Mentalist,2008,"Crime, Drama, Mystery","['Robin Tunney', 'Tim Kang', 'Owain Yeoman']",8.3,43
+84,Daredevil,2015,"Action, Crime, Drama","[""Vincent D'Onofrio"", 'Deborah Ann Woll', 'Elden Henson']",8.4,54
+85,Battlestar Galactica,2004,"Action, Adventure, Drama","['Mary McDonnell', 'Jamie Bamber', 'James Callis']",8.3,44
+86,Archer,2009,"Animation, Action, Comedy","['Judy Greer', 'Amber Nash', 'Chris Parnell']",8.4,22
+87,24,2001,"Action, Crime, Drama","['Mary Lynn Rajskub', 'Carlos Bernard', 'Dennis Haysbert']",8.2,44
+88,24: Live Another Day,2014,"Action, Crime, Drama","['Yvonne Strahovski', 'Tate Donovan', 'Mary Lynn Rajskub']",8.6,46
+89,Life on Mars,2006,"Crime, Drama, Mystery","['Philip Glenister', 'Liz White', 'Dean Andrews']",8.6,60
+90,Forbrydelsen,2007,"Crime, Drama, Mystery","['Morten Suurballe', 'Lars Mikkelsen', 'Bjarne Henriksen']",9.5,57
+91,The Killing,2011,"Crime, Drama, Mystery","['Joel Kinnaman', 'Billy Campbell', 'Liam James']",8.3,45
+92,Shameless,2011,"Comedy, Drama","['William H. Macy', 'Ethan Cutkosky', 'Jeremy Allen White']",8.1,46
+93,Doctor Who,2005,"Adventure, Drama, Family","['Peter Capaldi', 'Pearl Mackie', 'Matt Smith']",8.1,45
+94,Band of Brothers,2001,"Action, Drama, History","['Damian Lewis', 'Ron Livingston', 'Shane Taylor']",8.7,594
+95,Lost,2004,"Adventure, Drama, Fantasy","['Josh Holloway', 'Yunjin Kim', 'Evangeline Lilly']",8.8,44
+96,The Tudors,2007,"Drama, History, Romance","['Henry Cavill', 'Anthony Brophy', 'James Frain']",8.5,60
+97,The Inbetweeners,2008,Comedy,"['James Buckley', 'Blake Harrison', 'Joe Thomas']",8.4,25
+98,Curb Your Enthusiasm,2000,Comedy,"['Cheryl Hines', 'Jeff Garlin', 'Susie Essman']",8.7,28
+99,State of Play,2003,"Crime, Drama, Mystery","['Kelly Macdonald', 'Bill Nighy', 'Philip Glenister']",8.4,312
+100,Extras,2005,"Comedy, Drama","['Ashley Jensen', 'Stephen Merchant', 'Shaun Williamson']",8.3,30
+101,Ray Donovan,2013,"Crime, Drama","['Eddie Marsan', 'Dash Mihok', 'Pooch Hall']",8.3,60
+102,The Americans,2013,"Crime, Drama, Mystery","['Matthew Rhys', 'Keidrich Sellati', 'Holly Taylor']",8.4,44
+103,Almost Human,2013,"Action, Crime, Drama","['Michael Ealy', 'Minka Kelly', 'Mackenzie Crook']",8.5,60
+104,Community,2009,Comedy,"['Danny Pudi', 'Donald Glover', 'Chevy Chase']",8.4,22
+105,Modern Family,2009,"Comedy, Drama, Romance","['Sofía Vergara', 'Julie Bowen', 'Ty Burrell']",8.6,22
+106,Parks and Recreation,2009,Comedy,"[""Jim O'Heir"", 'Nick Offerman', 'Chris Pratt']",8.2,22
+107,30 Rock,2006,Comedy,"['Alec Baldwin', 'Tracy Morgan', 'Jack McBrayer']",8.2,22
+108,Party Down,2009,Comedy,"['Ken Marino', 'Ryan Hansen', 'Martin Starr']",8.1,30
+109,Workaholics,2011,Comedy,"['Adam Devine', 'Anders Holm', 'Maribeth Monroe']",8.2,22
+110,The League,2009,"Comedy, Sport","['Jonathan Lajoie', 'Nick Kroll', 'Stephen Rannazzisi']",8.3,22
+111,Veronica Mars,2004,"Crime, Drama, Mystery","['Jason Dohring', 'Enrico Colantoni', 'Percy Daggs III']",8.3,44
+112,Life,2007,"Crime, Drama, Mystery","['Sarah Shahi', 'Adam Arkin', 'Brent Sexton']",8.3,45
+113,How I Met Your Mother,2005,"Comedy, Romance","['Jason Segel', 'Cobie Smulders', 'Neil Patrick Harris']",8.9,22
+114,The Office,2005,Comedy,"['Jenna Fischer', 'John Krasinski', 'Rainn Wilson']",8.1,22
+115,Criminal Minds,2005,"Crime, Drama, Mystery","['Kirsten Vangsness', 'A.J. Cook', 'Joe Mantegna']",8.3,42
+116,Orphan Black,2013,"Action, Drama, Sci-Fi","['Dylan Bruce', 'Jordan Gavaris', 'Kevin Hanchard']",8.2,44
+117,Chuck,2007,"Action, Comedy, Drama","['Yvonne Strahovski', 'Joshua Gomez', 'Vik Sahay']",8.2,43
+118,The Originals,2013,"Drama, Fantasy, Horror","['Daniel Gillies', 'Claire Holt', 'Phoebe Tonkin']",8.6,45
+119,Spaced,1999,"Action, Comedy","['Simon Pegg', 'Julia Deakin', 'Nick Frost']",8.5,25
+120,Black Books,2000,Comedy,"['Bill Bailey', 'Tamsin Greig', 'Paul Beech']",8.2,25
+121,The Fall,2013,"Crime, Drama, Thriller","['Jamie Dornan', 'John Lynch', 'Aisling Franciosi']",8.4,60
+122,Broadchurch,2013,"Crime, Drama, Mystery","['Olivia Colman', 'Jodie Whittaker', 'Andrew Buchan']",8.1,48
+123,Orange Is the New Black,2013,"Comedy, Crime, Drama","['Danielle Brooks', 'Taryn Manning', 'Emma Myles']",8.3,59
+124,Hell on Wheels,2011,"Drama, Western","['Colm Meaney', 'Robin McLeavy', 'Phil Burke']",8.4,42
+125,Southland,2009,"Crime, Drama, Thriller","['Shawn Hatosy', 'Regina King', 'Ben McKenzie']",8.6,42
+126,Da Vinci's Demons,2013,"Adventure, Biography, Drama","['Gregg Chillin', 'Eros Vlahos', 'Laura Haddock']",8.2,59
+127,Bates Motel,2013,"Drama, Horror, Mystery","['Freddie Highmore', 'Max Thieriot', 'Nicola Peltz']",8.5,45
+128,Halt and Catch Fire,2014,Drama,"['Scoot McNairy', 'Mackenzie Davis', 'Kerry Bishé']",8.7,60
+129,Silicon Valley,2014,Comedy,"['T.J. Miller', 'Josh Brener', 'Martin Starr']",8.1,28
+130,Friday Night Lights,2006,"Drama, Sport","['Connie Britton', 'Zach Gilford', 'Aimee Teegarden']",8.3,44
+131,Dead Like Me,2003,"Comedy, Drama, Fantasy","['Callum Blue', 'Jasmine Guy', 'Mandy Patinkin']",8.3,60
+132,Forever,2014,"Crime, Drama, Fantasy","['Alana De La Garza', 'Joel David Moore', 'Donnie Keshawarz']",8.2,43
+133,Lilyhammer,2012,"Comedy, Crime, Drama","['Trond Fausa', 'Steinar Sagen', 'Marian Saastad Ottesen']",8.3,45
+134,The Good Wife,2009,"Crime, Drama, Mystery","['Chris Noth', 'Josh Charles', 'Matt Czuchry']",8.4,43
+135,The Missing,2014,"Crime, Drama, Mystery","['Anastasia Hille', 'David Morrissey', 'Keeley Hawes']",8.5,60
+136,Olive Kitteridge,2014,Drama,"['Richard Jenkins', 'Ken Cheeseman', 'Ann Dowd']",8.4,239
+137,Bosch,2014,"Crime, Drama","['Jamie Hector', 'Amy Aquino', 'Lance Reddick']",8.4,51
+138,Marco Polo,2014,"Adventure, Drama, History","['Benedict Wong', 'Joan Chen', 'Remy Hii']",8.6,60
+139,The IT Crowd,2006,Comedy,"['Richard Ayoade', 'Katherine Parkinson', 'Matt Berry']",8.6,25
+140,My Mad Fat Diary,2013,"Comedy, Drama, Romance","['Ciara Baxendale', 'Dan Cohen', 'Sharon Rooney']",8.2,47
+141,Call the Midwife,2012,"Drama, History","['Laura Main', 'Jenny Agutter', 'Judy Parfitt']",9.2,60
+142,Wentworth,2013,"Crime, Drama","['Robbie Magasiva', 'Katrina Milosevic', 'Jacqueline Brennan']",8.3,45
+143,Rake,2010,"Comedy, Drama","['Matt Day', 'Kate Box', 'Caroline Brazier']",8.4,60
+144,Jonathan Strange & Mr Norrell,2015,"Fantasy, History, Sci-Fi","['Eddie Marsan', 'Marc Warren', 'Charlotte Riley']",8.4,60
+145,Rick and Morty,2013,"Animation, Adventure, Comedy","['Chris Parnell', 'Spencer Grammer', 'Sarah Chalke']",8.6,23
+146,The Last Kingdom,2015,"Action, Drama, History","['Eliza Butterworth', 'Ian Hart', 'David Dawson']",8.1,60
+147,The Man in the High Castle,2015,"Drama, Sci-Fi, Thriller","['Luke Kleintank', 'Rufus Sewell', 'Rupert Evans']",8.2,60
+148,Terriers,2010,"Comedy, Crime, Drama","['Michael Raymond-James', 'Laura Allen', 'Kimberly Quinn']",8.2,45
+149,Jessica Jones,2015,"Action, Crime, Drama","['Rachael Taylor', 'Eka Darville', 'Carrie-Anne Moss']",8.1,56
+150,Ash vs Evil Dead,2015,"Action, Comedy, Fantasy","['Ray Santiago', 'Dana DeLorenzo', 'Lucy Lawless']",8.3,30
+151,Detectorists,2014,Comedy,"['Toby Jones', 'Rachael Stirling', 'Gerard Horan']",8.3,30
+152,Deutschland 83,2015,"Drama, History, Romance","['Maria Schrader', 'Ulrich Noethen', 'Sylvester Groth']",8.5,42
+153,Lucifer,2015,"Crime, Drama, Fantasy","['Lauren German', 'Kevin Alejandro', 'Lesley-Ann Brandt']",8.4,42
+154,11.22.63,2016,"Drama, Mystery, Sci-Fi","['Sarah Gadon', 'George MacKay', 'Chris Cooper']",8.9,60
+155,The Night Manager,2016,"Crime, Drama, Mystery","['Tom Hiddleston', 'Elizabeth Debicki', 'Olivia Colman']",8.2,358
+156,This Is England '86,2010,"Crime, Drama","['Andrew Shim', 'Chanel Cresswell', 'Danielle Watson']",8.2,47
+157,This Is England '88,2011,"Crime, Drama","['Andrew Shim', 'Chanel Cresswell', 'Charlotte Tyree']",8.3,70
+158,This Is England '90,2015,"Crime, Drama","['Billy Braithwait', 'Chanel Cresswell', 'Katherine Dow Blyton']",8.1,55
+159,Kingdom,2014,Drama,"['Kiele Sanchez', 'Matt Lauria', 'Jonathan Tucker']",8.6,43
+160,O.J.: Made in America,2016,"Documentary, Biography, Crime","['Kareem Abdul-Jabbar', 'Mike Albanese', 'Muhammad Ali', 'Marcus Allen']",8.1,467
+161,Strike Back,2010,"Action, Drama, Thriller","['Sullivan Stapleton', 'Michelle Lukes', 'Daniel MacPherson']",8.7,45
+162,Power,2014,"Crime, Drama","['Lela Loren', 'Naturi Naughton', 'Joseph Sikora']",8.2,50
+163,The Get Down,2016,"Drama, Music, Musical","['Shameik Moore', 'Herizen F. Guardiola', 'Skylan Brooks']",8.7,52
+164,Preacher,2016,"Adventure, Drama, Fantasy","['Joseph Gilgun', 'Ruth Negga', 'Ian Colletti']",8.3,60
+165,The Exorcist,2016,"Drama, Horror, Mystery","['Ben Daniels', 'Kurt Egyiawan', 'Hannah Kasulka']",8.3,45
+166,Atlanta,2016,"Comedy, Drama, Music","['Brian Tyree Henry', 'LaKeith Stanfield', 'Zazie Beetz']",8.3,30
+167,Quarry,2016,"Crime, Drama, Thriller","['Jodi Balfour', 'Damon Herriman', 'Edoardo Ballerini']",8.4,60
+168,This Is Us,2016,"Comedy, Drama, Romance","['Mandy Moore', 'Sterling K. Brown', 'Chrissy Metz']",8.2,45
+169,Goliath,2016,Drama,"['Tania Raymonde', 'Nina Arianda', 'Diana Hopper']",8.3,60
+170,Skam,2015,"Drama, Romance","['Iman Meskini', 'Ulrikke Falch', 'Lisa Teige']",8.4,30
+171,Longmire,2012,"Action, Crime, Drama","['Katee Sackhoff', 'Lou Diamond Phillips', 'Cassidy Freeman']",8.1,60
+172,Legion,2017,"Action, Drama, Sci-Fi","['Rachel Keller', 'Aubrey Plaza', 'Bill Irwin']",8.3,60
+173,The Good Fight,2017,"Crime, Drama","['Cush Jumbo', 'Delroy Lindo', 'Sarah Steele']",8.8,45
+174,Ozark,2017,"Crime, Drama, Thriller","['Laura Linney', 'Sofia Hublitz', 'Skylar Gaertner']",8.6,60
+175,The Good Doctor,2017,Drama,"['Antonia Thomas', 'Hill Harper', 'Richard Schiff']",8.2,41
+176,Godless,2017,"Drama, Western","['Michelle Dockery', 'Scoot McNairy', 'Merritt Wever']",8.4,60
+177,Billions,2016,Drama,"['Damian Lewis', 'Maggie Siff', 'David Costabile']",8.3,60
+178,Altered Carbon,2018,"Action, Drama, Sci-Fi","['Renée Elise Goldsberry', 'Will Yun Lee', 'Dichen Lachman']",8.7,60
+179,Killing Eve,2018,"Action, Adventure, Drama","['Sandra Oh', 'Fiona Shaw', 'Kim Bodnia']",8.5,42
+180,Cobra Kai,2018,"Action, Comedy, Drama","['Ralph Macchio', 'William Zabka', 'Courtney Henggeler']",8.4,30
+181,The Defiant Ones,2017,"Documentary, Biography, Crime","['Jimmy Iovine', 'Trent Reznor', 'Verna Griffin']",8.6,60
+182,Sharp Objects,2018,"Crime, Drama, Mystery","['Patricia Clarkson', 'Chris Messina', 'Eliza Scanlen']",8.6,421
+183,Yellowstone,2018,"Drama, Western","['Luke Grimes', 'Kelly Reilly', 'Wes Bentley']",8.5,60
+184,Who Is America?,2018,Comedy,"['Roy Elghanayan', 'Emanuela Postacchini', 'Alfred Pierce']",8.5,30
+185,The Witcher,2019,"Action, Adventure, Drama","['Freya Allan', 'Anya Chalotra', 'Mimi Ndiweni']",8.3,60
+186,The Act,2019,"Biography, Crime, Drama","['Joey King', 'AnnaSophia Robb', 'Chloë Sevigny']",8.4,60
+187,The Morning Show,2019,Drama,"['Reese Witherspoon', 'Desean Terry', 'Victoria Tate']",8.5,60
+188,Succession,2018,Drama,"['Nicholas Braun', 'Brian Cox', 'Kieran Culkin']",8.2,60
+189,The Outsider,2020,"Crime, Drama, Mystery","['Bill Camp', 'Jeremy Bobb', 'Mare Winningham']",8.6,60
+190,Lights Out,2011,"Crime, Drama, Sport","['Stacy Keach', 'Catherine McCormack', 'Pablo Schreiber']",8.4,60
+191,Kingdom,2014,Drama,"['Kiele Sanchez', 'Matt Lauria', 'Jonathan Tucker']",8.3,43
+192,Heimebane,2018,"Drama, Sport","['John Carew', 'Axel Bøyum', 'Emma Bones']",8.4,50
+193,Poldark,2015,"Drama, History, Romance","['Eleanor Tomlinson', 'Jack Farthing', 'Beatie Edney']",8.1,60
+194,Gran Hotel,2011,"Crime, Drama, Mystery","['Amaia Salamanca', 'Yon González', 'Eloy Azorín']",8.2,60
+195,Damages,2007,"Crime, Drama, Mystery","['Rose Byrne', 'Tate Donovan', 'Zachary Booth']",8.3,60
+196,Les Revenants,2012,"Drama, Fantasy, Horror","['Clotilde Hesme', 'Frédéric Pierrot', 'Céline Sallette']",8.3,52
+197,Godless,2017,"Drama, Western","['Michelle Dockery', 'Scoot McNairy', 'Merritt Wever']",8.3,60
+198,Rectify,2013,Drama,"['Abigail Spencer', 'J. Smith-Cameron', 'Adelaide Clemens']",8.2,60
+199,The Virtues,2019,Drama,"['Niamh Algar', 'Helen Behan', 'Frank Laverty']",8.3,213
+200,Unorthodox,2020,Drama,"['Amit Rahav', 'Jeff Wilbusch', 'Alex Reid']",8.3,60
+201,The Last Kingdom,2015,"Action, Drama, History","['Eliza Butterworth', 'Ian Hart', 'David Dawson']",8.4,60
+202,Longmire,2012,"Action, Crime, Drama","['Katee Sackhoff', 'Lou Diamond Phillips', 'Cassidy Freeman']",7.9,44
+203,The Americans,2013,"Crime, Drama, Mystery","['Matthew Rhys', 'Keidrich Sellati', 'Holly Taylor']",8.2,45
+204,Rubicon,2010,"Crime, Drama, Mystery","['Jessica Collins', 'Lauren Hodges', 'Dallas Roberts']",8.6,60
+205,The Missing,2014,"Crime, Drama, Mystery","['Anastasia Hille', 'David Morrissey', 'Keeley Hawes']",7.8,60
+206,Line of Duty,2012,"Crime, Drama, Mystery","['Vicky McClure', 'Adrian Dunbar', 'Craig Parkinson']",8.4,60
+207,The Beast,2009,"Action, Crime, Drama","['Travis Fimmel', 'Lindsay Pulsipher', ""Kevin J. O'Connor""]",8.4,42
+208,Southland,2009,"Crime, Drama, Thriller","['Shawn Hatosy', 'Regina King', 'Ben McKenzie']",8.1,51
+209,Bosch,2014,"Crime, Drama","['Jamie Hector', 'Amy Aquino', 'Lance Reddick']",8.6,60
+210,Shetland,2013,"Crime, Drama, Mystery","[""Alison O'Donnell"", 'Steven Robertson', 'Erin Armstrong']",8.4,89
+211,Endeavour,2012,"Crime, Drama, Mystery","['Roger Allam', 'James Bradshaw', 'Sean Rigby']",7.9,45
+212,Babylon Berlin,2017,"Crime, Drama, Thriller","['Liv Lisa Fries', 'Leonie Benesch', 'Christian Friedel']",8.4,60
+213,Strike,2017,"Crime, Drama, Mystery","['Holliday Grainger', 'Kerr Logan', 'Killian Scott']",8.3,45
+214,Terriers,2010,"Comedy, Crime, Drama","['Michael Raymond-James', 'Laura Allen', 'Kimberly Quinn']",8.1,60
+215,Life on Mars,2006,"Crime, Drama, Mystery","['Philip Glenister', 'Liz White', 'Dean Andrews']",7.5,60
+216,Ashes to Ashes,2008,"Crime, Drama, Fantasy","['Keeley Hawes', 'Dean Andrews', 'Marshall Lancaster']",8.3,60
+217,Haven,2010,"Crime, Drama, Fantasy","['Lucas Bryant', 'Eric Balfour', 'Richard Donat']",8.4,60
+218,Dirk Gently's Holistic Detective Agency,2016,"Action, Adventure, Comedy","['Elijah Wood', 'Hannah Marks', 'Jade Eshete']",7.5,50
+219,Utopia,2013,"Drama, Mystery, Sci-Fi","['Paul Higgins', 'Neil Maskell', ""Fiona O'Shaughnessy""]",8.3,50
+220,"Perpetual Grace, LTD",2019,"Comedy, Crime, Drama","['Jimmi Simpson', 'Luis Guzmán', 'Damon Herriman']",8.4,30
+221,Mr Inbetween,2018,"Crime, Drama","['Chika Yasumura', 'Damon Herriman', 'Justin Rosniak']",7.6,30
+222,Wayne,2019,"Action, Comedy","['Ciara Bravo', 'Jon Champagne', 'Jamie Champagne']",8.3,60
+223,Mad Dogs,2011,"Comedy, Crime, Drama","['John Simm', 'Marc Warren', 'Philip Glenister']",7.9,30
+224,Barry,2018,"Action, Comedy, Crime","['Stephen Root', 'Sarah Goldberg', 'Anthony Carrigan']",6.8,30
+225,Spy,2011,Comedy,"['Jude Wright', 'Robert Lindsay', 'Rebekah Staton']",8.7,25
+226,Way to Go,2012,Comedy,"['Ben Heathcote', 'Sinead Matthews', 'Marc Wootton']",7.5,30
+227,BoJack Horseman,2014,"Animation, Comedy, Drama","['Amy Sedaris', 'Alison Brie', 'Aaron Paul']",7.8,22
+228,Back to Life,2019,"Comedy, Drama","['Geraldine James', 'Richard Durden', 'Liam Williams']",8.4,30
+229,Wilfred,2011,"Comedy, Drama, Mystery","['Jason Gann', 'Fiona Gubelmann', 'Dorian Brown Pham']",8.6,30
+230,After Life,2019,"Comedy, Drama","['Tom Basden', 'Tony Way', 'Diane Morgan']",8.2,34
+231,Detectorists,2014,Comedy,"['Toby Jones', 'Rachael Stirling', 'Gerard Horan']",8.8,30
+232,American Vandal,2017,"Comedy, Crime, Drama","['Griffin Gluck', 'Jimmy Tatro', 'Travis Tope']",8.2,30
+233,Cobra Kai,2018,"Action, Comedy, Drama","['Ralph Macchio', 'William Zabka', 'Courtney Henggeler']",8.4,60
+234,Party Down,2009,Comedy,"['Ken Marino', 'Ryan Hansen', 'Martin Starr']",7.8,30
+235,Slings and Arrows,2003,Comedy,"['Martha Burns', 'Stephen Ouimette', 'Susan Coyne']",8.2,30
+236,Episodes,2011,Comedy,"['Stephen Mangan', 'Tamsin Greig', 'John Pankow']",7.1,21
+237,The Kominsky Method,2018,Comedy,"['Alan Arkin', 'Sarah Baker', 'Nancy Travis']",8.3,30
+238,The Grinder,2015,Comedy,"['Fred Savage', 'Mary Elizabeth Ellis', 'Hana Hayes']",8.1,22
+239,Car Share,2015,Comedy,"['Sian Gibson', 'Danny Swarsbrick', 'Guy Garvey']",7.8,30
+240,Galavant,2015,"Adventure, Comedy, Fantasy","['Timothy Omundson', 'Vinnie Jones', 'Mallory Jansen']",7.8,26
+241,W1A,2014,Comedy,"['Monica Dolan', 'Jessica Hynes', 'Sarah Parish']",7.4,22
+242,Au service de la France,2015,Comedy,"['Wilfred Benaïche', 'Christophe Kourotchkine', 'Karim Barras']",7.8,29
+243,Hello Ladies,2013,Comedy,"['Christine Woods', 'Nate Torrence', 'Kevin Weisman']",8.4,30
+244,Ghosts,2019,"Comedy, Fantasy","['Jim Howick', 'Charlotte Ritchie', 'Kiell Smith-Bynoe']",8.8,30
+245,The Mick,2017,Comedy,"[""Sofia Black-D'Elia"", 'Thomas Barbusca', 'Carla Jimenez']",8.9,47
+246,The Larry Sanders Show,1992,Comedy,"['Jeffrey Tambor', 'Wallace Langham', 'Rip Torn']",8.7,467
+247,One Strange Rock,2018,Documentary,"['Chris Hadfield', 'Jerry Linenger', 'Mae C. Jemison']",8.2,279
+248,O.J.: Made in America,2016,"Documentary, Biography, Crime","['Kareem Abdul-Jabbar', 'Mike Albanese', 'Muhammad Ali', 'Marcus Allen']",8.1,403
+249,The Jinx: The Life and Deaths of Robert Durst,2015,"Documentary, Crime","['Andrew Jarecki', 'Gary Napoli', 'Debra Kay Anderson']",7.9,60
+250,Wild Wild Country,2018,"Documentary, Crime","['Osho', 'Philip Toelkes', 'Jane Stork']",7.4,629
+251,Dirty Money,2018,"Documentary, Crime","['Alex Gibney', 'Anabel Hernández', 'Fahmi Quadir']",8.1,202
+252,Soupçons,2004,"Documentary, Crime, Drama","['David Rudolf', 'Ron Guerette', 'Tom Maher']",8.2,187
+253,Revolution,2012,"Action, Adventure, Drama","['Tracy Spiridakos', 'Giancarlo Esposito', 'Zak Orth']",6.7,43
+254,That '70s Show,1998,"Comedy, Romance","['Laura Prepon', 'Mila Kunis', 'Danny Masterson']",8.1,22
+255,The OA,2016,"Drama, Fantasy, Mystery","['Jason Isaacs', 'Scott Wilson', 'Alice Krige']",7.9,60
+256,The 100,2014,"Drama, Mystery, Sci-Fi","['Bob Morley', 'Marie Avgeropoulos', 'Isaiah Washington']",7.7,43
+257,Ghost Adventures,2008,"Documentary, History, Reality-TV","['Aaron Goodwin', 'Billy Tolley', 'Jay Wasley']",7.5,45
+258,Bates Motel,2013,"Drama, Horror, Mystery","['Freddie Highmore', 'Max Thieriot', 'Nicola Peltz']",8.2,45
+259,Spartacus: Blood and Sand,2010,"Action, Adventure, Biography","['Lucy Lawless', 'Manu Bennett', 'Daniel Feuerriegel']",8.5,55
+260,This Is Us,2016,"Comedy, Drama, Romance","['Mandy Moore', 'Sterling K. Brown', 'Chrissy Metz']",8.7,45
+261,Burn Notice,2007,"Action, Crime, Drama","['Gabrielle Anwar', 'Bruce Campbell', 'Sharon Gless']",7.9,44
+262,Black Sails,2014,"Adventure, Drama","['Toby Stephens', 'Hannah New', 'Zach McGowan']",8.2,56
+263,The Last Kingdom,2015,"Action, Drama, History","['Eliza Butterworth', 'Ian Hart', 'David Dawson']",8.3,60
+264,Into the Badlands,2015,"Action, Adventure, Drama","['Orla Brady', 'Emily Beecham', 'Aramis Knight']",7.7,42
+265,Limitless,2015,"Comedy, Crime, Drama","['Jennifer Carpenter', 'Hill Harper', 'Mary Elizabeth Mastrantonio']",6.5,42
+266,Camelot,2011,"Drama, Fantasy, History","['Jamie Campbell Bower', 'Tamsin Egerton', 'Peter Mooney']",7.2,45
+267,Containment,2016,Drama,"['Christina Moses', 'Chris Wood', 'Claudia Black']",7.2,60
+268,The Shannara Chronicles,2016,"Adventure, Fantasy, Sci-Fi","['Ivana Baquero', 'Manu Bennett', 'Aaron Jakubenko']",7.5,42
+269,Hannibal,2013,"Crime, Drama, Horror","['Mads Mikkelsen', 'Caroline Dhavernas', 'Laurence Fishburne']",8.5,44
+270,Banshee,2013,"Action, Crime, Drama","['Ivana Milicevic', 'Ulrich Thomsen', 'Frankie Faison']",8.4,60
+271,Kingdom,2014,Drama,"['Kiele Sanchez', 'Matt Lauria', 'Jonathan Tucker']",8.4,43
+272,Luther,2010,"Crime, Drama, Mystery","['Dermot Crowley', 'Michael Smiley', 'Warren Brown']",8.5,60
+273,Bates Motel,2013,"Drama, Horror, Mystery","['Freddie Highmore', 'Max Thieriot', 'Nicola Peltz']",8.2,45
+274,Harper's Island,2009,"Drama, Horror, Mystery","['Christopher Gorham', 'Matt Barr', 'Gina Holden']",7.5,40
+275,Penny Dreadful,2014,"Drama, Fantasy, Horror","['Timothy Dalton', 'Eva Green', 'Reeve Carney']",8.2,60
+276,Fargo,2014,"Crime, Drama, Thriller","['Martin Freeman', 'Allison Tolman', 'Colin Hanks']",8.9,53
+277,The Last Ship,2014,"Action, Drama, Sci-Fi","['Adam Baldwin', 'Charles Parnell', 'Travis Van Winkle']",7.5,60
+278,Constantine,2014,"Drama, Fantasy, Horror","['Harold Perrineau', 'Charles Halford', 'Angélica Celaya']",7.5,43
+279,Humans,2015,"Drama, Sci-Fi","['Gemma Chan', 'Lucy Carless', 'Tom Goodman-Hill']",7.2,42
+280,Killjoys,2015,"Action, Adventure, Sci-Fi","['Aaron Ashmore', 'Luke Macfarlane', 'Tamsen McDonough']",7.9,42
+281,Agent Carter,2015,"Action, Adventure, Sci-Fi","[""James D'Arcy"", 'Enver Gjokaj', 'Chad Michael Murray']",7.4,42
+282,Wayward Pines,2015,"Drama, Mystery, Sci-Fi","['Toby Jones', 'Shannyn Sossamon', 'Hope Davis']",8.8,60
+283,Marco Polo,2014,"Adventure, Drama, History","['Benedict Wong', 'Joan Chen', 'Remy Hii']",8.3,60
+284,Peaky Blinders,2013,"Crime, Drama","['Paul Anderson', 'Helen McCrory', 'Sophie Rundle']",7.5,60
+285,Orphan Black,2013,"Action, Drama, Sci-Fi","['Dylan Bruce', 'Jordan Gavaris', 'Kevin Hanchard']",8.3,44
+286,Dark Matter,2015,"Adventure, Drama, Mystery","['Anthony Lemke', 'Alex Mallari Jr.', 'Jodelle Ferland']",7.2,42
+287,Into the Badlands,2015,"Action, Adventure, Drama","['Orla Brady', 'Emily Beecham', 'Aramis Knight']",8.1,42
+288,The Last Kingdom,2015,"Action, Drama, History","['Eliza Butterworth', 'Ian Hart', 'David Dawson']",7.7,60
+289,The Shannara Chronicles,2016,"Adventure, Fantasy, Sci-Fi","['Ivana Baquero', 'Manu Bennett', 'Aaron Jakubenko']",8.2,42
+290,The Night Manager,2016,"Crime, Drama, Mystery","['Tom Hiddleston', 'Elizabeth Debicki', 'Olivia Colman']",8.5,358
+291,Limitless,2015,"Comedy, Crime, Drama","['Jennifer Carpenter', 'Hill Harper', 'Mary Elizabeth Mastrantonio']",8.5,42
+292,Skins,2007,Drama,"['Nicholas Hoult', 'Joe Dempsie', 'Hannah Murray']",8.7,46
+293,The Night Of,2016,"Crime, Drama, Mystery","['John Turturro', 'Bill Camp', 'Amara Karan']",7.3,525
+294,The Expanse,2015,"Drama, Mystery, Sci-Fi","['Cas Anvar', 'Dominique Tipper', 'Wes Chatham']",8.2,60
+295,Utopia,2013,"Drama, Mystery, Sci-Fi","['Paul Higgins', 'Neil Maskell', ""Fiona O'Shaughnessy""]",8.4,50
+296,The Thick of It,2005,Comedy,"['James Smith', 'Peter Capaldi', 'Joanna Scanlan']",8.7,29
+297,Luther,2010,"Crime, Drama, Mystery","['Dermot Crowley', 'Michael Smiley', 'Warren Brown']",8.5,60
+298,Inside No. 9,2014,"Comedy, Drama, Horror","['Steve Pemberton', 'Rosie Cavaliero', 'Aimee-Ffion Edwards']",8.5,30
+299,Dirk Gently's Holistic Detective Agency,2016,"Action, Adventure, Comedy","['Elijah Wood', 'Hannah Marks', 'Jade Eshete']",8.3,60
+300,The Leftovers,2014,"Drama, Fantasy, Mystery","['Amy Brenneman', 'Christopher Eccleston', 'Liv Tyler']",8.3,60
+301,Spaced,1999,"Action, Comedy","['Simon Pegg', 'Julia Deakin', 'Nick Frost']",8.6,25
+302,Brass Eye,1997,Comedy,"['Mark Heap', 'Kevin Eldon', 'Doon Mackichan']",8.6,25
+303,Atlanta,2016,"Comedy, Drama, Music","['Brian Tyree Henry', 'LaKeith Stanfield', 'Zazie Beetz']",8.6,30
+304,Peep Show,2003,Comedy,"['Robert Webb', 'Matt King', 'Olivia Colman']",8.6,25
+305,The League of Gentlemen,1999,"Comedy, Horror","['Steve Pemberton', 'Reece Shearsmith', 'Jeremy Dyson']",8.4,60
+306,Life on Mars,2006,"Crime, Drama, Mystery","['Philip Glenister', 'Liz White', 'Dean Andrews']",8.3,60
+307,Lilyhammer,2012,"Comedy, Crime, Drama","['Trond Fausa', 'Steinar Sagen', 'Marian Saastad Ottesen']",8.1,45
+308,Ashes to Ashes,2008,"Crime, Drama, Fantasy","['Keeley Hawes', 'Dean Andrews', 'Marshall Lancaster']",8.3,60
+309,The Mighty Boosh,2003,"Comedy, Fantasy, Musical","['Noel Fielding', 'Michael Fielding', 'Rich Fulcher']",8.3,30
+310,Patriot,2015,"Comedy, Drama, Thriller","['Kurtwood Smith', 'Michael Chernus', 'Kathleen Munroe']",8.4,58
+311,Jam,2000,Comedy,"['Amelia Bullmore', 'David Cann', 'Julia Davis']",8.6,24
+312,The Day Today,1994,Comedy,"['Steve Coogan', 'Patrick Marber', 'Rebecca Front']",8.6,30
+313,Father Ted,1995,Comedy,"[""Ardal O'Hanlon"", 'Frank Kelly', 'Pauline McLynn']",8.5,25
+314,I'm Alan Partridge,1997,Comedy,"['Simon Greenall', 'Felicity Montagu', 'Phil Cornwell']",8.5,29
+315,Garth Marenghi's Darkplace,2004,"Comedy, Fantasy, Horror","['Matt Berry', 'Matthew Holness', 'Alice Lowe']",7.1,30
+316,Bruiser,2000,Comedy,"['Matthew Holness', 'Charlotte Hudson', 'Martin Freeman']",7.8,29
+317,PhoneShop,2009,Comedy,"['Tom Bennett', 'Andrew Brooke', 'Javone Prince']",8.2,30
+318,Happy!,2017,"Action, Comedy, Crime","['Ritchie Coster', 'Lili Mirojnick', 'Patton Oswalt']",8.3,60
+319,Barry,2018,"Action, Comedy, Crime","['Stephen Root', 'Sarah Goldberg', 'Anthony Carrigan']",8.3,30
+320,The Armando Iannucci Shows,2001,Comedy,"['Hugh Cecil', 'Karen Ascoe', 'Melanie Hudson']",8.4,26
+321,Monkey Dust,2003,"Animation, Comedy, Horror","['Morwenna Banks', 'Frances Barber', 'Rebecca Front']",7.7,29
+322,Xavier: Renegade Angel,2007,"Animation, Adventure, Comedy","['John Lee', 'Alyson Levy', 'Jim Tozzi']",8.8,12
+323,Nathan for You,2013,"Documentary, Comedy","['Anthony Filosa', 'William Heath', 'Brian S. Wolfe']",8.4,30
+324,The Booth at the End,2011,"Drama, Mystery","['Jennifer Del Rosario', 'Jenni Blong', 'Michelle Dunker']",8.4,30
+325,In Treatment,2008,Drama,"['Dianne Wiest', 'Michelle Forbes', 'Blair Underwood']",8.3,25
+326,Rectify,2013,Drama,"['Abigail Spencer', 'J. Smith-Cameron', 'Adelaide Clemens']",8.3,60
+327,Happy Valley,2014,"Crime, Drama","['Siobhan Finneran', 'Shane Zaza', 'Charlie Murphy']",8.4,58
+328,Being Human,2008,"Comedy, Drama, Fantasy","['Russell Tovey', 'Aidan Turner', 'Sinead Keenan']",7.8,60
+329,Misfits,2009,"Comedy, Drama, Fantasy","['Joseph Gilgun', 'Iwan Rheon', 'Lauren Socha']",8.2,60
+330,Terriers,2010,"Comedy, Crime, Drama","['Michael Raymond-James', 'Laura Allen', 'Kimberly Quinn']",8.4,45
+331,Justified,2010,"Action, Crime, Drama","['Nick Searcy', 'Joelle Carter', 'Jacob Pitts']",8.6,44
+332,Longmire,2012,"Action, Crime, Drama","['Katee Sackhoff', 'Lou Diamond Phillips', 'Cassidy Freeman']",8.3,60
+333,Burn Notice,2007,"Action, Crime, Drama","['Gabrielle Anwar', 'Bruce Campbell', 'Sharon Gless']",7.9,44
+334,Banshee,2013,"Action, Crime, Drama","['Ivana Milicevic', 'Ulrich Thomsen', 'Frankie Faison']",8.4,60
+335,The Knick,2014,"Drama, History","['André Holland', 'Jeremy Bobb', 'Juliet Rylance']",8.5,58
+336,Southland,2009,"Crime, Drama, Thriller","['Shawn Hatosy', 'Regina King', 'Ben McKenzie']",8.4,42
+337,The Lost Room,2006,"Action, Fantasy, Mystery","['Julianna Margulies', 'Peter Jacobson', 'Dennis Christopher']",8.2,270
+338,Vikings,2013,"Action, Adventure, Drama","['Gustaf Skarsgård', 'Alexander Ludwig', 'Georgia Hirst']",8.6,44
+339,Masters of Sex,2013,"Drama, Romance","['Lizzy Caplan', 'Caitlin FitzGerald', 'Teddy Sears']",7.9,60
+340,Bored to Death,2009,"Comedy, Crime, Drama","['Zach Galifianakis', 'Ted Danson', 'Heather Burns']",7.9,28
+341,The Kill Point,2007,"Action, Crime, Drama","['Donnie Wahlberg', 'Michael Hyatt', 'John Leguizamo']",7.4,45
+342,The Yard,2011,Comedy,"['Devan Cohen', 'Daniel Lupetina', 'Alex Cardillo']",6.9,25
+343,The Riches,2007,"Comedy, Crime, Drama","['Minnie Driver', 'Shannon Woodward', 'Noel Fisher']",7.8,30
+344,BoJack Horseman,2014,"Animation, Comedy, Drama","['Amy Sedaris', 'Alison Brie', 'Aaron Paul']",8.7,30
+345,Togetherness,2015,"Comedy, Drama, Romance","['Melanie Lynskey', 'Amanda Peet', 'Steve Zissis']",7.5,30
+346,Review,2014,Comedy,"['Jessica St. Clair', 'Megan Stevenson', 'Michael Croner']",8.3,45
+347,Adam Ruins Everything,2015,"Animation, Comedy, History","['Adam Lustick', 'Emily Axford', 'Amos Vernon']",8.6,42
+348,Wentworth,2013,"Crime, Drama","['Robbie Magasiva', 'Katrina Milosevic', 'Jacqueline Brennan']",7.8,60
+349,UnREAL,2015,Drama,"['Craig Bierko', 'Jeffrey Bowyer-Chapman', 'Brennan Elliott']",8.4,56
+350,Top Boy,2011,"Crime, Drama, Thriller","['Kane Robinson', 'Shone Romulus', 'Micheal Ward']",7.8,22
+351,In the Flesh,2013,"Drama, Horror","['Harriet Cains', 'Marie Critchley', 'Steve Cooper']",7.2,50
+352,Death Valley,2011,"Comedy, Horror","['Bryce Johnson', 'Tania Raymonde', 'Charlie Sanders']",8.3,60
+353,The Wire,2002,"Crime, Drama, Thriller","['Lance Reddick', 'Sonja Sohn', 'Wendell Pierce']",9.3,59
+354,Mr. Robot,2015,"Crime, Drama, Thriller","['Christian Slater', 'Carly Chaikin', 'Martin Wallström']",8.5,49
+355,Black Mirror,2011,"Drama, Sci-Fi, Thriller","['Hannah John-Kamen', 'Michaela Coel', 'Beatrice Robertson-Jones']",8.8,60
+356,Show Me a Hero,2015,"Drama, History","['Carla Quevedo', 'Peter Riegert', 'Natalie Paul']",8.1,60
+357,Southland,2009,"Crime, Drama, Thriller","['Shawn Hatosy', 'Regina King', 'Ben McKenzie']",8.4,42
+358,The Wonder Years,1988,"Comedy, Drama, Family","['Dan Lauria', 'Daniel Stern', 'Alley Mills']",8.3,22
+359,Crime Story,1986,"Crime, Drama, Mystery","['Bill Smitrovich', 'Steve Ryan', 'Billy Campbell']",8.4,60
+360,Northern Exposure,1990,"Comedy, Drama","['Janine Turner', 'Barry Corbin', 'John Cullum']",8.2,60
+361,American Gods,2017,"Drama, Fantasy, Mystery","['Emily Browning', 'Crispin Glover', 'Yetide Badaki']",7.9,60
+362,The Sopranos,1999,"Crime, Drama","['Lorraine Bracco', 'Edie Falco', 'Michael Imperioli']",9.2,55
+363,Quantum Leap,1989,"Action, Adventure, Drama","['Dean Stockwell', 'Deborah Pratt', 'Dennis Wolfberg']",8.1,60
+364,Into the Badlands,2015,"Action, Adventure, Drama","['Orla Brady', 'Emily Beecham', 'Aramis Knight']",8.5,42
+365,Boardwalk Empire,2010,"Crime, Drama, History","['Kelly Macdonald', 'Michael Shannon', 'Shea Whigham']",8.1,55
+366,Hill Street Blues,1981,"Crime, Drama, Mystery","['Michael Warren', 'Bruce Weitz', 'James Sikking']",8.5,60
+367,I'll Fly Away,1991,Drama,"['Regina Taylor', 'Jeremy London', 'Ashlee Levitch']",7.8,60
+368,New York Undercover,1994,"Crime, Drama","['Michael DeLorenzo', ""Patti D'Arbanville"", 'Luna Lauren Velez']",8.5,60
+369,Homicide: Life on the Street,1993,"Crime, Drama, Mystery","['Clark Johnson', 'Yaphet Kotto', 'Kyle Secor']",7.7,60
+370,Nikita,2010,"Action, Crime, Drama","['Shane West', 'Lyndsy Fonseca', 'Aaron Stanford']",7.4,60
+371,Martin,1992,"Comedy, Drama, Romance","['Tisha Campbell-Martin', 'Thomas Mikal Ford', 'Carl Anthony Payne II']",8.1,30
+372,The Exorcist,2016,"Drama, Horror, Mystery","['Ben Daniels', 'Kurt Egyiawan', 'Hannah Kasulka']",8.8,45
+373,Narcos,2015,"Biography, Crime, Drama","['Wagner Moura', 'Boyd Holbrook', 'Alberto Ammann']",7.8,49
+374,Preacher,2016,"Adventure, Drama, Fantasy","['Joseph Gilgun', 'Ruth Negga', 'Ian Colletti']",7.9,60
+375,Fresh Off the Boat,2015,Comedy,"['Constance Wu', 'Hudson Yang', 'Forrest Wheeler']",8.4,22
+376,The Making of the Mob,2015,"Documentary, Crime, History","['Craig Thomas Rivela', 'Rich Graff', 'John Binder']",8.5,343
+377,The Americans,2013,"Crime, Drama, Mystery","['Matthew Rhys', 'Keidrich Sellati', 'Holly Taylor']",8.1,44
+378,The Night Of,2016,"Crime, Drama, Mystery","['John Turturro', 'Bill Camp', 'Amara Karan']",8.6,525
+379,The Night Manager,2016,"Crime, Drama, Mystery","['Tom Hiddleston', 'Elizabeth Debicki', 'Olivia Colman']",8.2,358
+380,Mindhunter,2017,"Crime, Drama, Thriller","['Holt McCallany', 'Anna Torv', 'Hannah Gross']",7.7,60
+381,Seven Seconds,2018,"Crime, Drama","['Michael Mosley', 'David Lyons', 'Russell Hornsby']",8.3,60
+382,Atlanta,2016,"Comedy, Drama, Music","['Brian Tyree Henry', 'LaKeith Stanfield', 'Zazie Beetz']",7.9,30
+383,Master of None,2015,Comedy,"['Eric Wareheim', 'Lena Waithe', 'Noël Wells']",8.4,30
+384,Red Oaks,2014,"Comedy, Drama, Sport","['Ennis Esmer', 'Oliver Cooper', 'Richard Kind']",8.4,30
+385,Broad City,2014,Comedy,"['Abbi Jacobson', 'Hannibal Buress', 'Arturo Castro']",7.8,22
+386,Marco Polo,2014,"Adventure, Drama, History","['Benedict Wong', 'Joan Chen', 'Remy Hii']",7.8,60
+387,Entourage,2004,"Comedy, Drama","['Adrian Grenier', 'Kevin Dillon', 'Jerry Ferrara']",8.7,28
+388,Gotham,2014,"Action, Crime, Drama","['Jada Pinkett Smith', 'Donal Logue', 'Camren Bicondova']",8.6,42
+389,St. Elsewhere,1982,"Comedy, Drama","['Howie Mandel', 'David Morse', 'Christina Pickles']",8.4,60
+390,This Is Us,2016,"Comedy, Drama, Romance","['Mandy Moore', 'Sterling K. Brown', 'Chrissy Metz']",8.2,45
+391,Sons of Anarchy,2008,"Crime, Drama, Thriller","['Katey Sagal', 'Mark Boone Junior', 'Kim Coates']",8.2,45
+392,Top Boy,2011,"Crime, Drama, Thriller","['Kane Robinson', 'Shone Romulus', 'Micheal Ward']",7.8,60
+393,Treme,2010,"Drama, Music","['Rob Brown', 'Kim Dickens', 'Melissa Leo']",8.1,59
+394,Celia,2015,"Biography, Drama, Music","['Frank Gerrish', 'Amanda Peter', 'Wayra Schreiber']",7.7,53
+395,The Twilight Zone,1985,"Drama, Fantasy, Horror","['Charles Aidman', 'Richard Mulligan', 'William Atherton']",7.7,45
+396,Boss,2011,"Crime, Drama","['Connie Nielsen', 'Hannah Ware', 'Jeff Hephner']",7.9,56
+397,Shaka Zulu,1986,"Action, Biography, Drama","['Robert Powell', 'Trevor Howard', 'Fiona Fullerton']",8.2,300
+398,The Outer Limits,1995,"Drama, Fantasy, Horror","['Alex Diakun', 'Eric Schneider', 'Garvin Cross']",8.3,44
+399,The White Shadow,1978,"Drama, Sport","['Kevin Hooks', 'Byron Stewart', 'Timothy Van Patten']",8.1,60
+400,True Blood,2008,"Drama, Fantasy, Mystery","['Stephen Moyer', 'Sam Trammell', 'Ryan Kwanten']",8.7,55
+401,The Walking Dead,2010,"Drama, Horror, Thriller","['Norman Reedus', 'Melissa McBride', 'Danai Gurira']",8.1,44
+402,Tour of Duty,1987,"Action, Drama, War","['Stephen Caffrey', 'Tony Becker', 'Miguel A. Núñez Jr.']",8.3,47
+403,Quarry,2016,"Crime, Drama, Thriller","['Jodi Balfour', 'Damon Herriman', 'Edoardo Ballerini']",7.8,60
+404,The Haunting of Hill House,2018,"Drama, Horror, Mystery","['Oliver Jackson-Cohen', 'Kate Siegel', 'Victoria Pedretti']",7.6,50
+405,The Goldbergs,2013,Comedy,"['Sean Giambrone', 'Troy Gentile', 'Hayley Orrantia']",8.4,22
+406,Hell on Wheels,2011,"Drama, Western","['Colm Meaney', 'Robin McLeavy', 'Phil Burke']",7.3,42
+407,Tales from the Crypt,1989,"Comedy, Crime, Fantasy","['Roy Brocksmith', 'Miguel Ferrer', 'Cam Clarke']",8.8,25
+408,Condor,2018,"Action, Drama, Thriller","['Kristen Hager', 'Bob Balaban', 'Gage Graham-Arbuthnot']",7.8,60
+409,Carlos,2010,"Biography, Crime, Drama","['Alexander Scheer', 'Fadi Abi Samra', 'Lamia Ahmed']",8.2,334
+410,Strangers with Candy,1999,Comedy,"['Paul Dinello', 'Stephen Colbert', 'Greg Hollimon']",8.6,22
+411,American Crime Story,2016,"Biography, Crime, Drama","['Annaleigh Ashford', 'Sterling K. Brown', 'Kenneth Choi']",7.9,42
+412,Luke Cage,2016,"Action, Crime, Drama","['Simone Missick', 'Theo Rossi', 'Alfre Woodard']",8.4,55
+413,Peaky Blinders,2013,"Crime, Drama","['Paul Anderson', 'Helen McCrory', 'Sophie Rundle']",8.6,60
+414,Jaianto robo,1967,"Action, Adventure, Sci-Fi","['Toshiyuki Tsuchiyama', 'Kôichi Chiba', 'Akio Itô']",8.3,30
+415,The League,2009,"Comedy, Sport","['Jonathan Lajoie', 'Nick Kroll', 'Stephen Rannazzisi']",8.3,22
+416,The Corner,2000,"Crime, Drama","['Khandi Alexander', 'Sean Nelson', 'Clarke Peters']",8.2,376
+417,Star Trek: Deep Space Nine,1993,"Action, Adventure, Drama","['Rene Auberjonois', 'Cirroc Lofton', 'Alexander Siddig']",8.6,45
+418,Fringe,2008,"Drama, Mystery, Sci-Fi","['Joshua Jackson', 'John Noble', 'Jasika Nicole']",8.2,46
+419,Daredevil,2015,"Action, Crime, Drama","[""Vincent D'Onofrio"", 'Deborah Ann Woll', 'Elden Henson']",8.6,54
+420,In Treatment,2008,Drama,"['Dianne Wiest', 'Michelle Forbes', 'Blair Underwood']",7.9,25
+421,The Get Down,2016,"Drama, Music, Musical","['Shameik Moore', 'Herizen F. Guardiola', 'Skylan Brooks']",8.2,52
+422,Misfits,2009,"Comedy, Drama, Fantasy","['Joseph Gilgun', 'Iwan Rheon', 'Lauren Socha']",7.9,60
+423,The Newsroom,2012,Drama,"['Emily Mortimer', 'John Gallagher Jr.', 'Alison Pill']",7.3,55
+424,Black Sails,2014,"Adventure, Drama","['Toby Stephens', 'Hannah New', 'Zach McGowan']",7.6,56
+425,The X Files,1993,"Crime, Drama, Mystery","['Gillian Anderson', 'Mitch Pileggi', 'William B. Davis']",8.2,45
+426,V,1983,"Action, Adventure, Sci-Fi","['Michael Durrell', 'Faye Grant', 'Peter Nelson']",7.7,197
+427,Power,2014,"Crime, Drama","['Lela Loren', 'Naturi Naughton', 'Joseph Sikora']",8.1,50
+428,Roots,2016,"Biography, Drama, History","['Jonathan Rhys Meyers', 'Malachi Kirby', 'Forest Whitaker']",7.6,90
+429,Magic City,2012,"Crime, Drama","['Olga Kurylenko', 'Steven Strait', 'Jessica Marais']",7.8,50
+430,11.22.63,2016,"Drama, Mystery, Sci-Fi","['Sarah Gadon', 'George MacKay', 'Chris Cooper']",8.5,60
+431,Man Seeking Woman,2015,"Comedy, Fantasy, Romance","['Eric André', 'Britt Lower', 'Robin Duke']",8.4,21
+432,How to Get Away with Murder,2014,"Crime, Drama, Mystery","['Billy Brown', 'Jack Falahee', 'Aja Naomi King']",7.7,43
+433,The Magicians,2015,"Drama, Fantasy, Mystery","['Hale Appleman', 'Arjun Gupta', 'Summer Bishil']",8.8,60
+434,John Adams,2008,"Biography, Drama, History","['Laura Linney', 'John Dossett', 'Stephen Dillane']",7.6,71
+435,Underground,2016,"Adventure, Drama, History","['Aldis Hodge', 'Jessica De Gouw', 'Alano Miller']",8.6,43
+436,Silicon Valley,2014,Comedy,"['T.J. Miller', 'Josh Brener', 'Martin Starr']",7.4,28
+437,The Terror,2018,"Adventure, Drama, History","['Derek Mio', 'Tobias Menzies', 'Kiki Sukezane']",8.7,60
+438,Taboo,2017,"Drama, Mystery, Thriller","['David Hayman', 'Jonathan Pryce', 'Oona Chaplin']",7.9,59
+439,12 Monkeys,2015,"Adventure, Drama, Mystery","['Amanda Schull', 'Noah Bean', 'Barbara Sukowa']",8.6,42
+440,The Man in the High Castle,2015,"Drama, Sci-Fi, Thriller","['Luke Kleintank', 'Rufus Sewell', 'Rupert Evans']",7.5,60
+441,Luther,2010,"Crime, Drama, Mystery","['Dermot Crowley', 'Michael Smiley', 'Warren Brown']",8.5,60
+442,Sliders,1995,"Adventure, Fantasy, Sci-Fi","['Sabrina Lloyd', 'John Rhys-Davies', 'Cleavant Derricks']",7.4,60
+443,Sparks,1996,Comedy,"['Miguel A. Núñez Jr.', 'Terrence Howard', 'Kym Whitley']",7.1,30
+444,Six Feet Under,2001,"Comedy, Drama","['Michael C. Hall', 'Frances Conroy', 'Lauren Ambrose']",8.7,55
+445,Ballers,2015,"Comedy, Drama, Sport","['John David Washington', 'Donovan W. Carter', 'Troy Garity']",7.6,30
+446,Herman's Head,1991,Comedy,"['Hank Azaria', 'Jane Sibbett', 'Yeardley Smith']",7.1,30
+447,Too Old to Die Young,2019,"Crime, Drama, Thriller","['Augusto Aguilera', 'Nell Tiger Free', 'Cristina Rodlo']",7.4,55
+448,Dexter,2006,"Crime, Drama, Mystery","['Jennifer Carpenter', 'David Zayas', 'James Remar']",8.6,53
+449,Legion,2017,"Action, Drama, Sci-Fi","['Rachel Keller', 'Aubrey Plaza', 'Bill Irwin']",8.3,60
+450,Carnivàle,2003,"Drama, Fantasy, Mystery","['Adrienne Barbeau', 'Clancy Brown', 'Debra Christofferson']",8.4,55
+451,Queen Sugar,2016,Drama,"['Dawn-Lyen Gardner', 'Kofi Siriboe', 'Omar J. Dorsey']",7.7,60
+452,House of Cards,2013,Drama,"['Michel Gill', 'Robin Wright', 'Kate Mara']",8.8,51
+453,South Central,1994,Comedy,"['Larenz Tate', 'Tasha Scott', 'Keith Mbulo']",7.6,30
+454,Being Mary Jane,2013,"Drama, Romance, Thriller","['Lisa Vidal', 'Raven Goodwin', 'Margaret Avery']",7.5,60
+455,Highlander,1992,"Action, Adventure, Fantasy","['Stan Kirsch', 'Jim Byrnes', 'Peter Wingfield']",7.2,60
+456,Empire,2015,"Drama, Music","['Taraji P. Henson', 'Jussie Smollett', 'Bryshere Y. Gray']",7.4,42
+457,ER,1994,"Drama, Romance","['George Clooney', 'Julianna Margulies', 'Eriq La Salle']",7.7,44
+458,The Streets of San Francisco,1972,"Action, Crime, Drama","['Michael Douglas', 'Reuben Collins', 'Richard Hatch']",7.3,60
+459,La piovra,1984,"Crime, Drama, Romance","['Barbara De Rossi', 'Patricia Millardet', 'Nicole Jamet']",8.7,402
+460,McMafia,2018,"Crime, Drama, Thriller","['Merab Ninidze', 'Kirill Pirogov', 'Igor Pokrajac']",7.7,60
+461,Utopia,2013,"Drama, Mystery, Sci-Fi","['Paul Higgins', 'Neil Maskell', ""Fiona O'Shaughnessy""]",8.4,50
+462,Stalker,2014,"Crime, Drama, Thriller","['Maggie Q', 'Victor Rasuk', 'Mariana Klaveno']",7.5,60
+463,The Untouchables,1959,"Action, Crime, Drama","['Walter Winchell', 'Nicholas Georgiade', 'Paul Picerni']",7.2,50
+464,Room 222,1969,"Comedy, Drama, Family","['Denise Nicholas', 'Michael Constantine', 'Karen Valentine']",7.6,30
+465,Girlfriends,2000,Comedy,"['Golden Brooks', 'Persia White', 'Reginald C. Hayes']",7.1,30
+466,Mission: Impossible,1988,"Action, Adventure, Crime","['Thaao Penghlis', 'Antony Hamilton', 'Phil Morris']",8.5,47
+467,Maude,1972,Comedy,"['Bill Macy', 'Conrad Bain', 'Rue McClanahan']",8.1,30
+468,Generation Kill,2008,"Drama, War","['James Ransone', 'Lee Tergesen', 'Jon Huertas']",7.6,70
+469,Counterpart,2017,"Drama, Sci-Fi, Thriller","['Olivia Williams', 'Harry Lloyd', 'Nazanin Boniadi']",7.7,60
+470,Arrow,2012,"Action, Adventure, Crime","['Katie Cassidy', 'David Ramsey', 'Susanna Thompson']",8.3,42
+471,Barefoot in the Park,1970,Comedy,"['Tracy Reed', 'Thelma Carpenter', 'Nipsey Russell']",8.1,30
+472,All in the Family,1971,"Comedy, Drama","['Jean Stapleton', 'Rob Reiner', 'Sally Struthers']",8.8,30
+473,Altered Carbon,2018,"Action, Drama, Sci-Fi","['Renée Elise Goldsberry', 'Will Yun Lee', 'Dichen Lachman']",7.4,60
+474,Twin Peaks,1990,"Crime, Drama, Mystery","['Michael Ontkean', 'Mädchen Amick', 'Dana Ashbrook']",7.8,47
+475,Everybody Hates Chris,2005,Comedy,"['Tichina Arnold', 'Tequan Richmond', 'Imani Hakim']",8.5,22
+476,Insecure,2016,"Comedy, Romance","['Yvonne Orji', 'Jay Ellis', 'Lisa Joyce']",7.7,30
+477,Il capo dei capi,2007,"Biography, Crime, Drama","['Daniele Liotti', 'Salvatore Lazzaro', 'Simona Cavallari']",7.6,100
+478,The 100,2014,"Drama, Mystery, Sci-Fi","['Bob Morley', 'Marie Avgeropoulos', 'Isaiah Washington']",7.2,43
+479,Julia,1968,Comedy,"['Lloyd Nolan', 'Marc Copage', 'Michael Link']",7.6,30
+480,Boston Public,2000,"Comedy, Drama","['Anthony Heald', 'Fyvush Finkel', 'Chi McBride']",8.6,60
+481,Taxi,1978,Comedy,"['Jeff Conaway', 'Danny DeVito', 'Marilu Henner']",8.4,30
+482,Vikings,2013,"Action, Adventure, Drama","['Gustaf Skarsgård', 'Alexander Ludwig', 'Georgia Hirst']",8.6,44
+483,Person of Interest,2011,"Action, Crime, Drama","['Taraji P. Henson', 'Kevin Chapman', 'Michael Emerson']",8.3,43
+484,Mad Men,2007,Drama,"['Elisabeth Moss', 'Vincent Kartheiser', 'January Jones']",8.1,47
+485,Orphan Black,2013,"Action, Drama, Sci-Fi","['Dylan Bruce', 'Jordan Gavaris', 'Kevin Hanchard']",7.2,44
+486,Damages,2007,"Crime, Drama, Mystery","['Rose Byrne', 'Tate Donovan', 'Zachary Booth']",8.4,60
+487,Eye Candy,2015,"Crime, Drama, Mystery","['Casey Deidrick', 'Harvey Guillén', 'Marcus Callender']",7.5,60
+488,Brigada,2002,"Action, Crime, Drama","['Dmitriy Dyuzhev', 'Pavel Maykov', 'Vladimir Vdovichenkov']",7.4,750
+489,Dark Matter,2015,"Adventure, Drama, Mystery","['Anthony Lemke', 'Alex Mallari Jr.', 'Jodelle Ferland']",7.3,42
+490,Colony,2016,"Action, Adventure, Drama","['Sarah Wayne Callies', 'Peter Jacobson', 'Tory Kittles']",7.3,42
+491,The Defenders,2017,"Action, Adventure, Crime","['Krysten Ritter', 'Mike Colter', 'Finn Jones']",7.8,50
+492,Incorporated,2016,"Crime, Drama, Sci-Fi","['Allison Miller', 'Eddie Ramos', 'Julia Ormond']",8.5,43
+493,The Fades,2011,"Fantasy, Horror, Mystery","['Tom Ellis', 'Daniel Kaluuya', 'Iain De Caestecker']",7.2,55
+494,The IT Crowd,2006,Comedy,"['Richard Ayoade', 'Katherine Parkinson', 'Matt Berry']",7.4,25
+495,Frontier,2016,"Adventure, Drama, History","['Landon Liboiron', 'Zoe Boyle', 'Greg Bryk']",7.3,60
+496,Malcolm in the Middle,2000,"Comedy, Family","['Bryan Cranston', 'Justin Berfield', 'Erik Per Sullivan']",7.5,22
+497,Outcast,2016,"Drama, Horror","['Philip Glenister', 'Wrenn Schmidt', 'Reg E. Cathey']",7.2,60
+498,Lilyhammer,2012,"Comedy, Crime, Drama","['Trond Fausa', 'Steinar Sagen', 'Marian Saastad Ottesen']",7.2,45
+499,Roadies,2016,"Comedy, Drama, Music","['Luke Wilson', 'Imogen Poots', 'Rafe Spall']",7.6,60
+500,The Invisible Man,2000,"Action, Comedy, Sci-Fi","['Paul Ben-Victor', 'Shannon Kenny', 'Eddie Jones']",8.2,120
+501,Channel Zero,2016,"Drama, Fantasy, Horror","['Marina Stephenson Kerr', 'Abigail Pniowsky', 'Diana Bentley']",8.7,44
+502,The Incredible Hulk,1977,"Action, Adventure, Drama","['Lou Ferrigno', 'Jack Colvin', 'Charles Napier']",8.3,60
+503,Dirty Sexy Money,2007,Drama,"['Donald Sutherland', 'William Baldwin', 'Natalie Zea']",8.6,45
+504,Real Husbands of Hollywood,2013,Comedy,"['Duane Martin', 'Nick Cannon', 'Cynthia Kaye McWilliams']",7.3,21
+505,Happy!,2017,"Action, Comedy, Crime","['Ritchie Coster', 'Lili Mirojnick', 'Patton Oswalt']",8.2,60
+506,Fleabag,2016,"Comedy, Drama","['Sian Clifford', 'Olivia Colman', 'Jenny Rainsford']",7.3,27
+507,Vice Principals,2016,Comedy,"['Walton Goggins', 'Sheaun McKinney', 'Georgia King']",7.7,30
+508,Homeland,2011,"Crime, Drama, Mystery","['Mandy Patinkin', 'Damian Lewis', 'Rupert Friend']",6.9,55
+509,Deadwood,2004,"Crime, Drama, History","['Ian McShane', 'Molly Parker', 'Brad Dourif']",8.5,55
+510,A.D.,1985,"Drama, History","['Colleen Dewhurst', 'Ava Gardner', 'David Hedison']",8.2,600
+511,Animal Kingdom,2016,"Crime, Drama","['Ben Robson', 'Jake Weary', 'Finn Cole']",8.5,60
+512,Mannix,1967,"Action, Crime, Drama","['Gail Fisher', 'Ward Wood', 'Ron Nyman']",7.5,60
+513,The Alienist,2018,"Drama, Mystery","['Dakota Fanning', 'Luke Evans', 'Brian Geraghty']",7.8,60
+514,The Breaks,2016,"Drama, Music","['Sinqua Walls', 'Afton Williamson', 'Tristan Mack Wilds', 'Antoine Harris']",7.4,96
+515,Fear the Walking Dead,2015,"Drama, Horror, Sci-Fi","['Frank Dillane', 'Cliff Curtis', 'Rubén Blades']",7.7,44
+516,Spartacus: Blood and Sand,2010,"Action, Adventure, Biography","['Lucy Lawless', 'Manu Bennett', 'Daniel Feuerriegel']",7.5,55
+517,Penny Dreadful,2014,"Drama, Fantasy, Horror","['Timothy Dalton', 'Eva Green', 'Reeve Carney']",7.4,60
+518,Spartacus: Gods of the Arena,2011,"Action, Adventure, Biography","['Manu Bennett', 'Peter Mensah', 'Dustin Clare']",7.7,331
+519,The Last Ship,2014,"Action, Drama, Sci-Fi","['Adam Baldwin', 'Charles Parnell', 'Travis Van Winkle']",7.5,60
+520,A Series of Unfortunate Events,2017,"Adventure, Comedy, Drama","['Patrick Warburton', 'Malina Weissman', 'Louis Hynes']",6.8,50
+521,House of Lies,2012,"Comedy, Drama","['Kristen Bell', 'Ben Schwartz', 'Josh Lawson']",8.9,28
+522,Desmond's,1989,Comedy,"['Carmen Munroe', 'Ram John Holder', 'Gyearbuor Asante']",7.1,50
+523,Legends,2014,"Action, Crime, Drama","['Morris Chestnut', 'Ali Larter', 'Tina Majorino']",6.7,60
+524,Wet Hot American Summer: First Day of Camp,2015,Comedy,"['Zak Orth', 'Paul Rudd', 'Michael Showalter']",7.4,30
+525,Love,2016,"Comedy, Drama, Romance","['Paul Rust', ""Claudia O'Doherty"", 'Mike Mitchell']",7.1,50
+526,Impulse,2018,"Action, Drama, Sci-Fi","['Sarah Desjardins', 'Enuka Okuma', 'Craig Arnold']",7.8,50
+527,Time Traveling Bong,2016,Comedy,"['Paul W. Downs', 'Kevin Heffernan', 'Jerry G. Angelo']",7.5,22
+528,The New Edition Story,2017,"Biography, Drama, Music","['Elijah Kelley', 'Luke James', 'Woody McClain']",7.5,120
+529,The Girlfriend Experience,2016,Drama,"['Paul Sparks', 'Mary Lynn Rajskub', 'Briony Glassco']",8.7,27
+530,Powers,2015,"Action, Crime, Drama","['Susan Heyward', 'Noah Taylor', 'Eddie Izzard']",7.6,42
+531,Amazing Stories,1985,"Adventure, Comedy, Drama","['Douglas Seale', 'Louis Giambalvo', 'Sharon Spelman']",7.6,30
+532,Falling Skies,2011,"Action, Adventure, Drama","['Drew Roy', 'Maxim Knight', 'Will Patton']",7.2,42
+533,The End of the F***ing World,2017,"Adventure, Comedy, Crime","['Alex Lawther', 'Steve Oram', 'Christine Bottomley']",8.1,25
+534,The Six Million Dollar Man,1974,"Action, Adventure, Crime","['Richard Anderson', 'Martin E. Brooks', 'Lindsay Wagner']",7.1,60
+535,Twin Peaks,2017,"Crime, Drama, Fantasy","['Sheryl Lee', 'Michael Horse', 'Chrysta Bell']",8.5,60
+536,El Chapo,2017,"Crime, Drama","['Humberto Busto', 'Diego Vásquez', 'Juan Carlos Cruz']",7.8,43
+537,The Electric Company,1971,"Family, Comedy","['Morgan Freeman', 'Judy Graubart', 'Skip Hinnant']",8.1,28
+538,Oz,1997,"Crime, Drama, Thriller","['J.K. Simmons', 'Lee Tergesen', 'Dean Winters']",8.7,55
+539,Soul Food,2000,Drama,"['Darrin Dewitt Henson', 'Aaron Meeks', 'Nicole Ari Parker']",7.2,45
+540,Jessica Jones,2015,"Action, Crime, Drama","['Rachael Taylor', 'Eka Darville', 'Carrie-Anne Moss']",8.8,56
+541,Freaks and Geeks,1999,"Comedy, Drama","['John Francis Daley', 'James Franco', 'Samm Levine']",7.5,44
+542,"Magnum, P.I.",1980,"Action, Adventure, Crime","['John Hillerman', 'Roger E. Mosley', 'Larry Manetti']",7.6,48
+543,Moonlighting,1985,"Comedy, Drama, Mystery","['Bruce Willis', 'Allyce Beasley', 'Curtis Armstrong']",7.7,60
+544,New Girl,2011,Comedy,"['Jake Johnson', 'Max Greenfield', 'Hannah Simone']",7.5,22
+545,Outsourced,2010,Comedy,"['Anisha Nagarajan', 'Diedrich Bader', 'Parvesh Cheena']",7.1,30
+546,Hung,2009,"Comedy, Drama","['Jane Adams', 'Charlie Saxton', 'Sianoa Smit-McPhee']",7.8,30
+547,Save Me,2018,"Drama, Mystery","['Stephen Graham', 'Suranne Jones', 'Susan Lynch']",7.3,270
+548,Girls,2012,"Comedy, Drama","['Allison Williams', 'Jemima Kirke', 'Adam Driver']",7.2,28
+549,Flaked,2016,"Comedy, Drama","['David Sullivan', 'Ruth Kearney', 'George Basil']",8.2,30
+550,Sledge Hammer!,1986,"Action, Comedy","['Anne-Marie Martin', 'Harrison Page', 'Leslie Morris']",8.2,30
+551,Skins,2007,Drama,"['Nicholas Hoult', 'Joe Dempsie', 'Hannah Murray']",7.3,46
+552,Matlock,1986,"Crime, Drama, Mystery","['Linda Purl', 'Kene Holiday', 'Nancy Stafford']",7.5,60
+553,The Strain,2014,"Drama, Horror, Thriller","['David Bradley', 'Kevin Durand', 'Jonathan Hyde']",7.7,43
+554,Mortal Kombat,2011,"Action, Adventure, Crime","['Ian Anthony Dale', 'Samantha Win', 'Kim Do Nguyen']",7.5,10
+555,Chewing Gum,2015,Comedy,"['Danielle Walters', 'Robert Lonsdale', 'Shola Adewusi']",7.3,23
+556,High Maintenance,2016,"Comedy, Drama","['Kate Lyn Sheil', 'Britt Lower', 'Abdullah Saeed']",7.5,30
+557,Search Party,2016,"Comedy, Crime, Drama","['John Reynolds', 'John Early', 'Meredith Hagner']",8.3,24
+558,That's My Bush!,2001,Comedy,"['Carrie Quinn Dolin', 'Kurt Fuller', 'Marcia Wallace']",7.3,30
+559,American Dreams,2002,"Drama, Family, History","['Tom Verica', 'Brittany Snow', 'Jonathan Adams']",8.3,60
+560,The Last Kingdom,2015,"Action, Drama, History","['Eliza Butterworth', 'Ian Hart', 'David Dawson']",8.3,60
+561,Greenleaf,2016,Drama,"['Desiree Ross', 'Kim Hawthorne', 'Lamman Rucker']",8.9,60
+562,Scrubs,2001,"Comedy, Drama","['Donald Faison', 'Sarah Chalke', 'John C. McGinley']",8.7,22
+563,The Pacific,2010,"Action, Adventure, Drama","['Joseph Mazzello', 'Jon Seda', 'Ashton Holmes']",8.6,530
+564,Vice,2013,"Documentary, News","['Gianna Toboni', 'Thomas Morton', 'Ben Anderson']",8.4,30
+565,The Shield,2002,"Crime, Drama, Thriller","['Catherine Dent', 'Walton Goggins', 'Michael Jace']",7.5,47
+566,Justified,2010,"Action, Crime, Drama","['Nick Searcy', 'Joelle Carter', 'Jacob Pitts']",6.8,44
+567,Banshee,2013,"Action, Crime, Drama","['Ivana Milicevic', 'Ulrich Thomsen', 'Frankie Faison']",6.6,60
+568,Threads,1984,"Drama, Sci-Fi, War","['Karen Meagher', 'Reece Dinsdale', 'David Brierly', 'Rita May']",8.1,112
+569,The Chi,2018,Drama,"['Jacob Latimore', 'Ntare Guma Mbaho Mwine', 'Alex R. Hibbert']",7.3,60
+570,It,1990,"Drama, Horror, Mystery","['Tim Reid', ""Annette O'Toole"", 'Harry Anderson']",7.8,192
+571,The Breaks,2017,"Drama, Music","['Tristan Mack Wilds', 'Antoine Harris', 'Sinqua Walls']",7.9,42
+572,American Horror Story,2011,"Drama, Horror, Thriller","['Kathy Bates', 'Angela Bassett', 'Sarah Paulson']",8.3,60
+573,Blackstone,2009,"Action, Drama","['Eric Schweig', 'Michelle Thrush', 'Steven Cree Molison']",8.1,44
+574,Curiosity,2011,Documentary,"['Martin Sheen', 'Sean Barrett', 'Morgan Freeman']",7.6,45
+575,Masters of Sex,2013,"Drama, Romance","['Lizzy Caplan', 'Caitlin FitzGerald', 'Teddy Sears']",8.3,60
+576,Sense8,2015,"Drama, Mystery, Sci-Fi","['Jamie Clayton', 'Tina Desai', 'Tuppence Middleton']",7.2,60
+577,Orange Is the New Black,2013,"Comedy, Crime, Drama","['Danielle Brooks', 'Taryn Manning', 'Emma Myles']",7.4,59
+578,Destination Truth,2007,Reality-TV,"['Gabriel Copeland', 'Mike Morrell', 'Erin Ryder']",6.9,60
+579,The Leftovers,2014,"Drama, Fantasy, Mystery","['Amy Brenneman', 'Christopher Eccleston', 'Liv Tyler']",6.9,60
+580,Another Period,2013,"Comedy, History","['Riki Lindhome', 'Armen Weitzman', 'Michael Ian Black']",8.2,21
+581,Lady Dynamite,2016,Comedy,"['Fred Melamed', 'Mary Kay Place', 'Ana Gasteyer']",7.5,30
+582,Adam Ruins Everything,2015,"Animation, Comedy, History","['Adam Lustick', 'Emily Axford', 'Amos Vernon']",7.4,30
+583,A Different World,1987,Comedy,"['Kadeem Hardison', 'Jasmine Guy', 'Darryl M. Bell']",7.1,60
+584,White Rabbit Project,2016,Reality-TV,"['Kari Byron', 'Grant Imahara', 'Igor Breakenback']",7.4,48
+585,Good Girls Revolt,2015,Drama,"['Anna Camp', 'Erin Darke', 'Hunter Parrish']",8.4,55
+586,Second Chance,2016,"Drama, Sci-Fi","['Dilshad Vadsaria', 'Adhir Kalyan', 'Ciara Bravo']",8.4,42
+587,Sleepy Hollow,2013,"Action, Adventure, Crime","['Lyndie Greenwood', 'Nicole Beharie', 'Orlando Jones']",8.7,45
+588,Dark Net,2016,Documentary,"['Kristie', 'Drew', 'Anisha Vora']",7.4,30
+589,Fortitude,2015,"Drama, Horror, Mystery","['Björn Hlynur Haraldsson', 'Sienna Guillory', 'Mia Jexen']",7.3,60
+590,Billions,2016,Drama,"['Damian Lewis', 'Maggie Siff', 'David Costabile']",7.1,60
+591,Bloodline,2015,"Drama, Thriller","['Ben Mendelsohn', 'Linda Cardellini', 'Sissy Spacek']",7.4,60
+592,Bosch,2014,"Crime, Drama","['Jamie Hector', 'Amy Aquino', 'Lance Reddick']",7.2,51
+593,Flesh and Bone,2015,Drama,"['Ben Daniels', 'Emily Tyra', 'Irina Dvorovenko']",8.5,60
+594,Gomorra: La serie,2014,"Crime, Drama, Thriller","[""Marco D'Amore"", ""Cristiana Dell'Anna"", 'Fortunato Cerlino']",7.2,55
+595,3.00%,2016,"Action, Drama, Sci-Fi","['Vaneza Oliveira', 'Rodolfo Valente', 'Zezé Motta']",7.2,49
+596,Believe,2014,"Drama, Fantasy, Sci-Fi","['Johnny Sequoyah', 'Jamie Chung', 'Kyle MacLachlan']",7.4,43
+597,Pitch,2016,"Drama, Sport","['Mark-Paul Gosselaar', 'Mark Consuelos', 'Mo McRae']",6.6,60
+598,StartUp,2016,"Crime, Thriller","['Edi Gathegi', 'Otmara Marrero', 'Kristen Ariza']",6.7,44
+599,Containment,2016,Drama,"['Christina Moses', 'Chris Wood', 'Claudia Black']",8.8,60
+600,The Knick,2014,"Drama, History","['André Holland', 'Jeremy Bobb', 'Juliet Rylance']",6.4,58
+601,The Shannara Chronicles,2016,"Adventure, Fantasy, Sci-Fi","['Ivana Baquero', 'Manu Bennett', 'Aaron Jakubenko']",5.2,42
+602,Emerald City,2016,"Adventure, Drama, Fantasy","['Oliver Jackson-Cohen', 'Ana Ularu', 'Gerran Howell']",5.7,60
+603,What's Happening!!,1976,Comedy,"['Haywood Nelson', 'Danielle Spencer', 'Fred Berry']",7.7,24
+604,Thirtysomething,1987,"Drama, Romance","['Polly Draper', 'Mel Harris', 'Peter Horton']",7.1,60
+605,Shuga,2009,Drama,"['Jemima Osunde', 'Timini Egbuson', 'Ayanda Makayi']",6.4,24
+606,Sybil,1976,"Biography, Drama","['Sally Field', 'Brad Davis', 'Martine Bartlett']",6.9,198
+607,Heroes Reborn,2015,"Drama, Fantasy, Sci-Fi","['Zachary Levi', 'Robbie Kay', 'Kiki Sukezane']",8.5,60
+608,Li Xiao Long chuan qi,2008,"Action, Biography, Drama","['Michelle Lang', 'Ted Duran', 'Hazen MacIntyre']",6.8,183
+609,Cobra Kai,2018,"Action, Comedy, Drama","['Ralph Macchio', 'William Zabka', 'Courtney Henggeler']",8.6,30
+610,Cleverman,2016,"Drama, Fantasy, Sci-Fi","['Rob Collins', 'Tasma Walton', 'Rarriwuy Hick']",8.3,50
+611,Rebel,2017,"Crime, Drama","['Angela Ko', 'Brandon Quinn', 'Derek Ray']",7.3,83
+612,Guerrilla,2017,Drama,"['Nathaniel Martello-White', 'Daniel Mays', 'Denise Gough']",6.1,60
+613,The Detour,2016,"Adventure, Comedy","['Natalie Zea', 'Ashley Gerasimovich', 'Liam Carroll']",7.9,30
+614,The Blacklist: Redemption,2017,"Action, Crime, Drama","['Ryan Eggold', 'Edi Gathegi', 'Tawny Cypress']",7.2,43
+615,Shots Fired,2017,"Crime, Drama","['Stephan James', 'Stephen Moyer', 'Will Patton']",7.3,43
+616,The Mod Squad,1968,"Action, Crime, Drama","['Clarence Williams III', 'Peggy Lipton', 'Tige Andrews']",6.8,60
+617,The Handmaid's Tale,2017,"Drama, Sci-Fi, Thriller","['Amanda Brugel', 'Madeline Brewer', 'Max Minghella']",7.3,60
+618,The Wizard of Lies,2017,"Biography, Crime, Drama","['Robert De Niro', 'Michelle Pfeiffer', 'Alessandro Nivola', 'Nathan Darrow']",8.4,133
+619,The Crazy Ones,2013,Comedy,"['Sarah Michelle Gellar', 'James Wolk', 'Hamish Linklater']",7.1,30
+620,The Originals,2013,"Drama, Fantasy, Horror","['Daniel Gillies', 'Claire Holt', 'Phoebe Tonkin']",8.2,45
+621,True Colors,1990,Comedy,"['Brigid Brannagh', 'Adam Jeffries', 'Nancy Walker']",7.1,30
+622,13 Reasons Why,2017,"Drama, Mystery","['Katherine Langford', 'Christian Navarro', 'Alisha Boe']",7.8,60
+623,Survivor's Remorse,2014,Drama,"['Jessie T. Usher', 'Erica Ash', 'Teyonah Parris']",6.9,30
+624,Brown Nation,2016,Comedy,"['Kapil Bawa', 'Jaspal Binning', 'Melanie Chandra']",6.9,21
+625,The Looming Tower,2018,"Drama, History","['Tahar Rahim', 'Wrenn Schmidt', 'Bill Camp']",8.4,492
+626,The Young Pope,2016,Drama,"['Diane Keaton', 'Silvio Orlando', 'Javier Cámara']",7.7,546
+627,The Flash,2014,"Action, Adventure, Drama","['Candice Patton', 'Danielle Panabaker', 'Carlos Valdes']",8.6,43
+628,Doctor Who,2005,"Adventure, Drama, Family","['Peter Capaldi', 'Pearl Mackie', 'Matt Smith']",7.9,45
+629,iZombie,2015,"Comedy, Crime, Drama","['Malcolm Goodwin', 'Rahul Kohli', 'Robert Buckley']",8.2,42
+630,The Sinner,2017,"Crime, Drama, Mystery","['Dohn Norwood', 'Adam LeFevre', 'Jessica Biel']",8.3,45
+631,War & Peace,2016,"Drama, History, Romance","['James Norton', 'Lily James', 'Adrian Edmondson']",7.4,379
+632,Poldark,2015,"Drama, History, Romance","['Eleanor Tomlinson', 'Jack Farthing', 'Beatie Edney']",7.7,60
+633,Run,2013,"Crime, Drama","['Katharina Schüttler', 'Lennie James', 'Levan Doran']",6.9,60
+634,Brotherhood,2006,"Crime, Drama","['Jason Clarke', 'Annabeth Gish', 'Kevin Chapman']",6.7,60
+635,Scare Tactics,2003,"Comedy, Horror, Reality-TV","['Lauren Ash', 'Travis Draft', 'Sven Holmberg']",6.6,180
+636,The Driver,2014,"Crime, Drama","['Claudie Blakley', 'Ian Hart', 'Sacha Parkinson']",7.6,60
+637,Dallas,1978,"Drama, Romance","['Ken Kercheval', 'Patrick Duffy', 'Linda Gray']",7.5,43
+638,Defiance,2013,"Action, Drama, Sci-Fi","['Stephanie Leonidas', 'Julie Benz', 'Graham Greene']",7.8,42
+639,Extant,2014,"Drama, Sci-Fi, Thriller","['Pierce Gagnon', 'Grace Gummer', 'Tyler Hilton']",5.9,30
+640,Hindsight,2015,"Comedy, Drama","['Sarah Goldberg', 'Craig Horner', 'Nick Clifford']",6.9,30
+641,Togetherness,2015,"Comedy, Drama, Romance","['Melanie Lynskey', 'Amanda Peet', 'Steve Zissis']",6.6,22
+642,Sirens,2014,Comedy,"['Kevin Daniels', 'Kevin Bigley', 'Jessica McNamee']",7.8,42
+643,Minority Report,2015,"Action, Crime, Drama","['Stark Sands', 'Nick Zano', 'Daniel London']",6.1,60
+644,The player,2015,"Action, Crime, Drama","['Damon Gupton', 'Wesley Snipes', 'Charity Wakefield']",6.3,46
+645,L.A. Law,1986,Drama,"['Jill Eikenberry', 'Alan Rachins', 'Michael Tucker']",7.9,43
+646,Under the Dome,2013,"Drama, Mystery, Sci-Fi","['Rachelle Lefevre', 'Alexander Koch', 'Colin Ford']",6.8,60
+647,Midnight Caller,1988,Drama,"['Dennis Dun', 'Arthur Taxier', 'Mykelti Williamson']",7.6,43
+648,Black Lightning,2018,"Action, Drama, Sci-Fi","['China Anne McClain', 'Nafessa Williams', 'Christine Adams']",7.1,60
+649,Ghost Wars,2017,"Drama, Fantasy, Horror","['Kim Coates', 'Luvia Petersen', 'Jesse Moss']",7.3,265
+650,The Book of Negroes,2015,"Drama, History, War","['Lyriq Bent', 'Ben Chaplin', 'Allan Hawco']",8.3,60
+651,The Gentle Touch,1980,"Crime, Drama","['William Marlowe', 'Paul Moriarty', 'Brian Gwaspari']",7.7,60
+652,Hap and Leonard,2016,"Crime, Drama, Thriller","['Michael Kenneth Williams', 'Tiffany Mack', 'Cranston Johnson']",6.7,22
+653,Black-ish,2014,Comedy,"['Tracee Ellis Ross', 'Marcus Scribner', 'Miles Brown']",7.5,60
+654,Tin Star,2017,"Crime, Drama, Thriller","[""Genevieve O'Reilly"", 'Abigail Lawrie', 'Christina Hendricks']",7.9,60
+655,Godless,2017,"Drama, Western","['Michelle Dockery', 'Scoot McNairy', 'Merritt Wever']",7.2,43
+656,9-1-1,2018,"Action, Drama, Thriller","['Peter Krause', 'Oliver Stark', 'Aisha Hinds']",8.3,43
+657,Revolution,2012,"Action, Adventure, Drama","['Tracy Spiridakos', 'Giancarlo Esposito', 'Zak Orth']",7.9,30
+658,Everything Sucks!,2018,Comedy,"['Peyton Kennedy', 'Patch Darragh', 'Claudine Mboligikpelani Nako']",6.2,60
+659,Unsolved,2018,"Biography, Crime","['Bokeem Woodbine', 'Wavyy Jonez', 'Marcc Rose']",6.8,42
+660,The Crossing,2018,"Adventure, Drama, Sci-Fi","['Natalie Martinez', 'Tommy Bastow', 'Rob Campbell']",7.9,42
+661,Killing Eve,2018,"Action, Adventure, Drama","['Sandra Oh', 'Fiona Shaw', 'Kim Bodnia']",8.1,60
+662,Strike,2017,"Crime, Drama, Mystery","['Holliday Grainger', 'Kerr Logan', 'Killian Scott']",7.3,60
+663,Get Christie Love!,1974,"Crime, Drama","['Charles Cioffi', 'Jack Kelly', 'Andy Romano']",8.5,42
+664,Legends of Tomorrow,2016,"Action, Adventure, Drama","['Caity Lotz', 'Amy Louise Pemberton', 'Dominic Purcell']",7.8,60
+665,Mr. Mercedes,2017,"Mystery, Sci-Fi, Thriller","['Holland Taylor', 'Jharrel Jerome', 'Breeda Wool']",7.5,60
+666,Ófærð,2015,"Crime, Drama, Mystery","['Ilmur Kristjánsdóttir', 'Ingvar Sigurdsson', 'Elva María Birgisdóttir']",6.5,60
+667,Electric Dreams,2017,Sci-Fi,"['Geraldine Chaplin', 'Bryan Cranston', 'Terrence Howard']",6.6,60
+668,The Expanse,2015,"Drama, Mystery, Sci-Fi","['Cas Anvar', 'Dominique Tipper', 'Wes Chatham']",6.4,30
+669,Future Man,2017,"Action, Adventure, Comedy","['Eliza Coupe', 'Derek Wilson', 'Haley Joel Osment']",6.2,60
+670,Trust,2018,"Biography, Crime, Drama","['Donald Sutherland', 'Hilary Swank', 'Luca Marinelli']",6.2,55
+671,Iron Fist,2017,"Action, Adventure, Crime","['Jessica Henwick', 'Jessica Stroup', 'Tom Pelphrey']",6.9,30
+672,All-American Girl,1994,Comedy,"['Amy Hill', 'Jodi Long', 'Clyde Kusatsu']",7.9,30
+673,Hangin' with Mr. Cooper,1992,"Comedy, Family, Sport","['Holly Robinson Peete', 'Sandra Quarterman', 'Marquise Wilson']",6.3,41
+674,24: Legacy,2016,"Action, Crime, Drama","['Miranda Otto', 'Anna Diop', 'Teddy Sears']",6.3,30
+675,Dear White People,2017,"Comedy, Drama","['Brandon P Bell', 'DeRon Horton', 'Antoinette Robertson']",6.6,30
+676,M*A*S*H,1972,"Comedy, Drama, War","['Wayne Rogers', 'Loretta Swit', 'Jamie Farr']",8.4,25
+677,Cheers,1982,"Comedy, Drama","['Rhea Perlman', 'John Ratzenberger', 'George Wendt']",7.8,22
+678,Taxi,1978,Comedy,"['Jeff Conaway', 'Danny DeVito', 'Marilu Henner']",7.6,30
+679,The Sopranos,1999,"Crime, Drama","['Lorraine Bracco', 'Edie Falco', 'Michael Imperioli']",9.2,55
+680,Mary Tyler Moore,1970,Comedy,"['Edward Asner', 'Gavin MacLeod', 'Valerie Harper']",8.1,30
+681,The Cosby Show,1984,"Comedy, Family, Romance","['Phylicia Rashad', 'Keshia Knight Pulliam', 'Malcolm-Jamal Warner']",7.3,30
+682,Frasier,1993,Comedy,"['Jane Leeves', 'David Hyde Pierce', 'Peri Gilpin']",8.8,22
+683,Twin Peaks,1990,"Crime, Drama, Mystery","['Michael Ontkean', 'Mädchen Amick', 'Dana Ashbrook']",8.3,47
+684,Homeland,2011,"Crime, Drama, Mystery","['Mandy Patinkin', 'Damian Lewis', 'Rupert Friend']",7.1,55
+685,Sex and the City,1998,"Comedy, Drama, Romance","['Kim Cattrall', 'Kristin Davis', 'Cynthia Nixon']",7.5,30
+686,"Magnum, P.I.",1980,"Action, Adventure, Crime","['John Hillerman', 'Roger E. Mosley', 'Larry Manetti']",6.9,48
+687,Dallas,1978,"Drama, Romance","['Ken Kercheval', 'Patrick Duffy', 'Linda Gray']",8.9,60
+688,Friends,1994,"Comedy, Romance","['Courteney Cox', 'Lisa Kudrow', 'Matt LeBlanc']",7.9,22
+689,Breaking Bad,2008,"Crime, Drama, Thriller","['Aaron Paul', 'Anna Gunn', 'Betsy Brandt']",9.5,49
+690,Game of Thrones,2011,"Action, Adventure, Drama","['Peter Dinklage', 'Kit Harington', 'Lena Headey']",9.3,57
+691,Band of Brothers,2001,"Action, Drama, History","['Damian Lewis', 'Ron Livingston', 'Shane Taylor']",9.5,594
+692,Chernobyl,2019,"Drama, History, Thriller","['Jared Harris', 'Stellan Skarsgård', 'Adam Nagaitis']",9.4,330
+693,Sherlock,2010,"Crime, Drama, Mystery","['Martin Freeman', 'Una Stubbs', 'Rupert Graves']",9.1,88
+694,The Wire,2002,"Crime, Drama, Thriller","['Lance Reddick', 'Sonja Sohn', 'Wendell Pierce']",9.3,59
+695,Rick and Morty,2013,"Animation, Adventure, Comedy","['Chris Parnell', 'Spencer Grammer', 'Sarah Chalke']",9.2,23
+696,Friends,1994,"Comedy, Romance","['Courteney Cox', 'Lisa Kudrow', 'Matt LeBlanc']",8.9,22
+697,The Sopranos,1999,"Crime, Drama","['Lorraine Bracco', 'Edie Falco', 'Michael Imperioli']",9.2,55
+698,True Detective,2014,"Crime, Drama, Mystery","['Colin Farrell', 'Rachel McAdams', 'Taylor Kitsch']",8.8,55
+699,Stranger Things,2016,"Drama, Fantasy, Horror","['Finn Wolfhard', 'Winona Ryder', 'David Harbour']",9.2,51
+700,Avatar: The Last Airbender,2005,"Animation, Action, Adventure","['Zach Tyler', 'Jack De Sena', 'Mae Whitman']",8.9,23
+701,The Office,2005,Comedy,"['Jenna Fischer', 'John Krasinski', 'Rainn Wilson']",8.8,22
+702,House of Cards,2013,Drama,"['Michel Gill', 'Robin Wright', 'Kate Mara']",8.9,51
+703,Firefly,2002,"Adventure, Drama, Sci-Fi","['Gina Torres', 'Alan Tudyk', 'Morena Baccarin']",8.8,44
+704,Fargo,2014,"Crime, Drama, Thriller","['Martin Freeman', 'Allison Tolman', 'Colin Hanks']",8.6,53
+705,Black Mirror,2011,"Drama, Sci-Fi, Thriller","['Hannah John-Kamen', 'Michaela Coel', 'Beatrice Robertson-Jones']",8.8,60
+706,Death Note: Desu nôto,2006,"Animation, Crime, Drama","['Brad Swaile', 'Vincent Tong', 'Ryô Naitô']",8.7,24
+707,Dexter,2006,"Crime, Drama, Mystery","['Jennifer Carpenter', 'David Zayas', 'James Remar']",8.7,53
+708,Narcos,2015,"Biography, Crime, Drama","['Wagner Moura', 'Boyd Holbrook', 'Alberto Ammann']",8.8,49
+709,House M.D.,2004,"Drama, Mystery","['Omar Epps', 'Robert Sean Leonard', 'Jesse Spencer']",8.7,44
+710,Westworld,2016,"Drama, Mystery, Sci-Fi","['Jeffrey Wright', 'Ed Harris', 'Thandie Newton']",8.8,62
+711,Peaky Blinders,2013,"Crime, Drama","['Paul Anderson', 'Helen McCrory', 'Sophie Rundle']",8.7,60
+712,The Simpsons,1989,"Animation, Comedy","['Nancy Cartwright', 'Harry Shearer', 'Julie Kavner']",9.1,22
+713,Seinfeld,1989,Comedy,"['Julia Louis-Dreyfus', 'Michael Richards', 'Jason Alexander']",8.6,22
+714,South Park,1997,"Animation, Comedy","['Matt Stone', 'Isaac Hayes', 'Mona Marshall']",8.7,22
+715,Hagane no renkinjutsushi,2009,"Animation, Action, Adventure","['Iemasa Kayumi', 'Vic Mignogna', 'Muriel Hofmann']",8.7,24
+716,Vikings,2013,"Action, Adventure, Drama","['Gustaf Skarsgård', 'Alexander Ludwig', 'Georgia Hirst']",8.6,44
+717,Better Call Saul,2015,"Crime, Drama","['Rhea Seehorn', 'Jonathan Banks', 'Patrick Fabian']",9.1,46
+718,Arrested Development,2003,Comedy,"['Michael Cera', 'Portia de Rossi', 'Will Arnett']",8.8,22
+719,Daredevil,2015,"Action, Crime, Drama","[""Vincent D'Onofrio"", 'Deborah Ann Woll', 'Elden Henson']",8.8,54
+720,Leyla ile Mecnun,2011,"Adventure, Comedy, Drama","['Ahmet Mümtaz Taylan', 'Serkan Keskin', 'Osman Sonant']",8.5,80
+721,It's Always Sunny in Philadelphia,2005,Comedy,"['Glenn Howerton', 'Rob McElhenney', 'Kaitlin Olson']",8.6,22
+722,Twin Peaks,1990,"Crime, Drama, Mystery","['Michael Ontkean', 'Mädchen Amick', 'Dana Ashbrook']",8.8,47
+723,Suits,2011,"Comedy, Drama","['Patrick J. Adams', 'Meghan Markle', 'Sarah Rafferty']",8.2,44
+724,Sons of Anarchy,2008,"Crime, Drama, Thriller","['Katey Sagal', 'Mark Boone Junior', 'Kim Coates']",8.5,45
+725,Shingeki no kyojin,2013,"Animation, Action, Adventure","['Yûki Kaji', 'Yui Ishikawa', 'Josh Grelle']",8.3,24
+726,Batman: The Animated Series,1992,"Animation, Action, Adventure","['Loren Lester', 'Efrem Zimbalist Jr.', 'Bob Hastings']",9.2,23
+727,The Walking Dead,2010,"Drama, Horror, Thriller","['Norman Reedus', 'Melissa McBride', 'Danai Gurira']",8.7,44
+728,Mr. Robot,2015,"Crime, Drama, Thriller","['Christian Slater', 'Carly Chaikin', 'Martin Wallström']",8.8,49
+729,How I Met Your Mother,2005,"Comedy, Romance","['Jason Segel', 'Cobie Smulders', 'Neil Patrick Harris']",8.4,22
+730,TVF Pitchers,2015,"Comedy, Drama","['Arunabh Kumar', 'Jitendra Kumar', 'Abhay Mahajan']",8.7,40
+731,Dark,2017,"Crime, Drama, Mystery","['Louis Hofmann', 'Jördis Triebel', 'Maja Schöne']",8.7,60
+732,Freaks and Geeks,1999,"Comedy, Drama","['John Francis Daley', 'James Franco', 'Samm Levine']",8.7,44
+733,Supernatural,2005,"Drama, Fantasy, Horror","['Jensen Ackles', 'Jim Beaver', 'Misha Collins']",8.7,44
+734,Downton Abbey,2010,"Drama, Romance","['Phyllis Logan', 'Elizabeth McGovern', 'Brendan Coyle']",8.6,58
+735,The Mandalorian,2019,"Action, Adventure, Sci-Fi","['Carl Weathers', 'Rio Hackford', 'Gina Carano']",8.6,30
+736,Rome,2005,"Action, Drama, History","['Ray Stevenson', 'Polly Walker', 'Kerry Condon']",8.6,52
+737,When They See Us,2019,"Biography, Crime, Drama","['Caleel Harris', 'Ethan Herisse', 'Marquis Rodriguez']",8.3,296
+738,Battlestar Galactica,2004,"Action, Adventure, Drama","['Mary McDonnell', 'Jamie Bamber', 'James Callis']",8.6,44
+739,Mad Men,2007,Drama,"['Elisabeth Moss', 'Vincent Kartheiser', 'January Jones']",8.6,47
+740,Parks and Recreation,2009,Comedy,"[""Jim O'Heir"", 'Nick Offerman', 'Chris Pratt']",8.7,22
+741,Doctor Who,2005,"Adventure, Drama, Family","['Peter Capaldi', 'Pearl Mackie', 'Matt Smith']",8.3,45
+742,Lost,2004,"Adventure, Drama, Fantasy","['Josh Holloway', 'Yunjin Kim', 'Evangeline Lilly']",8.6,44
+743,The Twilight Zone,1959,"Drama, Fantasy, Horror","['Robert McCord', 'Jay Overholts', 'Vaughn Taylor']",8.9,51
+744,The X Files,1993,"Crime, Drama, Mystery","['Gillian Anderson', 'Mitch Pileggi', 'William B. Davis']",8.7,45
+745,Shameless,2011,"Comedy, Drama","['William H. Macy', 'Ethan Cutkosky', 'Jeremy Allen White']",8.4,46
+746,The Haunting of Hill House,2018,"Drama, Horror, Mystery","['Oliver Jackson-Cohen', 'Kate Siegel', 'Victoria Pedretti']",8.8,50
+747,Prison Break,2005,"Action, Crime, Drama","['Wentworth Miller', 'Amaury Nolasco', 'Robert Knepper']",9.6,44
+748,Mindhunter,2017,"Crime, Drama, Thriller","['Holt McCallany', 'Anna Torv', 'Hannah Gross']",8.5,60
+749,Kaubôi bibappu,1998,"Animation, Action, Adventure","['Unshô Ishizuka', 'Megumi Hayashibara', 'Steve Blum']",8.5,24
+750,The Boys,2019,"Action, Comedy, Crime","['Jack Quaid', 'Antony Starr', 'Erin Moriarty']",8.5,60
+751,Modern Family,2009,"Comedy, Drama, Romance","['Sofía Vergara', 'Julie Bowen', 'Ty Burrell']",8.9,22
+752,One Punch Man: Wanpanman,2015,"Animation, Action, Comedy","['Kaito Ishikawa', 'Max Mittelman', 'Zach Aguilar']",8.7,24
+753,Koombiyo,2017,"Crime, Drama, Thriller","['Kalana Gunasekara', 'Andrew Pulle', 'Yureni Noshika']",8.1,20
+754,Spartacus: Blood and Sand,2010,"Action, Adventure, Biography","['Lucy Lawless', 'Manu Bennett', 'Daniel Feuerriegel']",8.7,55
+755,Hannibal,2013,"Crime, Drama, Horror","['Mads Mikkelsen', 'Caroline Dhavernas', 'Laurence Fishburne']",8.7,44
+756,La Casa de Papel,2017,"Action, Crime, Mystery","['Álvaro Morte', 'Itziar Ituño', 'Pedro Alonso']",8.5,70
+757,Pride and Prejudice,1995,"Drama, Romance","['Jennifer Ehle', 'Susannah Harker', 'Julia Sawalha']",8.9,327
+758,Six Feet Under,2001,"Comedy, Drama","['Michael C. Hall', 'Frances Conroy', 'Lauren Ambrose']",8.6,55
+759,The Big Bang Theory,2007,"Comedy, Romance","['Jim Parsons', 'Kaley Cuoco', 'Simon Helberg']",8.5,22
+760,The Crown,2016,"Drama, History","['Matt Smith', 'Olivia Colman', 'Tobias Menzies']",8.5,58
+761,Dragon Ball Z,1996,"Animation, Action, Adventure","['Christopher Sabat', 'Scott McNeil', 'Sean Schemmel']",8.7,24
+762,Community,2009,Comedy,"['Danny Pudi', 'Donald Glover', 'Chevy Chase']",8.3,22
+763,Gravity Falls,2012,"Animation, Action, Adventure","['Alex Hirsch', 'Kristen Schaal', 'Linda Cardellini']",8.7,23
+764,Archer,2009,"Animation, Action, Comedy","['Judy Greer', 'Amber Nash', 'Chris Parnell']",8.4,22
+765,The Punisher,2017,"Action, Adventure, Crime","['Amber Rose Revah', 'Ben Barnes', 'Jason R. Moore']",8.7,53
+766,Boardwalk Empire,2010,"Crime, Drama, History","['Kelly Macdonald', 'Michael Shannon', 'Shea Whigham']",8.4,55
+767,Curb Your Enthusiasm,2000,Comedy,"['Cheryl Hines', 'Jeff Garlin', 'Susie Essman']",8.5,28
+768,Homeland,2011,"Crime, Drama, Mystery","['Mandy Patinkin', 'Damian Lewis', 'Rupert Friend']",8.7,55
+769,BoJack Horseman,2014,"Animation, Comedy, Drama","['Amy Sedaris', 'Alison Brie', 'Aaron Paul']",8.8,25
+770,Fringe,2008,"Drama, Mystery, Sci-Fi","['Joshua Jackson', 'John Noble', 'Jasika Nicole']",8.4,46
+771,This Is Us,2016,"Comedy, Drama, Romance","['Mandy Moore', 'Sterling K. Brown', 'Chrissy Metz']",8.7,45
+772,Futurama,1999,"Animation, Comedy, Sci-Fi","['John DiMaggio', 'Katey Sagal', 'Tress MacNeille']",8.3,22
+773,The Handmaid's Tale,2017,"Drama, Sci-Fi, Thriller","['Amanda Brugel', 'Madeline Brewer', 'Max Minghella']",8.5,60
+774,Oz,1997,"Crime, Drama, Thriller","['J.K. Simmons', 'Lee Tergesen', 'Dean Winters']",8.6,55
+775,Sacred Games,2018,"Action, Crime, Drama","['Nawazuddin Siddiqui', 'Neeraj Kabi', 'Aamir Bashir']",8.8,50
+776,Brooklyn Nine-Nine,2013,"Comedy, Crime","['Stephanie Beatriz', 'Terry Crews', 'Melissa Fumero']",8.3,22
+777,Fawlty Towers,1975,Comedy,"['Prunella Scales', 'Andrew Sachs', 'Connie Booth']",8.5,30
+778,The Witcher,2019,"Action, Adventure, Drama","['Freya Allan', 'Anya Chalotra', 'Mimi Ndiweni']",9.2,60
+779,Big Little Lies,2017,"Crime, Drama, Mystery","['Nicole Kidman', 'Shailene Woodley', 'Zoë Kravitz']",8.6,60
+780,The Newsroom,2012,Drama,"['Emily Mortimer', 'John Gallagher Jr.', 'Alison Pill']",8.9,55
+781,The West Wing,1999,Drama,"['Rob Lowe', 'Allison Janney', 'John Spencer']",8.5,44
+782,Scrubs,2001,"Comedy, Drama","['Donald Faison', 'Sarah Chalke', 'John C. McGinley']",8.9,22
+783,Breaking Bad,2008,"Crime, Drama, Thriller","['Aaron Paul', 'Anna Gunn', 'Betsy Brandt']",9.5,49
+784,Game of Thrones,2011,"Action, Adventure, Drama","['Peter Dinklage', 'Kit Harington', 'Lena Headey']",9.3,57
+785,Band of Brothers,2001,"Action, Drama, History","['Damian Lewis', 'Ron Livingston', 'Shane Taylor']",9.5,594
+786,Chernobyl,2019,"Drama, History, Thriller","['Jared Harris', 'Stellan Skarsgård', 'Adam Nagaitis']",9.4,330
+787,Sherlock,2010,"Crime, Drama, Mystery","['Martin Freeman', 'Una Stubbs', 'Rupert Graves']",9.1,88
+788,The Wire,2002,"Crime, Drama, Thriller","['Lance Reddick', 'Sonja Sohn', 'Wendell Pierce']",9.3,59
+789,Rick and Morty,2013,"Animation, Adventure, Comedy","['Chris Parnell', 'Spencer Grammer', 'Sarah Chalke']",9.2,23
+790,Friends,1994,"Comedy, Romance","['Courteney Cox', 'Lisa Kudrow', 'Matt LeBlanc']",8.9,22
+791,The Sopranos,1999,"Crime, Drama","['Lorraine Bracco', 'Edie Falco', 'Michael Imperioli']",9.2,55
+792,True Detective,2014,"Crime, Drama, Mystery","['Colin Farrell', 'Rachel McAdams', 'Taylor Kitsch']",8.8,55
+793,Stranger Things,2016,"Drama, Fantasy, Horror","['Finn Wolfhard', 'Winona Ryder', 'David Harbour']",9.2,51
+794,Avatar: The Last Airbender,2005,"Animation, Action, Adventure","['Zach Tyler', 'Jack De Sena', 'Mae Whitman']",8.9,23
+795,The Office,2005,Comedy,"['Jenna Fischer', 'John Krasinski', 'Rainn Wilson']",8.8,22
+796,House of Cards,2013,Drama,"['Michel Gill', 'Robin Wright', 'Kate Mara']",8.9,51
+797,Firefly,2002,"Adventure, Drama, Sci-Fi","['Gina Torres', 'Alan Tudyk', 'Morena Baccarin']",8.8,44
+798,Fargo,2014,"Crime, Drama, Thriller","['Martin Freeman', 'Allison Tolman', 'Colin Hanks']",8.6,53
+799,Black Mirror,2011,"Drama, Sci-Fi, Thriller","['Hannah John-Kamen', 'Michaela Coel', 'Beatrice Robertson-Jones']",8.8,60
+800,Death Note: Desu nôto,2006,"Animation, Crime, Drama","['Brad Swaile', 'Vincent Tong', 'Ryô Naitô']",8.7,24
+801,Dexter,2006,"Crime, Drama, Mystery","['Jennifer Carpenter', 'David Zayas', 'James Remar']",8.7,53
+802,Narcos,2015,"Biography, Crime, Drama","['Wagner Moura', 'Boyd Holbrook', 'Alberto Ammann']",8.8,49
+803,House M.D.,2004,"Drama, Mystery","['Omar Epps', 'Robert Sean Leonard', 'Jesse Spencer']",8.7,44
+804,Westworld,2016,"Drama, Mystery, Sci-Fi","['Jeffrey Wright', 'Ed Harris', 'Thandie Newton']",8.8,62
+805,Peaky Blinders,2013,"Crime, Drama","['Paul Anderson', 'Helen McCrory', 'Sophie Rundle']",8.7,60
+806,The Simpsons,1989,"Animation, Comedy","['Nancy Cartwright', 'Harry Shearer', 'Julie Kavner']",9.1,22
+807,Seinfeld,1989,Comedy,"['Julia Louis-Dreyfus', 'Michael Richards', 'Jason Alexander']",8.6,22
+808,South Park,1997,"Animation, Comedy","['Matt Stone', 'Isaac Hayes', 'Mona Marshall']",8.7,22
+809,Hagane no renkinjutsushi,2009,"Animation, Action, Adventure","['Iemasa Kayumi', 'Vic Mignogna', 'Muriel Hofmann']",8.7,24
+810,Vikings,2013,"Action, Adventure, Drama","['Gustaf Skarsgård', 'Alexander Ludwig', 'Georgia Hirst']",8.6,44
+811,Better Call Saul,2015,"Crime, Drama","['Rhea Seehorn', 'Jonathan Banks', 'Patrick Fabian']",9.1,46
+812,Arrested Development,2003,Comedy,"['Michael Cera', 'Portia de Rossi', 'Will Arnett']",8.8,22
+813,Daredevil,2015,"Action, Crime, Drama","[""Vincent D'Onofrio"", 'Deborah Ann Woll', 'Elden Henson']",8.8,54
+814,Leyla ile Mecnun,2011,"Adventure, Comedy, Drama","['Ahmet Mümtaz Taylan', 'Serkan Keskin', 'Osman Sonant']",8.5,80
+815,It's Always Sunny in Philadelphia,2005,Comedy,"['Glenn Howerton', 'Rob McElhenney', 'Kaitlin Olson']",8.6,22
+816,Twin Peaks,1990,"Crime, Drama, Mystery","['Michael Ontkean', 'Mädchen Amick', 'Dana Ashbrook']",8.8,47
+817,Suits,2011,"Comedy, Drama","['Patrick J. Adams', 'Meghan Markle', 'Sarah Rafferty']",8.2,44
+818,Sons of Anarchy,2008,"Crime, Drama, Thriller","['Katey Sagal', 'Mark Boone Junior', 'Kim Coates']",8.5,45
+819,Shingeki no kyojin,2013,"Animation, Action, Adventure","['Yûki Kaji', 'Yui Ishikawa', 'Josh Grelle']",8.3,24
+820,Batman: The Animated Series,1992,"Animation, Action, Adventure","['Loren Lester', 'Efrem Zimbalist Jr.', 'Bob Hastings']",9.2,23
+821,The Walking Dead,2010,"Drama, Horror, Thriller","['Norman Reedus', 'Melissa McBride', 'Danai Gurira']",8.7,44
+822,Mr. Robot,2015,"Crime, Drama, Thriller","['Christian Slater', 'Carly Chaikin', 'Martin Wallström']",8.8,49
+823,How I Met Your Mother,2005,"Comedy, Romance","['Jason Segel', 'Cobie Smulders', 'Neil Patrick Harris']",8.4,22
+824,TVF Pitchers,2015,"Comedy, Drama","['Arunabh Kumar', 'Jitendra Kumar', 'Abhay Mahajan']",8.7,40
+825,Dark,2017,"Crime, Drama, Mystery","['Louis Hofmann', 'Jördis Triebel', 'Maja Schöne']",8.7,60
+826,Freaks and Geeks,1999,"Comedy, Drama","['John Francis Daley', 'James Franco', 'Samm Levine']",8.7,44
+827,Supernatural,2005,"Drama, Fantasy, Horror","['Jensen Ackles', 'Jim Beaver', 'Misha Collins']",8.7,44
+828,Downton Abbey,2010,"Drama, Romance","['Phyllis Logan', 'Elizabeth McGovern', 'Brendan Coyle']",8.6,58
+829,The Mandalorian,2019,"Action, Adventure, Sci-Fi","['Carl Weathers', 'Rio Hackford', 'Gina Carano']",8.6,30
+830,Rome,2005,"Action, Drama, History","['Ray Stevenson', 'Polly Walker', 'Kerry Condon']",8.6,52
+831,When They See Us,2019,"Biography, Crime, Drama","['Caleel Harris', 'Ethan Herisse', 'Marquis Rodriguez']",8.3,296
+832,Battlestar Galactica,2004,"Action, Adventure, Drama","['Mary McDonnell', 'Jamie Bamber', 'James Callis']",8.6,44
+833,Mad Men,2007,Drama,"['Elisabeth Moss', 'Vincent Kartheiser', 'January Jones']",8.6,47
+834,Parks and Recreation,2009,Comedy,"[""Jim O'Heir"", 'Nick Offerman', 'Chris Pratt']",8.7,22
+835,Doctor Who,2005,"Adventure, Drama, Family","['Peter Capaldi', 'Pearl Mackie', 'Matt Smith']",8.3,45
+836,Lost,2004,"Adventure, Drama, Fantasy","['Josh Holloway', 'Yunjin Kim', 'Evangeline Lilly']",8.6,44
+837,The Twilight Zone,1959,"Drama, Fantasy, Horror","['Robert McCord', 'Jay Overholts', 'Vaughn Taylor']",8.9,51
+838,The X Files,1993,"Crime, Drama, Mystery","['Gillian Anderson', 'Mitch Pileggi', 'William B. Davis']",8.7,45
+839,Shameless,2011,"Comedy, Drama","['William H. Macy', 'Ethan Cutkosky', 'Jeremy Allen White']",8.4,46
+840,The Haunting of Hill House,2018,"Drama, Horror, Mystery","['Oliver Jackson-Cohen', 'Kate Siegel', 'Victoria Pedretti']",8.8,50
+841,Prison Break,2005,"Action, Crime, Drama","['Wentworth Miller', 'Amaury Nolasco', 'Robert Knepper']",9.6,44
+842,Mindhunter,2017,"Crime, Drama, Thriller","['Holt McCallany', 'Anna Torv', 'Hannah Gross']",8.5,60
+843,Kaubôi bibappu,1998,"Animation, Action, Adventure","['Unshô Ishizuka', 'Megumi Hayashibara', 'Steve Blum']",8.5,24
+844,The Boys,2019,"Action, Comedy, Crime","['Jack Quaid', 'Antony Starr', 'Erin Moriarty']",8.5,60
+845,Modern Family,2009,"Comedy, Drama, Romance","['Sofía Vergara', 'Julie Bowen', 'Ty Burrell']",8.9,22
+846,One Punch Man: Wanpanman,2015,"Animation, Action, Comedy","['Kaito Ishikawa', 'Max Mittelman', 'Zach Aguilar']",8.7,24
+847,Koombiyo,2017,"Crime, Drama, Thriller","['Kalana Gunasekara', 'Andrew Pulle', 'Yureni Noshika']",8.1,20
+848,Spartacus: Blood and Sand,2010,"Action, Adventure, Biography","['Lucy Lawless', 'Manu Bennett', 'Daniel Feuerriegel']",8.7,55
+849,Hannibal,2013,"Crime, Drama, Horror","['Mads Mikkelsen', 'Caroline Dhavernas', 'Laurence Fishburne']",8.7,44
+850,La Casa de Papel,2017,"Action, Crime, Mystery","['Álvaro Morte', 'Itziar Ituño', 'Pedro Alonso']",8.5,70
+851,Pride and Prejudice,1995,"Drama, Romance","['Jennifer Ehle', 'Susannah Harker', 'Julia Sawalha']",8.9,327
+852,Six Feet Under,2001,"Comedy, Drama","['Michael C. Hall', 'Frances Conroy', 'Lauren Ambrose']",8.6,55
+853,The Big Bang Theory,2007,"Comedy, Romance","['Jim Parsons', 'Kaley Cuoco', 'Simon Helberg']",8.5,22
+854,The Crown,2016,"Drama, History","['Matt Smith', 'Olivia Colman', 'Tobias Menzies']",8.5,58
+855,Dragon Ball Z,1996,"Animation, Action, Adventure","['Christopher Sabat', 'Scott McNeil', 'Sean Schemmel']",8.7,24
+856,Community,2009,Comedy,"['Danny Pudi', 'Donald Glover', 'Chevy Chase']",8.3,22
+857,Gravity Falls,2012,"Animation, Action, Adventure","['Alex Hirsch', 'Kristen Schaal', 'Linda Cardellini']",8.7,23
+858,Archer,2009,"Animation, Action, Comedy","['Judy Greer', 'Amber Nash', 'Chris Parnell']",8.4,22
+859,The Punisher,2017,"Action, Adventure, Crime","['Amber Rose Revah', 'Ben Barnes', 'Jason R. Moore']",8.7,53
+860,Boardwalk Empire,2010,"Crime, Drama, History","['Kelly Macdonald', 'Michael Shannon', 'Shea Whigham']",8.4,55
+861,Curb Your Enthusiasm,2000,Comedy,"['Cheryl Hines', 'Jeff Garlin', 'Susie Essman']",8.5,28
+862,Homeland,2011,"Crime, Drama, Mystery","['Mandy Patinkin', 'Damian Lewis', 'Rupert Friend']",8.7,55
+863,BoJack Horseman,2014,"Animation, Comedy, Drama","['Amy Sedaris', 'Alison Brie', 'Aaron Paul']",8.8,25
+864,Fringe,2008,"Drama, Mystery, Sci-Fi","['Joshua Jackson', 'John Noble', 'Jasika Nicole']",8.4,46
+865,This Is Us,2016,"Comedy, Drama, Romance","['Mandy Moore', 'Sterling K. Brown', 'Chrissy Metz']",8.7,45
+866,Futurama,1999,"Animation, Comedy, Sci-Fi","['John DiMaggio', 'Katey Sagal', 'Tress MacNeille']",8.3,22
+867,The Handmaid's Tale,2017,"Drama, Sci-Fi, Thriller","['Amanda Brugel', 'Madeline Brewer', 'Max Minghella']",8.5,60
+868,Oz,1997,"Crime, Drama, Thriller","['J.K. Simmons', 'Lee Tergesen', 'Dean Winters']",8.6,55
+869,Sacred Games,2018,"Action, Crime, Drama","['Nawazuddin Siddiqui', 'Neeraj Kabi', 'Aamir Bashir']",8.8,50
+870,Brooklyn Nine-Nine,2013,"Comedy, Crime","['Stephanie Beatriz', 'Terry Crews', 'Melissa Fumero']",8.3,22
+871,Fawlty Towers,1975,Comedy,"['Prunella Scales', 'Andrew Sachs', 'Connie Booth']",8.5,30
+872,The Witcher,2019,"Action, Adventure, Drama","['Freya Allan', 'Anya Chalotra', 'Mimi Ndiweni']",9.2,60
+873,Big Little Lies,2017,"Crime, Drama, Mystery","['Nicole Kidman', 'Shailene Woodley', 'Zoë Kravitz']",8.6,60
+874,The Newsroom,2012,Drama,"['Emily Mortimer', 'John Gallagher Jr.', 'Alison Pill']",8.9,55
+875,The West Wing,1999,Drama,"['Rob Lowe', 'Allison Janney', 'John Spencer']",8.5,44
+876,Scrubs,2001,"Comedy, Drama","['Donald Faison', 'Sarah Chalke', 'John C. McGinley']",8.9,22
+877,Misfits,2009,"Comedy, Drama, Fantasy","['Joseph Gilgun', 'Iwan Rheon', 'Lauren Socha']",8.2,60
+878,Black Sails,2014,"Adventure, Drama","['Toby Stephens', 'Hannah New', 'Zach McGowan']",8.2,56
+879,Veronica Mars,2004,"Crime, Drama, Mystery","['Jason Dohring', 'Enrico Colantoni', 'Percy Daggs III']",8.3,44
+880,The Good Wife,2009,"Crime, Drama, Mystery","['Chris Noth', 'Josh Charles', 'Matt Czuchry']",8.3,43
+881,Narcos: Mexico,2018,"Crime, Drama","['Scoot McNairy', 'José María Yazpik', 'Fermín Martínez']",8.4,50
+882,Killing Eve,2018,"Action, Adventure, Drama","['Sandra Oh', 'Fiona Shaw', 'Kim Bodnia']",8.3,42
+883,Justice League,2001,"Animation, Action, Adventure","['Phil LaMarr', 'Michael Rosenbaum', 'George Newbern']",8.5,22
+884,How to Get Away with Murder,2014,"Crime, Drama, Mystery","['Billy Brown', 'Jack Falahee', 'Aja Naomi King']",8.1,43
+885,The Bugs Bunny Show,1960,"Animation, Comedy","['June Foray', 'Jim Backus', 'Bea Benaderet']",8.6,30
+886,Young Justice,2010,"Animation, Action, Adventure","['Danica McKellar', 'Nolan North', 'Khary Payton']",8.6,23
+887,M*A*S*H,1972,"Comedy, Drama, War","['Wayne Rogers', 'Loretta Swit', 'Jamie Farr']",8.4,25
+888,Samurai chanpurû,2004,"Animation, Action, Adventure","['Ginpei Sato', 'Ayako Kawasumi', 'Steve Blum']",8.5,24
+889,Naruto,2002,"Animation, Action, Adventure","['Maile Flanagan', 'Kate Higgins', 'Chie Nakamura']",8.3,24
+890,The Last Kingdom,2015,"Action, Drama, History","['Eliza Butterworth', 'Ian Hart', 'David Dawson']",8.3,60
+891,Master of None,2015,Comedy,"['Eric Wareheim', 'Lena Waithe', 'Noël Wells']",8.3,30
+892,Sarabhai vs Sarabhai,2004,Comedy,"['Ratna Pathak Shah', 'Sumeet Raghvan', 'Rupali Ganguly']",8.9,30
+893,Line of Duty,2012,"Crime, Drama, Mystery","['Vicky McClure', 'Adrian Dunbar', 'Craig Parkinson']",8.6,60
+894,13 Reasons Why,2017,"Drama, Mystery","['Katherine Langford', 'Christian Navarro', 'Alisha Boe']",7.8,60
+895,Kenpû Denki Berserk,1997,"Animation, Action, Adventure","['Marc Diraison', 'Carrie Keranen', 'Kevin T. Collins']",8.6,23
+896,Skins,2007,Drama,"['Nicholas Hoult', 'Joe Dempsie', 'Hannah Murray']",8.2,46
+897,24: Live Another Day,2014,"Action, Crime, Drama","['Yvonne Strahovski', 'Tate Donovan', 'Mary Lynn Rajskub']",8.4,46
+898,The Fall,2013,"Crime, Drama, Thriller","['Jamie Dornan', 'John Lynch', 'Aisling Franciosi']",8.2,60
+899,Carnivàle,2003,"Drama, Fantasy, Mystery","['Adrienne Barbeau', 'Clancy Brown', 'Debra Christofferson']",8.4,55
+900,Gilmore Girls,2000,"Comedy, Drama","['Alexis Bledel', 'Keiko Agena', 'Scott Patterson']",8.1,44
+901,Boston Legal,2004,"Comedy, Crime, Drama","['William Shatner', 'Candice Bergen', 'Rene Auberjonois']",8.4,44
+902,Pushing Daisies,2007,"Comedy, Drama, Fantasy","['Anna Friel', 'Chi McBride', 'Jim Dale']",8.3,44
+903,Anne,2017,Drama,"['Geraldine James', 'R.H. Thomson', 'Dalila Bela']",8.6,60
+904,Lonesome Dove,1989,"Adventure, Drama, Western","['Tommy Lee Jones', 'Danny Glover', 'Diane Lane']",8.7,384
+905,Forever,2014,"Crime, Drama, Fantasy","['Alana De La Garza', 'Joel David Moore', 'Donnie Keshawarz']",8.3,43
+906,The Flash,2014,"Action, Adventure, Drama","['Candice Patton', 'Danielle Panabaker', 'Carlos Valdes']",7.7,43
+907,Atypical,2017,"Comedy, Drama","['Keir Gilchrist', 'Brigette Lundy-Paine', 'Michael Rapaport']",8.3,30
+908,11.22.63,2016,"Drama, Mystery, Sci-Fi","['Sarah Gadon', 'George MacKay', 'Chris Cooper']",8.2,60
+909,The Thick of It,2005,Comedy,"['James Smith', 'Peter Capaldi', 'Joanna Scanlan']",8.7,29
+910,The Adventures of Sherlock Holmes,1984,"Crime, Drama, Mystery","['David Burke', 'Rosalie Williams', 'Eric Porter']",8.7,60
+911,Ezel,2009,"Crime, Drama, Thriller","['Cansu Dere', 'Yigit Özsener', 'Baris Falay']",8.6,90
+912,Arrow,2012,"Action, Adventure, Crime","['Katie Cassidy', 'David Ramsey', 'Susanna Thompson']",7.6,42
+913,Malcolm in the Middle,2000,"Comedy, Family","['Bryan Cranston', 'Justin Berfield', 'Erik Per Sullivan']",7.8,22
+914,Gotham,2014,"Action, Crime, Drama","['Jada Pinkett Smith', 'Donal Logue', 'Camren Bicondova']",8.4,42
+915,Bosch,2014,"Crime, Drama","['Jamie Hector', 'Amy Aquino', 'Lance Reddick']",8.4,51
+916,Utopia,2013,"Drama, Mystery, Sci-Fi","['Paul Higgins', 'Neil Maskell', ""Fiona O'Shaughnessy""]",7.7,50
+917,The Vampire Diaries,2009,"Drama, Fantasy, Horror","['Paul Wesley', 'Ian Somerhalder', 'Kat Graham']",8.3,43
+918,Blue Mountain State,2010,"Comedy, Sport","['Alan Ritchson', 'Chris Romano', 'Ed Marinaro']",8.1,22
+919,Lie to Me,2009,"Crime, Drama, Mystery","['Kelli Williams', 'Brendan Hines', 'Monica Raymund']",8.4,43
+920,Bodyguard,2018,"Crime, Drama, Thriller","['Sophie Rundle', 'Vincent Franklin', 'Ash Tandon']",8.3,60
+921,X-Men,1992,"Animation, Action, Family","['Cathal J. Dodd', 'Lenore Zann', 'George Buza']",8.1,23
+922,Hell on Wheels,2011,"Drama, Western","['Colm Meaney', 'Robin McLeavy', 'Phil Burke']",8.4,42
+923,SpongeBob SquarePants,1999,"Animation, Comedy, Family","['Bill Fagerbakke', 'Rodger Bumpass', 'Clancy Brown']",8.1,23

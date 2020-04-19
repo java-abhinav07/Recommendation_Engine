@@ -1,4 +1,6 @@
 from django.contrib import admin
+
+
 from .models import Movie, Book, TVShow
 # Register your models here.
 
