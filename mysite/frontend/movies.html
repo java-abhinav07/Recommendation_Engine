@@ -13,7 +13,10 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-		
+			  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.css">
+	  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.js"></script>
+
     
        
         
@@ -34,6 +37,59 @@
         <!-- Top content -->
         <div class="top-content "  style="margin-top: 500px; margin-bottom: 100px;">
         	<div class="container-fluid">
+        		<div class="ui button" style="float:right; margin-right: 200px; margin-left: 10px; margin-top: 10px; margin-bottom: 10px;  height: inherit;">
+					Apply Filters
+				</div>
+				<div class="ui form">
+			 	
+				 	<div style="float: right;   width: 200px; margin: 10px;">
+				    <select name="skills" single="" class="ui fluid selection dropdown no label">
+				      <option value="">Year</option>
+				      <option value="1">Change Methodology</option>
+				      <option value="2">Cognitive Computing & AI</option>
+				      <option value="3">Connectivity & Collaboration</option>
+				      <option value="4">Culture in Action</option>
+				      <option value="5">Future of Work</option>
+				      <option value="6">HR Transformation</option>
+				      <option value="7">Human-centered Design</option>
+				      <option value="8">Machine Learning & AI</option>
+				      <option value="9">Operational Effectiveness</option>
+				      <option value="10">Operational Excellence</option>
+				      <option value="11">Organizational Change</option>
+				    </select>
+					</div>
+				 	<div style="float: right;   width: 200px; margin: 10px;">
+				    <select name="skills" single="" class="ui fluid selection dropdown no label">
+				      <option value="">Rating</option>
+				      <option value="1">Change Methodology</option>
+				      <option value="2">Cognitive Computing & AI</option>
+				      <option value="3">Connectivity & Collaboration</option>
+				      <option value="4">Culture in Action</option>
+				      <option value="5">Future of Work</option>
+				      <option value="6">HR Transformation</option>
+				      <option value="7">Human-centered Design</option>
+				      <option value="8">Machine Learning & AI</option>
+				      <option value="9">Operational Effectiveness</option>
+				      <option value="10">Operational Excellence</option>
+				      <option value="11">Organizational Change</option>
+				    </select>
+					</div>
+					<div style="float: right; width: 200px; margin: 10px;">
+				    <select name="skills" multiple="" class="label ui selection fluid dropdown">
+				      <option value="">Genre</option>
+				      <option value="1">Action</option>
+				      <option value="2">Adventure</option>
+				      <option value="3">Comedies</option>
+				      <option value="4">Crime</option>
+				      <option value="5">Drama</option>
+				      <option value="6">Horror</option>
+				      <option value="7">Romance</option>
+				      <option value="8">Sci-f- & Fantasy</option>
+				      <option value="9">Thriller</option>
+				      <option value="10">Family</option>
+					</select>  
+					</div>
+				</div>
         		<div id="carousel-example" class="carousel slide" data-ride="carousel" data-interval="false">
         			<div class="carousel-inner row w-20 mx-auto" role="listbox">
             			<div class="carousel-item col-sm-6 col-md-3 col-lg-2 active">
@@ -149,8 +205,21 @@
         </div>
         </section>
 
-
               <!-- Javascript -->
+              <script>
+              	$('.label.ui.dropdown')
+				  .dropdown();
+
+				$('.no.label.ui.dropdown')
+				  .dropdown({
+				  useLabels: false
+				});
+
+				$('.ui.button').on('click', function () {
+				  $('.ui.dropdown')
+				    .dropdown('restore defaults')
+				})
+              </script>
         <script src="assets/js/jquery-3.3.1.min.js"></script>
         <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 		<script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
