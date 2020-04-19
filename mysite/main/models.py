@@ -4,7 +4,7 @@ from django.db import models
 
 
 
-class Movies(models.Model):
+class Movie(models.Model):
     """
     fields: title, year, genre, 
             Director, Stars, IMDb, 
@@ -26,7 +26,7 @@ class Movies(models.Model):
 
 
 
-class Books(models.Model):
+class Book(models.Model):
     """
     fields: title, author, rating, img_src
 
@@ -41,7 +41,7 @@ class Books(models.Model):
 
 
 
-class TVShows(models.Model):
+class TVShow(models.Model):
     """
     fields: title, year, genre, Stars, rating, duration
     """
