@@ -1,7 +1,7 @@
 # Recommendation_Engine
 
 
-
+Use: DB Browser for viewing the database file
 
 
 
