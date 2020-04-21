@@ -5,11 +5,13 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background: #f7f6ff;
+  background: #1A1A1D;
 }
 
 h3 {
   margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*
 .total{
@@ -20,12 +22,14 @@ h3 {
 form {
 	margin: auto;
 	/*width: 50%;*/
-	margin-right: 400px;
-	margin-top: 70px;
+	margin-right: 200px;
+	margin-top: 100px;
 	border: 3px black;
-  	padding: 10px;
+  	padding: 5px;
 	width: 320px;
-	background: #cccccc
+  background: #4E4E50;
+  padding-left: 10px;
+  float: right;
 	/*overflow: auto;*/
 }
 
@@ -75,7 +79,7 @@ form {
 
 /* When the checkbox is checked, add a blue background */
 .container input:checked ~ .checkmark {
-  background-color: #2f3640;
+  background-color: #6F2232;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -121,7 +125,7 @@ form {
 }
 
 .select-box .options-container {
-  background: #2f3640;
+  background: #6F2232;
   color: #f5f6fa;
   max-height: 0;
   width: 100%;
@@ -136,7 +140,7 @@ form {
 }
 
 .selected {
-  background: #2f3640;
+  background: #6F2232;
   border-radius: 8px;
   margin-bottom: 8px;
   color: #f5f6fa;
@@ -249,29 +253,10 @@ text {
 }
 
 #chart {
-    position: absolute;
+    position: relative;
     width: 500px;
     height: 500px;
-    top: 0;
-    left: 0;
-}
-
-#question {
-    position: absolute;
-    width: 400px;
-    height: 500px;
-    top: 0;
-    left: 520px;
-}
-
-#question h1 {
-    font-size: 50px;
-    font-weight: bold;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    top: 50%;
-    -webkit-transform: translate(0, -50%);
-    transform: translate(0, -50%);
+    top: 50px;
+    left: 100px;
+    float: left;
 }

@@ -12,6 +12,7 @@ html, body {
     align-items: center;
     flex-wrap: wrap;
     padding: 10px;
+    margin-top: auto;
 }
 
 .cardKV {
@@ -34,9 +35,11 @@ box-shadow: 0px 0px 5px 0px rgba(255,255,255,0.109);
 }
 
 .dividerLineKV {
+    margin-top: auto;
     color: rgb(141, 141, 141);
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: auto;
 }
 
 .filterContainerKV {
@@ -46,6 +49,7 @@ box-shadow: 0px 0px 5px 0px rgba(255,255,255,0.109);
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 700px;
 }
 
 select {
