@@ -218,7 +218,9 @@
             oldrotation = 0,
             picked = 100000,
             oldpick = [],
-            color = d3.scale.category20();//category20c()
+            
+            color = d3.scale.ordinal().range(["#67001f","#f7f4f9","#eae3f0","#dcc9e2","#d0aad2","#d08ac2","#dd63ae","#e33890","#d71c6c","#b70b4f","#8f023a"])
+//             color = d3.scale.category20();//category20c()
         var data = [
             { "label": "Dell LAPTOP", "value": 1 }, // padding
             { "label": "IMAC PRO", "value": 1}, //font-family
