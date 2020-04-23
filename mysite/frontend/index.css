@@ -10,6 +10,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
 }
 
 * {
@@ -63,6 +65,13 @@ body {
     -webkit-order: -1;
     -ms-flex-order: -1;
     order: -1;
+  }
+  .col-text-top{
+    display: flex;
+/*    align-items: center;
+*/    justify-content: center;
+    color:white;
+    text-align: center;
   }
   .col-text{
     display: flex;
