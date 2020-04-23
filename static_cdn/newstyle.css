@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+.pic{
+	height: 100%;
+	padding-left: 100px;
+}
+.navbar-brand {
+
+        height: 15%;
+        width: 15%;
+        float: left;
+        /*margin: 16px 42px;*/
+}
+
+.navbar {
+
+	padding: .7rem;
+}
+
+.navbar-nav li{
+
+	padding-right: 40px;
+}
+
+.nav-link{
+
+	font-size: 1.1em !important;
+}
+
+.content {
+        font-size: 20px;
+        margin: 15px;
+}

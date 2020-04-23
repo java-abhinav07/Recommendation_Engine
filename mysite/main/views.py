@@ -11,10 +11,8 @@ def is_valid_queryparam(param):
 
 
 def index(request):
-    """
-    data needed for index template: index.html
-    3 buttons for url to movies, books and tv shows
-    """
+    #data needed for index template: index.html
+    #3 buttons for url to movies, books and tv shows
     return render(request, 'index.html')
 
 
@@ -100,4 +98,3 @@ def shows(request):
 
 
     return render(request, 'shows.html', {'shows': shows})
-

@@ -4,11 +4,9 @@ from django.db import models
 
 
 class Movie(models.Model):
-    """
-    fields: title, year, genre, 
+    #fields: title, year, genre, 
             #Director, Stars, IMDb, 
             #Oscar, Duration
-    """
     title = models.CharField(max_length=255)
     year = models.IntegerField()
     genre = models.TextField()
@@ -27,10 +25,8 @@ class Movie(models.Model):
 
 
 class Book(models.Model):
-    """
-    fields: title, author, rating, img_src
+    #fields: title, author, rating, img_src
 
-    """
     title = models.CharField(max_length=255)
     author = models.CharField(max_length=255)
     rating = models.FloatField()
@@ -43,9 +39,8 @@ class Book(models.Model):
 
 
 class TVShow(models.Model):
-    """
-    fields: title, year, genre, Stars, rating, duration
-    """
+    #fields: title, year, genre, Stars, rating, duration
+
 
     title = models.CharField(max_length=255)
     year = models.IntegerField()
@@ -59,7 +54,6 @@ class TVShow(models.Model):
 
     def __str__(self):
         return self.title
-
 
 
 
