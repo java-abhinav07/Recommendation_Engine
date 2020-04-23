@@ -82,10 +82,23 @@ body {
   .Aligner-item {
     width: 60%;
   }
+  .col-image-movie {
+
+    background-position:center;
+    background-image: url(./assets/movie.gif);
+    background-repeat: no-repeat;
+  }
+  .col-image-show {
+
+    background-position:center;
+    background-image: url(./assets/show.gif);
+    background-repeat: no-repeat;
+  }
   .col-image {
 
     background-position:center;
     background-image: url(./assets/final.gif);
+    background-image: url(./assets/book.gif);
     background-repeat: no-repeat;
   }
 
