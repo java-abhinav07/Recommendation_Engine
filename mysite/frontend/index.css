@@ -94,10 +94,9 @@ body {
     background-image: url(./assets/show.gif);
     background-repeat: no-repeat;
   }
-  .col-image {
+  .col-image-book {
 
     background-position:center;
-    background-image: url(./assets/final.gif);
     background-image: url(./assets/book.gif);
     background-repeat: no-repeat;
   }
