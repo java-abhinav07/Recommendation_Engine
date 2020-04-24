@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Form</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href='{% static"style.css"%}' />
   </head>
   <body>
     <div id="chart"></div>
@@ -208,7 +209,7 @@
             <!-- <input type="submit" value="Spin the wheel"> -->
     </form>
 
-    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src='{% static "https://d3js.org/d3.v3.min.js"%}' charset="utf-8"></script>
     <script type="text/javascript" charset="utf-8">
         var padding = { top: 5, right: 50, bottom: 0, left: 0 },
             w = 500 - padding.left - padding.right,
@@ -353,6 +354,6 @@
         }
     </script>
     
-    <script src="main.js"></script>
+    <script src='{% static "main.js" %}'></script>
   </body>
 </html>

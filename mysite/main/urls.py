@@ -6,9 +6,9 @@ from . import views
 urlpatterns = [
 
         path('', views.index, name='index.html'),
-        path('movies/', views.movies, name='movies'),
-        path('shows/', views.shows, name='shows'),
-        path('books/', views.books, name='books'),
+        path('movies.html/', views.movies, name='movies.html'),
+        path('shows.html/', views.shows, name='shows.html'),
+        path('books.html/', views.books, name='books.html'),
         
 
 ]
