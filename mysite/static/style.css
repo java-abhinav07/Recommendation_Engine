@@ -27,7 +27,7 @@ form {
 	border: 3px black;
   	padding: 5px;
 	width: 320px;
-  background: #4E4E50;
+  background: #eae3f0;
   padding-left: 10px;
   float: right;
 	/*overflow: auto;*/
@@ -257,6 +257,6 @@ text {
     width: 500px;
     height: 500px;
     top: 50px;
-    left: 100px;
+    left: 160px;
     float: left;
 }
