@@ -1,4 +1,4 @@
-{% load static %}
+<!-- {% load static %} -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,14 +10,14 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <link rel="stylesheet" href='{% static "newstyle.css" %}'>
+    <!-- <link rel="stylesheet" href='{% static "newstyle.css" %}'>
     <link rel="stylesheet" href='{% static "generalstyle.css" %}'>
     <link rel="stylesheet" href='{% static "style.css"%}'/>
-    <link rel="stylesheet" href='{% static "cards.css"%}'>
-<!--      <link rel="stylesheet" href= "newstyle.css">
+    <link rel="stylesheet" href='{% static "cards.css"%}'> -->
+     <link rel="stylesheet" href= "newstyle.css">
     <link rel="stylesheet" href= "style.css">
     <link rel="stylesheet" href= "cards.css">
- -->
+
 </head>
 <body>
 
@@ -245,7 +245,7 @@
     </form>
     </div>
       <section class="belowWheel">
-    <div class="grid-flex">
+    <div class="grid-flex" id="popUpCardFromWheel">
       <div class="col col-text">
         <div class="Aligner-item">
           <h1> MOVIE TITLE </h1>
@@ -309,7 +309,6 @@
                     Filters
                 </div>
             </div>
-        
             <hr class="dividerLineKV">
             <div class="cardContainerKV">
                 <div class="cardKV">
@@ -372,24 +371,6 @@
                 </div>
             </div>
     <section>
-    <div class="grid-flex">
-      <div class="col col-text">
-        <div class="Aligner-item">
-          <h1> MOVIE TITLE </h1>
-          <hr style="background-color:#C3073F">
-          <p>
-            Nick Fury is compelled to launch the Avengers Initiative when Loki poses a threat to planet Earth. His squad of superheroes put their minds together to accomplish the task.
-          </p>
-          <p> IMDB Rating : </p>
-          <p> Starring: </p>
-          <p>  </p>
-          <p> Genre: </p>
-        </div>
-      </div>
-      <div class="col position">
-      <iframe width="560" height="250" src="https://www.youtube.com/embed/y45lh8oBzOo" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
   </section>
 </body>
 <script charset="utf-8" src="https://d3js.org/d3.v3.min.js"></script>
@@ -405,7 +386,7 @@
 	    color = d3.scale.ordinal().range(["#67001f","#f7f4f9","#eae3f0","#dcc9e2","#d0aad2","#d08ac2","#dd63ae","#e33890","#d71c6c","#b70b4f","#8f023a"])
 //             color = d3.scale.category20();//category20c()
         var data = [
-            { "label": "Dell LAPTOP", "value": 1 }, // padding
+            { "label": "Dell LAPTOP", "value": "hellow rokeds" }, // padding
             { "label": "IMAC PRO", "value": 1}, //font-family
             { "label": "SUZUKI", "value": 1 }, //color
             { "label": "HONDA", "value": 1 }, //font-weight
@@ -448,6 +429,7 @@
         })
             .attr("text-anchor", "end")
             .text(function (d, i) {
+                // document.getElementById('popUpCardFromWheel').style.display = 'block'; 
                 return data[i].label;
             });
         container.on("click", spin);
