@@ -33,6 +33,11 @@ form {
 	/*overflow: auto;*/
 }
 
+.spinnnn{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
 .ops{
 
 	display: flex;
@@ -263,7 +268,9 @@ text {
 
 /* for division to show selected movie*/
 .belowWheel{
-  margin-top: 650px;
+  margin-top: 900px;
+  margin-bottom: 650px;
+
 }
 .col-text {
   height:20em;
