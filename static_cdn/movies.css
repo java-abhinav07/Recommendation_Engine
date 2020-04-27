@@ -1,0 +1,25 @@
+.after-wheel-div {
+    height: 0px;
+    width: 100vw;
+    background-color: red;
+    transition: 2s;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40%;
+}
+
+.after-wheel-div-expand {
+    height: 100px;
+}
+
+.filterContainerKV {
+    margin-top: 50px;
+    flex-direction: row !important;
+
+}
+
+.filterHeadingKV {
+    margin-right: 77%;
+}
