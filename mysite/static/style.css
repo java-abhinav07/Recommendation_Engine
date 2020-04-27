@@ -12,6 +12,7 @@ h3 {
   margin: 10px;
   margin-left: auto;
   margin-right: auto;
+  color: #ffffff;
 }
 /*
 .total{
@@ -20,14 +21,14 @@ h3 {
 }*/
 
 form {
+  background-color: #373737;
 	margin: auto;
 	/*width: 50%;*/
 	margin-right: 200px;
 	margin-top: 100px;
 	border: 3px black;
-  	padding: 5px;
+  padding: 5px;
 	width: 320px;
-  background: #eae3f0;
   padding-left: 10px;
   float: right;
 	/*overflow: auto;*/
@@ -40,6 +41,7 @@ form {
 }
 .ops{
 
+  color: #ffffff;
 	display: flex;
 	flex-direction: row;
 }
@@ -61,6 +63,7 @@ form {
 .container input {
   padding: 50px;
   /*position: absolute;*/
+  color: #eee;
   opacity: 0;
   cursor: pointer;
   height: 0;
@@ -84,7 +87,7 @@ form {
 
 /* When the checkbox is checked, add a blue background */
 .container input:checked ~ .checkmark {
-  background-color: #6F2232;
+  background-color: #986562;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -130,7 +133,7 @@ form {
 }
 
 .select-box .options-container {
-  background: #6F2232;
+  background: #995650;
   color: #f5f6fa;
   max-height: 0;
   width: 100%;
@@ -145,7 +148,7 @@ form {
 }
 
 .selected {
-  background: #6F2232;
+  background: #995650;
   border-radius: 8px;
   margin-bottom: 8px;
   color: #f5f6fa;
@@ -199,7 +202,7 @@ form {
 }
 
 .select-box .option:hover {
-  background: #414b57;
+  background: #834747;
 }
 
 .select-box label {
