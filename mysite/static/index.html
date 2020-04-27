@@ -18,6 +18,7 @@
     <link rel="stylesheet" href='{%static "./index.css" %}'> -->
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./newstyle.css">
+    <link rel="stylesheet" href="./generalStyles.css">
 </head>
 
 <body>
@@ -62,9 +63,10 @@
         <div class="grid-flex">
             <div class="col col-text">
               <div class="Aligner-item">
-                <h3 style="text-align: center; font-size: 45px; padding-bottom: 20px;">MOVIES</h3>
-                <p>&ldquo;I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.&rdquo;
-                  <cite>- Maya Angelou</cite>
+                <h3 data-scroll style="text-align: center; font-size: 45px; padding-bottom: 20px;">MOVIES</h3>
+                <p data-scroll>
+                  Struggling to find good movies and tired of putting up stories asking for recommendations. Find an expansive list of content to keep you going through this quarantine. Choose from our list filtered according to your choices or spin a wheel while you get the popcorn bowl and watch a random movie.</p>
+<p data-scroll>Stay tuned, Happy Quarantining!
                 </p>
                 <button type="button" class="btn btn-light" style="font-size: 23px;  margin:auto; display:block;">For MORE</button>
               </div>
@@ -76,13 +78,14 @@
       
           <div class="grid-flex">
             <div class="col col-image-show" >
-              &nbsp;
             </div>
             <div class="col col-text col-left">
               <div class="Aligner-item">
-                <p>&ldquo;Simple is good.&rdquo;
-                  <cite>- Jim Henson</cite>
-                </p>
+                <h3 data-scroll style="text-align: center; font-size: 45px; padding-bottom: 20px;">SHOWS</h3>
+                <p data-scroll>
+                 This quarantine got you feeling you’ve exhausted all shows on Netflix and other streaming sites? Say no more.. find an indefinite list of TV shows to keep you entertained and filter according to your preference or simply spin the wheel and surprise yourself. </p>
+                <p data-scroll>Happy Quarantining!</p>
+                 <button type="button" class="btn btn-light" style="font-size: 23px;  margin:auto; display:block;">For MORE</button>
               </div>
             </div>
           </div>
@@ -91,13 +94,13 @@
       
             <div class="col col-text">
               <div class="Aligner-item">
-                <p>&ldquo;Everybody has a plan until they get punched in the mouth.&rdquo;
-                  <cite>- Mike Tyson</cite>
-                </p>
+                  <h3 data-scroll style="text-align: center; font-size: 45px; padding-bottom: 20px;">BOOKS</h3>
+                <p data-scroll> If you are one of those who is constantly on the look for books to read, spin a wheel for youself according to your genre of preference and find your book of the week or go through our compilations and select your own treat.</p>
+                  <p data-scroll>Happy Reading!</p>
+                 <button type="button" class="btn btn-light" style="font-size: 23px;  margin:auto; display:block;">For MORE</button>
               </div>
             </div>
             <div class="col col-image-book" >
-              &nbsp;
             </div>
           </div>
                
@@ -105,8 +108,6 @@
             <div class="col col-text">
               <div class="Aligner-item">
                 <p>This website is an attempt by college students to simplify the process of finding content to watch or books to read during this quarantine as a one stop solutions for everyone who has been constantly looking out for such content through different sources.</p>
-
-                  <p>We would sincerely appreciate your feedback!</p>
                   <p>Happy Quarantining, stay safe, stay at home!</p>
               </div>
             </div>
@@ -115,6 +116,10 @@
        </div>
 
     <div id="under"></div>
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <script>
+      ScrollOut()
+    </script>
     <script src='{% static "./index.js" %}'></script>
 </body>
 

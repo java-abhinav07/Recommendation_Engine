@@ -36,6 +36,7 @@ body {
 }
 .col-text {
     height:20em;
+    text-align: center;
   }
   .grid-flex {
     display: -webkit-box;
@@ -189,3 +190,14 @@ transition: all 0.2s;
 margin-top: 12px
 }
 
+[data-scroll]{
+  transition: all 2s;
+}
+[data-scroll="in"]{
+  opacity: 1;
+  transform: translateX(0);
+}
+[data-scroll="out"]{
+  opacity: 0;
+  transform: translateX(-200px);
+}
