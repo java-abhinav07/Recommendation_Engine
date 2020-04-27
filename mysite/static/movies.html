@@ -10,8 +10,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<<<<<<< HEAD
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/cooper-hewitt" type="text/css"/>
   <link href='{% static "newstyle.css" %}' rel="stylesheet">
+=======
+  <link rel="stylesheet" href='{% static "generalStyles.css" %}'>
+  <link rel="stylesheet" href='{% static "newstyle.css" %}'>
+>>>>>>> baf576cef8ddc4ddb70fa1773649db289ca08669
   <link rel="stylesheet" href='{% static "style.css" %}' />
   <link rel="stylesheet" href='{% static "cards.css" %}'>
   <link rel="stylesheet" href='{% static "movies.css" %}'>
@@ -28,28 +33,30 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="{% url 'index.html' %}">Home</a>
+            <a style="color:#ffffff;" class="nav-link" href="{% url 'index.html' %}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{% url 'movies.html' %}">Movies</a>
+            <a style="color:#ffffff;" class="nav-link" href="{% url 'movies.html' %}">Movies</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{% url 'shows.html' %}">TV Shows</a>
+            <a style="color:#ffffff;" class="nav-link" href="{% url 'shows.html' %}">TV Shows</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{% url 'books.html' %}">Books</a>
+            <a style="color:#ffffff;" class="nav-link" href="{% url 'books.html' %}">Books</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
+    <p class="spinnnn">SPIN THE WHEEL, FIND YOURSELF A MOVIE DEAL!!  <i class="fas fa-film"></i></p>
+
     <div>
     <div id="chart"></div>
-    
     </div>
 
     
-   <form>
+   <form style="background-color: #373737">
     <h3>SPIN THE WHEEL</h3>
     <div class="ops">
         <label class="container">Random spin
