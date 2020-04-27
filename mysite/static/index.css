@@ -205,8 +205,8 @@ margin-top: 12px
 }
 [data-scroll="in"]{
   opacity: 1;
-  transform: translateX(0);
-}
+/*  transform: translateX(0);
+*/}
 [data-scroll="out"]{
   opacity: 0;
   transform: translateX(-200px);
