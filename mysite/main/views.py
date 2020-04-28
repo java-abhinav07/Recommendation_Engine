@@ -2,6 +2,9 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.http import HttpResponse, HttpResponseRedirect
 from .models import Movie, Book, TVShow
 import random
+import json
+from django.core.serializers.json import DjangoJSONEncoder
+from django.core.serializers import serialize
 #from .filters import MovieFilter, BookFilter, ShowFilter
 
 # Create your views here.
@@ -57,7 +60,10 @@ def movies(request):
 
     movies_random = random.sample(list(movies_list), min(len(movies_list), 10))
     movies = movies.filter(id__in=movies_random)
-    for movie in movies: print(movie)
+    movies = json.dumps(list(movies.values()), cls=DjangoJSONEncoder)
+    #for movie in movies: print(movie)
+    y = json.loads(movies)
+    print(y)
 
     return render(request, 'movies.html', {'movies':movies})
     
