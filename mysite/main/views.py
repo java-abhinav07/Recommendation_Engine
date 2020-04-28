@@ -42,7 +42,7 @@ def movies(request):
     if is_valid_queryparam(title_query):
         movies_query = movies_query.filter(title__icontains=title_query)
     if is_valid_queryparam(year_query):
-        movies_query = movies_query.filter(year__icontains=year_query)
+        movies_query = movies_query.filter(year__gte=year_query)
     if is_valid_queryparam(genre_query):
         movies_query = movies_query.filter(genre__icontains=genre_query)
     if is_valid_queryparam(director_query):
