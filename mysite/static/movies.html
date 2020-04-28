@@ -59,14 +59,14 @@
 
   <!-- <form action="." method="get"> -->
 
-    <form style="background-color: #373737">
+    <form style="background-color: #373737" action="." method="get">
 
       <h3 style="color: #ffffff">SPIN THE WHEEL</h3>
             <div class="contain">
                 <h4 style="color: #ffffff">GENRE</h4>
 
                     <div class="select">
-                       <select name="genre" id="genre" style="color: #ffffff">
+                       <select name="genre_contains" id="genre" style="color: #ffffff">
                           <option selected disabled>Select Genre</option>
                           <option value="">Select All</option>
                           <option value="Action">Action</option>
@@ -262,6 +262,8 @@
     </div> -->
 
 
+<!--
+
     <div class="after-wheel-div">
 
     </div>
@@ -302,7 +304,7 @@
         <option value="12">Volvo</option>
       </select>
 
-    </div>
+    </div>-->
 
 
     <hr class="dividerLineKV">
@@ -391,9 +393,12 @@
 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script>
 
-  current = "{{ movies }}";
-
-  setTimeout(console.log(current), 1000)
+  //var current1 = '{{ movies }}';
+  //var current2 = current1.replace("'", '"')
+  //console.log(current2);
+  var current =JSON.parse('{{ movies | escapejs }}');
+  console.log(current);
+  
 
   var padding = { top: 5, right: 50, bottom: 0, left: 0 },
     w = 500 - padding.left - padding.right,
