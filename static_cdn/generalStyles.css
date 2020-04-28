@@ -1,0 +1,92 @@
+{% load static %}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+  background-image: url('./assets/back.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+/*     background-color: #2C3335; */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button {
+    margin: 5px;
+    position: relative;
+    padding: 7px;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:#e50914;
+    border: 2px #e50914 solid;
+    border-radius: 4px;
+    outline: 0;
+    overflow:hidden;
+    background: none;
+    z-index: 1;
+    cursor: pointer;
+    transition:         0.08s ease-in;
+    -o-transition:      0.08s ease-in;
+    -ms-transition:     0.08s ease-in;
+    -moz-transition:    0.08s ease-in;
+    -webkit-transition: 0.08s ease-in;
+}
+
+.fill:hover {
+    color: whitesmoke;
+}
+
+.fill:before {
+    content: "";
+    position: absolute;
+    background: #e50914;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+    transition: top 0.09s ease-in;
+}
+
+.fill:hover:before {
+    top: 0;
+}
+
+select {
+    margin: 5px;
+    padding: 7px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid#e50914;
+    border-radius: 5px;
+    color: #e50914;
+}
+
+select:focus {
+    outline: none;
+} 
+
+select option {
+    background-color: #2C3335;
+    padding: 7px;
+    font-size: 16px;
+}
+
+input {
+    margin: 5px;
+    padding: 7px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid#e50914;
+    border-radius: 5px;
+    color: #e50914;
+}
+
+input:focus {
+    outline: none;
+} 

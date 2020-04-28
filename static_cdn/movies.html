@@ -1,53 +1,65 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-  <link href="newstyle.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="cards.css">
-  <link rel="stylesheet" href="movies.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/cooper-hewitt" type="text/css"/>
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/cooper-hewitt" type="text/css"/>
+  <link href='{% static "newstyle.css" %}' rel="stylesheet">
+
+  <link rel="stylesheet" href='{% static "generalStyles.css" %}'>
+  <link rel="stylesheet" href='{% static "newstyle.css" %}'>
+  <link rel="stylesheet" href='{% static "style.css" %}' />
+  <link rel="stylesheet" href='{% static "cards.css" %}'>
+  <link rel="stylesheet" href='{% static "movies.css" %}'>
 </head>
 <body>
 
-	<nav class="navbar navbar-expand-md navbar-light sticky-top">
+  <nav class="navbar navbar-expand-md navbar-light sticky-top">
 
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="ohyes.png" width="70" height="40"></a>
+      <a class="navbar-brand" href="#"><img src='{% static "ohyes.png" %}' width="70" height="40"></a>
       <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive" >
         <span class="navbar-toggler-icon"></span>
       </button>
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="movies.html">Movies</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="shows.html">TV Shows</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="books.html">Books</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a style="color:#ffffff;" class="nav-link" href="{% url 'index.html' %}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a style="color:#ffffff;" class="nav-link" href="{% url 'movies.html' %}">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a style="color:#ffffff;" class="nav-link" href="{% url 'shows.html' %}">TV Shows</a>
+          </li>
+          <li class="nav-item">
+            <a style="color:#ffffff;" class="nav-link" href="{% url 'books.html' %}">Books</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <p class="spinnnn">SPIN THE WHEEL, FIND YOURSELF A MOVIE DEAL!!  <i class="fas fa-film"></i></p>
+
     <div>
     <div id="chart"></div>
-    
     </div>
 
     
-   <form>
+
+   <form action="." method="get">
+
+   <form style="background-color: #373737">
+
     <h3>SPIN THE WHEEL</h3>
     <div class="ops">
         <label class="container">Random spin
@@ -67,74 +79,71 @@
         <div class="options-container">
 
           <div class="option">
-            <input type="radio" class="radio" id="Action" name="genre" />
+            <input type="radio" class="radio" id="Action" name="genre_contains" />
             <label for="Action">Action</label>
+
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Adventure" name="genre" />
+            <input type="radio" class="radio" id="Adventure" name="genre_contains" />
             <label for="Adventure">Adventure</label>
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Animation" name="genre" />
-            <label for="Animation">Animation</label>
-          </div>
-
-          <div class="option">
-            <input type="radio" class="radio" id="Comedy" name="genre" />
+            <input type="radio" class="radio" id="Comedy" name="genre_contains" />
             <label for="Comedy">Comedy</label>
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Crime" name="genre" />
+            <input type="radio" class="radio" id="Crime" name="genre_contains" />
             <label for="Crime">Crime</label>
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Drama" name="genre" />
+            <input type="radio" class="radio" id="Drama" name="genre_contains" />
             <label for="Drama">Drama</label>
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Family" name="genre" />
+            <input type="radio" class="radio" id="Family" name="genre_contains" />
             <label for="Family">Family</label>
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Fantasy" name="genre" />
+            <input type="radio" class="radio" id="Fantasy" name="genre_contains" />
             <label for="Fantasy">Fantasy</label>
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Horror" name="genre" />
+            <input type="radio" class="radio" id="Horror" name="genre_contains" />
             <label for="Horror">Horror</label>
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Mystery" name="genre" />
+            <input type="radio" class="radio" id="Mystery" name="genre_contains" />
             <label for="Mystery">Mystery</label>
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Romance" name="genre" />
+            <input type="radio" class="radio" id="Romance" name="genre_contains" />
             <label for="Romance">Romance</label>
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Sci-Fi" name="genre" />
+            <input type="radio" class="radio" id="Sci-Fi" name="genre_contains" />
             <label for="Sci-Fi">Sci-Fi</label>
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Thriller" name="genre" />
+            <input type="radio" class="radio" id="Thriller" name="genre_contains" />
             <label for="Thriller">Thriller</label>
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Travel" name="genre" />
+            <input type="radio" class="radio" id="Travel" name="genre_contains" />
             <label for="Travel">Travel</label>
           </div>
+
         </div>
 
         <div class="selected">
@@ -144,8 +153,11 @@
         <div class="search-box">
           <input type="text" placeholder="Start Typing..." />
         </div>
+      
     </div>
     
+
+
     <h3>IMDB RATING</h3>
     <div class="select-box">
       <div class="options-container">
@@ -234,12 +246,13 @@
       </div>
     </div>
     </div>
+    
+
     </form>
     </div>
 
 
 
-    <!-- <input type="submit" value="Spin the wheel"> -->
     
     <div class="after-wheel-div">
         
@@ -356,6 +369,6 @@
     </div>
 </body>
   <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-  <script src="movies.js"></script>
-  <script src="main.js"></script>
+  <script src='{% static "movies.js" %}'></script>
+  <script src='{% static "main.js" %}'></script>
 </html>
