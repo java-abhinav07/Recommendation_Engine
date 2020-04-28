@@ -3,7 +3,7 @@ html, body {
     height: 100%;
     width: 100%;
     margin: 0px;
-  background-image: url("{% static './assets/back.jpg' %}");
+  background-image: url('./assets/back.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
