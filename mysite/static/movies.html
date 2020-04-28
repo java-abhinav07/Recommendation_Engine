@@ -20,7 +20,7 @@
   <nav class="navbar navbar-expand-md navbar-light sticky-top">
 
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="ohyes.png" width="70" height="40"></a>
+      <a class="navbar-brand" href="#"><img src='{% static "ohyes.png" %}' width="70" height="40"></a>
       <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive" >
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -48,7 +48,7 @@
     </div>
 
     
-   <form>
+   <form action="." method="get">
     <h3>SPIN THE WHEEL</h3>
     <div class="ops">
         <label class="container">Random spin
@@ -68,74 +68,71 @@
         <div class="options-container">
 
           <div class="option">
-            <input type="radio" class="radio" id="Action" name="genre" />
+            <input type="radio" class="radio" id="Action" name="genre_contains" />
             <label for="Action">Action</label>
+
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Adventure" name="genre" />
+            <input type="radio" class="radio" id="Adventure" name="genre_contains" />
             <label for="Adventure">Adventure</label>
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Animation" name="genre" />
-            <label for="Animation">Animation</label>
-          </div>
-
-          <div class="option">
-            <input type="radio" class="radio" id="Comedy" name="genre" />
+            <input type="radio" class="radio" id="Comedy" name="genre_contains" />
             <label for="Comedy">Comedy</label>
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Crime" name="genre" />
+            <input type="radio" class="radio" id="Crime" name="genre_contains" />
             <label for="Crime">Crime</label>
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Drama" name="genre" />
+            <input type="radio" class="radio" id="Drama" name="genre_contains" />
             <label for="Drama">Drama</label>
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Family" name="genre" />
+            <input type="radio" class="radio" id="Family" name="genre_contains" />
             <label for="Family">Family</label>
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Fantasy" name="genre" />
+            <input type="radio" class="radio" id="Fantasy" name="genre_contains" />
             <label for="Fantasy">Fantasy</label>
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Horror" name="genre" />
+            <input type="radio" class="radio" id="Horror" name="genre_contains" />
             <label for="Horror">Horror</label>
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Mystery" name="genre" />
+            <input type="radio" class="radio" id="Mystery" name="genre_contains" />
             <label for="Mystery">Mystery</label>
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Romance" name="genre" />
+            <input type="radio" class="radio" id="Romance" name="genre_contains" />
             <label for="Romance">Romance</label>
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Sci-Fi" name="genre" />
+            <input type="radio" class="radio" id="Sci-Fi" name="genre_contains" />
             <label for="Sci-Fi">Sci-Fi</label>
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Thriller" name="genre" />
+            <input type="radio" class="radio" id="Thriller" name="genre_contains" />
             <label for="Thriller">Thriller</label>
           </div>
 
           <div class="option">
-            <input type="radio" class="radio" id="Travel" name="genre" />
+            <input type="radio" class="radio" id="Travel" name="genre_contains" />
             <label for="Travel">Travel</label>
           </div>
+
         </div>
 
         <div class="selected">
@@ -145,8 +142,11 @@
         <div class="search-box">
           <input type="text" placeholder="Start Typing..." />
         </div>
+      <input type="submit" value = "Filter" />
     </div>
     
+
+
     <h3>IMDB RATING</h3>
     <div class="select-box">
       <div class="options-container">
@@ -235,12 +235,13 @@
       </div>
     </div>
     </div>
+    
+
     </form>
     </div>
 
 
 
-    <!-- <input type="submit" value="Spin the wheel"> -->
     
     <div class="after-wheel-div">
         

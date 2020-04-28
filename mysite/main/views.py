@@ -1,11 +1,13 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.http import HttpResponse, HttpResponseRedirect
 from .models import Movie, Book, TVShow
+import random
 #from .filters import MovieFilter, BookFilter, ShowFilter
 
 # Create your views here.
 
 def is_valid_queryparam(param):
+    print(param)
     return param != '' and param
 
 
@@ -41,13 +43,21 @@ def movies(request):
     if is_valid_queryparam(stars_query):
         movies = movies.filter(stars__icontains=stars_query)
     if is_valid_queryparam(rating_query):
-        movies = movies.filter(rating__icontains=rating_query)
+        movies = movies.filter(rating__gte=rating_query)
     if is_valid_queryparam(oscar_query):
         movies = movies.filter(oscar__icontains=oscar_query)
     if duration_query != '' and duration_query:
         movies = movies.filter(duration__icontains=duration_query)
 
+    print(len(movies))
 
+    movies_list = movies.values_list('id', flat=True)
+    random.shuffle(list(movies_list))
+
+
+    movies_random = random.sample(list(movies_list), min(len(movies_list), 10))
+    movies = movies.filter(id__in=movies_random)
+    for movie in movies: print(movie)
 
     return render(request, 'movies.html', {'movies':movies})
     
@@ -65,7 +75,9 @@ def books(request):
     if is_valid_queryparam(author_query):
         books = books.filter(author__icontains=author_query)
     if is_valid_queryparam(rating_query):
-        books = books.filter(rating__icontains=rating_query)
+        books = books.filter(rating__gte=rating_query)
+
+    books = random.sample(books, min(books.objects.count(), 10))
 
 
     return render(request, 'books.html', {'books': books})
@@ -92,7 +104,10 @@ def shows(request):
     if is_valid_queryparam(stars_query):
         movies = movies.filter(stars__icontains=stars_query)
     if is_valid_queryparam(rating_query):
-        movies = movies.filter(rating__icontains=rating_query)
+        movies = movies.filter(rating__gte=rating_query)
+
+
+    shows = random.sample(shows, min(shows.objects.count(), 10))
 
 
 
