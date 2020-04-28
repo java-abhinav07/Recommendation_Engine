@@ -23,7 +23,7 @@ def index(request):
 
 def movies(request):
     
-    movies = Movie.objects.all()
+    movies_query = Movie.objects.all()
 
     title_query = request.GET.get('title_contains') # query param
     year_query = request.GET.get('year_contains') 
@@ -36,39 +36,40 @@ def movies(request):
 
 
     if is_valid_queryparam(title_query):
-        movies = movies.filter(title__icontains=title_query)
+        movies_query = movies_query.filter(title__icontains=title_query)
     if is_valid_queryparam(year_query):
-        movies = movies.filter(year__icontains=year_query)
+        movies_query = movies_query.filter(year__icontains=year_query)
     if is_valid_queryparam(genre_query):
-        movies = movies.filter(genre__icontains=genre_query)
+        movies_query = movies_query.filter(genre__icontains=genre_query)
     if is_valid_queryparam(director_query):
-        movies = movies.filter(director__icontains=director_query)
+        movies_query = movies_query.filter(director__icontains=director_query)
     if is_valid_queryparam(stars_query):
-        movies = movies.filter(stars__icontains=stars_query)
+        movies_query = movies_query.filter(stars__icontains=stars_query)
     if is_valid_queryparam(rating_query):
-        movies = movies.filter(rating__gte=rating_query)
+        movies_query = movies_query.filter(rating__gte=rating_query)
     if is_valid_queryparam(oscar_query):
-        movies = movies.filter(oscar__icontains=oscar_query)
+        movies_query = movies_query.filter(oscar__icontains=oscar_query)
     if duration_query != '' and duration_query:
-        movies = movies.filter(duration__icontains=duration_query)
+        movies_query = movies_query.filter(duration__icontains=duration_query)
 
-    print(len(movies))
+    
 
-    movies_list = movies.values_list('id', flat=True)
+    movies_list = movies_query.values_list('id', flat=True)
     random.shuffle(list(movies_list))
 
 
     movies_random = random.sample(list(movies_list), min(len(movies_list), 10))
-    movies = movies.filter(id__in=movies_random)
-    for element in list(movies.values()):
-        
+    movies_query = movies_query.filter(id__in=movies_random)
 
+    movies = list(dict() for i in range(len(movies_query)))
+    print(len(movies))
+    
+    for i in range(len(list(movies_query.values()))):
+        movies[i]["label"] = list(movies_query.values())[i]['title']
+        movies[i]["value"] = 1 
 
-
-
-
-    movies = json.dumps(list(movies.values()), cls=DjangoJSONEncoder)
-    #for movie in movies: print(movie)
+    movies = json.dumps(movies, cls=DjangoJSONEncoder)
+    
     y = json.loads(movies)
     print(y)
 

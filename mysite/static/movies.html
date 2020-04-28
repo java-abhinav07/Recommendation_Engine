@@ -120,88 +120,68 @@
 
 <!--       <div class="contain">
         <h3>GENRE</h3>
-
         <div class="select-box">
           <div class="options-container">
-
             <div class="option">
               <input type="radio" class="radio" id="Action" name="genre_contains" />
               <label for="Action">Action</label>
-
             </div>
-
             <div class="option">
               <input type="radio" class="radio" id="Adventure" name="genre_contains" />
               <label for="Adventure">Adventure</label>
             </div>
-
             <div class="option">
               <input type="radio" class="radio" id="Comedy" name="genre_contains" />
               <label for="Comedy">Comedy</label>
             </div>
-
             <div class="option">
               <input type="radio" class="radio" id="Crime" name="genre_contains" />
               <label for="Crime">Crime</label>
             </div>
-
             <div class="option">
               <input type="radio" class="radio" id="Drama" name="genre_contains" />
               <label for="Drama">Drama</label>
             </div>
-
             <div class="option">
               <input type="radio" class="radio" id="Family" name="genre_contains" />
               <label for="Family">Family</label>
             </div>
-
             <div class="option">
               <input type="radio" class="radio" id="Fantasy" name="genre_contains" />
               <label for="Fantasy">Fantasy</label>
             </div>
-
             <div class="option">
               <input type="radio" class="radio" id="Horror" name="genre_contains" />
               <label for="Horror">Horror</label>
             </div>
-
             <div class="option">
               <input type="radio" class="radio" id="Mystery" name="genre_contains" />
               <label for="Mystery">Mystery</label>
             </div>
-
             <div class="option">
               <input type="radio" class="radio" id="Romance" name="genre_contains" />
               <label for="Romance">Romance</label>
             </div>
-
             <div class="option">
               <input type="radio" class="radio" id="Sci-Fi" name="genre_contains" />
               <label for="Sci-Fi">Sci-Fi</label>
             </div>
-
             <div class="option">
               <input type="radio" class="radio" id="Thriller" name="genre_contains" />
               <label for="Thriller">Thriller</label>
             </div>
-
             <div class="option" id="Travel">
               <input type="radio" class="radio" id="Travel" name="Travel" />
               <label for="Travel">Travel</label>
             </div>
-
           </div>
-
           <div class="selected">
             Select Genre category
           </div>
-
           <div class="search-box">
             <input type="text" placeholder="Start Typing..." />
           </div>
-
           <button type="submit" class="btn btn-primary" name="genre_contains" value="Filter" />Search
-
         </div> -->
 
 
@@ -209,86 +189,69 @@
         <!-- <h3>IMDB RATING</h3>
         <div class="select-box">
           <div class="options-container">
-
             <div class="option">
               <input type="radio" class="radio" id="9" name="rating" />
               <label for="9">>9</label>
             </div>
-
             <div class="option">
               <input type="radio" class="radio" id="8" name="rating" />
               <label for="8">>8</label>
             </div>
-
             <div class="option">
               <input type="radio" class="radio" id="7" name="rating" />
               <label for="7">>7</label>
             </div>
-
             <div class="option">
               <input type="radio" class="radio" id="6" name="rating" />
               <label for="6">>6</label>
             </div>
-
             <div class="option">
               <input type="radio" class="radio" id="5" name="rating" />
               <label for="5">>5</label>
             </div>
-
             <div class="option">
               <input type="radio" class="radio" id="any" name="rating" />
               <label for="any">Any Score</label>
             </div>
           </div>
-
           <div class="selected">
             Select Rating
           </div>
-
           <div class="search-box">
             <input type="text" placeholder="Start Typing..." />
           </div>
         </div>
-
         <h3>YEAR</h3>
         <div class="select-box">
           <div class="options-container">
-
             <div class="option">
               <input type="radio" class="radio" id="latest" name="year" />
               <label for="latest">Latest</label>
             </div>
-
             <div class="option">
               <input type="radio" class="radio" id="2010" name="year" />
               <label for="2010">2010s</label>
             </div>
-
             <div class="option">
               <input type="radio" class="radio" id="2000" name="year" />
               <label for="2000">2000s</label>
             </div>
-
             <div class="option">
               <input type="radio" class="radio" id="1990" name="year" />
               <label for="1990">1990s</label>
             </div>
-
             <div class="option">
               <input type="radio" class="radio" id="1980" name="year" />
               <label for="1980">1980s</label>
             </div>
-
             <div class="option">
               <input type="radio" class="radio" id="1970" name="year" />
               <label for="1970">1970s</label>
             </div>
           </div>
-
           <div class="selected">
             Select Release Year
           </div>
-
           <div class="search-box">
             <input type="text" placeholder="Start Typing..." />
           </div>
@@ -426,9 +389,11 @@
     </div>
 </body>
 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-<script type="text/javascript">
+<script>
 
   current = "{{ movies }}";
+
+  setTimeout(console.log(current), 1000)
 
   var padding = { top: 5, right: 50, bottom: 0, left: 0 },
     w = 500 - padding.left - padding.right,
@@ -441,7 +406,7 @@
     // color = d3.scale.category20();//category20c()
     color = d3.scale.ordinal().range(["#834747", "#995650", "#986562", "#AB716D", "#834747", "#995650", "#986562", "#AB716D", "#834747", "#995650", "#986562", "#AB716D"]);
 
-  var data = current.arr;
+  var data = current;
   var svg = d3.select('#chart')
     .append("svg")
     .data([data])
