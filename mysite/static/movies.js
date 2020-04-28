@@ -6,9 +6,7 @@ var padding = { top: 5, right: 50, bottom: 0, left: 0 },
     oldrotation = 0,
     picked = 100000,
     oldpick = [],
-    // color = d3.scale.category20();//category20c()
-    color = d3.scale.ordinal().range(["#834747","#995650","#986562","#AB716D","#834747","#995650","#986562","#AB716D","#834747","#995650","#986562","#AB716D"]);
-
+    color = d3.scale.category20();//category20c()
 var data = [
     { "label": "DELL LAPTOP", "value": 1 }, // padding
     { "label": "IMAC PRO", "value": 1}, //font-family
