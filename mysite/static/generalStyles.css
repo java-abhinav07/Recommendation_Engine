@@ -9,6 +9,8 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
 /*     background-color: #2C3335; */
+    font-family: 'CooperHewittBook';
+    font-size: 25px;
 }
 
 * {

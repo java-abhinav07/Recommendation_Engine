@@ -3,8 +3,8 @@ html, body {
     width: 100%;
     margin: 0px;
     background-color: #2C3335;
-    font-family: 'Baloo Bhaina 2', cursive;
-}
+/*    font-family: 'Baloo Bhaina 2', cursive;
+*/}
 
 .cardContainerKV {
     display: flex;
