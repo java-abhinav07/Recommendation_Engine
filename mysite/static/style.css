@@ -22,22 +22,21 @@ h4 {
 }
 /*
 .total{
-
-	margin: auto;
+  margin: auto;
 }*/
 
 form {
-	margin: auto;
-	/*width: 50%;*/
-	margin-right: 200px;
-	margin-top: 100px;
-	border: 3px black;
-  	padding: 5px;
-	width: 320px;
+  margin: auto;
+  /*width: 50%;*/
+  margin-right: 200px;
+  margin-top: 100px;
+  border: 3px black;
+    padding: 5px;
+  width: 320px;
   background: #eae3f0;
   padding-left: 10px;
   float: right;
-	/*overflow: auto;*/
+  /*overflow: auto;*/
 }
 
 select {
@@ -90,8 +89,8 @@ select::-ms-expand {
 }
 .ops{
 
-	display: flex;
-	flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 /* The container */
 .container {

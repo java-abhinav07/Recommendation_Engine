@@ -60,6 +60,13 @@ def movies(request):
 
     movies_random = random.sample(list(movies_list), min(len(movies_list), 10))
     movies = movies.filter(id__in=movies_random)
+    for element in list(movies.values()):
+        
+
+
+
+
+
     movies = json.dumps(list(movies.values()), cls=DjangoJSONEncoder)
     #for movie in movies: print(movie)
     y = json.loads(movies)
