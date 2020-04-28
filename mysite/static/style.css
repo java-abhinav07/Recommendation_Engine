@@ -10,8 +10,15 @@ body {
 
 h3 {
   margin: 10px;
+  position: relative;
+  color: #ffffff;
   margin-left: auto;
   margin-right: auto;
+}
+
+h4 {
+  margin: 10px;
+  color: #ffffff;
 }
 /*
 .total{
@@ -31,6 +38,49 @@ form {
   padding-left: 10px;
   float: right;
 	/*overflow: auto;*/
+}
+
+select {
+   background-color: #995650;
+   color: #ffffff;
+   -webkit-appearance:none;
+   -moz-appearance:none;
+   -ms-appearance:none;
+   appearance:none;
+   outline:0;
+   box-shadow:none;
+   border:0!important;
+   flex: 1;
+   padding: 0 2em;
+   cursor:pointer;
+   font-size: 1.5em;
+   font-family: 'Open Sans', sans-serif;
+}
+select::-ms-expand {
+   display: none;
+}
+
+.select {
+   background-color: #995650;
+   position: relative;
+   display: flex;
+   width: 5em;
+   height: 3.9em;
+   line-height: 2;
+   overflow: auto;
+   border-radius: .5em;
+}
+.select::after {
+   content: '\25BC';
+   font-size: 15px;
+   position: absolute;
+   color: #ffffff;
+   top: 7px;
+   right: 0;
+   padding: 0 1em;
+   cursor:pointer;
+   pointer-events:none;
+   transition:.25s all ease;
 }
 
 .spinnnn{

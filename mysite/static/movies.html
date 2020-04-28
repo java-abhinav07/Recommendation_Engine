@@ -14,12 +14,11 @@
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/cooper-hewitt" type="text/css" />
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/cooper-hewitt" type="text/css" />
   <link href='{% static "newstyle.css" %}' rel="stylesheet">
-
+  <link rel="stylesheet" href='{% static "style.css" %}' />
   <link rel="stylesheet" href='{% static "generalStyles.css" %}'>
   <link rel="stylesheet" href='{% static "newstyle.css" %}'>
   <link rel="stylesheet" href='{% static "cards.css" %}'>
   <link rel="stylesheet" href='{% static "movies.css" %}'>
-  <link rel="stylesheet" href='{% static "style.css" %}' />
 </head>
 
 <body>
@@ -58,23 +57,68 @@
 
 
 
-  <form action="." method="get">
+  <!-- <form action="." method="get"> -->
 
     <form style="background-color: #373737">
 
-      <h3>SPIN THE WHEEL</h3>
-      <div class="ops">
-        <label class="container">Random spin
-          <input type="radio">
-          <span class="checkmark"></span>
-        </label>
-        <label class="container">Filter spin
-          <input type="radio">
-          <span class="checkmark"></span>
-        </label>
-      </div>
+      <h3 style="color: #ffffff">SPIN THE WHEEL</h3>
+            <div class="contain">
+                <h4 style="color: #ffffff">GENRE</h4>
 
-      <div class="contain">
+                    <div class="select">
+                       <select name="genre" id="genre" style="color: #ffffff">
+                          <option selected disabled>Select Genre</option>
+                          <option value="">Select All</option>
+                          <option value="Action">Action</option>
+                          <option value="Adventure">Adventure</option>
+                          <option value="Comedy">Comedy</option>
+                          <option value="Crime">Crime</option>
+                          <option value="Drama">Drama</option>
+                          <option value="Family">Family</option>
+                          <option value="Fantasy">Fantasy</option>
+                          <option value="Horror">Horror</option>
+                          <option value="Mystery">Mystery</option>
+                          <option value="Romance">Romance</option>
+                          <option value="Sci-Fi">Sci-Fi</option>
+                          <option value="Thriller">Thriller</option>
+                          <option value="Travel">Travel</option>
+                       </select>
+                    </div>
+
+                <h4 style="color: #ffffff">RATING</h4>
+
+                    <div class="select">
+                       <select name="rating" id="rating" style="color: #ffffff">
+                          <option selected disabled>Select Rating</option>
+                          <option value="">Select All</option>
+                          <option value="9">>9</option>
+                          <option value="8">>8</option>
+                          <option value="7">>7</option>
+                          <option value="6">>6</option>
+                          <option value="5">>5</option>
+                       </select>
+                    </div>
+
+                <h4 style="color: #ffffff">YEAR</h4>
+
+                  <div class="select">
+                     <select name="year" id="year" style="color: #ffffff">
+                        <option selected disabled>Select Year</option>
+                        <option value="">Select All</option>
+                        <option value="2010">2010s</option>
+                        <option value="2000">2000s</option>
+                        <option value="1990">1990s</option>
+                        <option value="1980">1980s</option>
+                        <option value="1970">1970s</option>
+                        <option value="1960">1960s</option>
+                     </select>
+                  </div>
+            </div>
+    </form>
+
+
+
+<!--       <div class="contain">
         <h3>GENRE</h3>
 
         <div class="select-box">
@@ -158,11 +202,11 @@
 
           <button type="submit" class="btn btn-primary" name="genre_contains" value="Filter" />Search
 
-        </div>
+        </div> -->
 
 
 
-        <h3>IMDB RATING</h3>
+        <!-- <h3>IMDB RATING</h3>
         <div class="select-box">
           <div class="options-container">
 
@@ -248,11 +292,11 @@
           <div class="search-box">
             <input type="text" placeholder="Start Typing..." />
           </div>
-        </div>
-      </div>
-
+        </div> -->
+      <!-- </div> -->
+<!-- 
     </form>
-    </div>
+    </div> -->
 
 
     <div class="after-wheel-div">

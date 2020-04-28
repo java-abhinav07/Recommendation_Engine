@@ -1,7 +1,7 @@
 {% load static %}
 html, body {
-    height: 100%;
-    width: 100%;
+ /*   height: 100%;
+    width: 100%;*/
     margin: 0px;
   background-image: url('./assets/back.jpg');
   background-attachment: fixed;
@@ -59,7 +59,50 @@ button {
     top: 0;
 }
 
-select {
+/*select {
+   background-color: #995650;
+   color: #ffffff;
+   -webkit-appearance:none;
+   -moz-appearance:none;
+   -ms-appearance:none;
+   appearance:none;
+   outline:0;
+   box-shadow:none;
+   border:0!important;
+   flex: 1;
+   padding: 0 2em;
+   cursor:pointer;
+   font-size: 5em;
+   /*font-family: 'Open Sans', sans-serif;*/
+}
+select::-ms-expand {
+   display: none;
+}
+
+.select {
+   background-color: #995650;
+   position: relative;
+   display: flex;
+   width: 15em;
+   height: 3.9em;
+   line-height: 2;
+   overflow: auto;
+   border-radius: .5em;
+}
+.select::after {
+   content: '\25BC';
+   font-size: 15px;
+   position: absolute;
+   color: #ffffff;
+   top: 7px;
+   right: 0;
+   padding: 0 1em;
+   cursor:pointer;
+   pointer-events:none;
+   transition:.25s all ease;
+}
+
+/*select {
     margin: 5px;
     padding: 7px;
     font-size: 16px;
