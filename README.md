@@ -29,9 +29,9 @@ another one = https://codepen.io/ronywan/pen/zBZZdN?editors=1010
  
 * deploy
 
-  ----> Purchase a domain or use heruko's free service
+ ----> Purchase a domain or use heruko's free service
   
-  ----> scp to server
+ ----> scp to server
   
-  -----> collectstatic and DEGUG = FALSE
+ -----> collectstatic and DEGUG = FALSE
 
