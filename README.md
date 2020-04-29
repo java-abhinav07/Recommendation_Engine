@@ -11,7 +11,7 @@ another one = https://codepen.io/ronywan/pen/zBZZdN?editors=1010
 ### <ins>TODO</ins> ###
 * Replicate movies funcitonality for books, shows:
 
-  ---> For books, remove spin filtering, only have a search bar
+ ---> For books, remove spin filtering, only have a search bar
   
 * Fix **design** and **js**:
 
@@ -30,6 +30,8 @@ another one = https://codepen.io/ronywan/pen/zBZZdN?editors=1010
 * deploy
 
   ----> Purchase a domain or use heruko's free service
+  
   ----> scp to server
+  
   -----> collectstatic and DEGUG = FALSE
 
