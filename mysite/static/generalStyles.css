@@ -11,6 +11,7 @@ html, body {
 /*     background-color: #2C3335; */
     font-family: 'CooperHewittBook';
     font-size: 25px;
+    scroll-behavior: smooth !important;
 }
 
 * {

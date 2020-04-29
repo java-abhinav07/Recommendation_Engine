@@ -1,9 +1,9 @@
 .after-wheel-div {
     height: 0px;
     width: 100vw;
-    background-color: red;
+    background-color: rgb(27, 27, 27);
     transition: 2s;
-    color: black;
+    color: rgb(231, 231, 231);
     display: flex;
     justify-content: center;
     align-items: center;
