@@ -62,7 +62,7 @@ const afterSpinHandler = (pickedItem) => {
 
     afterWheelDiv.innerText = pickedItem;
 
-
+    document.getElementById("scrollTillMe").scrollIntoView();
     afterWheelDiv.classList.add("after-wheel-div-expand");
 }
 
