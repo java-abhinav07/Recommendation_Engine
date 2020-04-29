@@ -28,18 +28,19 @@ def index(request):
 def books(request):
     
     books_query = Book.objects.all()
+    #print(len(books_query))
 
     title_query = request.GET.get("title_contains") # query param
     author_query = request.GET.get("author_contains") 
     rating_query = request.GET.get("rating_contains")
-
+    """
 
     if is_valid_queryparam(title_query):
         books_query = books_query.filter(title__icontains=title_query)
     if is_valid_queryparam(author_query):
         books_query = books_query.filter(director__icontains=author_query)
     if is_valid_queryparam(rating_query):
-        books_query = books_query.filter(rating__gte=rating_query)
+        books_query = books_query.filter(rating__gte=rating_query)"""
 
     
 
@@ -63,6 +64,7 @@ def books(request):
     
 
     return render(request, "books.html", {"books":books})
+
 def shows(request):
     
     shows_query = TVShow.objects.all()
