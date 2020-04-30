@@ -110,6 +110,7 @@ def shows(request):
     shows_query = shows_query.filter(id__in=shows_random)
 
     shows = list(list([] for _ in range(2)) for _ in range(len(shows_query)))
+    shows_details = list(list() for _ in range(len(shows_query)))
     #print(shows)
     print(len(shows))
     
@@ -185,6 +186,6 @@ def movies(request):
     movies_details = json.dumps(movies_details)
     print(movies_details)
 
-    return render(request, "shows.html", {"shows":shows})
+    return render(request, "movies.html", {"movies":movies, "movies_details":movies_details})
 
 

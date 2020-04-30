@@ -440,10 +440,6 @@
 </body>
 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script>
-
-  //var current1 = '{{ movies }}';
-  //var current2 = current1.replace("'", '"')
-  //console.log(current2);
   var current = JSON.parse('{{ movies | escapejs }}');
   console.log(current);
 
