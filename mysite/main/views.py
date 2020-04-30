@@ -55,6 +55,7 @@ def books(request):
     books_query = books_query.filter(id__in=books_random)
 
     books = list(list([] for _ in range(2)) for _ in range(len(books_query)))
+    book_details = list(list() for _ in range(len(books_query)))
     #print(books)
     print(len(books))
     
@@ -64,9 +65,15 @@ def books(request):
         books[i] = mydict(books[i])
     books = json.dumps(books)
     print(books)
+
+    for i in range(len(list(books_query.values()))):
+        book_details[i] = list(books_query.values())[i]
+        book_details[i] = mydict(book_details[i])
+    book_details = json.dumps(book_details)
+    print(book_details)
     
 
-    return render(request, "books.html", {"books":books})
+    return render(request, "books.html", {"books":books, book_details:"book_details"})
 
 def shows(request):
     
@@ -112,9 +119,13 @@ def shows(request):
         shows[i] = mydict(shows[i])
     shows = json.dumps(shows)
     print(shows)
-    
+    for i in range(len(list(shows_query.values()))):
+        shows_details[i] = list(shows_query.values())[i]
+        shows_details[i] = mydict(shows_details[i])
+    shows_details = json.dumps(shows_details)
+    print(shows_details)
 
-    return render(request, "shows.html", {"shows":shows})
+    return render(request, "shows.html", {"shows":shows, "shows_details":shows_details})
 
 def movies(request):
     
@@ -166,8 +177,13 @@ def movies(request):
         movies[i] = mydict(movies[i])
     movies = json.dumps(movies)
     print(movies)
-    
 
-    return render(request, "movies.html", {"movies":movies})
+    for i in range(len(list(movies_query.values()))):
+        movies_details[i] = list(movies_query.values())[i]
+        movies_details[i] = mydict(movies_details[i])
+    movies_details = json.dumps(movies_details)
+    print(movies_details)
+
+    return render(request, "shows.html", {"shows":shows, "shows_details":movies_details})
 
 
