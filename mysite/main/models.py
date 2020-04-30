@@ -31,6 +31,7 @@ class Book(models.Model):
     author = models.CharField(max_length=255)
     rating = models.FloatField()
     img_src = models.TextField()
+    genre = models.CharField(max_length=100)
     #id_field = models.IntegerField(primary_key=True)
 
     def __str__(self):
