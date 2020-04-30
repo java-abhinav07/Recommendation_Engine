@@ -58,10 +58,10 @@ select {
     font-size: 16px;
     margin-left: 5px;
     margin-right: 5px;
-    background-color: transparent;
-    border: 2px solid#e50914;
+/*    background-color: transparent;
+*/    border: 2px solid#e50914;
     border-radius: 5px;
-    color: #e50914;
+    color: white;
 }
 
 select:focus {

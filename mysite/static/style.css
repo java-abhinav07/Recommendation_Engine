@@ -32,8 +32,8 @@ form {
   margin-top: 100px;
   border: 3px black;
     padding: 5px;
-  width: 320px;
-  background: #eae3f0;
+/*  width: 320px;
+*/  background: #eae3f0;
   padding-left: 10px;
   float: right;
   /*overflow: auto;*/
@@ -83,7 +83,7 @@ select::-ms-expand {
 }
 
 .spinnnn{
-  font-size: 40px;
+  font-size: 80px;
   text-align: center;
   color: white;
 }
