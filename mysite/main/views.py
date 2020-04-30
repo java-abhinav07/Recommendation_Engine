@@ -168,7 +168,7 @@ def movies(request):
     movies_query = movies_query.filter(id__in=movies_random)
 
     movies = list(list([] for _ in range(2)) for _ in range(len(movies_query)))
-    movies = list(list() for _ in range(len(movies_query)))
+    movies_details = list(list() for _ in range(len(movies_query)))
     #print(movies)
     print(len(movies))
     
@@ -178,13 +178,13 @@ def movies(request):
         movies[i] = mydict(movies[i])
     movies = json.dumps(movies)
     print(movies)
-
+    
     for i in range(len(list(movies_query.values()))):
         movies_details[i] = list(movies_query.values())[i]
         movies_details[i] = mydict(movies_details[i])
     movies_details = json.dumps(movies_details)
     print(movies_details)
 
-    return render(request, "shows.html", {"shows":shows, "shows_details":movies_details})
+    return render(request, "shows.html", {"shows":shows})
 
 
