@@ -61,73 +61,70 @@
     <div id="chart"></div>
   </div>
 
+  <form style="background-color: #373737" action="." method="get">
 
+    <h3 style="color: #ffffff">SPIN THE WHEEL</h3>
+    <div class="contain">
+      <h4 style="color: #ffffff">GENRE</h4>
 
-  
-        <form style="background-color: #373737" action="." method="get">
+      <div class="select">
+        <select name="genre_contains" id="genre" style="color: #ffffff">
+          <option selected disabled>Select Genre</option>
+          <option value="">Select All</option>
+          <option value="Action">Action</option>
+          <option value="Adventure">Adventure</option>
+          <option value="Comedy">Comedy</option>
+          <option value="Crime">Crime</option>
+          <option value="Drama">Drama</option>
+          <option value="Family">Family</option>
+          <option value="Fantasy">Fantasy</option>
+          <option value="Horror">Horror</option>
+          <option value="Mystery">Mystery</option>
+          <option value="Romance">Romance</option>
+          <option value="Sci-Fi">Sci-Fi</option>
+          <option value="Thriller">Thriller</option>
+          <option value="Travel">Travel</option>
+        </select>
+      </div>
 
-      <h3 style="color: #ffffff">SPIN THE WHEEL</h3>
-            <div class="contain">
-                <h4 style="color: #ffffff">GENRE</h4>
+      <h4 style="color: #ffffff">RATING</h4>
 
-                    <div class="select">
-                       <select name="genre_contains" id="genre" style="color: #ffffff">
-                          <option selected disabled>Select Genre</option>
-                          <option value="">Select All</option>
-                          <option value="Action">Action</option>
-                          <option value="Adventure">Adventure</option>
-                          <option value="Comedy">Comedy</option>
-                          <option value="Crime">Crime</option>
-                          <option value="Drama">Drama</option>
-                          <option value="Family">Family</option>
-                          <option value="Fantasy">Fantasy</option>
-                          <option value="Horror">Horror</option>
-                          <option value="Mystery">Mystery</option>
-                          <option value="Romance">Romance</option>
-                          <option value="Sci-Fi">Sci-Fi</option>
-                          <option value="Thriller">Thriller</option>
-                          <option value="Travel">Travel</option>
-                       </select>
-                    </div>
+      <div class="select">
+        <select name="rating_contains" id="rating" style="color: #ffffff">
+          <option selected disabled>Select Rating</option>
+          <option value="">Select All</option>
+          <option value="9">>9</option>
+          <option value="8">>8</option>
+          <option value="7">>7</option>
+          <option value="6">>6</option>
+          <option value="5">>5</option>
+        </select>
+      </div>
 
-                <h4 style="color: #ffffff">RATING</h4>
+      <h4 style="color: #ffffff">YEAR</h4>
 
-                    <div class="select">
-                       <select name="rating_contains" id="rating" style="color: #ffffff">
-                          <option selected disabled>Select Rating</option>
-                          <option value="">Select All</option>
-                          <option value="9">>9</option>
-                          <option value="8">>8</option>
-                          <option value="7">>7</option>
-                          <option value="6">>6</option>
-                          <option value="5">>5</option>
-                       </select>
-                    </div>
+      <div class="select">
+        <select name="year_contains" id="year" style="color: #ffffff">
+          <option selected disabled>Select Year</option>
+          <option value="">Select All</option>
+          <option value="2010">after 2010</option>
+          <option value="2000">after 2000</option>
+          <option value="1990">after 1990</option>
+          <option value="1980">after 1980</option>
+          <option value="1970">after 1970</option>
+          <option value="1960">after 1960</option>
+          <option value="1960">after 1950</option>
+          <option value="1960">after 1940</option>
+        </select>
+      </div>
 
-                <h4 style="color: #ffffff">YEAR</h4>
-
-                  <div class="select">
-                     <select name="year_contains" id="year" style="color: #ffffff">
-                        <option selected disabled>Select Year</option>
-                        <option value="">Select All</option>
-                        <option value="2010">after 2010</option>
-                        <option value="2000">after 2000</option>
-                        <option value="1990">after 1990</option>
-                        <option value="1980">after 1980</option>
-                        <option value="1970">after 1970</option>
-                        <option value="1960">after 1960</option>
-                        <option value="1960">after 1950</option>
-                        <option value="1960">after 1940</option>
-                     </select>
-                  </div>
-                  
-                  <input type = "submit">
-            </div>
-    </form>
+      <input type="submit">
+    </div>
+  </form>
 
 
 
-<!--       <div class="contain">
+  <!--       <div class="contain">
         <h3>GENRE</h3>
         <div class="select-box">
           <div class="options-container">
@@ -195,7 +192,7 @@
 
 
 
-        <!-- <h3>IMDB RATING</h3>
+  <!-- <h3>IMDB RATING</h3>
         <div class="select-box">
           <div class="options-container">
             <div class="option">
@@ -265,181 +262,181 @@
             <input type="text" placeholder="Start Typing..." />
           </div>
         </div> -->
-      <!-- </div> -->
-<!-- 
+  <!-- </div> -->
+  <!-- 
     </form>
     </div> -->
 
 
-    <div class="after-wheel-div" id="scrollTillMe">
+  <div class="after-wheel-div" id="scrollTillMe">
+
+  </div>
+
+
+  <div class="filterContainerKV">
+    <div class="filterHeadingKV">
+      Filters
+    </div>
+    <select>
+      <option value="0">Select Genre:</option>
+      <option value="1">Audi</option>
+      <option value="2">BMW</option>
+      <option value="3">Citroen</option>
+      <option value="4">Ford</option>
+      <option value="5">Honda</option>
+      <option value="6">Jaguar</option>
+      <option value="7">Land Rover</option>
+      <option value="8">Mercedes</option>
+      <option value="9">Mini</option>
+      <option value="10">Nissan</option>
+      <option value="11">Toyota</option>
+      <option value="12">Volvo</option>
+    </select>
+    <select>
+      <option value="0">Select Rating:</option>
+      <option value="1">Audi</option>
+      <option value="2">BMW</option>
+      <option value="3">Citroen</option>
+      <option value="4">Ford</option>
+      <option value="5">Honda</option>
+      <option value="6">Jaguar</option>
+      <option value="7">Land Rover</option>
+      <option value="8">Mercedes</option>
+      <option value="9">Mini</option>
+      <option value="10">Nissan</option>
+      <option value="11">Toyota</option>
+      <option value="12">Volvo</option>
+    </select>
+    <select>
+      <option value="0">Select Year:</option>
+      <option value="1">Audi</option>
+      <option value="2">BMW</option>
+      <option value="3">Citroen</option>
+      <option value="4">Ford</option>
+      <option value="5">Honda</option>
+      <option value="6">Jaguar</option>
+      <option value="7">Land Rover</option>
+      <option value="8">Mercedes</option>
+      <option value="9">Mini</option>
+      <option value="10">Nissan</option>
+      <option value="11">Toyota</option>
+      <option value="12">Volvo</option>
+    </select>
+    <select>
+      <option value="0">Select Duration:</option>
+      <option value="1">Audi</option>
+      <option value="2">BMW</option>
+      <option value="3">Citroen</option>
+      <option value="4">Ford</option>
+      <option value="5">Honda</option>
+      <option value="6">Jaguar</option>
+      <option value="7">Land Rover</option>
+      <option value="8">Mercedes</option>
+      <option value="9">Mini</option>
+      <option value="10">Nissan</option>
+      <option value="11">Toyota</option>
+      <option value="12">Volvo</option>
+    </select>
+    <select>
+      <option value="0">Select Oscar:</option>
+      <option value="1">Audi</option>
+      <option value="2">BMW</option>
+      <option value="3">Citroen</option>
+      <option value="4">Ford</option>
+      <option value="5">Honda</option>
+      <option value="6">Jaguar</option>
+      <option value="7">Land Rover</option>
+      <option value="8">Mercedes</option>
+      <option value="9">Mini</option>
+      <option value="10">Nissan</option>
+      <option value="11">Toyota</option>
+      <option value="12">Volvo</option>
+    </select>
+  </div>
+
+
+  <hr class="dividerLineKV">
+  <div class="cardContainerKV">
+    <div class="cardKV">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
+        width="100%" class="cardImgKV">
 
     </div>
+    <div class="cardKV">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
+        width="100%" class="cardImgKV">
 
-
-    <div class="filterContainerKV">
-      <div class="filterHeadingKV">
-        Filters
-      </div>
-      <select>
-        <option value="0">Select Genre:</option>
-        <option value="1">Audi</option>
-        <option value="2">BMW</option>
-        <option value="3">Citroen</option>
-        <option value="4">Ford</option>
-        <option value="5">Honda</option>
-        <option value="6">Jaguar</option>
-        <option value="7">Land Rover</option>
-        <option value="8">Mercedes</option>
-        <option value="9">Mini</option>
-        <option value="10">Nissan</option>
-        <option value="11">Toyota</option>
-        <option value="12">Volvo</option>
-      </select>
-       <select>
-        <option value="0">Select Rating:</option>
-        <option value="1">Audi</option>
-        <option value="2">BMW</option>
-        <option value="3">Citroen</option>
-        <option value="4">Ford</option>
-        <option value="5">Honda</option>
-        <option value="6">Jaguar</option>
-        <option value="7">Land Rover</option>
-        <option value="8">Mercedes</option>
-        <option value="9">Mini</option>
-        <option value="10">Nissan</option>
-        <option value="11">Toyota</option>
-        <option value="12">Volvo</option>
-      </select>
-        <select>
-        <option value="0">Select Year:</option>
-        <option value="1">Audi</option>
-        <option value="2">BMW</option>
-        <option value="3">Citroen</option>
-        <option value="4">Ford</option>
-        <option value="5">Honda</option>
-        <option value="6">Jaguar</option>
-        <option value="7">Land Rover</option>
-        <option value="8">Mercedes</option>
-        <option value="9">Mini</option>
-        <option value="10">Nissan</option>
-        <option value="11">Toyota</option>
-        <option value="12">Volvo</option>
-      </select>
-            <select>
-        <option value="0">Select Duration:</option>
-        <option value="1">Audi</option>
-        <option value="2">BMW</option>
-        <option value="3">Citroen</option>
-        <option value="4">Ford</option>
-        <option value="5">Honda</option>
-        <option value="6">Jaguar</option>
-        <option value="7">Land Rover</option>
-        <option value="8">Mercedes</option>
-        <option value="9">Mini</option>
-        <option value="10">Nissan</option>
-        <option value="11">Toyota</option>
-        <option value="12">Volvo</option>
-      </select>
-            <select>
-        <option value="0">Select Oscar:</option>
-        <option value="1">Audi</option>
-        <option value="2">BMW</option>
-        <option value="3">Citroen</option>
-        <option value="4">Ford</option>
-        <option value="5">Honda</option>
-        <option value="6">Jaguar</option>
-        <option value="7">Land Rover</option>
-        <option value="8">Mercedes</option>
-        <option value="9">Mini</option>
-        <option value="10">Nissan</option>
-        <option value="11">Toyota</option>
-        <option value="12">Volvo</option>
-      </select>
     </div>
+    <div class="cardKV">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
+        width="100%" class="cardImgKV">
 
-
-    <hr class="dividerLineKV">
-    <div class="cardContainerKV">
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-
-      </div>
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-
-      </div>
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-
-      </div>
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-
-      </div>
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-
-      </div>
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-
-      </div>
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-
-      </div>
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-
-      </div>
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-
-      </div>
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-
-      </div>
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-
-      </div>
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-      </div>
     </div>
+    <div class="cardKV">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
+        width="100%" class="cardImgKV">
 
-    <div class="loadingCardsKV">
-      <div class="spinner">
-        <div class="bounce1"></div>
-        <div class="bounce2"></div>
-        <div class="bounce3"></div>
-      </div>
     </div>
+    <div class="cardKV">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
+        width="100%" class="cardImgKV">
+
+    </div>
+    <div class="cardKV">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
+        width="100%" class="cardImgKV">
+
+    </div>
+    <div class="cardKV">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
+        width="100%" class="cardImgKV">
+
+    </div>
+    <div class="cardKV">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
+        width="100%" class="cardImgKV">
+
+    </div>
+    <div class="cardKV">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
+        width="100%" class="cardImgKV">
+
+    </div>
+    <div class="cardKV">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
+        width="100%" class="cardImgKV">
+
+    </div>
+    <div class="cardKV">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
+        width="100%" class="cardImgKV">
+
+    </div>
+    <div class="cardKV">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
+        width="100%" class="cardImgKV">
+    </div>
+  </div>
+
+  <div class="loadingCardsKV">
+    <div class="spinner">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+    </div>
+  </div>
 </body>
 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script>
@@ -447,9 +444,9 @@
   //var current1 = '{{ movies }}';
   //var current2 = current1.replace("'", '"')
   //console.log(current2);
-  var current =JSON.parse('{{ movies | escapejs }}');
+  var current = JSON.parse('{{ movies | escapejs }}');
   console.log(current);
-  
+
 
   var padding = { top: 5, right: 50, bottom: 0, left: 0 },
     w = 500 - padding.left - padding.right,
