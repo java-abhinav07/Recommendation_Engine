@@ -498,8 +498,15 @@
 
   const afterSpinHandler = (pickedItem) => {
     let afterWheelDiv = document.getElementsByClassName("after-wheel-div")[0];
+    document.getElementById("scrollTillMe").scrollIntoView();
 
-    afterWheelDiv.innerText = pickedItem;
+
+    // note that movie name is in pickedItem
+    let content = `
+    <div>Paste Here </div>
+    `
+
+    afterWheelDiv.innerHTML = content;
 
 
     afterWheelDiv.classList.add("after-wheel-div-expand");
