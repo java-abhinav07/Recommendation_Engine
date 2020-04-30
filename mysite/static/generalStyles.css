@@ -84,7 +84,7 @@ select::-ms-expand {
    background-color: #995650;
    position: relative;
    display: flex;
-   width: 20em;
+   width: 24em;
    height: 3.9em;
    line-height: 2;
    overflow: auto;
