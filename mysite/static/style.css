@@ -68,6 +68,7 @@ select::-ms-expand {
    line-height: 2;
    overflow: auto;
    border-radius: .5em;
+   margin: 25px;
 }
 .select::after {
    content: '\25BC';
