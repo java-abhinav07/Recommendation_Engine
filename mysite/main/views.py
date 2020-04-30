@@ -32,15 +32,18 @@ def books(request):
 
     title_query = request.GET.get("title_contains") # query param
     author_query = request.GET.get("author_contains") 
-    rating_query = request.GET.get("rating_contains")
-    """
+    rating_query = request.GET.get("rating_gte")
+    genre_query = request.GET.get("genre_contains")
+    
 
     if is_valid_queryparam(title_query):
         books_query = books_query.filter(title__icontains=title_query)
     if is_valid_queryparam(author_query):
-        books_query = books_query.filter(director__icontains=author_query)
+        books_query = books_query.filter(author__icontains=author_query)
     if is_valid_queryparam(rating_query):
-        books_query = books_query.filter(rating__gte=rating_query)"""
+        books_query = books_query.filter(rating__gte=rating_query)
+    if is_valid_queryparam(genre_query):
+        books_query = books_query.filter(genre__icontains=genre_query)
 
     
 
