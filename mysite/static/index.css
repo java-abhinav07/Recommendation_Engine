@@ -59,8 +59,8 @@ body {
     flex-grow: 1;
     flex-direction: row;
     -webkit-flex-direction: row;
-    -webkit-flex-wrap: wrap;
-    -webkit-justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin-top:200px;
     margin-bottom:300px;
 
