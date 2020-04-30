@@ -168,6 +168,7 @@ def movies(request):
     movies_query = movies_query.filter(id__in=movies_random)
 
     movies = list(list([] for _ in range(2)) for _ in range(len(movies_query)))
+    movies = list(list() for _ in range(len(movies_query)))
     #print(movies)
     print(len(movies))
     
