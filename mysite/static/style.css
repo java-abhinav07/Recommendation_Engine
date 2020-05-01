@@ -35,11 +35,12 @@ h4 {
 */    padding: 7px;
     font-size: 16px;
     color: #fff;
-    font-family: Nunito;
-    padding: 0;
+/*    font-family: Nunito;
+*/    padding: 0;
     margin: 0;
     border: 0;
     background-color: transparent;
+    width: 100%;
 }
 
 #coover {
@@ -110,8 +111,8 @@ input[type="text"]::placeholder
   margin: auto;
   text-align: center;
   /*width: 50%;*/
-  margin-right: 300px;
-  margin-top: 100px;
+  margin-right: 220px;
+  margin-top: 120px;
   border: 3px black;
   padding: 5px;
   width: 380px;
