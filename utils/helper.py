@@ -1,4 +1,5 @@
 import csv
+"""
 with open('/home/abhinavjava/Projects/Website_Project/Recommendation_Engine/Dataset/book_data.csv') as inp, open('books_data.csv', 'w') as outp:
     csvwriter = csv.writer(outp)
     reader = csv.reader(inp)
@@ -16,7 +17,7 @@ with open('/home/abhinavjava/Projects/Website_Project/Recommendation_Engine/Data
 
         csvwriter.writerow(row)
 
-with open('/home/abhinavjava/Projects/Website_Project/Recommendation_Engine/Dataset/movie_data.csv') as inp, open('movies_data.csv', 'w') as outp:
+with open('movie_data.csv') as inp, open('movies_data.csv', 'w') as outp:
     csvwriter = csv.writer(outp)
     reader = csv.reader(inp)
     counter = 1
@@ -32,8 +33,9 @@ with open('/home/abhinavjava/Projects/Website_Project/Recommendation_Engine/Data
             row = row1
 
         csvwriter.writerow(row)
+"""
 
-with open('/home/abhinavjava/Projects/Website_Project/Recommendation_Engine/Dataset/tv_data.csv') as inp, open('tvs_data.csv', 'w') as outp:
+with open('tv_data.csv') as inp, open('tvs_data.csv', 'w') as outp:
     csvwriter = csv.writer(outp)
     reader = csv.reader(inp)
     counter = 1

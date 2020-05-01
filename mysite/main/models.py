@@ -15,6 +15,7 @@ class Movie(models.Model):
     rating = models.FloatField()
     oscar = models.CharField(max_length=10)
     duration = models.IntegerField()
+    img_src = models.TextField()
     #id_field = models.IntegerField(primary_key=True)
 
 
@@ -49,6 +50,7 @@ class TVShow(models.Model):
     stars = models.TextField()
     rating = models.FloatField()
     duration = models.IntegerField()
+    img_src = models.TextField()
     #id_field = models.IntegerField(primary_key=True)
 
 

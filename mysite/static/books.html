@@ -148,79 +148,17 @@
 
     <hr class="dividerLineKV">
     <div class="cardContainerKV">
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
+      {% for data in book_details %}
+    <div class="cardKV">
+      
+      <img
+        src="{{ data.img_src }}"
+        width="100%" class="cardImgKV">
+      
 
-      </div>
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-
-      </div>
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-
-      </div>
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-
-      </div>
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-
-      </div>
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-
-      </div>
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-
-      </div>
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-
-      </div>
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-
-      </div>
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-
-      </div>
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-
-      </div>
-      <div class="cardKV">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmE2vwxy5KaCu7cRuYYdgNdQKddux5OYgGwsPo0kqP_xzLnsDV"
-          width="100%" class="cardImgKV">
-      </div>
     </div>
-
+    {% endfor %}
+    
     <div class="loadingCardsKV">
       <div class="spinner">
         <div class="bounce1"></div>

@@ -69,11 +69,11 @@ def books(request):
     for i in range(len(list(books_query.values()))):
         book_details[i] = list(books_query.values())[i]
         book_details[i] = mydict(book_details[i])
-    book_details = json.dumps(book_details)
+    
     print(book_details)
     
 
-    return render(request, "books.html", {"books":books, book_details:"book_details"})
+    return render(request, "books.html", {"books":books, "book_details":book_details})
 
 def shows(request):
     
@@ -181,10 +181,24 @@ def movies(request):
     print(movies)
     
     for i in range(len(list(movies_query.values()))):
-        movies_details[i] = list(movies_query.values())[i]
-        movies_details[i] = mydict(movies_details[i])
-    movies_details = json.dumps(movies_details)
-    print(movies_details)
+        l = {"id":0, "genre":[], "stars":[], "director":[], "img_src":0, "title":0, "year":0, "rating":3, "oscar":False, "duration":0}
+        element = list(movies_query.values())[i]
+        element["img_src"] = element["img_src"][1:-1]
+        l["id"] = (element["id"])
+        l["genre"] = (element["genre"])
+        l["stars"] =(element["stars"])
+        l["director"] =(element["director"])
+        l["img_src"] =(element["img_src"])
+        l["title"] =(element["title"])
+        l["year"] =(element["year"])
+        l["rating"] =(element["rating"])
+        l["oscar"] =(element["oscar"])
+        l["duration"] =(element["duration"])
+
+        movies_details[i] = l
+        #movies_details[i] = mydict(movies_details[i])
+    
+    #print(movies_details[0]["img_src"])
 
     return render(request, "movies.html", {"movies":movies, "movies_details":movies_details})
 
