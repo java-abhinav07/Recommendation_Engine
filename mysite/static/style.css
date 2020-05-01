@@ -28,7 +28,9 @@ h4 {
 .total{
   margin: auto;
 }*/
-
+/*.mm{
+  background-image: url('./assets/moviex.gif');
+}*/
 
 .nna{
 /*   background-color: #2C3335;
@@ -507,6 +509,32 @@ hr{
   }
 }
 
+@media (max-width: 1075px)
+{
+  #chart {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    top: 50px;
+    left: 50px;
+    float: left;
+}
+.formm {
+  margin: auto;
+  text-align: center;
+  /*width: 50%;*/
+  margin-right: 50px;
+  margin-top: 120px;
+  border: 3px black;
+  padding: 5px;
+  width: 380px;
+  background: #eae3f0;
+  padding-left: 10px;
+  float: right;
+  /*overflow: auto;*/
+  justify-content: center;
+}
+}
 
 
 
