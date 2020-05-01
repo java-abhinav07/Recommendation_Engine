@@ -165,15 +165,15 @@ def movies(request):
     random.shuffle(list(movies_list))
 
 
-    movies_random = random.sample(list(movies_list), min(len(movies_list), 10))
+    movies_random = random.sample(list(movies_list), min(len(movies_list), 27))
     movies_query = movies_query.filter(id__in=movies_random)
 
-    movies = list(list([] for _ in range(2)) for _ in range(len(movies_query)))
+    movies = list(list([] for _ in range(2)) for _ in range(len(movies_query)-15))
     movies_details = list(list() for _ in range(len(movies_query)))
     #print(movies)
     print(len(movies))
     
-    for i in range(len(list(movies_query.values()))):
+    for i in range(len(list(movies_query.values()))-15):
         movies[i][0] = "label", list(movies_query.values())[i]["title"]
         movies[i][1] = "value", 1
         movies[i] = mydict(movies[i])
