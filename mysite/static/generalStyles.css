@@ -92,18 +92,6 @@ select::-ms-expand {
       margin: 25px;
 
 }
-.select::after {
-   content: '\25BC';
-   font-size: 15px;
-   position: absolute;
-   color: #ffffff;
-   top: 7px;
-   right: 0;
-   padding: 0 1em;
-   cursor:pointer;
-   pointer-events:none;
-   transition:.25s all ease;
-}
 
 /*select {
     margin: 5px;
