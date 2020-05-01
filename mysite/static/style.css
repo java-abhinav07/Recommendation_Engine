@@ -132,6 +132,9 @@ input[type="text"]::placeholder
 select {
    background-color: #995650;
    color: #ffffff;
+/*   display: block;
+   margin-left: auto;
+   margin-right: auto;*/
    -webkit-appearance:none;
    -moz-appearance:none;
    -ms-appearance:none;
@@ -154,8 +157,8 @@ select::-ms-expand {
    background-color: #995650;
    position: relative;
    display: block;
-   margin-left: auto;
-   margin-right: auto;
+   margin-left: auto!important;
+   margin-right: auto!important;
    text-align: left;
    width: 24em;
    height: 3.9em;
