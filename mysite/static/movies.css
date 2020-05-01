@@ -23,7 +23,11 @@
 }
 
 .filterHeadingKV {
-    margin-right: 77%;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 40px;
 }
 .col-text {
   height:22em;

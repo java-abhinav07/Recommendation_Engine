@@ -80,7 +80,7 @@ select option {
 
 .filterHeadingKV {
     font-size: 24px;
-    color: #e50914;
+    color:white;
 }
 
 .spinner {
@@ -92,7 +92,7 @@ select option {
 .spinner > div {
     width: 18px;
     height: 18px;
-    background-color: #e50914;
+    background-color: #995650;
     border-radius: 100%;
     display: inline-block;
     -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
