@@ -67,8 +67,13 @@ h4 {
 */    border: 2px solid#e50914;
     border-radius: 5px;
     color: white;
-/*   font-size: 1.5em;
-*//*   font-family: 'Open Sans', sans-serif;
+    float: left;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+/*    margin-top: 700px;
 */}
 /*#coover
 {
