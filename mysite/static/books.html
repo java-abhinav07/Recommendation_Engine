@@ -19,14 +19,23 @@
   <link rel="stylesheet" href='{% static "newstyle.css" %}'>
   <link rel="stylesheet" href='{% static "cards.css" %}'>
   <link rel="stylesheet" href='{% static "movies.css" %}'>
+  <style>
+    .navbar-custom { 
+     background-color: #373737; 
+     color: #ffffff;
+     }
+
+     .navbar-nav >li{
+      padding-left: 15px;
+      padding-right: 15px;
+     }
+  </style>
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-md navbar-light sticky-top">
-
+  <nav class="navbar navbar-expand-lg py-0 navbar-dark navbar-custom">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src='{% static "ohyes.png" %}' width="70" height="40"></a>
+      <!-- <a class="navbar-brand" href="#"><img src='{% static "ohyes.png" %}' width="70" height="40"></a> -->
       <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -54,17 +63,13 @@
   <div>
     <div id="chart"></div>
   </div>
-
-  
-        <form style="background-color: #373737" action="." method="get">
-
-      <h3 style="color: #ffffff">SPIN THE WHEEL</h3>
+      <form class="formm" style="background-color: #373737" action="." method="get">
+      <h3 style="color: #ffffff">CHOOSE A BOOK</h3>
             <div class="contain">
-              <h4 style="color: #ffffff">GENRE</h4>
 
                   <div class="select">
                      <select name="rating_contains" id="rating" style="color: #ffffff">
-                        <option selected disabled>Select Rating</option>
+                        <option selected disabled>Select Genre</option>
                         <option value="">Select All</option>
                         <option value="Children">Kids</option>
                         <option value="Horror">Horror</option>
@@ -82,9 +87,6 @@
                         <option value="Little known authors">Rare</option>
                      </select>
                   </div>
-
-
-                <h4 style="color: #ffffff">RATING</h4>
 
                     <div class="select">
                        <select name="rating_contains" id="rating" style="color: #ffffff">
