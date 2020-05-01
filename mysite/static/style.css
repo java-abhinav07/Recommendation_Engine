@@ -4,13 +4,15 @@
 }
 
 body {
-    font-family: 'CooperHewittBook';
+    font-family: 'PT Sans', Regular 400;
     font-size: 25px;  /*background: #1A1A1D;*/
 }
 
 h3 {
   margin: 10px;
   position: relative;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 50px;
   color: #ffffff;
   margin-left: auto;
   margin-right: auto;
@@ -18,6 +20,7 @@ h3 {
 
 h4 {
   margin: 10px;
+  font-family: 'Bebas Neue', cursive;
   position: relative;
   color: #ffffff;
   margin-left: auto;
@@ -122,6 +125,7 @@ input[type="text"]::placeholder
   padding-left: 10px;
   float: right;
   /*overflow: auto;*/
+  border-radius: .4em;
   justify-content: center;
 }
 
@@ -139,7 +143,8 @@ select {
    padding: 0 2em;
    cursor:pointer;
    font-size: 1.5em;
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'PT Sans',Regular 400;
+   /*font-family: 'Open Sans', sans-serif;*/
 }
 select::-ms-expand {
    display: none;
@@ -148,21 +153,28 @@ select::-ms-expand {
 .select {
    background-color: #995650;
    position: relative;
-   display: flex;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
    width: 24em;
    height: 3.9em;
    line-height: 2;
    overflow: auto;
-   border-radius: .5em;
-   margin: 25px;
+   border-radius: .4em;
+   /*margin: 25px;*/
+}
+.fa-caret-down {
+   font-size: 30px;
+   position: absolute;
+   color: #733f3f;
+   top: 5.5px;
+   right: 24px;
+   cursor:pointer;
 }
 .select::after {
-   content: '\25BC';
-   font-size: 15px;
-   position: absolute;
-   color: #ffffff;
-   top: 7px;
-   right: 0;
+   /*top: 55px;*/
+   /*right: 0;*/
    padding: 0 1em;
    cursor:pointer;
    pointer-events:none;
