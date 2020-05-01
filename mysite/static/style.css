@@ -29,8 +29,9 @@ h4 {
   margin: auto;
 }*/
 
-form {
+.formm {
   margin: auto;
+  text-align: center;
   /*width: 50%;*/
   margin-right: 200px;
   margin-top: 100px;
