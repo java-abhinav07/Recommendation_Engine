@@ -7,12 +7,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 800px;
-    margin-bottom: 300px;
+ 
 }
 
 .after-wheel-div-expand {
     height: 100px;
+    margin-top: 800px;
+    margin-bottom: 300px;
 }
 
 .filterContainerKV {
@@ -25,7 +26,7 @@
     margin-right: 77%;
 }
 .col-text {
-  height:20em;
+  height:22em;
 }
 .grid-flex {
   display: -webkit-box;
@@ -59,6 +60,8 @@
   align-items: center;
   justify-content: center;
   color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .Aligner-item {
   width: 60%;
@@ -69,7 +72,8 @@
 }
 .position{
   margin-left: 50px;
-  margin-top: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 hr{
   color: #C3073F;

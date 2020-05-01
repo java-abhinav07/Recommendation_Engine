@@ -111,7 +111,7 @@ input[type="text"]::placeholder
   margin: auto;
   text-align: center;
   /*width: 50%;*/
-  margin-right: 220px;
+  margin-right: 290px;
   margin-top: 120px;
   border: 3px black;
   padding: 5px;
@@ -399,7 +399,7 @@ text {
     width: 500px;
     height: 500px;
     top: 50px;
-    left: 160px;
+    left: 200px;
     float: left;
 }
 
