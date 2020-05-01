@@ -535,6 +535,9 @@ hr{
   justify-content: center;
 }
 }
+input:focus {
+  outline:none !important;
+}
 
 
 
