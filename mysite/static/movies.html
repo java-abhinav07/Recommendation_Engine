@@ -22,16 +22,16 @@
   <!-- <link rel="stylesheet" href='{% static "newstyle.css" %}'> -->
 
   <style>
-    .navbar-custom { 
-     background-color: #373737; 
-     color: #ffffff;
-     }
+    .navbar-custom {
+      background-color: #373737;
+      color: #ffffff;
+    }
 
-     .navbar-nav >li{
+    .navbar-nav>li {
       font-size: 22px;
       padding-left: 15px;
       padding-right: 15px;
-     }
+    }
   </style>
   <!-- <link href="newstyle.css" rel="stylesheet">
   <link rel="stylesheet" href='style.css' />
@@ -70,7 +70,10 @@
   </nav>
 
   <p></p>
-  <h2 class="spinnnn">SPIN THE WHEEL,</h2> <h2 class="spinnnn">FIND YOURSELF A MOVIE DEAL!!<!-- <i class="fas fa-film"></i> --></h2>
+  <h2 class="spinnnn">SPIN THE WHEEL,</h2>
+  <h2 class="spinnnn">FIND YOURSELF A MOVIE DEAL!!
+    <!-- <i class="fas fa-film"></i> -->
+  </h2>
 
   <div>
     <div id="chart"></div>
@@ -151,10 +154,10 @@
       FILTER IT OUT !!
     </div>
     <div id="coover">
-  <form method="get" action="">
-      <input class="nna" type="text" placeholder="Search for movies\directors\stars">
-  </form>
-</div>
+      <form method="get" action="">
+        <input class="nna" type="text" placeholder="Search for movies\directors\stars">
+      </form>
+    </div>
     <select>
       <option value="0">Select Genre:</option>
       <option value="1">Audi</option>
@@ -230,7 +233,7 @@
       <option value="11">Toyota</option>
       <option value="12">Volvo</option>
     </select>
-         <input class="forfilters" type="submit" value="Search">
+    <input class="forfilters" type="submit" value="Search">
 
   </div>
 
@@ -239,15 +242,13 @@
   <div class="cardContainerKV">
     {% for data in movies_details %}
     <div class="cardKV">
-      
-      <img
-        src="{{ data.img_src }}"
-        width="100%" class="cardImgKV">
-      
+
+      <img src="{{ data.img_src }}" width="100%" class="cardImgKV">
+
 
     </div>
     {% endfor %}
-    
+
   </div>
 
   <div class="loadingCardsKV">
@@ -300,9 +301,9 @@
     .attr("fill", function (d, i) { return color(i); })
     .attr("d", function (d) { return arc(d); })
     .style({
-      "font-size" : '17px',
-      "stroke" : 'white',
-      "stroke-width" : "5px",
+      "font-size": '17px',
+      "stroke": 'white',
+      "stroke-width": "5px",
     })
   // add the text
   arcs.append("text").attr("transform", function (d) {
@@ -325,6 +326,8 @@
 
 
     // note that movie name is in pickedItem
+
+
     let content = `
     <div><div class="grid-flex">
       <div class="col col-text">
@@ -346,6 +349,49 @@
       </div>
     </div></div>
     `
+
+    current.forEach(element => {
+      if (element.title == pickedItem) {
+        let stars = element.stars;
+        element.stars = ""
+        stars.forEach(element => {
+          element.stars += element + ", "
+        })
+        let director = element.director;
+        element.director = ""
+        director.forEach(element => {
+          element.director += element + ", "
+        })
+        let genre = element.genre;
+        element.genre = ""
+        genre.forEach(element => {
+          element.genre += element + ", "
+        })
+
+
+        content = `
+    <div><div class="grid-flex">
+      <div class="col col-text">
+        <div class="Aligner-item">
+          <h1>`+element.title+`</h1>
+          <hr style="background-color:#C3073F">
+          <h6> IMDB Rating: `+element.rating+`</h6><br>
+          <h6> Starring: `+element.stars+`</h6><br>
+          <p>  </p>
+          <h7> Genre:`+element.genre+` </h7><br>
+          <h7> Director: `+element.director+`</h7><br>
+          <h7> Release Year: `+element.year+`</h7><br>
+          <h7> Duration: `+element.duration+`</h7><br>
+        </div>
+
+      </div>
+      <div class="col position">
+      <iframe width="1050" height="450" src="https://www.youtube.com/embed/y45lh8oBzOo" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div></div>
+    `
+      }
+    });
 
     afterWheelDiv.innerHTML = content;
 
