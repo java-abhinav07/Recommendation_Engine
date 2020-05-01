@@ -316,7 +316,24 @@
 
     // note that movie name is in pickedItem
     let content = `
-    <div>Paste Here </div>
+    <div><div class="grid-flex">
+      <div class="col col-text">
+        <div class="Aligner-item">
+          <h1> MOVIE TITLE </h1>
+          <hr style="background-color:#C3073F">
+          <p>
+            Nick Fury is compelled to launch the Avengers Initiative when Loki poses a threat to planet Earth. His squad of superheroes put their minds together to accomplish the task.
+          </p>
+          <p> IMDB Rating : </p>
+          <p> Starring: </p>
+          <p>  </p>
+          <p> Genre: </p>
+        </div>
+      </div>
+      <div class="col position">
+      <iframe width="560" height="250" src='{% static "https://www.youtube.com/embed/y45lh8oBzOo"%}' frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div></div>
     `
 
     afterWheelDiv.innerHTML = content;
