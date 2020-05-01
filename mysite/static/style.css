@@ -509,21 +509,30 @@ hr{
   }
 }
 
-@media (max-width: 1075px)
+
+input:focus {
+  outline:none !important;
+}
+
+
+
+
+
+@media (max-width: 1430px)
 {
   #chart {
     position: relative;
     width: 500px;
     height: 500px;
     top: 50px;
-    left: 50px;
+    left: 10%;
     float: left;
 }
 .formm {
   margin: auto;
   text-align: center;
   /*width: 50%;*/
-  margin-right: 50px;
+  margin-right: 10%;
   margin-top: 120px;
   border: 3px black;
   padding: 5px;
@@ -535,13 +544,43 @@ hr{
   justify-content: center;
 }
 }
-input:focus {
-  outline:none !important;
+
+
+
+@media (max-width: 1160px)
+{
+  #chart {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    top: 50px;
+    /*left: 20%;
+    right: 20%;*/
+      left: 0;
+  right: 0;
+  float: none;
+    justify-content: center;
 }
-
-
-
-
+.formm {
+  margin: auto;
+  text-align: center;
+  /*width: 50%;*/
+ /* margin-right: 25%;
+  margin-left: 25%;*/
+  left: 0;
+  right: 0;
+  float: none;
+  margin-top: 120px;
+  border: 3px black;
+  padding: 5px;
+  width: 380px;
+  background: #eae3f0;
+  padding-left: 10px;
+/*  float: right;
+*/  /*overflow: auto;*/
+  justify-content: center;
+}
+}
 
 
 
