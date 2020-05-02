@@ -38,6 +38,7 @@ body {
   font-size: 23px;  
   margin:auto;
   box-shadow: 0 6px #808080 ;
+  margin-bottom: 300px;
 }
 .btnss:active{
   box-shadow: none;
