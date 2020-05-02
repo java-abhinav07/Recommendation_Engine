@@ -1,8 +1,8 @@
 html, body {
     height: 100%;
     width: 100%;
-    margin: 0px;
-}
+/*    margin: 0px;
+*/}
 
 body {
     background-image: url("./assets/background.jpg");
@@ -62,8 +62,8 @@ body {
   -webkit-flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top:100px;
-  margin-bottom:300px;
+  margin-top: 250px;
+  margin-bottom: 350px;
 
 }
 
@@ -86,14 +86,12 @@ body {
   color:white;
   text-align: center;
   vertical-align: middle;
-  margin: 100px 0;
 }
 .col-text{
   display: flex;
   align-items: center;
   justify-content: center;
   color:white;
-  margin: 100px 0;
 }
 .Aligner-item {
   width: 60%;
