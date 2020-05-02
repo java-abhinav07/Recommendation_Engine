@@ -21,16 +21,21 @@
   <link rel="stylesheet" href='{% static "movies.css" %}'>
 
   <style>
-    .navbar-custom { 
-     background-color: #373737; 
-     color: #ffffff;
-     }
+    .navbar-custom {
+      background-color: #373737;
+      color: #ffffff;
+    }
 
-     .navbar-nav >li{
+    .navbar-nav>li {
       font-size: 22px;
       padding-left: 15px;
       padding-right: 15px;
-     }
+    }
+
+    .hamburger {
+            font-size: 30px;
+            color: #fff;
+    }
   </style>
 </head>
 
@@ -43,7 +48,7 @@
               class="navbar-toggler ml-auto custom-toggler" 
               data-toggle="collapse" 
               data-target="#navbarResponsive">
-        <span class="navbar-toggler-icon"></span>
+        <i class="fas fa-bars hamburger"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">

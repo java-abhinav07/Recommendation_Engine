@@ -20,33 +20,28 @@
   <link rel="stylesheet" href='{% static "cards.css" %}'>
   <link rel="stylesheet" href='{% static "movies.css" %}'>
   <style>
-    .navbar-custom { 
-     background-color: #373737; 
-     color: #ffffff;
-     }
+    .navbar-custom {
+      background-color: #373737;
+      color: #ffffff;
+    }
 
-     .navbar-nav >li{
+    .navbar-nav>li {
       font-size: 22px;
       padding-left: 15px;
       padding-right: 15px;
-     }
+    }
 
-      .nav-item
-      {
-        text-align: left;
-      }
-     /*.navbar-toggler-icon{
-        width: 50px !important;
-        height:3px !important;
-      }*/
-
+    .hamburger {
+            font-size: 30px;
+            color: #fff;
+    }
   </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg py-0 navbar-dark navbar-custom">
     <div class="container-fluid">
       <button type="button" class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbarResponsive">
-        <span class="navbar-toggler-icon"></span>
+        <i class="fas fa-bars hamburger"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
