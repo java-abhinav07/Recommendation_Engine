@@ -69,13 +69,14 @@
 }
 .Aligner-item {
   width: 100%;
+  margin-left: 50px;
 }
 .col-image {
   background-size: cover;
   background-position:center center;
 }
 .position{
-  margin-left: 50px;
+  margin-left: 150px;
   margin-top: auto;
   margin-bottom: auto;
 }
