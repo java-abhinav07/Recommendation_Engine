@@ -165,20 +165,22 @@ def movies(request):
     random.shuffle(list(movies_list))
 
 
-    movies_random = random.sample(list(movies_list), min(len(movies_list), 27))
+    movies_random = random.sample(list(movies_list), min(len(movies_list), 45))
     movies_query = movies_query.filter(id__in=movies_random)
 
-    movies = list(list([] for _ in range(2)) for _ in range(len(movies_query)-15))
+    movies = list(list([] for _ in range(2)) for _ in range(len(movies_query)))
     movies_details = list(list() for _ in range(len(movies_query)))
+    raw_details = list(list() for _ in range(len(movies_query)))
+
     #print(movies)
     print(len(movies))
     
-    for i in range(len(list(movies_query.values()))-15):
+    for i in range(len(list(movies_query.values()))):
         movies[i][0] = "label", list(movies_query.values())[i]["title"]
         movies[i][1] = "value", 1
         movies[i] = mydict(movies[i])
     movies = json.dumps(movies)
-    print(movies)
+    #print(movies)
     
     for i in range(len(list(movies_query.values()))):
         l = {"id":0, "genre":[], "stars":[], "director":[], "img_src":0, "title":0, "year":0, "rating":3, "oscar":False, "duration":0}
@@ -195,11 +197,41 @@ def movies(request):
         l["oscar"] =(element["oscar"])
         l["duration"] =(element["duration"])
 
-        movies_details[i] = l
+        raw_details[i] = l
         #movies_details[i] = mydict(movies_details[i])
     
-    #print(movies_details[0]["img_src"])
 
-    return render(request, "movies.html", {"movies":movies, "movies_details":movies_details})
+
+
+    for i in range(len(list(movies_query.values()))):
+        l = [["id",0], ["genre",[]], ["stars",[]], ["director",[]], ["img_src",0], ["title",0], ["year",0], ["rating",3], ["oscar",False], ["duration", 0]]
+        element = list(movies_query.values())[i]
+        element["img_src"] = element["img_src"][1:-1]
+        l[0][1] = (element["id"])
+        l[1][1] = (element["genre"])
+        l[2][1] =(element["director"])
+        print(element["stars"])
+        l[3][1] =(element["stars"])
+        l[4][1] =(element["img_src"])
+        l[5][1] =(element["title"])
+        l[6][1] =(element["year"])
+        l[7][1] =(element["rating"])
+        l[8][1] =(element["duration"])
+        l[9][1] =(element["oscar"])
+
+        movies_details[i] = l
+        movies_details[i] = mydict(movies_details[i])
+
+    movies_details = json.dumps(movies_details)    
+    print(movies_details[8])
+
+    return render(request, "movies.html", {"movies":movies, "movies_details":movies_details, "raw_details":raw_details})
+
+
+
+
+
+
+    #[{"id":0, "genre":[], "stars":[], "director":[], "img_src":0, "title":0, "year":0, "rating":3, "oscar":False, "duration":0}, {}, {}]
 
 

@@ -243,7 +243,7 @@
 
   <hr class="dividerLineKV">
   <div class="cardContainerKV">
-    {% for data in movies_details %}
+    {% for data in raw_details %}
     <div class="cardKV">
 
       <img src="{{ data.img_src }}" width="100%" class="cardImgKV">
@@ -353,23 +353,15 @@
     </div></div>
     `
 
+    current = JSON.parse("{{ movies_details | escapejs }}");
+
     current.forEach(element => {
+      //console.log(element)
       if (element.title == pickedItem) {
-        let stars = element.stars;
-        element.stars = ""
-        stars.forEach(element => {
-          element.stars += element + ", "
-        })
-        let director = element.director;
-        element.director = ""
-        director.forEach(element => {
-          element.director += element + ", "
-        })
-        let genre = element.genre;
-        element.genre = ""
-        genre.forEach(element => {
-          element.genre += element + ", "
-        })
+        //console.log(element.title)
+        console.log(pickedItem)
+        element.stars = element.stars.slice(1, -1)
+        element.genre = element.genre.slice(1, -1);
 
 
         content = `
