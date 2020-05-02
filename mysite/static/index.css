@@ -22,7 +22,7 @@ body {
     width: 100%;
     z-index: 10;
     position: relative;    
-    height: 4000px;
+    height: 3000px;
 }
 
 #under {
@@ -85,12 +85,15 @@ body {
 */    justify-content: center;
   color:white;
   text-align: center;
+  vertical-align: middle;
+  margin: 100px 0;
 }
 .col-text{
   display: flex;
   align-items: center;
   justify-content: center;
   color:white;
+  margin: 100px 0;
 }
 .Aligner-item {
   width: 60%;
