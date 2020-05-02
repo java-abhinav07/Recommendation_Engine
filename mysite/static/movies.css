@@ -105,3 +105,6 @@ hr{
     width: 90%;
   }
 }
+.cover{
+  width:100% !important;
+}
