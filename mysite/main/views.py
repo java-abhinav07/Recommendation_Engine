@@ -210,7 +210,6 @@ def movies(request):
         l[0][1] = (element["id"])
         l[1][1] = (element["genre"])
         l[2][1] =(element["director"])
-        print(element["stars"])
         l[3][1] =(element["stars"])
         l[4][1] =(element["img_src"])
         l[5][1] =(element["title"])
@@ -223,7 +222,6 @@ def movies(request):
         movies_details[i] = mydict(movies_details[i])
 
     movies_details = json.dumps(movies_details)    
-    print(movies_details[8])
 
     return render(request, "movies.html", {"movies":movies, "movies_details":movies_details, "raw_details":raw_details})
 
@@ -232,6 +230,5 @@ def movies(request):
 
 
 
-    #[{"id":0, "genre":[], "stars":[], "director":[], "img_src":0, "title":0, "year":0, "rating":3, "oscar":False, "duration":0}, {}, {}]
 
 
