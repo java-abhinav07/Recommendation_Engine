@@ -153,7 +153,6 @@
   <div class="after-wheel-div" id="scrollTillMe">
 
   </div>
-  <br><br><br><br><br><br><br><br><br><br>
 
 
   <div class="filterContainerKV">
@@ -162,43 +161,78 @@
     </div>
     <div id="coover">
       <form method="get" action="">
-        <input class="nna" type="text" placeholder="Search for movies\directors\stars" name="title_or_stars_or_director">
-      
+        <input class="nna" type="text" placeholder="Search for movies\directors\stars">
+      </form>
     </div>
-    <select name="genre_contains">
-      <option value="">Select Genre:</option>
-      <option value="">Select ALL</option>
-      <option value="Action">Action</option>
-      <option value="Adventure">Adventure</option>
-      <option value="Comedy">Comedy</option>
-      <option value="Crime">Crime</option>
-      <option value="Drama">Drama</option>
-      <option value="Family">Family</option>
-      <option value="Fantasy">Fantasy</option>
-      <option value="Horror">Horror</option>
-      <option value="Mystery">Mystery</option>
-      <option value="Romance">Romance</option>
-      <option value="Science Fiction">Sci-Fi</option>
-      <option value="Thriller">Thriller</option>
-      <option value="Travel">Travel</option>
+    <select>
+      <option value="0">Select Genre:</option>
+      <option value="1">Select ALL</option>
+      <option value="2">Action</option>
+      <option value="3">Adventure</option>
+      <option value="4">Comedy</option>
+      <option value="5">Crime</option>
+      <option value="6">Drama</option>
+      <option value="7">Family</option>
+      <option value="8">Fantase</option>
+      <option value="9">Horror</option>
+      <option value="10">Mystery</option>
+      <option value="11">Romance</option>
+      <option value="12">Sci-Fi</option>
+      <option value="12">Thriller</option>
+      <option value="12">Travel</option>
     </select>
-    <select name = "year_contains">
-      <option value="">Select Year:</option>
-      <option value="">Select All</option>
-      <option value="2010">After 2010</option>
-      <option value="1990">After 1990</option>
-      <option value="1980">After 1980</option>
-      <option value="1970">After 1970</option>
-      <option value="1960">After 1960</option>
-      <option value="1950">After 1950</option>
-      <option value="1940">After 1940</option>
+    <select>
+      <option value="0">Select Rating:</option>
+      <option value="1">Select All</option>
+      <option value="2">>9</option>
+      <option value="3">>8</option>
+      <option value="4">>7</option>
+      <option value="5">>6</option>
+      <option value="6">>5</option>
+   
     </select>
-    <select name="oscar_contains">
+    <select>
+      <option value="0">Select Year:</option>
+      <option value="1">Select All</option>
+      <option value="2">After 2020</option>
+      <option value="3">After 1990</option>
+      <option value="4">After 1980</option>
+      <option value="5">After 1970</option>
+      <option value="6">After 1960</option>
+      <option value="7">After 1950</option>
+      <option value="8">After 1940</option>
+    </select>
+    <select>
+      <option value="0">Select Duration:</option>
+      <option value="1">Audi</option>
+      <option value="2">BMW</option>
+      <option value="3">Citroen</option>
+      <option value="4">Ford</option>
+      <option value="5">Honda</option>
+      <option value="6">Jaguar</option>
+      <option value="7">Land Rover</option>
+      <option value="8">Mercedes</option>
+      <option value="9">Mini</option>
+      <option value="10">Nissan</option>
+      <option value="11">Toyota</option>
+      <option value="12">Volvo</option>
+    </select>
+    <select>
       <option value="0">Select Oscar:</option>
-      <option value="True">YES!</option>
-      <option value="False">No</option>
+      <option value="1">Audi</option>
+      <option value="2">BMW</option>
+      <option value="3">Citroen</option>
+      <option value="4">Ford</option>
+      <option value="5">Honda</option>
+      <option value="6">Jaguar</option>
+      <option value="7">Land Rover</option>
+      <option value="8">Mercedes</option>
+      <option value="9">Mini</option>
+      <option value="10">Nissan</option>
+      <option value="11">Toyota</option>
+      <option value="12">Volvo</option>
     </select>
-    <input type="submit" value="Search"></form>
+    <input class="forfilters" type="submit" value="Search">
 
   </div>
 
@@ -209,6 +243,7 @@
     <div class="cardKV">
 
       <img src="{{ data.img_src }}" width="100%" class="cardImgKV">
+
 
     </div>
     {% endfor %}
@@ -322,7 +357,7 @@
         //console.log(element.title)
         console.log(pickedItem)
         element.stars = element.stars.slice(1, -1)
-        element.genre = element.genre;
+        element.genre = element.genre.slice(1, -1);
 
 
         content = `
