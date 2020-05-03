@@ -88,7 +88,7 @@
   <div>
     <div id="chart"></div>
   </div>
-
+  
   <form class="formm" style="background-color: #373737" action="." method="get">
     <h3 style="color: #ffffff">CHOOSE A MOVIE</h3>
     <div class="contain">
@@ -96,22 +96,21 @@
       <p></p>
       <div class="select">
         <select name="genre_contains" id="genre" style="color: #ffffff">
-          <option selected disabled>Select Genre</option>
-          <option value="">Select All</option>
-          <option value="Action">Action</option>
-          <option value="Adventure">Adventure</option>
-          <option value="Comedy">Comedy</option>
-          <option value="Crime">Crime</option>
-          <option value="Drama">Drama</option>
-          <option value="Family">Family</option>
-          <option value="Fantasy">Fantasy</option>
-          <option value="Horror">Horror</option>
-          <option value="Mystery">Mystery</option>
-          <option value="Romance">Romance</option>
-          <option value="Sci-Fi">Sci-Fi</option>
-          <option value="Thriller">Thriller</option>
-          <option value="Travel">Travel</option>
-        </select>
+          <option value="" {% if genre_val == "" %} selected disabled {% endif %}>Select Genre</option>
+          <option value="" {% if genre_val == "" %} selected {% endif %} >Select All</option>
+          <option value = "Action" {% if genre_val == 'Action' %} selected {% endif %} >Action</option>
+          <option value="Adventure" {% if genre_val == 'Adventure' %} selected {% endif %} >Adventure</option>
+          <option value="Comedy" {% if genre_val == 'Comedy' %} selected {% endif %} >Comedy</option>
+          <option value = "Crime"{% if genre_val == 'Crime' %} selected {% endif %} >Crime</option>
+          <option value = "Drama"{% if genre_val == 'Drama' %}selected{% endif %} >Drama</option>
+          <option value = "Fantasy"{% if genre_val == 'Fantasy' %}selected{% endif %} >Fantasy</option>
+          <option value = "Horror"{% if genre_val == 'Horror' %}selected{% endif %} >Horror</option>
+          <option value = "Mystery"{% if genre_val == 'Mystery' %}selected{% endif %} >Mystery</option>
+          <option value = "Romance"{% if genre_val == 'Romance' %}selected{% endif %} >Romance</option>
+          <option value = "Sci-Fi"{% if genre_val == 'Sci-Fi' %}selected{% endif %} >Sci-Fi</option>
+          <option value = "Thriller"{% if genre_val == 'Thriller' %}selected{% endif %} >Thriller</option>
+          <option value = "Travel"{% if genre_val == 'Travel' %}selected{% endif %} >Travel</option>
+          </select>
         <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
       </div>
 
@@ -122,10 +121,10 @@
         <select name="rating_contains" id="rating" style="color: #ffffff">
           <option selected disabled>Select Rating</option>
           <option value="">Select All</option>
-          <option value="8">>8</option>
-          <option value="7">>7</option>
-          <option value="6">>6</option>
-          <option value="5">>5</option>
+          <option value="8" {% if rating_val == '8' %}selected{%endif%}>>8</option>
+          <option value="7" {% if rating_val == '7' %}selected{%endif%}>>7</option>
+          <option value="6" {% if rating_val == '6' %}selected{%endif%}>>6</option>
+          <option value="5" {% if rating_val == '5' %}selected{%endif%}>>5</option>
         </select>
         <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
       </div>
@@ -137,13 +136,13 @@
         <select name="year_contains" id="year" style="color: #ffffff">
           <option selected disabled>Select Release Year</option>
           <option value="">Select All</option>
-          <option value="2010">After 2010</option>
-          <option value="1990">After 1990</option>
-          <option value="1980">After 1980</option>
-          <option value="1970">After 1970</option>
-          <option value="1960">After 1960</option>
-          <option value="1960">After 1950</option>
-          <option value="1960">After 1940</option>
+          <option value="2010" {% if year_val == '2010' %}selected{% endif %}>After 2010</option>
+          <option value="1990" {% if year_val == '1990' %}selected{% endif %}>After 1990</option>
+          <option value="1980" {% if year_val == '1980' %}selected{% endif %}>After 1980</option>
+          <option value="1970" {% if year_val == '1970' %}selected{% endif %}>After 1970</option>
+          <option value="1960" {% if year_val == '1960' %}selected{% endif %}>After 1960</option>
+          <option value="1950" {% if year_val == '1950' %}selected{% endif %}>After 1950</option>
+          <option value="1940" {% if year_val == '1940' %}selected{% endif %}>After 1940</option>
         </select>
         <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
       </div>
@@ -167,38 +166,37 @@
     </div>
       <form method="get" action="">
     <select name="genre_contains" id="genre" style="color: #ffffff">
-          <option selected disabled>Select Genre</option>
-          <option value="">Select All</option>
-          <option value="Action">Action</option>
-          <option value="Adventure">Adventure</option>
-          <option value="Comedy">Comedy</option>
-          <option value="Crime">Crime</option>
-          <option value="Drama">Drama</option>
-          <option value="Family">Family</option>
-          <option value="Fantasy">Fantasy</option>
-          <option value="Horror">Horror</option>
-          <option value="Mystery">Mystery</option>
-          <option value="Romance">Romance</option>
-          <option value="Science Fiction">Sci-Fi</option>
-          <option value="Thriller">Thriller</option>
-          <option value="Travel">Travel</option>
-        </select>
+          <option value="" {% if genre_val == "" %} selected disabled {% endif %}>Select Genre</option>
+          <option value="" {% if genre_val == "" %} selected {% endif %} >Select All</option>
+          <option value = "Action" {% if genre_val == 'Action' %} selected {% endif %} >Action</option>
+          <option value="Adventure" {% if genre_val == 'Adventure' %} selected {% endif %} >Adventure</option>
+          <option value="Comedy" {% if genre_val == 'Comedy' %} selected {% endif %} >Comedy</option>
+          <option value = "Crime"{% if genre_val == 'Crime' %} selected {% endif %} >Crime</option>
+          <option value = "Drama"{% if genre_val == 'Drama' %}selected{% endif %} >Drama</option>
+          <option value = "Fantasy"{% if genre_val == 'Fantasy' %}selected{% endif %} >Fantasy</option>
+          <option value = "Horror"{% if genre_val == 'Horror' %}selected{% endif %} >Horror</option>
+          <option value = "Mystery"{% if genre_val == 'Mystery' %}selected{% endif %} >Mystery</option>
+          <option value = "Romance"{% if genre_val == 'Romance' %}selected{% endif %} >Romance</option>
+          <option value = "Sci-Fi"{% if genre_val == 'Sci-Fi' %}selected{% endif %} >Sci-Fi</option>
+          <option value = "Thriller"{% if genre_val == 'Thriller' %}selected{% endif %} >Thriller</option>
+          <option value = "Travel"{% if genre_val == 'Travel' %}selected{% endif %} >Travel</option>
+          </select>
     <select name="year_contains" id="year" style="color: #ffffff">
           <option selected disabled>Select Release Year</option>
           <option value="">Select All</option>
-          <option value="2010">After 2010</option>
-          <option value="1990">After 1990</option>
-          <option value="1980">After 1980</option>
-          <option value="1970">After 1970</option>
-          <option value="1960">After 1960</option>
-          <option value="1960">After 1950</option>
-          <option value="1960">After 1940</option>
+          <option value="2010" {% if year_val == '2010' %}selected{% endif %}>After 2010</option>
+          <option value="1990" {% if year_val == '1990' %}selected{% endif %}>After 1990</option>
+          <option value="1980" {% if year_val == '1980' %}selected{% endif %}>After 1980</option>
+          <option value="1970" {% if year_val == '1970' %}selected{% endif %}>After 1970</option>
+          <option value="1960" {% if year_val == '1960' %}selected{% endif %}>After 1960</option>
+          <option value="1950" {% if year_val == '1950' %}selected{% endif %}>After 1950</option>
+          <option value="1940" {% if year_val == '1940' %}selected{% endif %}>After 1940</option>
         </select>
-    <select name="oscar_contains">
+    <!--<select name="oscar_contains">
       <option value="">Select Oscar:</option>
       <option value='"True"'>Yes</option>
       <option value='"False"'>No</option>
-    </select>
+    </select>-->
     <input class="forfilters" type="submit" value="Search">
     </form>
   </div>

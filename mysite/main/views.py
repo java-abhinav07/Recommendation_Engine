@@ -32,7 +32,7 @@ def books(request):
 
     title_query = request.GET.get("title_contains") # query param
     author_query = request.GET.get("author_contains") 
-    rating_query = request.GET.get("rating_gte")
+    rating_query = request.GET.get("rating_contains")
     genre_query = request.GET.get("genre_contains")
     
 
@@ -83,7 +83,7 @@ def books(request):
         l["img_src"] =(element["img_src"])
         l["title"] =(element["title"])
         l["rating"] =(element["rating"])
-        l["element"] =(element["author"])
+        l["author"] =(element["author"])
 
         raw_details_books[i] = l
 
@@ -92,7 +92,11 @@ def books(request):
 
     print("raw_details_books:",raw_details_books)
 
-    return render(request, "books.html", {"books":books, "book_details":book_details, "raw_details_books":raw_details_books})
+    return render(request, "books.html", {  "books":books, 
+                                            "book_details":book_details, 
+                                            "raw_details_books":raw_details_books,
+                                            "rating_val":rating_query,
+                                            "genre_val":genre_query})
 
 def shows(request):
     
@@ -107,19 +111,13 @@ def shows(request):
     #oscar_query  = request.GET.get("oscar_contains")
     duration_query = request.GET.get("duration_contains")
 
-
-    if is_valid_queryparam(title_query):
-        shows_query = shows_query.filter(title__icontains=title_query)
     if is_valid_queryparam(year_query):
         shows_query = shows_query.filter(year__gte=year_query)
-    if is_valid_queryparam(genre_query):
-        shows_query = shows_query.filter(genre__icontains=genre_query)
-    if is_valid_queryparam(stars_query):
-        shows_query = shows_query.filter(stars__icontains=stars_query)
     if is_valid_queryparam(rating_query):
         shows_query = shows_query.filter(rating__gte=rating_query)
-    if duration_query != "" and duration_query:
-        shows_query = shows_query.filter(duration__icontains=duration_query)
+    if is_valid_queryparam(genre_query):
+        shows_query = shows_query.filter(genre__icontains=genre_query)
+    
 
     
 
@@ -183,38 +181,37 @@ def shows(request):
     shows_details = json.dumps(shows_details)  
     print(shows_details)
 
-    return render(request, "shows.html", {"shows":shows, "shows_details":shows_details, "raw_details_shows":raw_details_shows})
+    return render(request, "shows.html", {"shows":shows, "shows_details":shows_details, "raw_details_shows":raw_details_shows,
+                                            "rating_val":rating_query,
+                                            "year_val": year_query, "genre_val":genre_query})
 
 def movies(request):
     
     movies_query = Movie.objects.all()
 
-    title_query = request.GET.get("title_contains") # query param
+    #title_query = request.GET.get("title_contains") # query param
     year_query = request.GET.get("year_contains") 
     genre_query = request.GET.get("genre_contains") 
-    director_query = request.GET.get("director_contains") 
-    stars_query = request.GET.get("stars_contains") 
+    #director_query = request.GET.get("director_contains") 
+    #stars_query = request.GET.get("stars_contains") 
     rating_query = request.GET.get("rating_contains")
     oscar_query  = request.GET.get("oscar_contains")
-    duration_query = request.GET.get("duration_contains")
+    #duration_query = request.GET.get("duration_contains")
 
 
-    if is_valid_queryparam(title_query):
-        movies_query = movies_query.filter(title__icontains=title_query)
-    if is_valid_queryparam(year_query):
-        movies_query = movies_query.filter(year__gte=year_query)
-    if is_valid_queryparam(genre_query):
-        movies_query = movies_query.filter(genre__icontains=genre_query)
-    if is_valid_queryparam(director_query):
-        movies_query = movies_query.filter(director__icontains=director_query)
-    if is_valid_queryparam(stars_query):
-        movies_query = movies_query.filter(stars__icontains=stars_query)
     if is_valid_queryparam(rating_query):
         movies_query = movies_query.filter(rating__gte=rating_query)
+
+    if is_valid_queryparam(year_query):
+        movies_query = movies_query.filter(year__gte=year_query)
+
     if is_valid_queryparam(oscar_query):
         movies_query = movies_query.filter(oscar__icontains=oscar_query)
-    if is_valid_queryparam(duration_query):
-        movies_query = movies_query.filter(duration__icontains=duration_query)
+
+    elif is_valid_queryparam(genre_query):
+        movies_query = movies_query.filter(genre__icontains=genre_query)
+    
+    
 
     
 
@@ -283,7 +280,11 @@ def movies(request):
     movies_details = json.dumps(movies_details)  
     print(movies_details)  
 
-    return render(request, "movies.html", {"movies":movies, "movies_details":movies_details, "raw_details":raw_details})
+    return render(request, "movies.html", {"movies":movies, 
+                                            "movies_details":movies_details, 
+                                            "raw_details":raw_details,
+                                            "rating_val":rating_query,
+                                            "year_val": year_query, "genre_val":genre_query})
 
 
 

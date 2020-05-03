@@ -79,37 +79,37 @@
       <h3 style="color: #ffffff">CHOOSE A BOOK</h3>
             <div class="contain">
                   <p></p>
-                  <div class="select">
-                     <select name="rating_contains" id="rating" style="color: #ffffff">
-                        <option selected disabled>Select Genre</option>
-                        <option value="">Select All</option>
-                        <option value="Children">Kids</option>
-                        <option value="Horror">Horror</option>
-                        <option value="Mystery">Mystery</option>
-                        <option value="Thriller">Thriller</option>
-                        <option value="19th Century Classics">Old Classics</option>
-                        <option value="Adventure">Adventure</option>
-                        <option value="Fantasy">Fantasy</option>
-                        <option value="Crime">Crime</option>
-                        <option value="Gothic">Gothic</option>
-                        <option value="Feminist">Feminist</option>
-                        <option value="Travel">Travel</option>
-                        <option value="Non Fiction">Non-Fiction</option>
-                        <option value="Science Fiction">Science Fiction</option>
-                        <option value="Little known authors">Rare</option>
-                     </select>
+        <div class="select">
+        <select name="genre_contains" id="genre" style="color: #ffffff">
+          <option selected disabled>Select Genre</option>
+          <option value="" {% if genre_val == '' %} selected {% endif %}>Select All</option>
+          <option value="Children" {% if genre_val == 'Children' %} selected {% endif %}>Kids</option>
+          <option value="Horror" {% if genre_val == 'Horror' %} selected {% endif %}>Horror</option>
+          <option value="Mystery" {% if genre_val == 'Mystery' %} selected {% endif %}>Mystery</option>
+          <option value="Thriller" {% if genre_val == 'Thriller' %} selected {% endif %}>Thriller</option>
+          <option value="19th Century Classics" {% if genre_val == '19th Century Classics' %} selected {% endif %}>Old Classics</option>
+          <option value="Adventure" {% if genre_val == 'Adventure' %} selected {% endif %}>Adventure</option>
+          <option value="Fantasy" {% if genre_val == 'Fantasy' %} selected {% endif %}>Fantasy</option>
+          <option value="Crime" {% if genre_val == 'Crime' %} selected {% endif %}>Crime</option>
+          <option value="Gothic" {% if genre_val == 'Gothic' %} selected {% endif %}>Gothic</option>
+          <option value="Feminist" {% if genre_val == 'Feminist' %} selected {% endif %}>Feminist</option>
+          <option value="Travel" {% if genre_val == 'Travel' %} selected {% endif %}>Travel</option>
+          <option value="Non Fiction" {% if genre_val == 'Non-Fiction' %} selected {% endif %}>Non-Fiction</option>
+          <option value="Science Fiction" {% if genre_val == 'Science Fiction' %} selected {% endif %}>Science Fiction</option>
+          <option value="Little known authors" {% if genre_val == 'Rare' %} selected {% endif %}>Rare</option>
+        </select>
                      <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
                   </div>
 
                     <p></p>
-                    <div class="select">
-                       <select name="rating_contains" id="rating" style="color: #ffffff">
-                          <option selected disabled>Select Rating</option>
-                          <option value="">Select All</option>
-                          <option value="4">>4</option>
-                          <option value="3">>3</option>
-                          <option value="2">>2</option>
-                       </select>
+      <div class="select">
+     <select name="rating_contains" id="rating" style="color: #ffffff">
+          <option selected disabled>Select Rating</option>
+          <option value="">Select All</option>
+          <option value="3" {% if rating_val == '3' %}selected{%endif%}>>3</option>
+          <option value="2" {% if rating_val == '2' %}selected{%endif%}>>2</option>
+          <option value="1" {% if rating_val == '1' %}selected{%endif%}>>1</option>
+        </select>
                        <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
                     </div>
                   <br>
@@ -133,28 +133,28 @@
 
         <select name="genre_contains" id="genre" style="color: #ffffff">
           <option selected disabled>Select Genre</option>
-          <option value="">Select All</option>
-          <option value="Children">Kids</option>
-          <option value="Horror">Horror</option>
-          <option value="Mystery">Mystery</option>
-          <option value="Thriller">Thriller</option>
-          <option value="19th Century Classics">Old Classics</option>
-          <option value="Adventure">Adventure</option>
-          <option value="Fantasy">Fantasy</option>
-          <option value="Crime">Crime</option>
-          <option value="Gothic">Gothic</option>
-          <option value="Feminist">Feminist</option>
-          <option value="Travel">Travel</option>
-          <option value="Non Fiction">Non-Fiction</option>
-          <option value="Science Fiction">Science Fiction</option>
-          <option value="Little known authors">Rare</option>
+          <option value="" {% if genre_val == '' %} selected {% endif %}>Select All</option>
+          <option value="Children" {% if genre_val == 'Children' %} selected {% endif %}>Kids</option>
+          <option value="Horror" {% if genre_val == 'Horror' %} selected {% endif %}>Horror</option>
+          <option value="Mystery" {% if genre_val == 'Mystery' %} selected {% endif %}>Mystery</option>
+          <option value="Thriller" {% if genre_val == 'Thriller' %} selected {% endif %}>Thriller</option>
+          <option value="19th Century Classics" {% if genre_val == '19th Century Classics' %} selected {% endif %}>Old Classics</option>
+          <option value="Adventure" {% if genre_val == 'Adventure' %} selected {% endif %}>Adventure</option>
+          <option value="Fantasy" {% if genre_val == 'Fantasy' %} selected {% endif %}>Fantasy</option>
+          <option value="Crime" {% if genre_val == 'Crime' %} selected {% endif %}>Crime</option>
+          <option value="Gothic" {% if genre_val == 'Gothic' %} selected {% endif %}>Gothic</option>
+          <option value="Feminist" {% if genre_val == 'Feminist' %} selected {% endif %}>Feminist</option>
+          <option value="Travel" {% if genre_val == 'Travel' %} selected {% endif %}>Travel</option>
+          <option value="Non Fiction" {% if genre_val == 'Non-Fiction' %} selected {% endif %}>Non-Fiction</option>
+          <option value="Science Fiction" {% if genre_val == 'Science Fiction' %} selected {% endif %}>Science Fiction</option>
+          <option value="Little known authors" {% if genre_val == 'Rare' %} selected {% endif %}>Rare</option>
         </select>
      <select name="rating_contains" id="rating" style="color: #ffffff">
-          <option selected disabled>Select Rating</option>
-          <option value="">Select All</option>
-          <option value="4">>4</option>
-          <option value="3">>3</option>
-          <option value="2">>2</option>
+          <option value="" {% if rating_val == '' %}selected disabled{%endif%}>Select Rating</option>
+          <option value="" {% if rating_val == '' %}selected{%endif%}>Select All</option>
+          <option value="3" {% if rating_val == '3' %}selected{%endif%}>>3</option>
+          <option value="2" {% if rating_val == '2' %}selected{%endif%}>>2</option>
+          <option value="1" {% if rating_val == '1' %}selected{%endif%}>>1</option>
         </select>
 
     <input class="forfilters" type="submit" value="Search">
