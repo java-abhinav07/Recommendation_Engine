@@ -481,6 +481,14 @@ text {
 .position{
   margin-left: 50px;
   margin-top: 30px;
+/*  width: 30vw;
+  height: 28vw;*/
+}
+.positionbb{
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 33vw;
+
 }
 hr{
   color: #C3073F;

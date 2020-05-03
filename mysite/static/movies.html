@@ -29,28 +29,20 @@
     }
 
     .navbar-nav>li {
-      font-size: 22px;
-      padding-left: 11px;
-      padding-right: 11px;
+      font-size: 24px;
+      padding-left: 15px;
+      padding-right: 15px;
     }
 
     .hamburger {
             font-size: 30px;
             color: #fff;
     }
-
-    @media (min-width: 768px) {
-    .navbar-nav > li > a {
-      /* (80px - line-height of 27px) / 2 = 26.5px */
-      padding-top: 7px;
-      padding-bottom: 7px;
-      line-height: 14px;
-    }
   </style>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg py-0 navbar-dark fixed-top navbar-custom">
+  <nav class="navbar navbar-expand-lg py-0 navbar-dark navbar-custom">
 
     <div class="container-fluid">
       <a class="navbar-brand" href="#"></a>
@@ -192,11 +184,6 @@
           <option value="1950" {% if year_val == '1950' %}selected{% endif %}>After 1950</option>
           <option value="1940" {% if year_val == '1940' %}selected{% endif %}>After 1940</option>
         </select>
-    <!--<select name="oscar_contains">
-      <option value="">Select Oscar:</option>
-      <option value='"True"'>Yes</option>
-      <option value='"False"'>No</option>
-    </select>-->
     <input class="forfilters" type="submit" value="Search">
     </form>
   </div>
