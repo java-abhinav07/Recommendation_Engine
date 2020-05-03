@@ -483,8 +483,10 @@ text {
   margin-top: 30px;
 }
 .positionbb{
-/*  margin-left: 50px;
-*/  margin-top: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 33vw;
+
 }
 hr{
   color: #C3073F;
