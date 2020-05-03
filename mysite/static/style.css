@@ -13,9 +13,7 @@ body {
     background: url("./assets/logo.png");
     width: 108px;
     height: 58px;
-    left: auto;
-    left: -5px;
-    margin-top: auto;
+    /*margin-top: 0px;*/
     background-size: contain;
 }
 h3 {
