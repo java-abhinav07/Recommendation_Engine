@@ -8,6 +8,16 @@ body {
     font-size: 25px;  /*background: #1A1A1D;*/
 }
 
+.navbar-brand {
+    position: relative;
+    background: url("./assets/logo.png");
+    width: 108px;
+    height: 58px;
+    left: auto;
+    left: -5px;
+    margin-top: auto;
+    background-size: contain;
+}
 h3 {
   margin: 10px;
   position: relative;
