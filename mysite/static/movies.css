@@ -1,7 +1,7 @@
 .after-wheel-div {
     height: 0px;
-    width: 100vw;
-    background-color: rgb(27, 27, 27);
+/*    width: 100vw;
+*/    background-color: rgb(27, 27, 27);
     transition: 2s;
     color: rgb(231, 231, 231);
     display: flex;
@@ -112,7 +112,9 @@ hr{
 /*  margin-left: 150px;
 */  margin-top: auto;
   margin-bottom: auto;
-  width: 60vw;
+  width: 45vw;
+  margin-right: auto;
+  margin-left: auto;
 }
   .col {
     order:vertical;
@@ -130,9 +132,9 @@ hr{
     width: 90%;
   }
 }
-.cover{
+/*.cover{
   width:100% !important;
-}
+}*/
 }
 @media (max-width: 640px) {
   .grid-flex {
@@ -163,6 +165,6 @@ hr{
     width: 90%;
   }
 }
-.cover{
+/*.cover{
   width:100% !important;
-}
+}*/
