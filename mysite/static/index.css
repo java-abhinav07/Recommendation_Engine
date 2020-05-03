@@ -136,7 +136,7 @@ font-family: 'PT Sans', sans-serif;
 
 }
 
-  @media (max-width: 640px) {
+  @media (max-width: 1100px) {
     .grid-flex {
       height: 40em;
       display: -webkit-flex;
