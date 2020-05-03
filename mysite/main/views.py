@@ -213,7 +213,7 @@ def movies(request):
         movies_query = movies_query.filter(rating__gte=rating_query)
     if is_valid_queryparam(oscar_query):
         movies_query = movies_query.filter(oscar__icontains=oscar_query)
-    if duration_query != "" and duration_query:
+    if is_valid_queryparam(duration_query):
         movies_query = movies_query.filter(duration__icontains=duration_query)
 
     
