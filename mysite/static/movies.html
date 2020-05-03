@@ -29,7 +29,7 @@
     }
 
     .navbar-nav>li {
-      font-size: 24px;
+      font-size: 22px;
       padding-left: 15px;
       padding-right: 15px;
     }
@@ -58,7 +58,7 @@
             <a class="nav-link" href="{% url 'index.html' %}">Home</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="{% url 'movies.html' %}"><strong>Movies</strong></a>
+            <a class="nav-link" href="{% url 'movies.html' %}">Movies</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{% url 'shows.html' %}">TV Shows</a>
@@ -148,11 +148,11 @@
   </form>
 
 
-
+  <br><br><br><br>
   <div class="after-wheel-div" id="scrollTillMe">
 
   </div>
-  <br><br><br><br>
+  
 
 
   <div class="filterContainerKV">
@@ -196,7 +196,7 @@
       <option value="True">Yes</option>
       <option value="False">No</option>
     </select>
-    <input type="submit" value="Search">
+    <input class="forfilters" type="submit" value="Search">
     </form>
   </div>
 
@@ -206,7 +206,7 @@
     {% for data in raw_details %}
     <div class="cardKV">
 
-      <img src="{{ data.img_src }}" width="100%" class="cardImgKV">
+      <img src="{{ data.img_src }}" width="100%" class="cardImgKV" onclick='afterSpinHandler("{{ data.title }}")'>
 
 
     </div>
