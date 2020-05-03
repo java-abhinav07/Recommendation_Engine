@@ -159,10 +159,9 @@
     <div class="filterHeadingKV">
       FILTER IT OUT !!
     </div>
-    <div id="coover">
       <form method="get" action="">
-        <input class="nna" type="text" placeholder="Search for movies\directors\stars">
-      </form>
+        <!--<input class="nna" type="text" placeholder="Search for movies\directors\stars">-->
+      
     </div>
     <select name="genre_contains" id="genre" style="color: #ffffff">
           <option selected disabled>Select Genre</option>
@@ -177,14 +176,14 @@
           <option value="Horror">Horror</option>
           <option value="Mystery">Mystery</option>
           <option value="Romance">Romance</option>
-          <option value="Sci-Fi">Sci-Fi</option>
+          <option value="Science Fiction">Sci-Fi</option>
           <option value="Thriller">Thriller</option>
           <option value="Travel">Travel</option>
         </select>
     <select name="year_contains" id="year" style="color: #ffffff">
           <option selected disabled>Select Release Year</option>
           <option value="">Select All</option>
-          <option value="2010">After 2000</option>
+          <option value="2010">After 2010</option>
           <option value="1990">After 1990</option>
           <option value="1980">After 1980</option>
           <option value="1970">After 1970</option>
@@ -192,13 +191,13 @@
           <option value="1960">After 1950</option>
           <option value="1960">After 1940</option>
         </select>
-    <select>
+    <select name="oscar_contains">
       <option value="">Select Oscar:</option>
       <option value="True">Yes</option>
       <option value="False">No</option>
     </select>
-    <input class="forfilters" type="submit" value="Search">
-
+    <input type="submit" value="Search">
+    </form>
   </div>
 
 
@@ -336,12 +335,12 @@
         <div class="Aligner-item">
           <h2>`+element.title+`</h2>
           <hr style="background-color:#C3073F">
-          <h7> IMDB Rating: `+element.rating+`</h7><br>
-          <h7> Starring: `+element.stars+`</h7><br>
-          <h7> Genre: `+element.genre+` </h7><br>
-          <h7> Director: `+element.director+`</h7><br>
-          <h7> Release Year: `+element.year+`</h7><br>
-          <h7> Duration: `+element.duration+`</h7><br>
+          <h7> <b>IMDB Rating:</b></h7> `+element.rating+`<br>
+          <h7> <b>Starring:</b></h7> `+element.stars+`<br>
+          <h7> <b>Genre:</b></h7> `+element.genre+` <br>
+          <h7> <b>Director:</b></h7> `+element.director+`<br>
+          <h7> <b>Release Year:</b></h7> `+element.year+`<br>
+          <h7> <b>Duration:</b></h7> `+element.duration+` mins<br>
         </div>
 
       </div>
