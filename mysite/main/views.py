@@ -51,11 +51,13 @@ def books(request):
     random.shuffle(list(books_list))
 
 
-    books_random = random.sample(list(books_list), min(len(books_list), 45))
+    books_random = random.sample(list(books_list), min(len(books_list), 54))
     books_query = books_query.filter(id__in=books_random)
 
     books = list(list([] for _ in range(2)) for _ in range(len(books_query)))
     book_details = list(list() for _ in range(len(books_query)))
+    raw_details_books = list(list() for _ in range(len(books_query)))
+
     #print(books)
     print(len(books))
     
@@ -64,18 +66,33 @@ def books(request):
         books[i][1] = "value", 1
         books[i] = mydict(books[i])
     books = json.dumps(books)
-    print(books)
+    #print(books)
 
     for i in range(len(list(books_query.values()))):
         book_details[i] = list(books_query.values())[i]
         book_details[i] = mydict(book_details[i])
     
-    print(book_details)
+    #print(book_details)
 
 
-    
+    for i in range(len(list(books_query.values()))):
+        l = {"id":0, "genre":[],"img_src":0, "title":0,"rating":3, "author":7}
+        element = list(books_query.values())[i]
+        l["id"] = (element["id"])
+        l["genre"] = (element["genre"])
+        l["img_src"] =(element["img_src"])
+        l["title"] =(element["title"])
+        l["rating"] =(element["rating"])
+        l["element"] =(element["author"])
 
-    return render(request, "books.html", {"books":books, "book_details":book_details})
+        raw_details_books[i] = l
+
+    raw_details_books = json.dumps(raw_details_books)
+
+
+    print("raw_details_books:",raw_details_books)
+
+    return render(request, "books.html", {"books":books, "book_details":book_details, "raw_details_books":raw_details_books})
 
 def shows(request):
     
@@ -110,7 +127,7 @@ def shows(request):
     random.shuffle(list(shows_list))
 
 
-    shows_random = random.sample(list(shows_list), min(len(shows_list), 45))
+    shows_random = random.sample(list(shows_list), min(len(shows_list), 54))
     shows_query = shows_query.filter(id__in=shows_random)
 
     shows = list(list([] for _ in range(2)) for _ in range(len(shows_query)))
@@ -205,7 +222,7 @@ def movies(request):
     random.shuffle(list(movies_list))
 
 
-    movies_random = random.sample(list(movies_list), min(len(movies_list), 45))
+    movies_random = random.sample(list(movies_list), min(len(movies_list), 56))
     movies_query = movies_query.filter(id__in=movies_random)
 
     movies = list(list([] for _ in range(2)) for _ in range(len(movies_query)))

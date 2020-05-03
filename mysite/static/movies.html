@@ -6,7 +6,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -14,14 +13,14 @@
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/cooper-hewitt" type="text/css" />
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/cooper-hewitt" type="text/css" />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
-  <!-- <link href='{% static "newstyle.css" %}' rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+  <link href='{% static "newstyle.css" %}' rel="stylesheet">
   <link rel="stylesheet" href='{% static "style.css" %}' />
   <link rel="stylesheet" href='{% static "generalStyles.css" %}'>
+  <!-- <link rel="stylesheet" href='{% static "newstyle.css" %}'> -->
   <link rel="stylesheet" href='{% static "cards.css" %}'>
   <link rel="stylesheet" href='{% static "movies.css" %}'>
-  <!-- <link rel="stylesheet" href='{% static "newstyle.css" %}'> -->
 
   <style>
     .navbar-custom {
@@ -30,27 +29,27 @@
     }
 
     .navbar-nav>li {
-      font-size: 22px;
+      font-size: 24px;
       padding-left: 15px;
       padding-right: 15px;
     }
 
     .hamburger {
             font-size: 30px;
-            margin-right: 0px;
             color: #fff;
     }
-
   </style>
 </head>
 
 <body>
-
   <nav class="navbar navbar-expand-lg py-0 navbar-dark navbar-custom">
 
     <div class="container-fluid">
       <a class="navbar-brand" href="#"></a>
-      <button type="button" class="navbar-toggler ml-auto hidden-sm-up float-xs-right" data-toggle="collapse" data-target="#navbarResponsive">
+      <button type="button" 
+              class="navbar-toggler ml-auto custom-toggler" 
+              data-toggle="collapse" 
+              data-target="#navbarResponsive">
         <i class="fas fa-bars hamburger"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -59,9 +58,9 @@
             <a class="nav-link" href="{% url 'index.html' %}">Home</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="{% url 'movies.html' %}">Movies</a>
+            <a class="nav-link" href="{% url 'movies.html' %}"><strong>Movies</strong></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item ">
             <a class="nav-link" href="{% url 'shows.html' %}">TV Shows</a>
           </li>
           <li class="nav-item">
@@ -130,7 +129,7 @@
         <select name="year_contains" id="year" style="color: #ffffff">
           <option selected disabled>Select Release Year</option>
           <option value="">Select All</option>
-          <option value="2010">After 2000</option>
+          <option value="2010">After 2010</option>
           <option value="1990">After 1990</option>
           <option value="1980">After 1980</option>
           <option value="1970">After 1970</option>
@@ -148,7 +147,6 @@
   </form>
 
 
-  <br><br><br><br>
   <div class="after-wheel-div" id="scrollTillMe">
 
   </div>
