@@ -160,8 +160,8 @@
       <form method="get" action="">
         <!--<input class="nna" type="text" placeholder="Search for movies\directors\stars">-->
       
-    </div>
-    <select name="genre_contains" id="genre" style="color: #ffffff">
+<!--     </div>
+ -->    <select name="genre_contains" id="genre" style="color: #ffffff">
           <option selected disabled>Select Genre</option>
           <option value="">Select All</option>
           <option value="Action">Action</option>
@@ -212,14 +212,14 @@
 
   </div>
 
-  <div class="loadingCardsKV">
+<!--   <div class="loadingCardsKV">
     <div class="spinner">
       <div class="bounce1"></div>
       <div class="bounce2"></div>
       <div class="bounce3"></div>
     </div>
   </div>
-</body>
+ --></body>
 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script>
   var current = JSON.parse('{{ movies | escapejs }}');
@@ -264,7 +264,7 @@
     .style({
       "font-size": '17px',
       "stroke": 'white',
-      "stroke-width": "2px",
+      "stroke-width": "3.5px",
     })
   // add the text
   arcs.append("text").attr("transform", function (d) {
