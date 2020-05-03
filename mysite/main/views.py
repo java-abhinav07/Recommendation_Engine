@@ -223,7 +223,8 @@ def movies(request):
         movies_details[i] = l
         movies_details[i] = mydict(movies_details[i])
 
-    movies_details = json.dumps(movies_details)    
+    movies_details = json.dumps(movies_details)  
+    print(movies_details)  
 
     return render(request, "movies.html", {"movies":movies, "movies_details":movies_details, "raw_details":raw_details})
 
