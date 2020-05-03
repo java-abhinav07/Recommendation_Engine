@@ -122,38 +122,37 @@
       <div class="filterHeadingKV">
         FILTER IT OUT !!
       </div>
-      <select>
-        <option value="0">Select Star:</option>
-        <option value="1">Audi</option>
-        <option value="2">BMW</option>
-        <option value="3">Citroen</option>
-        <option value="4">Ford</option>
-        <option value="5">Honda</option>
-        <option value="6">Jaguar</option>
-        <option value="7">Land Rover</option>
-        <option value="8">Mercedes</option>
-        <option value="9">Mini</option>
-        <option value="10">Nissan</option>
-        <option value="11">Toyota</option>
-        <option value="12">Volvo</option>
-      </select>
-      <select>
-        <option value="0">Select Genre:</option>
-        <option value="1">Audi</option>
-        <option value="2">BMW</option>
-        <option value="3">Citroen</option>
-        <option value="4">Ford</option>
-        <option value="5">Honda</option>
-        <option value="6">Jaguar</option>
-        <option value="7">Land Rover</option>
-        <option value="8">Mercedes</option>
-        <option value="9">Mini</option>
-        <option value="10">Nissan</option>
-        <option value="11">Toyota</option>
-        <option value="12">Volvo</option>
-      </select>
+            <form method="get" action="">
 
-    </div>
+        <select name="genre_contains" id="genre" style="color: #ffffff">
+          <option selected disabled>Select Genre</option>
+          <option value="">Select All</option>
+          <option value="Children">Kids</option>
+          <option value="Horror">Horror</option>
+          <option value="Mystery">Mystery</option>
+          <option value="Thriller">Thriller</option>
+          <option value="19th Century Classics">Old Classics</option>
+          <option value="Adventure">Adventure</option>
+          <option value="Fantasy">Fantasy</option>
+          <option value="Crime">Crime</option>
+          <option value="Gothic">Gothic</option>
+          <option value="Feminist">Feminist</option>
+          <option value="Travel">Travel</option>
+          <option value="Non Fiction">Non-Fiction</option>
+          <option value="Science Fiction">Science Fiction</option>
+          <option value="Little known authors">Rare</option>
+        </select>
+     <select name="rating_contains" id="rating" style="color: #ffffff">
+          <option selected disabled>Select Rating</option>
+          <option value="">Select All</option>
+          <option value="4">>4</option>
+          <option value="3">>3</option>
+          <option value="2">>2</option>
+        </select>
+
+    <input class="forfilters" type="submit" value="Search">
+    </form>
+  </div>
 
 
     <hr class="dividerLineKV">
