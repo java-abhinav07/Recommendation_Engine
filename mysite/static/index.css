@@ -10,14 +10,23 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'CooperHewittBook';
+    font-family:  'PT Sans', sans-serif;
     font-size: 25px;
 }
 
 * {
     box-sizing: border-box;
 }
-
+.headss{
+  font-size: 50px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.parass{
+  font-size: 25px;
+font-family: 'PT Sans', sans-serif;
+}
 #over {
     width: 100%;
     z-index: 10;
@@ -106,13 +115,13 @@ body {
 .col-image-show {
 
   background-position:center;
-  background-image: url(./assets/show.gif);
+  background-image: url(./assets/tvv.gif);
   background-repeat: no-repeat;
 }
 .col-image-book {
 
   background-position:center;
-  background-image: url(./assets/book.gif);
+  background-image: url(./assets/bookyy.gif);
   background-repeat: no-repeat;
 }
 
