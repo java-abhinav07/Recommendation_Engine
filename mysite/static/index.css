@@ -73,7 +73,7 @@ font-family: 'PT Sans', sans-serif;
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 250px;
-  margin-bottom: 350px;
+  margin-bottom: 250px;
 
 }
 
@@ -96,6 +96,7 @@ font-family: 'PT Sans', sans-serif;
   color:white;
   text-align: center;
   vertical-align: middle;
+  margin-bottom: inherit;
 }
 .col-text{
   display: flex;
