@@ -46,6 +46,8 @@
   -webkit-flex-wrap: wrap;
   -webkit-justify-content: space-around;
   background-color: #333335;
+  margin: auto;
+  width: 90vw;
 }
 .col {
   -webkit-box-flex: 1;
