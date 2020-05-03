@@ -479,6 +479,10 @@ text {
   background-position:center center;
 }
 .position{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.positionbb{
 /*  margin-left: 50px;
 */  margin-top: 30px;
 }

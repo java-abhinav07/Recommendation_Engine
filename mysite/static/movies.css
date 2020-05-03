@@ -76,6 +76,11 @@
   background-position:center center;
 }
 .position{
+  margin-left: 150px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.positionbb{
 /*  margin-left: 150px;
 */  margin-top: auto;
   margin-bottom: auto;
