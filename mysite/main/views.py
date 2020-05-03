@@ -165,7 +165,7 @@ def movies(request):
     random.shuffle(list(movies_list))
 
 
-    movies_random = random.sample(list(movies_list), min(len(movies_list), 45))
+    movies_random = random.sample(list(movies_list), min(len(movies_list), 54))
     movies_query = movies_query.filter(id__in=movies_random)
 
     movies = list(list([] for _ in range(2)) for _ in range(len(movies_query)))
@@ -183,7 +183,7 @@ def movies(request):
     #print(movies)
     
     for i in range(len(list(movies_query.values()))):
-        l = {"id":0, "genre":[], "stars":[], "director":[], "img_src":0, "title":0, "year":0, "rating":3, "oscar":False, "duration":0}
+        l = {"id":0, "genre":[], "stars":[], "director":[], "img_src":0, "title":0, "year":0, "rating":3, "oscar":False, "duration":0, "YT_link":3}
         element = list(movies_query.values())[i]
         element["img_src"] = element["img_src"][1:-1]
         l["id"] = (element["id"])
@@ -196,6 +196,7 @@ def movies(request):
         l["rating"] =(element["rating"])
         l["oscar"] =(element["oscar"])
         l["duration"] =(element["duration"])
+        l["YT_link"] = element["YT_link"]
 
         raw_details[i] = l
         #movies_details[i] = mydict(movies_details[i])
@@ -204,7 +205,7 @@ def movies(request):
 
 
     for i in range(len(list(movies_query.values()))):
-        l = [["id",0], ["genre",[]], ["stars",[]], ["director",[]], ["img_src",0], ["title",0], ["year",0], ["rating",3], ["oscar",False], ["duration", 0]]
+        l = [["id",0], ["genre",[]], ["stars",[]], ["director",[]], ["img_src",0], ["title",0], ["year",0], ["rating",3], ["oscar",False], ["duration", 0], ["YT_link", 3]]
         element = list(movies_query.values())[i]
         element["img_src"] = element["img_src"][1:-1]
         l[0][1] = (element["id"])
@@ -217,6 +218,7 @@ def movies(request):
         l[7][1] =(element["rating"])
         l[8][1] =(element["duration"])
         l[9][1] =(element["oscar"])
+        l[10][1] = element["YT_link"]
 
         movies_details[i] = l
         movies_details[i] = mydict(movies_details[i])
