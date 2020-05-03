@@ -72,7 +72,7 @@
   </nav>
 
   <p></p>
-  <h2 class="spinnnn">SPIN THE WHEEL,</h2>
+  <h2 class="spinnnn" style="margin-top: 70px;">SPIN THE WHEEL,</h2>
   <h2 class="spinnnn">FIND YOURSELF A MOVIE DEAL!!
     <!-- <i class="fas fa-film"></i> -->
   </h2>
@@ -154,14 +154,11 @@
 
 
   <div class="filterContainerKV">
-    <div class="filterHeadingKV">
+    <div class="filterHeadingKV"><br><br><br>
       FILTER IT OUT !!
     </div>
       <form method="get" action="">
-        <!--<input class="nna" type="text" placeholder="Search for movies\directors\stars">-->
-      
-<!--     </div>
- -->    <select name="genre_contains" id="genre" style="color: #ffffff">
+    <select name="genre_contains" id="genre" style="color: #ffffff">
           <option selected disabled>Select Genre</option>
           <option value="">Select All</option>
           <option value="Action">Action</option>
@@ -212,14 +209,7 @@
 
   </div>
 
-<!--   <div class="loadingCardsKV">
-    <div class="spinner">
-      <div class="bounce1"></div>
-      <div class="bounce2"></div>
-      <div class="bounce3"></div>
-    </div>
-  </div>
- --></body>
+</body>
 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script>
   var current = JSON.parse('{{ movies | escapejs }}');
