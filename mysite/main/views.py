@@ -51,7 +51,7 @@ def books(request):
     random.shuffle(list(books_list))
 
 
-    books_random = random.sample(list(books_list), min(len(books_list), 10))
+    books_random = random.sample(list(books_list), min(len(books_list), 45))
     books_query = books_query.filter(id__in=books_random)
 
     books = list(list([] for _ in range(2)) for _ in range(len(books_query)))
@@ -71,6 +71,8 @@ def books(request):
         book_details[i] = mydict(book_details[i])
     
     print(book_details)
+
+
     
 
     return render(request, "books.html", {"books":books, "book_details":book_details})
@@ -82,8 +84,10 @@ def shows(request):
     title_query = request.GET.get("title_contains") # query param
     year_query = request.GET.get("year_contains") 
     genre_query = request.GET.get("genre_contains") 
+    #director_query = request.GET.get("director_contains") 
     stars_query = request.GET.get("stars_contains") 
     rating_query = request.GET.get("rating_contains")
+    #oscar_query  = request.GET.get("oscar_contains")
     duration_query = request.GET.get("duration_contains")
 
 
@@ -106,12 +110,13 @@ def shows(request):
     random.shuffle(list(shows_list))
 
 
-    shows_random = random.sample(list(shows_list), min(len(shows_list), 10))
+    shows_random = random.sample(list(shows_list), min(len(shows_list), 45))
     shows_query = shows_query.filter(id__in=shows_random)
 
     shows = list(list([] for _ in range(2)) for _ in range(len(shows_query)))
     shows_details = list(list() for _ in range(len(shows_query)))
-    #print(shows)
+    raw_details_shows = list(list() for _ in range(len(shows_query)))
+
     print(len(shows))
     
     for i in range(len(list(shows_query.values()))):
@@ -119,14 +124,49 @@ def shows(request):
         shows[i][1] = "value", 1
         shows[i] = mydict(shows[i])
     shows = json.dumps(shows)
-    print(shows)
+
+    
     for i in range(len(list(shows_query.values()))):
-        shows_details[i] = list(shows_query.values())[i]
+        l = {"id":0, "genre":[], "stars":[], "img_src":0, "title":0, "year":0, "rating":3, "duration":0, "YT_link":3}
+        element = list(shows_query.values())[i]
+        element["img_src"] = element["img_src"][1:-1]
+        l["id"] = (element["id"])
+        l["genre"] = (element["genre"])
+        l["stars"] =(element["stars"])
+        l["img_src"] =(element["img_src"])
+        l["title"] =(element["title"])
+        l["year"] =(element["year"])
+        l["rating"] =(element["rating"])
+        l["duration"] =(element["duration"])
+        l["YT_link"] = element["YT_link"]
+
+        raw_details_shows[i] = l
+        #movies_details[i] = mydict(movies_details[i])
+    
+
+
+
+    for i in range(len(list(shows_query.values()))):
+        l = [["id",0], ["genre",[]], ["stars",[]], ["img_src",0], ["title",0], ["year",0], ["rating",3], ["duration", 0], ["YT_link", 3]]
+        element = list(shows_query.values())[i]
+        element["img_src"] = element["img_src"][1:-1]
+        l[0][1] = (element["id"])
+        l[1][1] = (element["genre"])
+        l[2][1] =(element["stars"])
+        l[3][1] =(element["img_src"])
+        l[4][1] =(element["title"])
+        l[5][1] =(element["year"])
+        l[6][1] =(element["rating"])
+        l[7][1] =(element["duration"])
+        l[8][1] = element["YT_link"]
+
+        shows_details[i] = l
         shows_details[i] = mydict(shows_details[i])
-    shows_details = json.dumps(shows_details)
+
+    shows_details = json.dumps(shows_details)  
     print(shows_details)
 
-    return render(request, "shows.html", {"shows":shows, "shows_details":shows_details})
+    return render(request, "shows.html", {"shows":shows, "shows_details":shows_details, "raw_details_shows":raw_details_shows})
 
 def movies(request):
     
@@ -165,7 +205,7 @@ def movies(request):
     random.shuffle(list(movies_list))
 
 
-    movies_random = random.sample(list(movies_list), min(len(movies_list), 54))
+    movies_random = random.sample(list(movies_list), min(len(movies_list), 45))
     movies_query = movies_query.filter(id__in=movies_random)
 
     movies = list(list([] for _ in range(2)) for _ in range(len(movies_query)))
