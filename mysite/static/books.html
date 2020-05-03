@@ -106,15 +106,16 @@
                     </div>
                   <br>
                   <br>
-                  <input type = "submit">
+                  <input type = "submit" value="Spin the wheel">
             </div>
     </form>
 
 
+   
+  <br><br><br><br>
+  <div class="after-wheel-div" id="scrollTillMe">
 
-    <div class="after-wheel-div">
-
-    </div>
+  </div>
 
 
     <div class="filterContainerKV">
@@ -233,14 +234,92 @@
     });
   container.on("click", spin);
 
+  // const afterSpinHandler = (pickedItem) => {
+  //   let afterWheelDiv = document.getElementsByClassName("after-wheel-div")[0];
+
+  //   afterWheelDiv.innerText = pickedItem;
+
+
+  //   afterWheelDiv.classList.add("after-wheel-div-expand");
+  // }
+
   const afterSpinHandler = (pickedItem) => {
     let afterWheelDiv = document.getElementsByClassName("after-wheel-div")[0];
+    document.getElementById("scrollTillMe").scrollIntoView();
 
-    afterWheelDiv.innerText = pickedItem;
+    //document.getElementById("pickedItem").value = pickedItem;
+
+
+    // note that movie name is in pickedItem
+
+
+    let content = `
+    <div class="cover"><div class="grid-flex">
+      <div class="col col-text">
+        <div class="Aligner-item">
+          <h2>Movie Title</h2>
+          <hr style="background-color:#C3073F">
+          <h6> IMDB Rating: </h6><br>
+          <h6> Starring: </h6><br>
+          <h7> Genre: </h7><br>
+          <h7> Director: </h7><br>
+          <h7> Release Year: </h7><br>
+          <h7> Duration: </h7><br>
+        </div>
+
+      </div>
+      <div class="col position">
+      <iframe width="500" height="450" src="https://www.youtube.com/embed/y45lh8oBzOo" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div></div>
+    `
+
+    current = JSON.parse("{{ movies_details | escapejs }}");
+
+    current.forEach(element => {
+      //console.log(element)
+      if (element.title == pickedItem) {
+        //console.log(element.title)
+        console.log(pickedItem)
+        element.stars = element.stars.slice(1, -1);
+        element.genre = element.genre;
+        if (element.YT_link != "NULL"){
+          element.YT_link = "https://www.youtube.com/embed/" + element.YT_link;
+        }
+        else{
+          element.YT_link = "https://www.youtube.com/embed/HhctenuKBYo" 
+        }
+
+
+        content = `
+    <div class="cover"><div class="grid-flex">
+      <div class="col col-text">
+        <div class="Aligner-item">
+          <h2>`+element.title+`</h2>
+          <hr style="background-color:#C3073F">
+          <h7> <b>IMDB Rating:</b></h7> `+element.rating+`<br>
+          <h7> <b>Starring:</b></h7> `+element.stars+`<br>
+          <h7> <b>Genre:</b></h7> `+element.genre+` <br>
+          <h7> <b>Director:</b></h7> `+element.director+`<br>
+          <h7> <b>Release Year:</b></h7> `+element.year+`<br>
+          <h7> <b>Duration:</b></h7> `+element.duration+` mins<br>
+        </div>
+
+      </div>
+      <div class="col position">
+      <iframe width="500" height="450" src=`+element.YT_link+` frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div></div>
+    `
+      }
+    });
+
+    afterWheelDiv.innerHTML = content;
 
 
     afterWheelDiv.classList.add("after-wheel-div-expand");
   }
+
 
   function spin(d) {
 

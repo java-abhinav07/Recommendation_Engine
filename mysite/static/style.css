@@ -377,8 +377,8 @@ font-family: 'Bebas Neue', cursive;
   pointer-events: auto;
 }
 .forfilters{
-  float: right;
-  padding-right: 40px;
+/*  float: left;
+*/  padding-right: 40px;
      -webkit-appearance:none;
    -moz-appearance:none;
    -ms-appearance:none;
