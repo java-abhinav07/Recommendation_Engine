@@ -46,8 +46,9 @@
   -webkit-flex-wrap: wrap;
   -webkit-justify-content: space-around;
   background-color: #333335;
-  margin: auto;
-  width: 90vw;
+/*  margin: auto;
+*/  width: 90vw;
+  border: 7px solid white;
 }
 .col {
   -webkit-box-flex: 1;
@@ -81,6 +82,8 @@
   margin-left: 150px;
   margin-top: auto;
   margin-bottom: auto;
+/*  width: 30vw;
+  height: 28vw;*/
 }
 .positionbb{
 /*  margin-left: 150px;
@@ -91,6 +94,46 @@
 hr{
   color: #C3073F;
 }
+@media (max-width: 1160px){
+      .grid-flex {
+    height: 40em;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+   }
+   .position{
+  margin-left: 150px;
+  margin-top: auto;
+  margin-bottom: 40px;
+/*  width: 30vw;
+  height: 28vw;*/
+}
+   .positionbb{
+/*  margin-left: 150px;
+*/  margin-top: auto;
+  margin-bottom: auto;
+  width: 60vw;
+}
+  .col {
+    order:vertical;
+  }
+  .col-left {
+    -webkit-box-ordinal-group:0;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+  .col-text div p {
+    padding: 1em;
+  }
+  .Aligner-item {
+    width: 90%;
+  }
+}
+.cover{
+  width:100% !important;
+}
+}
 @media (max-width: 640px) {
   .grid-flex {
     height: 40em;
@@ -98,6 +141,12 @@ hr{
     -webkit-flex-direction: column;
     flex-direction: column;
    }
+   .positionbb{
+/*  margin-left: 150px;
+*/  margin-top: auto;
+  margin-bottom: auto;
+  width: 60vw;
+}
   .col {
     order:vertical;
   }
