@@ -208,6 +208,11 @@
   var current = JSON.parse('{{ movies | escapejs }}');
   console.log(current);
 
+  current.forEach(element => {
+    if(element.title.length > 10) {
+      element.title.splice(10, 0, '\n')
+    }
+  });
 
   var padding = { top: 5, right: 50, bottom: 0, left: 0 },
     w = 500 - padding.left - padding.right,
