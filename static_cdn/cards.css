@@ -3,8 +3,8 @@ html, body {
     width: 100%;
     margin: 0px;
     background-color: #2C3335;
-    font-family: 'Baloo Bhaina 2', cursive;
-}
+/*    font-family: 'Baloo Bhaina 2', cursive;
+*/}
 
 .cardContainerKV {
     display: flex;
@@ -43,8 +43,9 @@ box-shadow: 0px 0px 5px 0px rgba(255,255,255,0.109);
 }
 
 .filterContainerKV {
-    display: flex;
-    flex-direction: row-reverse;
+/*    display: flex;
+*/    
+flex-direction: row-reverse;
     align-items: center;
     padding: 10px;
     padding-left: 20px;
@@ -57,10 +58,10 @@ select {
     font-size: 16px;
     margin-left: 5px;
     margin-right: 5px;
-    background-color: transparent;
-    border: 2px solid#e50914;
+/*    background-color: transparent;
+*/    border: 2px solid#e50914;
     border-radius: 5px;
-    color: #e50914;
+    color: white;
 }
 
 select:focus {
@@ -79,7 +80,8 @@ select option {
 
 .filterHeadingKV {
     font-size: 24px;
-    color: #e50914;
+    color:white;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .spinner {
@@ -91,7 +93,7 @@ select option {
 .spinner > div {
     width: 18px;
     height: 18px;
-    background-color: #e50914;
+    background-color: #995650;
     border-radius: 100%;
     display: inline-block;
     -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;

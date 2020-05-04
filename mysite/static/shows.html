@@ -217,6 +217,14 @@
   //var current2 = current1.replace("'", '"')
   //console.log(current2);
   var current =JSON.parse('{{ shows | escapejs }}');
+
+  current.forEach(element => {
+    if(element.label.length > 8) {
+      element.label= element.label.slice(0, 8);
+
+    }
+  });
+  
   
   
 
@@ -316,7 +324,7 @@
 
     current.forEach(element => {
       //console.log(element)
-      if (element.title == pickedItem) {
+      if (element.title.slice(0, 8) == pickedItem) {
         //console.log(element.title)
         console.log(pickedItem)
         element.stars = element.stars.slice(1, -1);

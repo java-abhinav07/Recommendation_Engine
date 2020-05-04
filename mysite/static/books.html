@@ -185,6 +185,14 @@
 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script>
   var current = JSON.parse('{{ books | escapejs }}');
+  console.log(current);
+  //var flag = false;
+  current.forEach(element => {
+    if(element.label.length > 8) {
+      element.label= element.label.slice(0, 8);
+
+    }
+  });
   
 
 
@@ -271,7 +279,7 @@
 
     current.forEach(element => {
       console.log(element)
-      if (element.title == pickedItem) {
+      if (element.title.slice(0, 8) == pickedItem) {
         //console.log(element.title)
         console.log(pickedItem)
         //element.stars = element.stars.slice(1, -1);
