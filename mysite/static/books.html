@@ -81,7 +81,7 @@
                   <p></p>
         <div class="select">
         <select name="genre_contains" id="genre" style="color: #ffffff">
-          <option selected disabled>Select Genre</option>
+          <option value="" {% if genre_val == '' %}selected disabled{%endif%}>Select Genre</option>
           <option value="" {% if genre_val == '' %} selected {% endif %}>Select All</option>
           <option value="Children" {% if genre_val == 'Children' %} selected {% endif %}>Kids</option>
           <option value="Horror" {% if genre_val == 'Horror' %} selected {% endif %}>Horror</option>
@@ -96,7 +96,7 @@
           <option value="Travel" {% if genre_val == 'Travel' %} selected {% endif %}>Travel</option>
           <option value="Non Fiction" {% if genre_val == 'Non-Fiction' %} selected {% endif %}>Non-Fiction</option>
           <option value="Science Fiction" {% if genre_val == 'Science Fiction' %} selected {% endif %}>Science Fiction</option>
-          <option value="Little known authors" {% if genre_val == 'Rare' %} selected {% endif %}>Rare</option>
+          <option value="Little know authors" {% if genre_val == 'Little know authors' %} selected {% endif %}>Rare</option>
         </select>
                      <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
                   </div>
@@ -130,7 +130,7 @@
             <form method="get" action="">
 
         <select name="genre_contains" id="genre" style="color: #ffffff">
-          <option selected disabled>Select Genre</option>
+          <option value="" {% if genre_val == '' %}selected disabled{%endif%}>Select Genre</option>
           <option value="" {% if genre_val == '' %} selected {% endif %}>Select All</option>
           <option value="Children" {% if genre_val == 'Children' %} selected {% endif %}>Kids</option>
           <option value="Horror" {% if genre_val == 'Horror' %} selected {% endif %}>Horror</option>
@@ -145,7 +145,7 @@
           <option value="Travel" {% if genre_val == 'Travel' %} selected {% endif %}>Travel</option>
           <option value="Non Fiction" {% if genre_val == 'Non-Fiction' %} selected {% endif %}>Non-Fiction</option>
           <option value="Science Fiction" {% if genre_val == 'Science Fiction' %} selected {% endif %}>Science Fiction</option>
-          <option value="Little known authors" {% if genre_val == 'Rare' %} selected {% endif %}>Rare</option>
+          <option value="Little know authors" {% if genre_val == 'Little know authors' %} selected {% endif %}>Rare</option>
         </select>
      <select name="rating_contains" id="rating" style="color: #ffffff">
           <option value="" {% if rating_val == '' %}selected disabled{%endif%}>Select Rating</option>
@@ -279,11 +279,14 @@
 
     current.forEach(element => {
       console.log(element)
-      if (element.title.slice(0, 8) == pickedItem) {
+      if (element.title.slice(0, 8) == pickedItem || element.title == pickedItem) {
         //console.log(element.title)
         console.log(pickedItem)
         //element.stars = element.stars.slice(1, -1);
         element.genre = element.genre;
+        if (element.genre == "Little know authors"){
+          element.genre = "Little known authors"
+        }
         element.author = element.author;
 
 

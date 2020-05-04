@@ -108,7 +108,6 @@
           <option value = "Romance"{% if genre_val == 'Romance' %}selected{% endif %} >Romance</option>
           <option value = "Sci-Fi"{% if genre_val == 'Sci-Fi' %}selected{% endif %} >Sci-Fi</option>
           <option value = "Thriller"{% if genre_val == 'Thriller' %}selected{% endif %} >Thriller</option>
-          <option value = "Travel"{% if genre_val == 'Travel' %}selected{% endif %} >Travel</option>
           </select>
         <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
       </div>
@@ -177,7 +176,6 @@
           <option value = "Romance"{% if genre_val == 'Romance' %}selected{% endif %} >Romance</option>
           <option value = "Sci-Fi"{% if genre_val == 'Sci-Fi' %}selected{% endif %} >Sci-Fi</option>
           <option value = "Thriller"{% if genre_val == 'Thriller' %}selected{% endif %} >Thriller</option>
-          <option value = "Travel"{% if genre_val == 'Travel' %}selected{% endif %} >Travel</option>
           </select>
     <select name="year_contains" id="year" style="color: #ffffff">
           <option selected disabled>Select Release Year</option>
@@ -310,7 +308,7 @@
     current.forEach(element => {
       //console.log(element)
 
-      if (element.title.slice(0, 8) == pickedItem) {
+      if (element.title.slice(0, 8) == pickedItem || element.title == pickedItem) {
         //console.log(element.title)
         console.log(pickedItem)
         element.stars = element.stars.slice(1, -1);

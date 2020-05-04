@@ -35,15 +35,17 @@ def books(request):
     rating_query = request.GET.get("rating_contains")
     genre_query = request.GET.get("genre_contains")
     
-
-    if is_valid_queryparam(title_query):
-        books_query = books_query.filter(title__icontains=title_query)
-    if is_valid_queryparam(author_query):
-        books_query = books_query.filter(author__icontains=author_query)
-    if is_valid_queryparam(rating_query):
-        books_query = books_query.filter(rating__gte=rating_query)
-    if is_valid_queryparam(genre_query):
+    flag = True
+    if is_valid_queryparam(genre_query) and flag:
         books_query = books_query.filter(genre__icontains=genre_query)
+        print("after first filter", len(books_query))
+        print(genre_query)
+        if len(books_query) < 90:
+            flag = False
+
+    if is_valid_queryparam(rating_query) and flag:
+        books_query = books_query.filter(rating__gte=rating_query)
+    
 
     
 
@@ -111,12 +113,22 @@ def shows(request):
     #oscar_query  = request.GET.get("oscar_contains")
     duration_query = request.GET.get("duration_contains")
 
-    if is_valid_queryparam(year_query):
-        shows_query = shows_query.filter(year__gte=year_query)
-    if is_valid_queryparam(rating_query):
-        shows_query = shows_query.filter(rating__gte=rating_query)
-    if is_valid_queryparam(genre_query):
+
+    flag = True
+    if is_valid_queryparam(genre_query) and flag:
         shows_query = shows_query.filter(genre__icontains=genre_query)
+        if(len(shows_query) < 90):
+            flag = False
+
+    if is_valid_queryparam(rating_query) and flag:
+        shows_query = shows_query.filter(rating__gte=rating_query)
+        if(len(shows_query) < 80):
+            flag = False
+
+    if is_valid_queryparam(year_query) and flag:
+        shows_query = shows_query.filter(year__gte=year_query)
+    
+    
     
 
     
@@ -197,19 +209,27 @@ def movies(request):
     rating_query = request.GET.get("rating_contains")
     oscar_query  = request.GET.get("oscar_contains")
     #duration_query = request.GET.get("duration_contains")
+    flag = True
 
+    if is_valid_queryparam(genre_query):
+        movies_query = movies_query.filter(genre__icontains=genre_query)
+        if len(movies_query) < 90:
+            flag = False
 
-    if is_valid_queryparam(rating_query):
+    if is_valid_queryparam(rating_query) and flag:
         movies_query = movies_query.filter(rating__gte=rating_query)
+        if len(movies_query) < 80:
+            flag = False
 
-    if is_valid_queryparam(year_query):
+    if is_valid_queryparam(year_query) and flag:
         movies_query = movies_query.filter(year__gte=year_query)
+        if len(movies_query) < 80:
+            flag = False
 
-    if is_valid_queryparam(oscar_query):
+    if is_valid_queryparam(oscar_query) and flag:
         movies_query = movies_query.filter(oscar__icontains=oscar_query)
 
-    elif is_valid_queryparam(genre_query):
-        movies_query = movies_query.filter(genre__icontains=genre_query)
+    
     
     
 
@@ -219,7 +239,7 @@ def movies(request):
     random.shuffle(list(movies_list))
 
 
-    movies_random = random.sample(list(movies_list), min(len(movies_list), 56))
+    movies_random = random.sample(list(movies_list), min(len(movies_list), 54))
     movies_query = movies_query.filter(id__in=movies_random)
 
     movies = list(list([] for _ in range(2)) for _ in range(len(movies_query)))

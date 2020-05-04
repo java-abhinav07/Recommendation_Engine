@@ -324,7 +324,7 @@
 
     current.forEach(element => {
       //console.log(element)
-      if (element.title.slice(0, 8) == pickedItem) {
+      if (element.title.slice(0, 8) == pickedItem || element.title == pickedItem) {
         //console.log(element.title)
         console.log(pickedItem)
         element.stars = element.stars.slice(1, -1);
