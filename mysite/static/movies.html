@@ -141,7 +141,7 @@
       
 
       <p></p>
-      <input type="submit" value="Spin the Wheel">
+      <input type="submit" value="Refresh Wheel">
       <!-- <input type="submit"> -->
     </div>
   </form>
@@ -154,7 +154,7 @@
 
 
   <div class="filterContainerKV">
-    <div class="filterHeadingKV"><br><br><br>
+    <div class="filterHeadingKV"><br>
       FILTER IT OUT !!
     </div>
       <form method="get" action="">
@@ -209,6 +209,7 @@
   var current = JSON.parse('{{ movies | escapejs }}');
   console.log(current);
 
+  
 
   var padding = { top: 5, right: 50, bottom: 0, left: 0 },
     w = 500 - padding.left - padding.right,

@@ -114,7 +114,7 @@
                     </div>
                   <br>
                   <br>
-                  <input type = "submit" value="Spin the wheel">
+                  <input type = "submit" value="Refresh Wheel">
             </div>
     </form>
 
@@ -126,7 +126,7 @@
   </div>
 
     <div class="filterContainerKV">
-      <div class="filterHeadingKV"><br><br><br>
+      <div class="filterHeadingKV"><br>
         FILTER IT OUT !!
       </div>
             <form method="get" action="">
@@ -187,7 +187,7 @@
 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script>
   var current = JSON.parse('{{ books | escapejs }}');
-  console.log(current);
+  
 
 
   var padding = { top: 5, right: 50, bottom: 0, left: 0 },
