@@ -29,14 +29,22 @@
     }
 
     .navbar-nav>li {
-      font-size: 24px;
-      padding-left: 15px;
-      padding-right: 15px;
+      font-size: 22px;
+      padding-left: 10px;
+      padding-right: 10px;
     }
 
     .hamburger {
             font-size: 30px;
             color: #fff;
+    }
+
+    @media (min-width: 768px) {
+    .navbar-nav > li > a {
+      /* (80px - line-height of 27px) / 2 = 26.5px */
+      padding-top: 7px;
+      padding-bottom: 7px;
+      line-height: 14px;
     }
   </style>
 </head>
