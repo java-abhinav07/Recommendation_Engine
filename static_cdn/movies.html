@@ -153,12 +153,9 @@
       <!-- <input type="submit"> -->
     </div>
   </form>
-
-  <div class="after-wheel-div" id="scrollTillMe"><br>
+  <div class="after-wheel-div" id="scrollTillMe">
 
   </div>
-
-  
 
 
   <div class="filterContainerKV">
@@ -216,6 +213,12 @@
 <script>
   var current = JSON.parse('{{ movies | escapejs }}');
   console.log(current);
+
+  current.forEach(element => {
+    if(element.label.length > 8) {
+      element.label= element.label.slice(0, 8);
+    }
+  });
 
   
 
@@ -306,7 +309,8 @@
 
     current.forEach(element => {
       //console.log(element)
-      if (element.title == pickedItem) {
+
+      if (element.title.slice(0, 8) == pickedItem) {
         //console.log(element.title)
         console.log(pickedItem)
         element.stars = element.stars.slice(1, -1);

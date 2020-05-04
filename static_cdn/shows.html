@@ -143,12 +143,12 @@
     </div>
   </form>
 
-  <div class="after-wheel-div" id="scrollTillMe"><br>
+  <div class="after-wheel-div" id="scrollTillMe">
 
   </div>
 
     <div class="filterContainerKV">
-      <div class="filterHeadingKV"><br>
+      <div class="filterHeadingKV">
         FILTER IT OUT !!
       </div>
     </div>
@@ -217,6 +217,14 @@
   //var current2 = current1.replace("'", '"')
   //console.log(current2);
   var current =JSON.parse('{{ shows | escapejs }}');
+
+  current.forEach(element => {
+    if(element.label.length > 8) {
+      element.label= element.label.slice(0, 8);
+
+    }
+  });
+  
   
   
 
@@ -301,7 +309,6 @@
           <h6> IMDB Rating: </h6><br>
           <h6> Starring: </h6><br>
           <h7> Genre: </h7><br>
-          <h7> Director: </h7><br>
           <h7> Release Year: </h7><br>
           <h7> Duration: </h7><br>
         </div>
@@ -317,7 +324,7 @@
 
     current.forEach(element => {
       //console.log(element)
-      if (element.title == pickedItem) {
+      if (element.title.slice(0, 8) == pickedItem) {
         //console.log(element.title)
         console.log(pickedItem)
         element.stars = element.stars.slice(1, -1);
