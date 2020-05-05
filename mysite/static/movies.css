@@ -1,7 +1,7 @@
 .after-wheel-div {
-    height: 0px;
-/*    width: 100vw;
-*/    background-color: rgb(27, 27, 27);
+/*    height: 0px;
+*//*    width: 100vw;
+*/ /*   background-color: rgb(27, 27, 27);*/
     transition: 2s;
     color: rgb(231, 231, 231);
     display: flex;
@@ -11,9 +11,9 @@
 }
 
 .after-wheel-div-expand {
-    height: 100px;
-    margin-top: 800px;
-    margin-bottom: 300px;
+    height: 800px;
+    margin-top: 700px;
+    margin-bottom: -500px;
 }
 
 .filterContainerKV {
@@ -66,12 +66,13 @@
   align-items: center;
   justify-content: center;
   color: white;
-  padding-top: 50px;
+ /* padding-top: 50px;
   padding-bottom: 50px;
+}*/
 }
 .Aligner-item {
   width: 100%;
-  margin-left: 50px;
+  margin-left: 5px;
 }
 .col-image {
   background-size: cover;
@@ -100,10 +101,18 @@ hr{
     -webkit-flex-direction: column;
     flex-direction: column;
    }
+   .after-wheel-div-expand {
+    height: 1200px;
+    margin-top: 100px;
+    margin-bottom: -130px;
+}
+
    .position{
-  margin-left: 150px;
-  margin-top: auto;
-  margin-bottom: 40px;
+/*  margin-left: 150px;
+  margin-top: auto;*/
+  margin: auto;
+  margin-bottom: 70px;
+  width: auto;
 /*  width: 30vw;
   height: 28vw;*/
 }
