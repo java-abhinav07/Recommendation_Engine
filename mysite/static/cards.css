@@ -50,7 +50,7 @@ flex-direction: row-reverse;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 700px;
+    margin-top: 500px;
 }
 
 select {
@@ -123,4 +123,12 @@ select option {
         -webkit-transform: scale(1.0);
         transform: scale(1.0);
     }
+}
+
+@media (max-width: 1160px){
+ 
+ .filterContainerKV {
+    margin-top: 100px;
+}
+   
 }
