@@ -225,7 +225,14 @@ nav ul li a {
       margin: 15px;
 }
 
-
+@media (max-width: 800px){
+  body{
+    font-size: 3.3vw;
+  }
+  .headss{
+    font-size: 5vw;
+  }
+}
 
 .icon-bar {
 width: 22px; 
