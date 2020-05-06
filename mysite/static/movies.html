@@ -3,17 +3,17 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Frandom</title>
-    <link rel="shortcut icon" type="image/png" href="{% static './assets/logo_icon.png' %}">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <link rel="shortcut icon" type="image/png" href="{% static './assets/logo_icon.png' %}">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/cooper-hewitt" type="text/css" />
-  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/cooper-hewitt" type="text/css" />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
   <link href='{% static "newstyle.css" %}' rel="stylesheet">
@@ -59,7 +59,7 @@
 
     <div class="container-fluid">
       <a class="navbar-brand" href="{% url 'index.html' %}"></a>
-      <button type="button" class="navbar-toggler ml-auto custom-toggler" data-toggle="collapse"
+      <button type="button" class="navbar-toggler ml-auto hidden-sm-up float-xs-right" data-toggle="collapse"
         data-target="#navbarResponsive">
         <i class="fas fa-bars hamburger"></i>
       </button>
