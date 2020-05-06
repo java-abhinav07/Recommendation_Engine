@@ -3,20 +3,21 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Frandom</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
- <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
   <link href='{% static "newstyle.css" %}' rel="stylesheet">
   <link rel="stylesheet" href='{% static "style.css" %}' />
   <link rel="stylesheet" href='{% static "generalStyles.css" %}'>
-  <!-- <link rel="stylesheet" href='{% static "newstyle.css" %}'> -->
   <link rel="stylesheet" href='{% static "cards.css" %}'>
   <link rel="stylesheet" href='{% static "movies.css" %}'>
   <style>
@@ -38,7 +39,7 @@
 
     @media (min-width: 768px) {
     .navbar-nav > li > a {
-      /* (80px - line-height of 27px) / 2 = 26.5px */
+       /*(80px - line-height of 27px) / 2 = 26.5px */
       padding-top: 7px;
       padding-bottom: 7px;
       line-height: 14px;
@@ -50,7 +51,7 @@
   <nav class="navbar navbar-expand-lg py-0 navbar-dark fixed-top navbar-custom">
     <div class="container-fluid">
       <a class="navbar-brand" href="{% url 'index.html' %}"></a>
-      <button type="button" class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbarResponsive">
+      <button type="button" class="navbar-toggler ml-auto hidden-sm-up float-xs-right" data-toggle="collapse" data-target="#navbarResponsive">
         <i class="fas fa-bars hamburger"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
