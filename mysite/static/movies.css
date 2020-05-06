@@ -11,7 +11,7 @@
 }
 
 .after-wheel-div-expand {
-    height: 800px;
+height: 800px;
     margin-top: 700px;
     margin-bottom: -500px;
 }
@@ -66,9 +66,8 @@
   align-items: center;
   justify-content: center;
   color: white;
- /* padding-top: 50px;
-  padding-bottom: 50px;
-}*/
+  /*padding-top: 50px;
+  padding-bottom: 50px;*/
 }
 .Aligner-item {
   width: 100%;
@@ -101,7 +100,7 @@ hr{
     -webkit-flex-direction: column;
     flex-direction: column;
    }
-   .after-wheel-div-expand {
+    .after-wheel-div-expand {
     height: 1200px;
     margin-top: 100px;
     margin-bottom: -130px;
@@ -113,6 +112,9 @@ hr{
   margin: auto;
   margin-bottom: 70px;
   width: auto;
+/*  width: 30vw;
+  height: 28vw;*/
+}
 /*  width: 30vw;
   height: 28vw;*/
 }

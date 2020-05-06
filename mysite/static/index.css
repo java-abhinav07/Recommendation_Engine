@@ -13,22 +13,7 @@ body {
     font-family:  'PT Sans', sans-serif;
     font-size: 25px;
 }
-.ct-btn-scroll {
-    align-content: center;
-    width: 49px;
-    height: 49px;
-    position: absolute;
-    left: 0!important;
-    right: 0!important;
-    margin: 0 auto!important;
-    border-radius: 50%;
-    -webkit-transition: background-color 0.5s ease-in-out;
-    transition: background-color 0.5s ease-in-out;
-}
 
-.fade-scroll {
-    justify-content: center;
-}
 .navbar-brand {
     position: relative;
     background: url("./assets/logo.png");
@@ -96,8 +81,8 @@ font-family: 'PT Sans', sans-serif;
   -webkit-flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 50px;
-  margin-bottom: 0px;
+  margin-top: 250px;
+  margin-bottom: 250px;
 
 }
 
@@ -130,7 +115,6 @@ font-family: 'PT Sans', sans-serif;
 }
 .Aligner-item {
   width: 60%;
-  justify-content: center;
 }
 .col-image-movie {
 
