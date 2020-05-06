@@ -97,8 +97,8 @@ font-family: 'PT Sans', sans-serif;
   -webkit-flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 150px;
+  margin-bottom: 150px;
 
 }
 
@@ -133,19 +133,28 @@ font-family: 'PT Sans', sans-serif;
   width: 60%;
 }
 .col-image-movie {
-
+  position: relative;
+  top: 80px;
+  padding-top: 100px;
+  margin-top: -150px;
   background-position:center;
   background-image: url(./assets/movie.gif);
   background-repeat: no-repeat;
 }
 .col-image-show {
-
+  position: relative;
+  top: 80px;
+  padding-top: 100px;
+  margin-top: -150px;
   background-position:center;
   background-image: url(./assets/tvv.gif);
   background-repeat: no-repeat;
 }
 .col-image-book {
-
+  position: relative;
+  top: 80px;
+  padding-top: 100px;
+  margin-top: -150px;
   background-position:center;
   background-image: url(./assets/bookyy.gif);
   background-repeat: no-repeat;
