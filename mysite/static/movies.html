@@ -47,6 +47,9 @@
         padding-bottom: 7px;
         line-height: 14px;
       }
+      #chart {
+        left : 0px !important;
+      }
     }
   </style>
 </head>
@@ -218,9 +221,9 @@
 
   function resizeFunction(x) {
     if (x.matches) { 
-      mySize = 300
-      radius = 30
-      innerFontsize = 15
+      mySize = 260
+      radius = 25
+      innerFontsize = 14
     } else {
       mySize = 500
       radius = 60
@@ -275,7 +278,7 @@
     .attr("fill", function (d, i) { return color(i); })
     .attr("d", function (d) { return arc(d); })
     .style({
-      "font-size": '17px',
+      "font-size": '14px',
       "stroke": 'white',
       "stroke-width": "3.5px",
     })
