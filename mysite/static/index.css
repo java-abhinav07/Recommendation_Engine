@@ -18,10 +18,10 @@ body {
     align-content: center;
     width: 49px;
     height: 49px;
-    position: absolute;
+    position: relative;
+    margin: 0 auto!important;
     left: 0!important;
     right: 0!important;
-    margin: 0 auto!important;
     border-radius: 50%;
     -webkit-transition: background-color 0.5s ease-in-out;
     transition: background-color 0.5s ease-in-out;
@@ -97,8 +97,8 @@ font-family: 'PT Sans', sans-serif;
   -webkit-flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 
 }
 
