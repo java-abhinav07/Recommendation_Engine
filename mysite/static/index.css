@@ -135,7 +135,7 @@ font-family: 'PT Sans', sans-serif;
 .col-image-movie {
   position: relative;
   top: 80px;
-  padding-top: 100px;
+  padding-top: 150px;
   margin-top: -150px;
   background-position:center;
   background-image: url(./assets/movie.gif);
