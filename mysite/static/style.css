@@ -564,7 +564,7 @@ input:focus {
     top: 50px;
     /*left: 20%;
     right: 20%;*/
-      left: 30%;
+      left: 30vw;
 /*  right: 4vw;
 */  float: none;
     justify-content: center;
@@ -584,23 +584,45 @@ input:focus {
   width: 380px;
   background: #eae3f0;
   padding-left: 10px;
-/*  float: right;
-*/  /*overflow: auto;*/
   justify-content: center;
 }
 }
 
-
-
-
-/*
-input[type="submit"]
+@media (max-width: 900px)
 {
-    width: 100%;
-    height: 50px;
-    font-size: 26px;
-    line-height: 1;
-  vertical-align: middle;
-
+  #chart{
+    left:20vw;
+  }
 }
-*/
+
+@media (max-width: 700px)
+{
+      #chart {
+        width: 250px !important;
+        height: 250px !important;
+        left: 30vw;
+      }
+      .formm{
+        width: 260px;
+      }
+      h3{
+        font-size: 40px;
+      }
+      .select{
+        width: 17em;
+      }
+}
+@media (max-width: 500px)
+{
+  #chart{
+    left: 28vw;
+  }
+}
+@media (max-width: 380px)
+{
+  #chart{
+    left: 45px;
+  }
+}
+
+
