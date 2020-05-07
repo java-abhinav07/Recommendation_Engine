@@ -187,7 +187,28 @@
 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script>
   var current = JSON.parse('{{ books | escapejs }}');
+
   console.log(current);
+  let mySize = 500
+  let radius = 60
+  let innerFontsize = 30
+
+
+  function resizeFunction(x) {
+    if (x.matches) { 
+      mySize = 260
+      radius = 25
+      innerFontsize = 14
+    } else {
+      mySize = 500
+      radius = 60
+      innerFontsize = 30
+    }
+  }
+
+  var zyz = window.matchMedia("(max-width: 700px)")
+  resizeFunction(zyz)
+  zyz.addListener(resizeFunction)
   //var flag = false;
   current.forEach(element => {
     if(element.label.length > 8) {
@@ -195,12 +216,10 @@
 
     }
   });
-  
-
 
   var padding = { top: 5, right: 50, bottom: 0, left: 0 },
-    w = 500 - padding.left - padding.right,
-    h = 500 - padding.top - padding.bottom,
+    w = mySize - padding.left - padding.right,
+    h = mySize - padding.top - padding.bottom,
     r = Math.min(w, h) / 2,
     rotation = 0,
     oldrotation = 0,
@@ -234,7 +253,7 @@
     .attr("fill", function (d, i) { return color(i); })
     .attr("d", function (d) { return arc(d); })
     .style({
-      "font-size": '17px',
+      "font-size": '14px',
       "stroke": 'white',
       "stroke-width": "3.5px",
     })
@@ -372,7 +391,7 @@
   container.append("circle")
     .attr("cx", 0)
     .attr("cy", 0)
-    .attr("r", 60)
+    .attr("r", radius)
     .style({ "fill": "white", "cursor": "pointer" });
   //spin text
 
@@ -381,7 +400,7 @@
     .attr("y", 15)
     .attr("text-anchor", "middle")
     .text("SPIN")
-    .style({ "font-weight": "bold", "font-size": "30px" });
+    .style({ "font-weight": "bold", "font-size": toString(innerFontsize) + "px" });
 
 
   function rotTween(to) {
