@@ -13,7 +13,7 @@
     <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/cooper-hewitt" type="text/css"/>
+    <!-- <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/cooper-hewitt" type="text/css"/> -->
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href='{%static "./index.css" %}'>
@@ -33,6 +33,28 @@
      .navbar-expand-lg{
        background-color: #333335;
      }
+
+     @media (max-width: 560px) {
+
+      .col-image-movie {
+
+        padding-top: 350px;
+        width: 100%;
+      }
+
+      .col-image-show {
+
+        padding-top: 350px;
+        width: 100%;
+      }
+
+      .col-image-book {
+
+        padding-top: 350px;
+        width: 100%;
+      }
+     }
+
 
      @media (min-width: 768px) {
     .navbar-nav > li > a {
@@ -140,13 +162,13 @@ p.cursor::after {
                 <p>If you have been constantly nagging people to recommend you TV shows and movies to watch or books to read, your search ends here.</p>
                  <p> Sweat no more, filter according to your preferences or simply spin a wheel customized to your choice and get a list of recommendations for yourself.We’ve got you covered, Happy Quarantining!.
                 </p>
-                 <br>
+                 <br><br>
               </div>
               </div>
             </div>
           </div>
         
-        <br>
+        <br><br><br><br>
         <div class="grid-flex">
             <div class="col col-text">
               <div class="Aligner-item">
@@ -157,6 +179,7 @@ p.cursor::after {
                 <p data-scroll>Stay tuned, Happy Quarantining!
                 </p>
                 <a class="btn btn-light btnss" href="{% url 'movies.html' %}" role="button">FOR MORE</a>
+                <br><br>
               </div>
              </div>
             </div>
@@ -164,7 +187,7 @@ p.cursor::after {
             </div>
           </div>
       
-          <br>
+          <br><br><br><br>
           <div class="grid-flex">
             <div class="col col-text col-left">
               <div class="Aligner-item">
@@ -174,14 +197,16 @@ p.cursor::after {
                  This quarantine got you feeling you’ve exhausted all shows on Netflix and other streaming sites? Say no more.. find an indefinite list of TV shows to keep you entertained and filter according to your preference or simply spin the wheel and surprise yourself. </p>
                 <p data-scroll>Happy Quarantining!</p>
                 <a class="btn btn-light btnss" href="{% url 'shows.html' %}" role="button">FOR MORE</a>
+                <br><br>
               </div>
               </div>
             </div>
             <div class="col col-image-show fade-scroll" >
             </div>
           </div>
-           <br>
+           
       
+          <br><br><br><br>
           <div id="books"></div>
           <br>
           <div class="grid-flex">
@@ -192,13 +217,15 @@ p.cursor::after {
                 <p data-scroll> If you are one of those who is constantly on the look for books to read, spin a wheel for youself according to your genre of preference and find your book of the week or go through our compilations and select your own treat.</p>
                   <p data-scroll>Happy Reading!</p>
                   <a class="btn btn-light btnss" href="{% url 'shows.html' %}" role="button">FOR MORE</a>
+                  <br><br>
                </div>
               </div>
             </div>
             <div class="col col-image-book fade-scroll" >
             </div>
           </div>
-               
+
+          <br><br><br><br>
           <div id="more"></div>
           <br>
           <div class="grid-flex">
@@ -212,6 +239,7 @@ p.cursor::after {
 
        </div>
 
+    <br><br>
     <div id="under"></div>
     <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
         <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
