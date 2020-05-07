@@ -159,6 +159,7 @@ select::-ms-expand {
    top: 5.5px;
    right: 24px;
    cursor:pointer;
+   pointer-events:none;
 }
 .select::after {
    /*top: 55px;*/
