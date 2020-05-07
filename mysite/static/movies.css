@@ -66,8 +66,8 @@ height: 800px;
   align-items: center;
   justify-content: center;
   color: white;
-  /*padding-top: 50px;
-  padding-bottom: 50px;*/
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .Aligner-item {
   width: 100%;
@@ -95,7 +95,7 @@ hr{
 }
 @media (max-width: 1160px){
       .grid-flex {
-    height: 40em;
+    height: 45em;
     display: -webkit-flex;
     -webkit-flex-direction: column;
     flex-direction: column;
