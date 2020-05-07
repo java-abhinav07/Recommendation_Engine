@@ -144,7 +144,7 @@ select::-ms-expand {
    display: block;
    margin-left: auto!important;
    margin-right: auto!important;
-   text-align: left;
+   text-align: center;
    width: 24em;
    height: 3.9em;
    line-height: 2;
