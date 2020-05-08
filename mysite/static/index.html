@@ -3,38 +3,65 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Frandom</title>
-    <link rel="shortcut icon" type="image/png" href="{% static './assets/logo_icon.png' %}">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <!-- <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/cooper-hewitt" type="text/css"/> -->
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href='{%static "./index.css" %}'>
-    <style>
-    .navbar-custom { 
-     color: #ffffff;
-     }
-     .navbar{
-       background-color: #333335;
-     }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Frandom</title>
+  <link rel="shortcut icon" type="image/png" href="{% static './assets/logo_icon.png' %}">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <!-- <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/cooper-hewitt" type="text/css"/> -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href='{%static "./index.css" %}'>
 
-     .navbar-nav >li{
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyARIH8oP9j_r4xziBkRb0Cpe9PIDrfWNOw",
+      authDomain: "frandom-7006b.firebaseapp.com",
+      databaseURL: "https://frandom-7006b.firebaseio.com",
+      projectId: "frandom-7006b",
+      storageBucket: "frandom-7006b.appspot.com",
+      messagingSenderId: "536409259857",
+      appId: "1:536409259857:web:7cdd68d41da199ec9a5d70",
+      measurementId: "G-CRX69XRJ5Z"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+  <style>
+    .navbar-custom {
+      color: #ffffff;
+    }
+
+    .navbar {
+      background-color: #333335;
+    }
+
+    .navbar-nav>li {
       font-size: 24px;
       padding-left: 15px;
       padding-right: 15px;
-     }
-     .navbar-expand-lg{
-       background-color: #333335;
-     }
+    }
 
-     @media (max-width: 560px) {
+    .navbar-expand-lg {
+      background-color: #333335;
+    }
+
+    @media (max-width: 560px) {
 
       .col-image-movie {
 
@@ -53,319 +80,341 @@
         padding-top: 350px;
         width: 100%;
       }
-     }
-
-
-     @media (min-width: 768px) {
-    .navbar-nav > li > a {
-      /* (80px - line-height of 27px) / 2 = 26.5px */
-      padding-top: 7px;
-      padding-bottom: 7px;
-      line-height: 14px;
     }
-        }
-     .output {
-  text-align:center;
-  font-family: 'Bebas Neue', cursive;
-    color: #ffffff;
+
+
+    @media (min-width: 768px) {
+      .navbar-nav>li>a {
+        /* (80px - line-height of 27px) / 2 = 26.5px */
+        padding-top: 7px;
+        padding-bottom: 7px;
+        line-height: 14px;
+      }
+    }
+
+    .output {
       text-align: center;
-      margin-top: :  250px;
-        letter-spacing: 3px;*/
-/*  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+      font-family: 'Bebas Neue', cursive;
+      color: #ffffff;
+      text-align: center;
+      margin-top: : 250px;
+      letter-spacing: 3px;
+      */
+      /*  animation: animated-text 4s steps(29,end) 1s 1 normal both,
              animated-cursor 600ms steps(29,end) infinite;
-*//*             white-space: nowrap;
-*//*  overflow: hidden;*/
-}
+*/
+      /*             white-space: nowrap;
+*/
+      /*  overflow: hidden;*/
+    }
 
-/* Cursor Styling */
+    /* Cursor Styling */
 
-.cursor::after {
-  content: '|';
-/*    border-right: solid 3px rgba(0,255,0,.75);
-*/  display:inline-block;
-  margin-left:3px;
-  background-color:white;
-  animation-name:blink;
-  animation-duration:0.5s;
-  animation-iteration-count: infinite;
-}
-h1.cursor::after {
-  height:4px;
-  width:13px;
-}
-p.cursor::after {
-  height:13px;
-  width:6px;
-}
+    .cursor::after {
+      content: '|';
+      /*    border-right: solid 3px rgba(0,255,0,.75);
+*/
+      display: inline-block;
+      margin-left: 3px;
+      background-color: white;
+      animation-name: blink;
+      animation-duration: 0.5s;
+      animation-iteration-count: infinite;
+    }
 
-@keyframes blink {
-  0% {
-    opacity:1;
-  }
-  49% {
-    opacity:1;
-  }
-  50% {
-    opacity:0;
-  }
-  100% {
-    opacity:0;
-  }
+    h1.cursor::after {
+      height: 4px;
+      width: 13px;
+    }
+
+    p.cursor::after {
+      height: 13px;
+      width: 6px;
+    }
+
+    @keyframes blink {
+      0% {
+        opacity: 1;
+      }
+
+      49% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 0;
+      }
   </style>
 </head>
 
 <body>
 
-    <div id="over">
-      <nav class="navbar navbar-expand-lg py-0 navbar-dark navbar-custom">
+  <div id="over">
+    <nav class="navbar navbar-expand-lg py-0 navbar-dark navbar-custom">
 
-        <div class="container-fluid">
-            <a class="navbar-brand" href="{% url 'index.html' %}"></a>
-            <button type="button" class="navbar-toggler ml-auto hidden-sm-up float-xs-right" data-toggle="collapse" data-target="#navbarResponsive" >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="{% url 'index.html' %}"><strong>Home</strong></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="{% url 'movies.html' %}">Movies</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="{% url 'shows.html' %}">TV Shows</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="{% url 'books.html' %}">Books</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-
-        <div class="output" id="output">
-        <h1 class=" output cursor" style="font-size: 22vw; margin-top: 130px;"></h1>
-        <p style="font-size: 4vw; margin-bottom: 20px;"></p>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="{% url 'index.html' %}"></a>
+        <button type="button" class="navbar-toggler ml-auto hidden-sm-up float-xs-right" data-toggle="collapse"
+          data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="{% url 'index.html' %}"><strong>Home</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'movies.html' %}">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'shows.html' %}">TV Shows</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'books.html' %}">Books</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
 
-        <div class="arrow" style="text-align: center;">
-        <a class="ct-btn-scroll ct-js-btn-scroll" href="#howto"><img alt="Arrow Down Icon" src="https://raw.githubusercontent.com/solodev/scroll-down-anchor/master/images/arrow-down-1.png"></a>
+    <div class="output" id="output">
+      <h1 class=" output cursor" style="font-size: 22vw; margin-top: 130px;"></h1>
+      <p style="font-size: 4vw; margin-bottom: 20px;"></p>
+    </div>
+
+    <div class="arrow" style="text-align: center;">
+      <a class="ct-btn-scroll ct-js-btn-scroll" href="#howto"><img alt="Arrow Down Icon"
+          src="https://raw.githubusercontent.com/solodev/scroll-down-anchor/master/images/arrow-down-1.png"></a>
+    </div>
+
+    <br><br><br><br>
+    <div id="howto"></div>
+    <div class="grid-flex">
+      <div class="col col-text-top">
+        <div class="Aligner-item">
+          <div data-scroll class="fade-scrollx">
+            <h3 class="headss">HOW TO QUARANTINE 101</h3>
+            <p>If you have been constantly nagging people to recommend you TV shows and movies to watch or books to
+              read, your search ends here.</p>
+            <p> Sweat no more, filter according to your preferences or simply spin a wheel customized to your choice and
+              get a list of recommendations for yourself.We’ve got you covered, Happy Quarantining!.
+            </p>
+            <br><br>
+          </div>
         </div>
+      </div>
+    </div>
 
-        <br><br><br><br>
-        <div id="howto"></div>
-         <div class="grid-flex">
-            <div class="col col-text-top">
-              <div class="Aligner-item">
-                <div data-scroll class="fade-scrollx">
-                <h3 class="headss">HOW TO QUARANTINE 101</h3>
-                <p>If you have been constantly nagging people to recommend you TV shows and movies to watch or books to read, your search ends here.</p>
-                 <p> Sweat no more, filter according to your preferences or simply spin a wheel customized to your choice and get a list of recommendations for yourself.We’ve got you covered, Happy Quarantining!.
-                </p>
-                 <br><br>
-              </div>
-              </div>
-            </div>
+    <br><br><br><br>
+    <div class="grid-flex">
+      <div class="col col-text">
+        <div class="Aligner-item">
+          <h3 data-scroll style=" padding: 20px 0;" class="headss">MOVIES</h3>
+          <div class="fade-scroll">
+            <p data-scroll>
+              Struggling to find good movies and tired of putting up stories asking for recommendations. Find an
+              expansive list of content to keep you going through this quarantine. Choose from our list filtered
+              according to your choices or spin a wheel while you get the popcorn bowl and watch a random movie.</p>
+            <p data-scroll>Stay tuned, Happy Quarantining!
+            </p>
+            <a class="btn btn-light btnss" href="{% url 'movies.html' %}" role="button">FOR MORE</a>
+            <br><br>
           </div>
-        
-        <br><br><br><br>
-        <div class="grid-flex">
-            <div class="col col-text">
-              <div class="Aligner-item">
-                <h3 data-scroll style=" padding: 20px 0;" class="headss">MOVIES</h3>
-                <div class="fade-scroll">
-                <p data-scroll>
-                  Struggling to find good movies and tired of putting up stories asking for recommendations. Find an expansive list of content to keep you going through this quarantine. Choose from our list filtered according to your choices or spin a wheel while you get the popcorn bowl and watch a random movie.</p>
-                <p data-scroll>Stay tuned, Happy Quarantining!
-                </p>
-                <a class="btn btn-light btnss" href="{% url 'movies.html' %}" role="button">FOR MORE</a>
-                <br><br>
-              </div>
-             </div>
-            </div>
-            <div class="col col-image-movie fade-scroll">
-            </div>
+        </div>
+      </div>
+      <div class="col col-image-movie fade-scroll">
+      </div>
+    </div>
+
+    <br><br><br><br>
+    <div class="grid-flex">
+      <div class="col col-text col-left">
+        <div class="Aligner-item">
+          <div class="fade-scroll">
+            <h3 data-scroll class="headss" style="padding-bottom: 20px;">SHOWS</h3>
+            <p data-scroll top>
+              This quarantine got you feeling you’ve exhausted all shows on Netflix and other streaming sites? Say no
+              more.. find an indefinite list of TV shows to keep you entertained and filter according to your preference
+              or simply spin the wheel and surprise yourself. </p>
+            <p data-scroll>Happy Quarantining!</p>
+            <a class="btn btn-light btnss" href="{% url 'shows.html' %}" role="button">FOR MORE</a>
+            <br><br>
           </div>
-      
-          <br><br><br><br>
-          <div class="grid-flex">
-            <div class="col col-text col-left">
-              <div class="Aligner-item">
-                <div class="fade-scroll">
-                <h3 data-scroll class="headss" style="padding-bottom: 20px;">SHOWS</h3>
-                <p data-scroll top>
-                 This quarantine got you feeling you’ve exhausted all shows on Netflix and other streaming sites? Say no more.. find an indefinite list of TV shows to keep you entertained and filter according to your preference or simply spin the wheel and surprise yourself. </p>
-                <p data-scroll>Happy Quarantining!</p>
-                <a class="btn btn-light btnss" href="{% url 'shows.html' %}" role="button">FOR MORE</a>
-                <br><br>
-              </div>
-              </div>
-            </div>
-            <div class="col col-image-show fade-scroll" >
-            </div>
+        </div>
+      </div>
+      <div class="col col-image-show fade-scroll">
+      </div>
+    </div>
+
+
+    <br><br><br><br>
+    <div id="books"></div>
+    <br>
+    <div class="grid-flex">
+      <div class="col col-text">
+        <div class="Aligner-item">
+          <div class="fade-scroll">
+            <h3 data-scroll class="headss" style="padding-bottom: 20px;">BOOKS</h3>
+            <p data-scroll> If you are one of those who is constantly on the look for books to read, spin a wheel for
+              youself according to your genre of preference and find your book of the week or go through our
+              compilations and select your own treat.</p>
+            <p data-scroll>Happy Reading!</p>
+            <a class="btn btn-light btnss" href="{% url 'shows.html' %}" role="button">FOR MORE</a>
+            <br><br>
           </div>
-           
-      
-          <br><br><br><br>
-          <div id="books"></div>
-          <br>
-          <div class="grid-flex">
-            <div class="col col-text">
-              <div class="Aligner-item">
-                <div class="fade-scroll">
-                  <h3 data-scroll class="headss" style="padding-bottom: 20px;">BOOKS</h3>
-                <p data-scroll> If you are one of those who is constantly on the look for books to read, spin a wheel for youself according to your genre of preference and find your book of the week or go through our compilations and select your own treat.</p>
-                  <p data-scroll>Happy Reading!</p>
-                  <a class="btn btn-light btnss" href="{% url 'shows.html' %}" role="button">FOR MORE</a>
-                  <br><br>
-               </div>
-              </div>
-            </div>
-            <div class="col col-image-book fade-scroll" >
-            </div>
-          </div>
+        </div>
+      </div>
+      <div class="col col-image-book fade-scroll">
+      </div>
+    </div>
 
-          <br><br><br><br>
-          <div id="more"></div>
-          <br>
-          <div class="grid-flex">
-            <div class="col col-text">
-              <div class="Aligner-item">
-                <p>This website is an attempt by college students to simplify the process of finding content to watch or books to read during this quarantine as a one stop solutions for everyone who has been constantly looking out for such content through different sources.</p>
-                  <p>Happy Quarantining, stay safe, stay at home!</p>
-              </div>
-            </div>
-          </div>
+    <br><br><br><br>
+    <div id="more"></div>
+    <br>
+    <div class="grid-flex">
+      <div class="col col-text">
+        <div class="Aligner-item">
+          <p>This website is an attempt by college students to simplify the process of finding content to watch or books
+            to read during this quarantine as a one stop solutions for everyone who has been constantly looking out for
+            such content through different sources.</p>
+          <p>Happy Quarantining, stay safe, stay at home!</p>
+        </div>
+      </div>
+    </div>
 
-       </div>
+  </div>
 
-    <br><br>
-    <div id="under"></div>
-    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
-        <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-      ScrollOut()
-// values to keep track of the number of letters typed, which quote to use. etc. Don't change these values.
-var i = 0,
-    a = 0,
-    isBackspacing = false,
-    isParagraph = false;
-
-// Typerwrite text content. Use a pipe to indicate the start of the second line "|".  
-var textArray = [
-  "FRANDOM|Find yourself something RANDOM"
-];
-
-// Speed (in milliseconds) of typing.
-var speedForward = 120, //Typing Speed
-    speedWait = 900, // Wait between typing and backspacing
-    speedBetweenLines = 1000, //Wait between first and second lines
-    speedBackspace = 100; //Backspace Speed
-
-//Run the loop
-typeWriter("output", textArray);
-
-function typeWriter(id, ar) {
-  var element = $("#" + id),
-      aString = ar[a],
-      eHeader = element.children("h1"), //Header element
-      eParagraph = element.children("p"); //Subheader element
-  
-  // Determine if animation should be typing or backspacing
-  if (!isBackspacing) {
-    
-    // If full string hasn't yet been typed out, continue typing
-    if (i < aString.length) {
-      
-      // If character about to be typed is a pipe, switch to second line and continue.
-      if (aString.charAt(i) == "|") {
-        isParagraph = true;
-        eHeader.removeClass("cursor");
-        eParagraph.addClass("cursor");
-        i++;
-        setTimeout(function(){ typeWriter(id, ar); }, speedBetweenLines);
-        
-      // If character isn't a pipe, continue typing.
-      } else {
-        // Type header or subheader depending on whether pipe has been detected
-        if (!isParagraph) {
-          eHeader.text(eHeader.text() + aString.charAt(i));
-        } else {
-          eParagraph.text(eParagraph.text() + aString.charAt(i));
-        }
-        i++;
-        setTimeout(function(){ typeWriter(id, ar); }, speedForward);
-      }
-      
-    // If full string has been typed, switch to backspace mode.
-    } else if (i == aString.length) {
-      
-      isBackspacing = true;
-      setTimeout(function(){ typeWriter(id, ar); }, speedWait);
-      
-    }
-    
-  // If backspacing is enabled
-  } else {
-    
-    // If either the header or the paragraph still has text, continue backspacing
-    if (eHeader.text().length > 0 || eParagraph.text().length > 0) {
-      
-      // If paragraph still has text, continue erasing, otherwise switch to the header.
-      if (eParagraph.text().length > 0) {
-        eParagraph.text(eParagraph.text().substring(0, eParagraph.text().length - 1));
-      } else if (eHeader.text().length > 0) {
-        eParagraph.removeClass("cursor");
-        eHeader.addClass("cursor");
-        eHeader.text(eHeader.text().substring(0, eHeader.text().length - 1));
-      }
-      setTimeout(function(){ typeWriter(id, ar); }, speedBackspace);
-    
-    // If neither head or paragraph still has text, switch to next quote in array and start typing.
-    } else { 
-      
-      isBackspacing = false;
-      i = 0;
+  <br><br>
+  <div id="under"></div>
+  <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    ScrollOut()
+    // values to keep track of the number of letters typed, which quote to use. etc. Don't change these values.
+    var i = 0,
+      a = 0,
+      isBackspacing = false,
       isParagraph = false;
-      a = (a + 1) % ar.length; //Moves to next position in array, always looping back to 0
-      setTimeout(function(){ typeWriter(id, ar); }, 50);
-      
+
+    // Typerwrite text content. Use a pipe to indicate the start of the second line "|".  
+    var textArray = [
+      "FRANDOM|Find yourself something RANDOM"
+    ];
+
+    // Speed (in milliseconds) of typing.
+    var speedForward = 120, //Typing Speed
+      speedWait = 900, // Wait between typing and backspacing
+      speedBetweenLines = 1000, //Wait between first and second lines
+      speedBackspace = 100; //Backspace Speed
+
+    //Run the loop
+    typeWriter("output", textArray);
+
+    function typeWriter(id, ar) {
+      var element = $("#" + id),
+        aString = ar[a],
+        eHeader = element.children("h1"), //Header element
+        eParagraph = element.children("p"); //Subheader element
+
+      // Determine if animation should be typing or backspacing
+      if (!isBackspacing) {
+
+        // If full string hasn't yet been typed out, continue typing
+        if (i < aString.length) {
+
+          // If character about to be typed is a pipe, switch to second line and continue.
+          if (aString.charAt(i) == "|") {
+            isParagraph = true;
+            eHeader.removeClass("cursor");
+            eParagraph.addClass("cursor");
+            i++;
+            setTimeout(function () { typeWriter(id, ar); }, speedBetweenLines);
+
+            // If character isn't a pipe, continue typing.
+          } else {
+            // Type header or subheader depending on whether pipe has been detected
+            if (!isParagraph) {
+              eHeader.text(eHeader.text() + aString.charAt(i));
+            } else {
+              eParagraph.text(eParagraph.text() + aString.charAt(i));
+            }
+            i++;
+            setTimeout(function () { typeWriter(id, ar); }, speedForward);
+          }
+
+          // If full string has been typed, switch to backspace mode.
+        } else if (i == aString.length) {
+
+          isBackspacing = true;
+          setTimeout(function () { typeWriter(id, ar); }, speedWait);
+
+        }
+
+        // If backspacing is enabled
+      } else {
+
+        // If either the header or the paragraph still has text, continue backspacing
+        if (eHeader.text().length > 0 || eParagraph.text().length > 0) {
+
+          // If paragraph still has text, continue erasing, otherwise switch to the header.
+          if (eParagraph.text().length > 0) {
+            eParagraph.text(eParagraph.text().substring(0, eParagraph.text().length - 1));
+          } else if (eHeader.text().length > 0) {
+            eParagraph.removeClass("cursor");
+            eHeader.addClass("cursor");
+            eHeader.text(eHeader.text().substring(0, eHeader.text().length - 1));
+          }
+          setTimeout(function () { typeWriter(id, ar); }, speedBackspace);
+
+          // If neither head or paragraph still has text, switch to next quote in array and start typing.
+        } else {
+
+          isBackspacing = false;
+          i = 0;
+          isParagraph = false;
+          a = (a + 1) % ar.length; //Moves to next position in array, always looping back to 0
+          setTimeout(function () { typeWriter(id, ar); }, 50);
+
+        }
+      }
     }
-  }
-}
 
 
-      $(function(){
-        var documentEl = $(document),
+    $(function () {
+      var documentEl = $(document),
         fadeElem = $('.fade-scroll');
 
-        documentEl.on('scroll', function(){
-            var currScrollPos = documentEl.scrollTop();
+      documentEl.on('scroll', function () {
+        var currScrollPos = documentEl.scrollTop();
 
-            fadeElem.each(function(){
-                var $this = $(this),
-                    elemOffsetTop = $this.offset().top;
-                if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 -(currScrollPos-elemOffsetTop)/300);
-            });
+        fadeElem.each(function () {
+          var $this = $(this),
+            elemOffsetTop = $this.offset().top;
+          if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 - (currScrollPos - elemOffsetTop) / 300);
         });
       });
-      $(function(){
-        var documentEl = $(document),
+    });
+    $(function () {
+      var documentEl = $(document),
         fadeElem = $('.fade-scrollx');
 
-        documentEl.on('scroll', function(){
-            var currScrollPos = documentEl.scrollTop();
+      documentEl.on('scroll', function () {
+        var currScrollPos = documentEl.scrollTop();
 
-            fadeElem.each(function(){
-                var $this = $(this),
-                    elemOffsetTop = $this.offset().top;
-                if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 -(currScrollPos-elemOffsetTop)/200);
-            });
+        fadeElem.each(function () {
+          var $this = $(this),
+            elemOffsetTop = $this.offset().top;
+          if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 - (currScrollPos - elemOffsetTop) / 200);
         });
       });
+    });
 
-    </script>
-    <script src='{% static "./index.js" %}'></script>
+  </script>
+  <script src='{% static "./index.js" %}'></script>
 </body>
 
 </html>

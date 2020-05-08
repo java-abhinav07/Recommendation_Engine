@@ -22,6 +22,30 @@
   <link rel="stylesheet" href='{% static "cards.css" %}'>
   <link rel="stylesheet" href='{% static "movies.css" %}'>
 
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyARIH8oP9j_r4xziBkRb0Cpe9PIDrfWNOw",
+      authDomain: "frandom-7006b.firebaseapp.com",
+      databaseURL: "https://frandom-7006b.firebaseio.com",
+      projectId: "frandom-7006b",
+      storageBucket: "frandom-7006b.appspot.com",
+      messagingSenderId: "536409259857",
+      appId: "1:536409259857:web:7cdd68d41da199ec9a5d70",
+      measurementId: "G-CRX69XRJ5Z"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+
   <style>
     .navbar-custom {
       background-color: #373737;
@@ -35,17 +59,17 @@
     }
 
     .hamburger {
-            font-size: 30px;
-            color: #fff;
+      font-size: 30px;
+      color: #fff;
     }
 
     @media (min-width: 768px) {
-    .navbar-nav > li > a {
-       /*(80px - line-height of 27px) / 2 = 26.5px */
-      padding-top: 7px;
-      padding-bottom: 7px;
-      line-height: 14px;
-    }
+      .navbar-nav>li>a {
+        /*(80px - line-height of 27px) / 2 = 26.5px */
+        padding-top: 7px;
+        padding-bottom: 7px;
+        line-height: 14px;
+      }
     }
   </style>
 </head>
@@ -55,10 +79,8 @@
 
     <div class="container-fluid">
       <a class="navbar-brand" href="{% url 'index.html' %}"></a>
-      <button type="button" 
-              class="navbar-toggler ml-auto hidden-sm-up float-xs-right" 
-              data-toggle="collapse" 
-              data-target="#navbarResponsive">
+      <button type="button" class="navbar-toggler ml-auto hidden-sm-up float-xs-right" data-toggle="collapse"
+        data-target="#navbarResponsive">
         <i class="fas fa-bars hamburger"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -85,33 +107,33 @@
   <div>
     <div id="chart"></div>
   </div>
-      <form class="formm" style="background-color: #373737" action="." method="get">
+  <form class="formm" style="background-color: #373737" action="." method="get">
 
-      <h3>CHOOSE A SHOW</h3>
-            <div class="contain">
-                    <p></p>
-                    <div class="select">
-                       <select name="genre_contains" id="genre" style="color: #ffffff">
+    <h3>CHOOSE A SHOW</h3>
+    <div class="contain">
+      <p></p>
+      <div class="select">
+        <select name="genre_contains" id="genre" style="color: #ffffff">
           <option value="" {% if genre_val == "" %} selected disabled {% endif %}>Select Genre</option>
-          <option value="" {% if genre_val == "" %} selected {% endif %} >Select All</option>
-          <option value = "Action" {% if genre_val == 'Action' %} selected {% endif %} >Action</option>
-          <option value="Adventure" {% if genre_val == 'Adventure' %} selected {% endif %} >Adventure</option>
-          <option value="Comedy" {% if genre_val == 'Comedy' %} selected {% endif %} >Comedy</option>
-          <option value = "Crime"{% if genre_val == 'Crime' %} selected {% endif %} >Crime</option>
-          <option value = "Drama"{% if genre_val == 'Drama' %}selected{% endif %} >Drama</option>
-          <option value = "Fantasy"{% if genre_val == 'Fantasy' %}selected{% endif %} >Fantasy</option>
-          <option value = "Horror"{% if genre_val == 'Horror' %}selected{% endif %} >Horror</option>
-          <option value = "Mystery"{% if genre_val == 'Mystery' %}selected{% endif %} >Mystery</option>
-          <option value = "Romance"{% if genre_val == 'Romance' %}selected{% endif %} >Romance</option>
-          <option value = "Sci-Fi"{% if genre_val == 'Sci-Fi' %}selected{% endif %} >Sci-Fi</option>
-          <option value = "Thriller"{% if genre_val == 'Thriller' %}selected{% endif %} >Thriller</option>
-          </select>
-                       <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
-                    </div>
+          <option value="" {% if genre_val == "" %} selected {% endif %}>Select All</option>
+          <option value="Action" {% if genre_val == 'Action' %} selected {% endif %}>Action</option>
+          <option value="Adventure" {% if genre_val == 'Adventure' %} selected {% endif %}>Adventure</option>
+          <option value="Comedy" {% if genre_val == 'Comedy' %} selected {% endif %}>Comedy</option>
+          <option value="Crime" {% if genre_val == 'Crime' %} selected {% endif %}>Crime</option>
+          <option value="Drama" {% if genre_val == 'Drama' %}selected{% endif %}>Drama</option>
+          <option value="Fantasy" {% if genre_val == 'Fantasy' %}selected{% endif %}>Fantasy</option>
+          <option value="Horror" {% if genre_val == 'Horror' %}selected{% endif %}>Horror</option>
+          <option value="Mystery" {% if genre_val == 'Mystery' %}selected{% endif %}>Mystery</option>
+          <option value="Romance" {% if genre_val == 'Romance' %}selected{% endif %}>Romance</option>
+          <option value="Sci-Fi" {% if genre_val == 'Sci-Fi' %}selected{% endif %}>Sci-Fi</option>
+          <option value="Thriller" {% if genre_val == 'Thriller' %}selected{% endif %}>Thriller</option>
+        </select>
+        <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
+      </div>
 
-                    <p></p>
-                    <div class="select">
-     <select name="rating_contains" id="rating" style="color: #ffffff">
+      <p></p>
+      <div class="select">
+        <select name="rating_contains" id="rating" style="color: #ffffff">
           <option selected disabled>Select Rating</option>
           <option value="">Select All</option>
           <option value="8" {% if rating_val == '8' %}selected{%endif%}>>8</option>
@@ -119,12 +141,12 @@
           <option value="6" {% if rating_val == '6' %}selected{%endif%}>>6</option>
           <option value="5" {% if rating_val == '5' %}selected{%endif%}>>5</option>
         </select>
-                       <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
-                    </div>
+        <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
+      </div>
 
-                  <p></p>
-                  <div class="select">
-    <select name="year_contains" id="year" style="color: #ffffff">
+      <p></p>
+      <div class="select">
+        <select name="year_contains" id="year" style="color: #ffffff">
           <option selected disabled>Select Release Year</option>
           <option value="">Select All</option>
           <option value="2010" {% if year_val == '2010' %}selected{% endif %}>After 2010</option>
@@ -148,54 +170,54 @@
 
   </div>
 
-    <div class="filterContainerKV">
-      <div class="filterHeadingKV">
-        FILTER IT OUT !!
-      </div>
+  <div class="filterContainerKV">
+    <div class="filterHeadingKV">
+      FILTER IT OUT !!
     </div>
-            <form method="get" action="">
+  </div>
+  <form method="get" action="">
 
-          <select name="genre_contains" id="genre" style="color: #ffffff">
-          <option value="" {% if genre_val == "" %} selected disabled {% endif %}>Select Genre</option>
-          <option value="" {% if genre_val == "" %} selected {% endif %} >Select All</option>
-          <option value = "Action" {% if genre_val == 'Action' %} selected {% endif %} >Action</option>
-          <option value="Adventure" {% if genre_val == 'Adventure' %} selected {% endif %} >Adventure</option>
-          <option value="Comedy" {% if genre_val == 'Comedy' %} selected {% endif %} >Comedy</option>
-          <option value = "Crime"{% if genre_val == 'Crime' %} selected {% endif %} >Crime</option>
-          <option value = "Drama"{% if genre_val == 'Drama' %}selected{% endif %} >Drama</option>
-          <option value = "Fantasy"{% if genre_val == 'Fantasy' %}selected{% endif %} >Fantasy</option>
-          <option value = "Horror"{% if genre_val == 'Horror' %}selected{% endif %} >Horror</option>
-          <option value = "Mystery"{% if genre_val == 'Mystery' %}selected{% endif %} >Mystery</option>
-          <option value = "Romance"{% if genre_val == 'Romance' %}selected{% endif %} >Romance</option>
-          <option value = "Sci-Fi"{% if genre_val == 'Sci-Fi' %}selected{% endif %} >Sci-Fi</option>
-          <option value = "Thriller"{% if genre_val == 'Thriller' %}selected{% endif %} >Thriller</option>
-          </select>
-        <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
-     <select name="rating_contains" id="rating" style="color: #ffffff">
-          <option selected disabled>Select Rating</option>
-          <option value="">Select All</option>
-          <option value="8" {% if rating_val == '8' %}selected{%endif%}>>8</option>
-          <option value="7" {% if rating_val == '7' %}selected{%endif%}>>7</option>
-          <option value="6" {% if rating_val == '6' %}selected{%endif%}>>6</option>
-          <option value="5" {% if rating_val == '5' %}selected{%endif%}>>5</option>
-        </select>
+    <select name="genre_contains" id="genre" style="color: #ffffff">
+      <option value="" {% if genre_val == "" %} selected disabled {% endif %}>Select Genre</option>
+      <option value="" {% if genre_val == "" %} selected {% endif %}>Select All</option>
+      <option value="Action" {% if genre_val == 'Action' %} selected {% endif %}>Action</option>
+      <option value="Adventure" {% if genre_val == 'Adventure' %} selected {% endif %}>Adventure</option>
+      <option value="Comedy" {% if genre_val == 'Comedy' %} selected {% endif %}>Comedy</option>
+      <option value="Crime" {% if genre_val == 'Crime' %} selected {% endif %}>Crime</option>
+      <option value="Drama" {% if genre_val == 'Drama' %}selected{% endif %}>Drama</option>
+      <option value="Fantasy" {% if genre_val == 'Fantasy' %}selected{% endif %}>Fantasy</option>
+      <option value="Horror" {% if genre_val == 'Horror' %}selected{% endif %}>Horror</option>
+      <option value="Mystery" {% if genre_val == 'Mystery' %}selected{% endif %}>Mystery</option>
+      <option value="Romance" {% if genre_val == 'Romance' %}selected{% endif %}>Romance</option>
+      <option value="Sci-Fi" {% if genre_val == 'Sci-Fi' %}selected{% endif %}>Sci-Fi</option>
+      <option value="Thriller" {% if genre_val == 'Thriller' %}selected{% endif %}>Thriller</option>
+    </select>
+    <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
+    <select name="rating_contains" id="rating" style="color: #ffffff">
+      <option selected disabled>Select Rating</option>
+      <option value="">Select All</option>
+      <option value="8" {% if rating_val == '8' %}selected{%endif%}>>8</option>
+      <option value="7" {% if rating_val == '7' %}selected{%endif%}>>7</option>
+      <option value="6" {% if rating_val == '6' %}selected{%endif%}>>6</option>
+      <option value="5" {% if rating_val == '5' %}selected{%endif%}>>5</option>
+    </select>
 
     <select name="year_contains" id="year" style="color: #ffffff">
-          <option selected disabled>Select Release Year</option>
-          <option value="">Select All</option>
-          <option value="2010" {% if year_val == '2010' %}selected{% endif %}>After 2010</option>
-          <option value="1990" {% if year_val == '1990' %}selected{% endif %}>After 1990</option>
-          <option value="1980" {% if year_val == '1980' %}selected{% endif %}>After 1980</option>
-          <option value="1970" {% if year_val == '1970' %}selected{% endif %}>After 1970</option>
-          <option value="1960" {% if year_val == '1960' %}selected{% endif %}>After 1960</option>
-          <option value="1950" {% if year_val == '1950' %}selected{% endif %}>After 1950</option>
-          <option value="1940" {% if year_val == '1940' %}selected{% endif %}>After 1940</option>
-        </select>
+      <option selected disabled>Select Release Year</option>
+      <option value="">Select All</option>
+      <option value="2010" {% if year_val == '2010' %}selected{% endif %}>After 2010</option>
+      <option value="1990" {% if year_val == '1990' %}selected{% endif %}>After 1990</option>
+      <option value="1980" {% if year_val == '1980' %}selected{% endif %}>After 1980</option>
+      <option value="1970" {% if year_val == '1970' %}selected{% endif %}>After 1970</option>
+      <option value="1960" {% if year_val == '1960' %}selected{% endif %}>After 1960</option>
+      <option value="1950" {% if year_val == '1950' %}selected{% endif %}>After 1950</option>
+      <option value="1940" {% if year_val == '1940' %}selected{% endif %}>After 1940</option>
+    </select>
     <input class="forfilters" type="submit" value="Search">
-    </form>
+  </form>
   </div>
 
- <hr class="dividerLineKV">
+  <hr class="dividerLineKV">
   <div class="cardContainerKV">
     {% for data in raw_details_shows %}
     <div class="cardKV">
@@ -217,16 +239,16 @@
   //var current1 = '{{ movies }}';
   //var current2 = current1.replace("'", '"')
   //console.log(current2);
-  var current =JSON.parse('{{ shows | escapejs }}');
+  var current = JSON.parse('{{ shows | escapejs }}');
 
-console.log(current);
+  console.log(current);
   let mySize = 500
   let radius = 60
   let innerFontsize = 30
 
 
   function resizeFunction(x) {
-    if (x.matches) { 
+    if (x.matches) {
       mySize = 260
       radius = 25
       innerFontsize = 14
@@ -242,12 +264,12 @@ console.log(current);
   zyz.addListener(resizeFunction)
 
   current.forEach(element => {
-    if(element.label.length > 8) {
-      element.label= element.label.slice(0, 8);
+    if (element.label.length > 8) {
+      element.label = element.label.slice(0, 8);
 
     }
   });
-  
+
   var padding = { top: 5, right: 50, bottom: 0, left: 0 },
     w = mySize - padding.left - padding.right,
     h = mySize - padding.top - padding.bottom,
@@ -348,11 +370,11 @@ console.log(current);
         console.log(pickedItem)
         element.stars = element.stars.slice(1, -1);
         element.genre = element.genre;
-        if (element.YT_link != "NULL"){
+        if (element.YT_link != "NULL") {
           element.YT_link = "https://www.youtube.com/embed/" + element.YT_link;
         }
-        else{
-          element.YT_link = "https://www.youtube.com/embed/HhctenuKBYo" 
+        else {
+          element.YT_link = "https://www.youtube.com/embed/HhctenuKBYo"
         }
 
 
@@ -360,18 +382,18 @@ console.log(current);
     <div class="cover"><div class="grid-flex">
       <div class="col col-text">
         <div class="Aligner-item">
-          <h2>`+element.title+`</h2>
+          <h2>`+ element.title + `</h2>
           <hr style="background-color:#C3073F">
-          <h7> <b>IMDB Rating:</b></h7> `+element.rating+`<br>
-          <h7> <b>Starring:</b></h7> `+element.stars+`<br>
-          <h7> <b>Genre:</b></h7> `+element.genre+` <br>
-          <h7> <b>Director:</b></h7> `+element.director+`<br>
-          <h7> <b>Release Year:</b></h7> `+element.year+`<br>
-          <h7> <b>Duration:</b></h7> `+element.duration+` mins<br>
+          <h7> <b>IMDB Rating:</b></h7> `+ element.rating + `<br>
+          <h7> <b>Starring:</b></h7> `+ element.stars + `<br>
+          <h7> <b>Genre:</b></h7> `+ element.genre + ` <br>
+          <h7> <b>Director:</b></h7> `+ element.director + `<br>
+          <h7> <b>Release Year:</b></h7> `+ element.year + `<br>
+          <h7> <b>Duration:</b></h7> `+ element.duration + ` mins<br>
         </div>
       </div>
       <div class="col position">
-      <iframe width="100%" height="450" src=`+element.YT_link+` frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="100%" height="450" src=`+ element.YT_link + ` frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div></div>
     `

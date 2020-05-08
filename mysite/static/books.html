@@ -20,6 +20,31 @@
   <link rel="stylesheet" href='{% static "generalStyles.css" %}'>
   <link rel="stylesheet" href='{% static "cards.css" %}'>
   <link rel="stylesheet" href='{% static "movies.css" %}'>
+
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyARIH8oP9j_r4xziBkRb0Cpe9PIDrfWNOw",
+      authDomain: "frandom-7006b.firebaseapp.com",
+      databaseURL: "https://frandom-7006b.firebaseio.com",
+      projectId: "frandom-7006b",
+      storageBucket: "frandom-7006b.appspot.com",
+      messagingSenderId: "536409259857",
+      appId: "1:536409259857:web:7cdd68d41da199ec9a5d70",
+      measurementId: "G-CRX69XRJ5Z"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
   <style>
     .navbar-custom {
       background-color: #373737;
@@ -33,25 +58,27 @@
     }
 
     .hamburger {
-            font-size: 30px;
-            color: #fff;
+      font-size: 30px;
+      color: #fff;
     }
 
     @media (min-width: 768px) {
-    .navbar-nav > li > a {
-       /*(80px - line-height of 27px) / 2 = 26.5px */
-      padding-top: 7px;
-      padding-bottom: 7px;
-      line-height: 14px;
+      .navbar-nav>li>a {
+        /*(80px - line-height of 27px) / 2 = 26.5px */
+        padding-top: 7px;
+        padding-bottom: 7px;
+        line-height: 14px;
+      }
     }
-  }
   </style>
 </head>
+
 <body>
   <nav class="navbar navbar-expand-lg py-0 navbar-dark fixed-top navbar-custom">
     <div class="container-fluid">
       <a class="navbar-brand" href="{% url 'index.html' %}"></a>
-      <button type="button" class="navbar-toggler ml-auto hidden-sm-up float-xs-right" data-toggle="collapse" data-target="#navbarResponsive">
+      <button type="button" class="navbar-toggler ml-auto hidden-sm-up float-xs-right" data-toggle="collapse"
+        data-target="#navbarResponsive">
         <i class="fas fa-bars hamburger"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -77,11 +104,11 @@
   <div>
     <div id="chart"></div>
   </div>
-      <form class="formm" style="background-color: #373737" action="." method="get">
-      <h3 style="color: #ffffff">CHOOSE A BOOK</h3>
-            <div class="contain">
-                  <p></p>
-        <div class="select">
+  <form class="formm" style="background-color: #373737" action="." method="get">
+    <h3 style="color: #ffffff">CHOOSE A BOOK</h3>
+    <div class="contain">
+      <p></p>
+      <div class="select">
         <select name="genre_contains" id="genre" style="color: #ffffff">
           <option value="" {% if genre_val == '' %}selected disabled{%endif%}>Select Genre</option>
           <option value="" {% if genre_val == '' %} selected {% endif %}>Select All</option>
@@ -89,7 +116,8 @@
           <option value="Horror" {% if genre_val == 'Horror' %} selected {% endif %}>Horror</option>
           <option value="Mystery" {% if genre_val == 'Mystery' %} selected {% endif %}>Mystery</option>
           <option value="Thriller" {% if genre_val == 'Thriller' %} selected {% endif %}>Thriller</option>
-          <option value="19th Century Classics" {% if genre_val == '19th Century Classics' %} selected {% endif %}>Old Classics</option>
+          <option value="19th Century Classics" {% if genre_val == '19th Century Classics' %} selected {% endif %}>Old
+            Classics</option>
           <option value="Adventure" {% if genre_val == 'Adventure' %} selected {% endif %}>Adventure</option>
           <option value="Fantasy" {% if genre_val == 'Fantasy' %} selected {% endif %}>Fantasy</option>
           <option value="Crime" {% if genre_val == 'Crime' %} selected {% endif %}>Crime</option>
@@ -97,73 +125,78 @@
           <option value="Feminist" {% if genre_val == 'Feminist' %} selected {% endif %}>Feminist</option>
           <option value="Travel" {% if genre_val == 'Travel' %} selected {% endif %}>Travel</option>
           <option value="Non Fiction" {% if genre_val == 'Non-Fiction' %} selected {% endif %}>Non-Fiction</option>
-          <option value="Science Fiction" {% if genre_val == 'Science Fiction' %} selected {% endif %}>Science Fiction</option>
-          <option value="Little know authors" {% if genre_val == 'Little know authors' %} selected {% endif %}>Rare</option>
+          <option value="Science Fiction" {% if genre_val == 'Science Fiction' %} selected {% endif %}>Science Fiction
+          </option>
+          <option value="Little know authors" {% if genre_val == 'Little know authors' %} selected {% endif %}>Rare
+          </option>
         </select>
-                     <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
-                  </div>
+        <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
+      </div>
 
-                    <p></p>
+      <p></p>
       <div class="select">
-     <select name="rating_contains" id="rating" style="color: #ffffff">
+        <select name="rating_contains" id="rating" style="color: #ffffff">
           <option selected disabled>Select Rating</option>
           <option value="">Select All</option>
           <option value="3" {% if rating_val == '3' %}selected{%endif%}>>3</option>
           <option value="2" {% if rating_val == '2' %}selected{%endif%}>>2</option>
           <option value="1" {% if rating_val == '1' %}selected{%endif%}>>1</option>
         </select>
-                       <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
-                    </div>
-                  <br>
-                  <br>
-                  <input type = "submit" value="Refresh Wheel">
-            </div>
-    </form>
+        <i class="fa fa-caret-down fa-2x" aria-hidden="true"></i>
+      </div>
+      <br>
+      <br>
+      <input type="submit" value="Refresh Wheel">
+    </div>
+  </form>
 
-  
+
   <div class="after-wheel-div" id="scrollTillMe">
 
   </div>
 
-    <div class="filterContainerKV">
-      <div class="filterHeadingKV">
-        FILTER IT OUT !!
-      </div>
-            <form method="get" action="">
+  <div class="filterContainerKV">
+    <div class="filterHeadingKV">
+      FILTER IT OUT !!
+    </div>
+    <form method="get" action="">
 
-        <select name="genre_contains" id="genre" style="color: #ffffff">
-          <option value="" {% if genre_val == '' %}selected disabled{%endif%}>Select Genre</option>
-          <option value="" {% if genre_val == '' %} selected {% endif %}>Select All</option>
-          <option value="Children" {% if genre_val == 'Children' %} selected {% endif %}>Kids</option>
-          <option value="Horror" {% if genre_val == 'Horror' %} selected {% endif %}>Horror</option>
-          <option value="Mystery" {% if genre_val == 'Mystery' %} selected {% endif %}>Mystery</option>
-          <option value="Thriller" {% if genre_val == 'Thriller' %} selected {% endif %}>Thriller</option>
-          <option value="19th Century Classics" {% if genre_val == '19th Century Classics' %} selected {% endif %}>Old Classics</option>
-          <option value="Adventure" {% if genre_val == 'Adventure' %} selected {% endif %}>Adventure</option>
-          <option value="Fantasy" {% if genre_val == 'Fantasy' %} selected {% endif %}>Fantasy</option>
-          <option value="Crime" {% if genre_val == 'Crime' %} selected {% endif %}>Crime</option>
-          <option value="Gothic" {% if genre_val == 'Gothic' %} selected {% endif %}>Gothic</option>
-          <option value="Feminist" {% if genre_val == 'Feminist' %} selected {% endif %}>Feminist</option>
-          <option value="Travel" {% if genre_val == 'Travel' %} selected {% endif %}>Travel</option>
-          <option value="Non Fiction" {% if genre_val == 'Non-Fiction' %} selected {% endif %}>Non-Fiction</option>
-          <option value="Science Fiction" {% if genre_val == 'Science Fiction' %} selected {% endif %}>Science Fiction</option>
-          <option value="Little know authors" {% if genre_val == 'Little know authors' %} selected {% endif %}>Rare</option>
-        </select>
-     <select name="rating_contains" id="rating" style="color: #ffffff">
-          <option value="" {% if rating_val == '' %}selected disabled{%endif%}>Select Rating</option>
-          <option value="" {% if rating_val == '' %}selected{%endif%}>Select All</option>
-          <option value="3" {% if rating_val == '3' %}selected{%endif%}>>3</option>
-          <option value="2" {% if rating_val == '2' %}selected{%endif%}>>2</option>
-          <option value="1" {% if rating_val == '1' %}selected{%endif%}>>1</option>
-        </select>
+      <select name="genre_contains" id="genre" style="color: #ffffff">
+        <option value="" {% if genre_val == '' %}selected disabled{%endif%}>Select Genre</option>
+        <option value="" {% if genre_val == '' %} selected {% endif %}>Select All</option>
+        <option value="Children" {% if genre_val == 'Children' %} selected {% endif %}>Kids</option>
+        <option value="Horror" {% if genre_val == 'Horror' %} selected {% endif %}>Horror</option>
+        <option value="Mystery" {% if genre_val == 'Mystery' %} selected {% endif %}>Mystery</option>
+        <option value="Thriller" {% if genre_val == 'Thriller' %} selected {% endif %}>Thriller</option>
+        <option value="19th Century Classics" {% if genre_val == '19th Century Classics' %} selected {% endif %}>Old
+          Classics</option>
+        <option value="Adventure" {% if genre_val == 'Adventure' %} selected {% endif %}>Adventure</option>
+        <option value="Fantasy" {% if genre_val == 'Fantasy' %} selected {% endif %}>Fantasy</option>
+        <option value="Crime" {% if genre_val == 'Crime' %} selected {% endif %}>Crime</option>
+        <option value="Gothic" {% if genre_val == 'Gothic' %} selected {% endif %}>Gothic</option>
+        <option value="Feminist" {% if genre_val == 'Feminist' %} selected {% endif %}>Feminist</option>
+        <option value="Travel" {% if genre_val == 'Travel' %} selected {% endif %}>Travel</option>
+        <option value="Non Fiction" {% if genre_val == 'Non-Fiction' %} selected {% endif %}>Non-Fiction</option>
+        <option value="Science Fiction" {% if genre_val == 'Science Fiction' %} selected {% endif %}>Science Fiction
+        </option>
+        <option value="Little know authors" {% if genre_val == 'Little know authors' %} selected {% endif %}>Rare
+        </option>
+      </select>
+      <select name="rating_contains" id="rating" style="color: #ffffff">
+        <option value="" {% if rating_val == '' %}selected disabled{%endif%}>Select Rating</option>
+        <option value="" {% if rating_val == '' %}selected{%endif%}>Select All</option>
+        <option value="3" {% if rating_val == '3' %}selected{%endif%}>>3</option>
+        <option value="2" {% if rating_val == '2' %}selected{%endif%}>>2</option>
+        <option value="1" {% if rating_val == '1' %}selected{%endif%}>>1</option>
+      </select>
 
-    <input class="forfilters" type="submit" value="Search">
+      <input class="forfilters" type="submit" value="Search">
     </form>
   </div>
 
 
 
-    <hr class="dividerLineKV">
+  <hr class="dividerLineKV">
   <div class="cardContainerKV">
     {% for data in book_details %}
     <div class="cardKV">
@@ -175,15 +208,16 @@
     {% endfor %}
 
   </div>
-    
-<!--     <div class="loadingCardsKV">
+
+  <!--     <div class="loadingCardsKV">
       <div class="spinner">
         <div class="bounce1"></div>
         <div class="bounce2"></div>
         <div class="bounce3"></div>
       </div>
     </div>
- --></body>
+ -->
+</body>
 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script>
   var current = JSON.parse('{{ books | escapejs }}');
@@ -195,7 +229,7 @@
 
 
   function resizeFunction(x) {
-    if (x.matches) { 
+    if (x.matches) {
       mySize = 260
       radius = 25
       innerFontsize = 14
@@ -211,8 +245,8 @@
   zyz.addListener(resizeFunction)
   //var flag = false;
   current.forEach(element => {
-    if(element.label.length > 8) {
-      element.label= element.label.slice(0, 8);
+    if (element.label.length > 8) {
+      element.label = element.label.slice(0, 8);
 
     }
   });
@@ -305,7 +339,7 @@
         console.log(pickedItem)
         //element.stars = element.stars.slice(1, -1);
         element.genre = element.genre;
-        if (element.genre == "Little know authors"){
+        if (element.genre == "Little know authors") {
           element.genre = "Little known authors"
         }
         element.author = element.author;
@@ -315,15 +349,15 @@
     <div class="cover"><div class="grid-flex">
       <div class="col col-text">
         <div class="Aligner-item">
-          <h2>`+element.title+`</h2>
+          <h2>`+ element.title + `</h2>
           <hr style="background-color:#C3073F">
-          <h7> <b>Author:</b></h7> `+element.author+`<br>
-          <h7> <b>Goodreads Rating:</b></h7> `+element.rating+`<br>
-          <h7> <b>Genre:</b></h7> `+element.genre+` <br>
+          <h7> <b>Author:</b></h7> `+ element.author + `<br>
+          <h7> <b>Goodreads Rating:</b></h7> `+ element.rating + `<br>
+          <h7> <b>Genre:</b></h7> `+ element.genre + ` <br>
         </div>
       </div>
       <div class="col positionbb">
-      <img src = `+element.img_src+` width="50" height="400" class="col positionbb">
+      <img src = `+ element.img_src + ` width="50" height="400" class="col positionbb">
       </div>
     </div></div>
     `

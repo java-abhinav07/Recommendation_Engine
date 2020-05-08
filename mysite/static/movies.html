@@ -23,6 +23,30 @@
   <link rel="stylesheet" href='{% static "cards.css" %}'>
   <link rel="stylesheet" href='{% static "movies.css" %}'>
 
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyARIH8oP9j_r4xziBkRb0Cpe9PIDrfWNOw",
+      authDomain: "frandom-7006b.firebaseapp.com",
+      databaseURL: "https://frandom-7006b.firebaseio.com",
+      projectId: "frandom-7006b",
+      storageBucket: "frandom-7006b.appspot.com",
+      messagingSenderId: "536409259857",
+      appId: "1:536409259857:web:7cdd68d41da199ec9a5d70",
+      measurementId: "G-CRX69XRJ5Z"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
   <style>
     .navbar-custom {
       background-color: #373737;
@@ -217,7 +241,7 @@
 
 
   function resizeFunction(x) {
-    if (x.matches) { 
+    if (x.matches) {
       mySize = 260
       radius = 25
       innerFontsize = 14
