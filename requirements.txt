@@ -1,5 +1,5 @@
 requests>=2.20.0
 regex==2020.2.20
-Django==3.0.7
+Django==3.1.6
 tqdm==4.43.0
 beautifulsoup4==4.9.0
